@@ -46,6 +46,6 @@ x_username: Charles_WG3 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://fr.wikipedia.org/wiki/Fichier:Logo_Tenors.png
+  logo: https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_Tenors.png
   title: Tenors
   url: https://tenors.app/speakers/ZmfyeFNDiRbrHvB5YqlASFyU6k62
