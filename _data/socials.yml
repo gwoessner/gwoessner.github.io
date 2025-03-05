@@ -20,7 +20,7 @@ email: guillaume@woessner.ovh # your email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: guillaume-woessner-700449227: # your LinkedIn user name
+linkedin_username: guillaume-woessner-700449227 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -28,7 +28,7 @@ linkedin_username: guillaume-woessner-700449227: # your LinkedIn user name
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-research_gate_profile: Guillaume-Woessner: # your profile on ResearchGate
+research_gate_profile: Guillaume-Woessner # your profile on ResearchGate
 # rss_icon: true # set to true to show the RSS icon
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
@@ -42,7 +42,7 @@ research_gate_profile: Guillaume-Woessner: # your profile on ResearchGate
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-x_username: Charles_WG3: # your X handle
+x_username: Charles_WG3 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: Tenors # can be any name here other than the ones already defined above
