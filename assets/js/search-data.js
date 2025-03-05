@@ -516,6 +516,13 @@ ninja.data = [{
           window.open("https://twitter.com/Charles_WG3", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://tenors.app/speakers/ZmfyeFNDiRbrHvB5YqlASFyU6k62", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
