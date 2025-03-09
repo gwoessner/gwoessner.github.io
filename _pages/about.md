@@ -34,4 +34,4 @@ J'ai effectué ma thèse à l'Ecole Polytechnique Fédérale de Lausanne (EPFL) 
 
 Sur un plan plus personnel, je suis né à Strasbourg en 1996, et m'intéresse aux sciences, à la philosophie et à la politique, sujets sur lesquels je souhaite partager ici quelques notes sans prétention.
 
-Pour toute question ou collaboration, n'hésitez pas à me contacter par email à prenom@nom.ovh, ou par n'importe lequel des réseaux indiqués plus bas.
+Pour toute question ou collaboration, n'hésitez pas à me contacter par email à prenom@nom.ovh, ou par n'importe lequel des réseaux indiqués ci-dessous.
