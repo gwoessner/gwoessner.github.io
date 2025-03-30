@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+SITE EN CONSTRUCTION
+
 Professeur agrégé de mathématiques et docteur en probabilités. Ce site est dédié au partage de mes cours, de mes travaux de recherche, ainsi que de notes personnelles.
 
 Je suis actuellement enseignant au collège Martin Schongauer d'Ostwald (Bas-Rhin, France) depuis la rentrée 2024. A mes élèves, vous trouverez ici les notes de cours de l'année, quelques exercices, mais certainement pas les contrôles que vous n'avez pas encore eus. Tout ce matériel pédagogique est volontiers en libre accès pour tout enseignant ou simple internaute qui souhaiterait l'utiliser.
