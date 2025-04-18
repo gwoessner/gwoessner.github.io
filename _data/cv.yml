@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Guillaume Charles Woessner
     - name: Date of Birth
-      value: 14th March 1879
+      value: 10 Septembre 1996
     - name: Languages
-      value: English, German
+      value: Français, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctorat
+      institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
+      year: 2025
       description:
         - Description 1.
         - Description 2.
