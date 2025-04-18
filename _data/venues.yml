@@ -1,4 +1,4 @@
-"Taylor \& Francis":
+"Taylor Francis":
   url: https://www.tandfonline.com/doi/full/10.1080/07362994.2024.2381768
   color: "#00369f"
 
@@ -8,4 +8,4 @@
 
 "Arxiv":
   url: https://arxiv.org/abs/2407.16261
-  color: "#f24405"
+  color: "#00369f"
