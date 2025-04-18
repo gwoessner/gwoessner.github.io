@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-recherches",
           title: "Recherches",
-          description: "Articles publiés par ordre chronologique inversé.",
+          description: "La liste des articles et thèse que j&#39;ai publiés.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
