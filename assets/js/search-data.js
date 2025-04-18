@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-recherches",
           title: "Recherches",
-          description: "Articles publiés par ordre chronologique inversé. Généré par jekyll-scholar.",
+          description: "Articles publiés par ordre chronologique inversé.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
