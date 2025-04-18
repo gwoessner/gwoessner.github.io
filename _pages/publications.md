@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Recherches
-description: Articles publiés par ordre chronologique inversé. Généré par jekyll-scholar.
+description: Articles publiés par ordre chronologique inversé.
 nav: true
 nav_order: 2
 ---
