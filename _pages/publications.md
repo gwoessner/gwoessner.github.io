@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Recherches
-description: Articles publiés par ordre chronologique inversé.
+description: La liste des articles et thèse que j'ai publiés.
 nav: true
 nav_order: 2
 ---
