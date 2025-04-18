@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Recherches
-description: La liste des articles et thèse que j'ai publiés.
+description: Ma thèse, et les articles que j'ai publiés.
 nav: true
 nav_order: 2
 ---
