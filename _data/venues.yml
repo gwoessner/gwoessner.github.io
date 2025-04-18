@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"TF":
+  url: https://www.tandfonline.com/doi/full/10.1080/07362994.2024.2381768
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Springer":
+  url: https://link.springer.com/article/10.1007/s10959-024-01399-1
+  color: "#00369f"
 
-"Vision":
-  color: "#009f36"
+"Arxiv":
+  url: https://arxiv.org/abs/2407.16261
+  color: "#f24405"
