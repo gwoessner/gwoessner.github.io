@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-enseignement",
+          title: "Enseignement",
+          description: "Materials for courses you taught. Replace this text with your description.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -18,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-recherches",
           title: "Recherches",
-          description: "La liste des articles et thèse que j&#39;ai publiés.",
+          description: "Ma thèse, et les articles que j&#39;ai publiés.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "post-a-post-with-image-galleries",
       
