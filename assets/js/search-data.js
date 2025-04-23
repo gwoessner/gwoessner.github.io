@@ -391,12 +391,12 @@ ninja.data = [{
       },
     },{id: "courses-collège-5ème",
           title: 'Collège, 5ème',
-          description: "2024-25.",
+          description: "Dernière mise-à-jour : 2024-25.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/5eme/";
-            },},{id: "courses-martingales-et-mouvement-brownien",
-          title: 'Martingales et mouvement brownien',
-          description: "Cours de niveau Licence/Bachelor 3",
+            },},{id: "courses-l3-martingales-et-mouvement-brownien",
+          title: 'L3, Martingales et mouvement brownien',
+          description: "2022-23",
           section: "Courses",handler: () => {
               window.location.href = "/courses/L3-Brownian-Motion/";
             },},{id: "news-a-simple-inline-announcement",
