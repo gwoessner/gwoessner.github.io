@@ -389,7 +389,12 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
+    },{id: "courses-cours-de-5ème",
+          title: 'Cours de 5ème',
+          description: "Description des cours de 5ème.",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/5eme/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
