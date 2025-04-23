@@ -396,7 +396,7 @@ ninja.data = [{
               window.location.href = "/courses/5eme/";
             },},{id: "courses-l3-martingales-et-mouvement-brownien",
           title: 'L3, Martingales et mouvement brownien',
-          description: "2022-23",
+          description: "Dernière mise-à-jour : 2022-23.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/L3-Brownian-Motion/";
             },},{id: "news-a-simple-inline-announcement",
