@@ -1,7 +1,7 @@
 ---
-layout: course
-title: "Cours de 5ème"
-description: "Description des cours de 5ème."
+layout: page
+title: "Collège, 5ème"
+description: "2024-25."
 ---
 
 # Cours de 5ème
