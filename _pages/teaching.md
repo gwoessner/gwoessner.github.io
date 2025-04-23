@@ -9,7 +9,7 @@ nav_order: 1
 
 Ces ressources sont disponibles pour quiconque le souhaiterait. La dernière date où les documents ont été utilisés -et donc où ils sont à jour- est spécifiée.
 
-Seuls les .pdf sont mises en ligne. Pour avoir la version LaTeX qui les a généré, vous pouvez me contacter à [prenom]@[nom].ovh.
+Seuls les .pdf sont mis en ligne. Pour avoir la version LaTeX qui les a généré, vous pouvez me contacter à [prenom]@[nom].ovh.
 
 
 {% for course in site.courses %}
