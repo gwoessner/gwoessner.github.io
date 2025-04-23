@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-enseignement",
           title: "Enseignement",
-          description: "Mes documents de cours, à disposition de quiconque le souhaiterait. La dernière date où les documents ont été utilisés -et donc où ils sont à jour- est spécifiée.",
+          description: "Mes documents de cours.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
