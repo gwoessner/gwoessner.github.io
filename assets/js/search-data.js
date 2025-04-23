@@ -389,9 +389,9 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "courses-cours-de-5ème",
-          title: 'Cours de 5ème',
-          description: "Description des cours de 5ème.",
+    },{id: "courses-collège-5ème",
+          title: 'Collège, 5ème',
+          description: "2024-25.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/5eme/";
             },},{id: "courses-martingales-et-mouvement-brownien",
