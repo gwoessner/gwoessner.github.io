@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-enseignement",
           title: "Enseignement",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Mes documents de cours, à disposition de quiconque le souhaiterait. La dernière date où les documents ont été utilisés -et donc où ils sont à jour- est spécifiée.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -394,6 +394,11 @@ ninja.data = [{
           description: "Description des cours de 5ème.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/5eme/";
+            },},{id: "courses-martingales-et-mouvement-brownien",
+          title: 'Martingales et mouvement brownien',
+          description: "Cours de niveau Licence/Bachelor 3",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/L3-Brownian-Motion/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
