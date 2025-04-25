@@ -398,7 +398,7 @@ ninja.data = [{
           title: 'L3, Martingales et mouvement brownien',
           description: "Dernière mise-à-jour : 2022-23.",
           section: "Courses",handler: () => {
-              window.location.href = "/courses/L3-Brownian-Motion/";
+              window.location.href = "/courses/L3_Brownian_Motion/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
