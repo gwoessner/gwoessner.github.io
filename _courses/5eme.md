@@ -5,9 +5,9 @@ description: "Dernière mise-à-jour : 2024-25."
 ---
 
 Mes documents pour l'année de 5è.  
-  
-  
-  
+<br>
+<br>
+<br>
 ### Chapitre 1 : Priorités opératoires
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.tex).
 
@@ -19,8 +19,7 @@ Des exercices supplémentaires pour la partie 2.1 en [PDF]({{ site.baseurl }}/as
 Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/activité_triangle.pdf).  
 
 Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/controle_1.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_1.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_1_corrigé.pdf).
-  
-  
-  
-  
-A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans son fichier .tex.
+<br>
+<br>
+<br>
+*A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans son fichier .tex.*
