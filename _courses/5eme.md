@@ -11,9 +11,10 @@ A noter que vous pouvez ajouter automatiquement des trous à compléter dans le 
 Le cours en [PDF]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.tex).
 
 ### Chapitre 2 : Triangles
-Ce long chapitre est divisé en 3 partie. Partie 3.1 inégalité triangulaire, partie 3.2 hauteur et aire du triangle, partie 3.3 médiatrices.  
-Le cours en [PDF]({{ site.baseurl }}/assets/teaching/cours_triangles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_triangles.tex).
-Une activité d'introduction en [PDF]({{ site.baseurl }}/assets/teaching/activité_triangle.pdf)
+Ce long chapitre est divisé en 3 partie. Partie 2.1 inégalité triangulaire, partie 2.2 hauteur et aire du triangle, partie 2.3 médiatrices.  
+Le cours en [PDF]({{ site.baseurl }}/assets/teaching/cours_triangles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_triangles.tex).  
+Des exercices additionnels à la partie 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/exos_triangles.pdf) et leur corrigé en [PDF]({{ site.baseurl }}/assets/teaching/exos_triangles_corrigé.pdf).  
+Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/activité_triangle.pdf).  
 
 
 
