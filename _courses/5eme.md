@@ -4,8 +4,8 @@ title: "Collège, 5ème"
 description: "Dernière mise-à-jour : 2024-25."
 ---
 
-Mes documents pour l'année de 5è. Vous y trouverez notamment mes cours, exercices, feuilletons intermédiaires et contrôles finaux avec leur corrigé.  
-A noter que vous pouvez ajouter automatiquement dans le cours des trous à compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans son fichier .tex.
+Mes documents pour l'année de 5è.  
+A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans son fichier .tex.
 
 
 
