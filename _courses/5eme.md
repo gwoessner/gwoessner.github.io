@@ -24,8 +24,7 @@ Le **Contrôle 2** sur les Chapitres 1, 2.1 et 2.2 en [PDF]({{ site.baseurl }}/a
 Ce chapitre est divisé en 2 parties : Partie 3.1 “Nombres relatifs et repérage” ; Partie 3.2 “Additions et soustractions de relatifs”.  
 
 Une activité d'introduction à la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/activité1_relatifs.pdf).   
-Une autre activité d'introduction à la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/activité2_relatifs.pdf).  
-
+Une autre activité d'introduction à la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/activité2_relatifs.pdf).   
 Le **Cours** de la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/cours_relatifs_1.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_relatifs_1.tex).   
 Le **Cours** de la partie 3.2 en [PDF]({{ site.baseurl }}/assets/teaching/cours_relatifs_2.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_relatifs_2.tex).  
 
