@@ -25,7 +25,7 @@
 \usepackage{multirow}
 \renewcommand{\headrulewidth}{1pt}
 \renewcommand{\footrulewidth}{1pt}
-%\fancyhead[L]{NOM}
+%\fancyhead[L]{Mr. Woessner}
 \fancyhead[R]{ }
 \fancyhead[C]{5è}
 
@@ -94,7 +94,7 @@
 	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
 
 
-\newif\iftrou\troufalse
+\newif\iftrou\troutrue
 %mettre true à la place de false pour mettre des pointillés
 
 \newlength{\trouwidth}
@@ -120,167 +120,110 @@
 
 \begin{center}
 		\rule{\linewidth}{0.5mm} \\[0.4cm]
-		{ \huge \bfseries Nombres relatifs et repérage\\[0.4cm] }
+		{ \huge \bfseries Nombres relatifs : somme et différence\\[0.4cm] }
 		\rule{\linewidth}{0.5mm} \\
 \end{center}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Additions et soustractions avec les nombres relatifs}
 
-\section{Les nombres relatifs}	
+\begin{ex}{}{}
+Aujourd'hui il fait 3°C. Pendant la nuit la température baissera de 5°C. Quelle température fera-t-il cette nuit ? Quel calcul permet de représenter la situation ?\\
+\trou{\textbf{Il fera -2°C, qui est le résultat du calcul $3-5$.}}\\
+Au matin la température va encore baisser de 3°C. Quelle température fera-t-il demain matin ? Quel calcul permet de représenter la situation ?\\
+\trou{\textbf{Il fera -5°C, qui est le résultat du calcul $-2-3$.}}\\
+L'après-midi la température va se réchauffer de 11°C. Quelle température fera-t-il demain matin ? Quel calcul permet de représenter la situation ?\\
+\trou{\textbf{Il fera 6°C, qui est le résultat du calcul $-5+11$.}}\\
+\end{ex}
 
-\begin{defin}{}{}
-	Un nombre \textbf{positif} est un nombre \trou{supérieur ou égal} à 0.\\
-	Un nombre \textbf{négatif} est un nombre \trou{inférieur ou égal} à 0.
-\end{defin}
+
+\begin{ex}{}{}
+
+En considérant les nombres positifs comme des gains, et les nombres négatifs comme des pertes, compléter le tableau suivant:
+\end{ex}
+	\begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		
+		\hline
+		Opérations & Opérations décomposées & Jeu & Résultat du jeu & Résultat de l'opération \\
+		\hline
+		$3-9$ & \textcolor{olive}{$3$} \hspace{1.3cm} \textcolor{red}{$-9$} & \textcolor{olive}{Gain =$3$} \textcolor{red}{perte =$9$}& \textcolor{red}{$P=6$} &  $-6$ \\
+		\hline
+		$-3+6$ & \trou{\textcolor{red}{$-3$}\hspace{1.3cm} \textcolor{olive}{$+6$}}  & \trou{\textcolor{red}{Perte = $3$} \textcolor{olive}{Gain = $6$}} & \trou{\textcolor{olive}{$G=3$}} &  \trou{$3$} \\
+		\hline
+		$-2-7$ & \trou{\textcolor{red}{$-2$} \hspace{1.3cm} \textcolor{red}{$-7$}} & \trou{\textcolor{red}{Perte = $2$} \textcolor{red}{Perte = $7$}} & \trou{\textcolor{red}{$P=9$}} &  \trou{$-9$} \\
+		\hline
+		$4+7$ & \trou{\textcolor{olive}{$4$} \hspace{1.3cm} \textcolor{olive}{$+7$}} & \trou{\textcolor{olive}{Gain =$4$} \textcolor{olive}{Gain =$7$}} & \trou{\textcolor{olive}{$G=11$}} &  \trou{$11$} \\
+		\hline
+		$14-21$ & \trou{\textcolor{olive}{$14$} \hspace{1.3cm} \textcolor{red}{$-21$}} & \trou{\textcolor{olive}{Gain =$14$} \textcolor{red}{Perte = $21$}} & \trou{\textcolor{red}{$P=7$}} &  \trou{$-7$} \\
+		\hline
+		$5 - 8 + 2$ & \trou{\textcolor{olive}{$5 + 2$} \hspace{1.3cm} \textcolor{red}{$-8$}} & \trou{\textcolor{olive}{Gain =$7$} \textcolor{red}{Perte = $8$}} & \trou{\textcolor{red}{$P=1$}} &  \trou{$-1$} \\
+		\hline
+		$-10 +3 - 5$ & \trou{\textcolor{olive}{$3$} \hspace{1.3cm} \textcolor{red}{$-10 -5$}} & \trou{\textcolor{olive}{Gain =$3$} \textcolor{red}{Perte = $15$}} & \trou{\textcolor{red}{$P=12$}} &  \trou{$-12$} \\
+		\hline
+	\end{tabular}
+\end{center}
+
+
+
+\begin{ex}{}{}
+\begin{enumerate}
+	\item[$\bullet$] $-3 + 8 - 4 + 12 - 13 - 11 + 10 = +8 +12 +10 -3 -4 -13 -11 = +30 - 31 = -1.$
+	\item[$\bullet$] $ 5 - 7 - 18 + 15 = \trou{+5 + 15 - 7 - 18 = +20 - 25 = -5.}$
+	\item[$\bullet$] $-2 + 5 - 10 + 14 + 32- 18- 15 = \trou{+5 + 14 + 32 + 2 - 10 - 18 - 15 = +51 - 45 = +6.}$
+
+	
+\end{enumerate}
+\end{ex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Calculs avec des parenthèses}
+
+\begin{prop}{Règles des signes qui se suivent}{}
+\begin{enumerate}
+	\item $\textcolor{olive}{+} \textcolor{olive}{+} \rightarrow \textcolor{olive}{+}$ :  \textcolor{olive}{ajouter(+)} un \textcolor{olive}{gain(+)} donne un \textcolor{olive}{gain(+)}. Deux \textcolor{olive}{« + »} qui se suivent, deviennent un \textcolor{olive}{« + »}.
+	
+	\item $\textcolor{olive}{+} \textcolor{red}{-} \rightarrow \textcolor{red}{-} $ : \textcolor{olive}{ajouter(+)} une \textcolor{red}{perte(-)} donne une \textcolor{red}{perte(-)}.  Un \textcolor{olive}{« + »} suivit d'un \textcolor{red}{« - »} , devient un \textcolor{red}{« - »}.
+	\item $\textcolor{red}{-} \textcolor{red}{-} \rightarrow \textcolor{olive}{+}$ :  \textcolor{red}{enlever(-)} une \textcolor{red}{perte(-)} est un \textcolor{olive}{gain(+)}. Deux \textcolor{red}{« - »} qui se suivent, deviennent un \textcolor{olive}{« + »}.
+	\item $\textcolor{red}{-}  \textcolor{olive}{+} \rightarrow \textcolor{red}{-}$ : \textcolor{red}{enlever(-)} un \textcolor{olive}{gain(+)} est une \textcolor{red}{perte(-)}.  Un \textcolor{red}{« - »} suivi d'un \textcolor{olive}{« + »} , devient un \textcolor{red}{« - »}.
+\end{enumerate}
+\end{prop}
 
 
 \begin{ex}{}{}
 	\begin{enumerate}
-		\item Exemples de nombres \textbf{positifs}: $14$ ans, $25$ mètres, $56$ kg, $\pointille[0.6cm]$
-		\item Exemples de nombres \textbf{négatifs}: $-287$: naissance d'Archimède: $287$ avant la naissance de J.C, $-3^{\circ}$ : température de $3^{\circ}$ en dessous de $0$.
-		\item $0$ est le seul nombre à la fois positif et négatif.
+		\item $3 + (+7)=$ \trou{$3+7=10$}
+		\item $8+(-3)=$ \trou{$8-3=5$}
+		\item $8-(-5)=$ \trou{$8+5=13$}
+		\item $-2-(+4)=$ \trou{$-2-4=-6$}
 	\end{enumerate}
 \end{ex}
 
-\begin{rem}{}{}
-	Le signe $+$ n'est pas toujours noté: $+14$ s'écrit $14$ ou $+25$ s'écrit $25$.
-\end{rem}
+\begin{ex}{Attention aux parenthèses !}{}
+	\begin{enumerate}
+		\item $3-(1-5)=$ \trou{$3-(-4)=3+4=7$}
+		\item $4+(-7+9)=$ \trou{$4+(+2)=4+2=6$}
+		\item $(-3)-(-6+8)=$ \trou{$(-3)-(+2)=-3-2=-5$}
+		\item $(-3+11)+(-7+2)=$ \trou{$(+8)+(-5)=8-5=3$}
+	\end{enumerate}
+\end{ex}
 
-\begin{defin}{}{}
-	On appelle \trou{\textbf{nombre relatif}}, tout nombre négatif ou positif.
-\end{defin}
+
+
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{La droite graduée}
-
-\subsection{Représentation des nombres relatifs sur la droite graduée}
-
-\begin{defin}{Droite graduée}{}
-	Une \textbf{droite graduée} est une droite qui a:\\
-- \trou{un sens (indiqué par une flèche)}\\
-- \trou{une origine}\\
-- \trou{une unité de longueur}, que l’on reporte régulièrement de part et d’autre de l’origine
-(donnant des graduations).\\
-~\\
-Sur une droite graduée, chaque point est repéré par un nombre relatif que l’on appelle \trou{\textbf{abscisse du point}}.\\
-La \textbf{distance à zéro} d’un nombre quelconque $a$ est la longueur du segment [OA], où A est le point
-d’abscisse $a$ et O l’origine de la droite graduée.\\
-La distance à zéro est toujours un nombre \trou{positif}.
-\end{defin}
-
-\begin{ex}{}{}
-	\begin{center}
-		\includegraphics[width=1\linewidth]{droite1}
-	\end{center}
-	On dit que l'abscisse de A est $3$ et on note A(3). La distance à zéro est égale à 3.\\
-	Quelles sont les abscisses de B, C, D, E ? Quelle sont les distances à zéro ?
-	\begin{center}
-		\begin{tabular}{|c|c|c|c|c|}
-			
-			\hline
-		Abscisses  & \trou{B} & \trou{C} & \trou{D} & \trou{E}  \\
-			\hline
-			Distances à zéro  & \trou{$4,5$} & \trou{$3$} & \trou{$5$} & \trou{$2,5$}  \\
-			\hline
-		\end{tabular}	
-	\end{center}
-	Placer les points F et G d'abscisses respectives $-4$ et $5,5$.
-\end{ex}
-
-
-
-\subsection{Opposé d’un nombre}
-
-\begin{defin}{Droite graduée}{}
-	Deux nombres sont \trou{\textbf{opposés}} lorsqu’ils ont la même distance à zéro et sont de signes contraires.
-\end{defin}
-
-
-
-\begin{ex}{}{}
-\begin{center}
-	\begin{tabular}{|c|c|c|c|c|c|}
-		
-		\hline
-		L'opposé de $\pointille[0.6cm]$ & $3$ & $-2$ & $-6$ & $13$ & $0$ \\
-		\hline
-		est $\pointille[0.6cm]$ & \trou{$-3$} & \trou{$2$} & \trou{$6$} & \trou{$-13$} & \trou{$0$} \\
-		\hline
-	\end{tabular}	
-\end{center}
-\end{ex}
-
-\begin{rem}{}{}
-	Deux points dont les abscisses sont opposées sont situés à égale distance de l’origine.
-\end{rem}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Comparaison des nombres relatifs}
-
-\begin{defin}{}{}
-	\textbf{Ordre croissant}: \trou{du plus petit au plus grand}.\\
-	\textbf{Ordre décroissant}: \trou{du plus grand au plus petit}.
-\end{defin}
-
-\begin{prop}{}{}
-	Un nombre positif est toujours \trou{supérieur} à un nombre négatif.\\
-	Si deux nombres sont positifs, le plus grand des deux est celui qui a la plus grande
-	distance à 0.\\
-	Si deux nombres sont négatifs, le plus grand des deux nombres est celui qui a la
-	plus petite distance à 0.	
-\end{prop}
-
-\begin{ex}{}{}
-	\begin{enumerate}
-		\item Comparer $2,5$ et $5,5$: \trou{$2,5<5,5$}
-		\item Comparer $1,8$ et $-3,2$: \trou{$-3,2<1,8$}
-		\item Comparer $-1$ et $-2,5$: \trou{$-2,5<-1$}
-		\item Ranger les nombres suivants dans l'ordre croissant: $ -4,03  ;  2,5  ;  -4,3  ;  -3,4  ;  2,9$ :\\
-		 \trou{$-4,3 < -4,03 <-3,4 < 2,5< 2,9$}
-	\end{enumerate}
-\end{ex}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Repère du plan}
-
-
-\begin{defin}{}{}
-	Un \trou{\textbf{repère}} du plan est formé par deux droites graduées de même origine. La droite
-	horizontale est appelée \trou{\textbf{axe des abscisses}} et la droite verticale est appelée \trou{\textbf{axe des	ordonnées}}.\\
-	Quand les deux droites sont perpendiculaires, on parle de \textbf{repère} \trou{\textbf{orthogonal}}.\\
-	Dans un repère du plan, chaque point est repéré par deux nombres relatifs : ses \trou{\textbf{coordonnées}}. Le premier est l’\textbf{abscisse}, le second l’\textbf{ordonnée}. On note (abscisse;ordonnée).
-\end{defin}
-
-\begin{defin}{}{}
-	\begin{center}
-		\includegraphics[width=0.6\linewidth]{repere1}
-	\end{center}
-\end{defin}
-
-\begin{ex}{}{}
-	L’abscisse du point A est \trou{$3$}. L’ordonnée du point A est \trou{$2$}. Les coordonnées du point A se notent \trou{(2 ;3)}.\\
-	Placer le point B de coordonnées (-2;1).
-\end{ex}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Carte mentale}
-
 	\begin{center}
-	\includegraphics[width=0.99\linewidth]{cmnb}
-\end{center}
+		\includegraphics[width=0.99\linewidth]{cmnbrelasd}
+	\end{center}
 
 
 
