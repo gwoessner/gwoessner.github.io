@@ -17,7 +17,7 @@ Des exercices supplémentaires pour la partie 2.1 en [PDF]({{ site.baseurl }}/as
 Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/activité_triangle.pdf).  
 
 Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/controle_1.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_1.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_1_corrigé.pdf).    
-Le **Contrôle 2** sur les Chapitres 1, 2.1 et 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/controle_2.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_2.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_2_corrigé.pdf).
+Le **Contrôle 2** sur les Chapitres 1 et 2.1 et 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/controle_2.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_2.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_2_corrigé.pdf).
 
 ### <u>Chapitre 3<\u> : Nombres relatifs
 
