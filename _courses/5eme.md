@@ -17,9 +17,15 @@ Des exercices supplémentaires pour la partie 2.1 en [PDF]({{ site.baseurl }}/as
 Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/activité_triangle.pdf).  
 
 Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/controle_1.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_1.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_1_corrigé.pdf).
-<br>
-<br>
-<br>
-*A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans leur fichier .tex.*
 
-*De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes suivantes à l'endroit indiqué dans le .tex : \fancyhead[L]{Mr NOM}\fancyhead[R]{ANNEE}\fancyhead[C]{5^e}*
+Le **Contrôle 2** sur les Chapitres 1, 2.1 et 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/controle_2.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_2.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_2_corrigé.pdf).
+<br>
+<br>
+<br>
+*A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande*
+"\newif\iftrou\troufalse" *par* "\newif\iftrou\troutrue" *dans leur fichier .tex.*
+
+### Chapitre 3 : Triangles
+
+*De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes*
+"\fancyhead[L]{Mr NOM}\fancyhead[R]{ANNEE}\fancyhead[C]{5^e}" *à l'endroit indiqué dans le .tex.*
