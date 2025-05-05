@@ -1,0 +1,232 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[L]{NOM}
+\fancyhead[R]{ }
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{defcolor}{rgb}{.804,.064,.464}
+\definecolor{propcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Priorités opératoires\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ù
+
+
+
+
+\section{Parenthèses et signes d'opérations}
+
+\begin{prop}{Règles d'opérations}{}
+	Dans un calcul, on procède dans l'ordre suivant :
+\begin{itemize}
+\item[1.] d'abord on s'occupe de ce qu'il y a dans les \textbf{parenthèses} $(\cdot)$ en commençant par celles à l'intérieur,
+\item[2.] ensuite on fait les \textbf{multiplications} $\times$ et les \textbf{divisions} $\div$ de gauche à droite,
+\item[3.] on finit avec les \textbf{additions} $+$ et les \textbf{soustractions} $-$ de gauche à droite.
+\end{itemize}
+\end{prop}
+
+
+\begin{ex}{Sans parenthèses}{}
+	\begin{enumerate}
+		\item $15-3+7=\trou{12+7=21}$
+		\item $4 \times 8 + 5  = \trou{32+5=37}$
+		\item $45 \div 5 + 2  = \trou{9+2=11}$
+		\item $4 \div 2 \times 10 = $\trou{$2 \times 10 = 20$}
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}{Avec parenthèses simple}{}
+	\begin{enumerate}
+		\item $13-(2+8)-3=\trou{13-10-3=3-3=0}$
+		\item $13 - (2+8-3)  = \trou{13-(10-3)=13-7=6}$
+		\item $13 - (2+4)+3-(17-8) = \trou{13-6+3-9=7+3-9=10-9=1}$
+	\end{enumerate}
+\end{ex}
+
+\begin{ex}{Avec parenthèses multiples}{}
+	\begin{enumerate}
+		\item $18-(12-(3+5))=\trou{18-(12-8)=18-4=14}$
+		\item $3 \times (8-(4+1)) = $\trou{$3 \times (8-5)=3 \times 3$}
+		\item $(8-4) \times (48-(12\times 3)) = $\trou{$4 \times (48-36)=4 \times 12 = 48$}
+	\end{enumerate}
+\end{ex}
+
+
+\section{Erreurs à ne pas faire}
+\begin{rem}{}{}
+Il ne faut pas oublier de réécrire le calcul dans son intégralité (sans oublier de terme) à chaque étape.
+\end{rem}
+
+\begin{ex}{On n'écrit pas}{}
+$ 7 + 3 \times 2 - 5 {\color{red}~= 7+6 = 13}, $  (on a oublié le $-5$)\\
+$ 7 + 3\times 2 - 5 {\color{red}~= 6-5 = 7+1 =8}. $ (même si la réponse finale est correcte, on a oublié le $7+$, puis on l'a remis, donc c'est faux)
+\end{ex}
+
+\begin{rem}{}{}
+Une façon de ne pas oublier de terme est d'écrire par lignes. C'est fortement recommandé !
+\begin{align*}
+&~7+3\times 2-5 \\
+=& ~7+6-5\\
+=&~13-5\\
+=& ~8
+\end{align*}
+\end{rem}
+
+
+\section{Calcul avec des quotients}	
+
+\begin{prop}{Calculer une expression avec des quotients}{}
+Lorsqu'il y a un \textbf{quotient} $\frac{\cdot}{\cdot}$, on fait comme si il y avait des parenthèses au numérateur et au dénominateur :
+$$ \frac{\blacktriangle}{\blacksquare}=(\blacktriangle)\div (\blacksquare). $$
+%S'il y a plusieurs fractions l'une dans l'autre, la dernière est celle au niveau du \textbf{signe égal} $=$ (voir exemples).\\
+%Une vidéo complémentaire : https://youtu.be/yr1anMpCoSM
+\end{prop}
+
+
+\begin{ex}{}{}
+	\begin{enumerate}
+		\item $A=\displaystyle\frac{17+4}{10} =$  \trou{$(17 +4) \div 10  = 21 \div 10 = 2,1$}
+		\item $B=\displaystyle\frac{5}{6-4} =$ \trou{$5 \div (6-4) = 5 \div 2 = 2,5$}
+		%\item $C= \displaystyle\frac{6}{\displaystyle\frac{4}{5}}=$ \trou{$6 \div (4 \div 5) = 6 \div 0,8 = 7,5$}
+		%\item $D=\displaystyle\frac{\displaystyle\frac{6}{4}}{5} =$ \trou{$ (6\div 4) \div 5 = 1,5 \div 5 = 0,3$}
+	\end{enumerate}
+\end{ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Vocabulaire sur les opérations}	
+\begin{defin}{}{}
+	Soient $a$ et $b$ deux nombres quelconques. On dit que :\\
+	- $a+b$ est la \textbf{somme de} $a$ \textbf{et de} $b$. $a$ et $b$ sont les \textbf{termes} de cette somme.\\
+	- $a-b$ est la \textbf{différence de} $a$ \textbf{par} $b$. $a$ et $b$ sont les \textbf{termes} de cette différence.\\
+	- $a \times b$ est le \textbf{produit de} $a$ \textbf{et de} $b$. $a$ et $b$ sont les \textbf{facteurs} de ce produit.\\
+	- $a \div b$ ou $\dfrac{a}{b}$ est le \textbf{quotient de} $a$ \textbf{par} $b$. $a$ est le \textbf{dividende} et $b$ est le \textbf{diviseur}.
+\end{defin}
+
+
+\section{Carte mentale}
+
+	\begin{center}
+	\includegraphics[width=0.7\linewidth]{cmcalculnum}
+\end{center}
+
+
+\end{document}
