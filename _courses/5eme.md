@@ -6,7 +6,7 @@ description: "Dernière mise-à-jour : 2024-25."
 
 Mes documents pour l'année de 5è.  
 <br>
-### <u>Chapitre 1<u> : Priorités opératoires
+### <u>Chapitre 1 : Priorités opératoires
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.tex).
 
 ### <u>Chapitre 2 : Triangles
