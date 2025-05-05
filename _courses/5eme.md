@@ -19,13 +19,22 @@ Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets
 Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/controle_1.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_1.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_1_corrigé.pdf).
 
 Le **Contrôle 2** sur les Chapitres 1, 2.1 et 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/controle_2.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_2.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_2_corrigé.pdf).
+
+### Chapitre 3 : Nombres relatifs
+
+Ce chapitre est divisé en 2 parties : Partie 3.1 “Nombres relatifs et repérage” ; Partie 3.2 “Additions et soustractions de relatifs”.  
+
+Une activité d'introduction à la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/activité1_relatifs.pdf).
+Une autre activité d'introduction à la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/activité2_relatifs.pdf).  
+
+Le **Cours** de la partie 3.1 en [PDF]({{ site.baseurl }}/assets/teaching/cours_relatifs_1.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_relatifs_1.tex).  
+Le **Cours** de la partie 3.2 en [PDF]({{ site.baseurl }}/assets/teaching/cours_relatifs_2.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_relatifs_2.tex).  
+
 <br>
 <br>
 <br>
 *A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande*
 "\newif\iftrou\troufalse" *par* "\newif\iftrou\troutrue" *dans leur fichier .tex.*
-
-### Chapitre 3 : Triangles
 
 *De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes*
 "\fancyhead[L]{Mr NOM}\fancyhead[R]{ANNEE}\fancyhead[C]{5^e}" *à l'endroit indiqué dans le .tex.*
