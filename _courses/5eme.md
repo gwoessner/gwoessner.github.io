@@ -21,6 +21,7 @@ Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets
 <br>
 <br>
 *A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande "\newif\iftrou\troufalse" par "\newif\iftrou\troutrue" dans leur fichier .tex.*
+
 *De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes suivantes à l'endroit indiqué dans le .tex :
 \fancyhead[L]{Mr NOM}
 \fancyhead[R]{ANNEE}
