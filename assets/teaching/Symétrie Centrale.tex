@@ -1,0 +1,237 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[L]{NOM}
+\fancyhead[R]{ }
+\fancyhead[C]{5è}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troufalse
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Symétrie Centrale\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Définition et construction}
+
+
+\begin{defin}{}{}
+	Dire que deux figures sont \textbf{symétriques} par rapport à un \textbf{point} signifie que, en effectuant un demi-tour autour de ce point, les figures se superposent.
+
+\end{defin}
+
+\begin{ex}{}{}
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{sym1}
+	\end{center}
+	Le point $O$ est appelé le \textbf{centre de symétrie}.\\
+	Le symétrique de la figure $\mathcal{F}$ par rapport à $O$ est la figure $\mathcal{F}'$.\\
+	Les figures $\mathcal{F}$ et $\mathcal{F}'$ sont symétriques par la \textbf{symétrie centrale} de centre O.
+\end{ex}
+
+
+\begin{ex}{}{}
+	\begin{center}
+		\includegraphics[width=0.4\linewidth]{sym2}
+	\end{center}
+	Dans le pavage ci-dessus:\\
+	- La figure $\textcircled{1}$ et la figure $\textcircled{3}$ sont symétriques
+	par rapport à l’axe $d_1$. On observe une \textbf{symétrie axiale}.\\
+	- La figure $\textcircled{3}$ et la figure $\textcircled{6}$ sont symétriques par rapport au point O. On observe une \textbf{symétrie centrale}.
+\end{ex}
+
+
+
+\begin{defin}{}{}
+	Dire que deux points M et M’ sont \textbf{symétriques par rapport à un point} O signifie que
+	O est le \trou{milieu} du segment [MM’].
+\end{defin}
+
+\begin{ex}{}{}
+	\begin{center}
+		\includegraphics[width=0.4\linewidth]{sym3}
+	\end{center}
+M et M’ sont symétriques par rapport au point O.
+\end{ex}
+
+\begin{prop}{}{}
+Pour construire le symétrique du point A par rapport au point O, on trace la demi-droite [AO) puis on reporte la longueur AO de l’autre
+côté du point O.\\	
+Pour construire le symétrique d’une figure par rapport à un point, on utilise une règle et un compas : on construit le symétrique des points
+puis on le relie.
+\end{prop}
+
+\begin{ex}{}{}
+Constuire le symétrique du point A par rapport au point O.
+	\begin{center}
+		\includegraphics[width=0.2\linewidth]{sym4}
+	\end{center}
+\end{ex}
+
+\begin{ex}{}{}
+Constuire le symétrique du triangle ABC par rapport au point O.
+\vspace{2cm}
+
+\includegraphics[width=0.5\linewidth]{sym5}
+\end{ex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Propriétés}
+
+
+\begin{prop}{}{}
+	Le symétrique d’une droite par rapport à un point est une droite parallèle : on dit que la symétrie centrale conserve les \trou{\textbf{alignements}}.\\
+	Le symétrique d’un segment par rapport à un point est un segment de même longueur : on dit que la symétrie centrale conserve les \trou{\textbf{longueurs}}.\\
+	Deux figures symétriques par rapport à un point ont la même forme : on dit que la symétrie centrale conserve les \trou{\textbf{angles}}, les \trou{\textbf{périmètres}} et les \trou{\textbf{aires}}.
+\end{prop}
+
+\begin{rem}{}{}
+	La symétrie axiale conservait aussi les alignements, angles, longueurs et aires.
+\end{rem}
+
+\begin{ex}{}{}
+	Les triangles ABC et A’B’C’ sont symétriques par rapport à O.
+	\begin{center}
+		\includegraphics[width=0.4\linewidth]{sym6}
+	\end{center}
+Le côté [A’B’] mesure \trou{$2,5$} cm. La mesure de l’angle $\widehat{A'B'C'}$ est égale à la mesure de l’angle  \trou{$\widehat{ABC}$}. Le périmètre du triangle A’B’C’ est égal à  \trou{$6$} cm. Le triangle A’B’C’ est un triangle  \trou{rectangle}.
+\end{ex}
+
+\begin{ex}{}{}
+	Les figures $\mathcal{(H)}$ et $\mathcal{(H')}$ sont symétriques
+	par rapport au point \trou{M}.	
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{sym7}
+	\end{center}
+	On donne : AB = 4 cm, AC = 3 cm et EG
+	= 5 cm.	Déterminer la longueur EF. \\~\\
+	Exemple de rédaction à faire dans un contrôle:\\
+	Les segments [BA] et [EF] sont symétriques par rapport au point M. Or, le symétrique d’un segment par rapport à un point est un \trou{segment} de même \trou{longueur}, donc EF = BA = \trou{$4$} cm.
+\end{ex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Carte mentale}
+
+	\begin{center}
+	\includegraphics[width=0.99\linewidth]{cmsym}
+\end{center}
+
+\end{document}
