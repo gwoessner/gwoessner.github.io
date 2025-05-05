@@ -6,10 +6,10 @@ description: "Dernière mise-à-jour : 2024-25."
 
 Mes documents pour l'année de 5è.  
 <br>
-### Chapitre 1 : Priorités opératoires
+### <u>Chapitre 1<\u> : Priorités opératoires
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.tex).
 
-### Chapitre 2 : Triangles
+### <u>Chapitre 2<\u> : Triangles
 Ce long chapitre est divisé en 3 parties : Partie 2.1 “Inégalité triangulaire” ; Partie 2.2 “Hauteur” ; Partie 2.3 “Médiatrices”.  
 
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_triangles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_triangles.tex).  
@@ -19,7 +19,7 @@ Une activité d'introduction à la partie 2.2 en [PDF]({{ site.baseurl }}/assets
 Le **Contrôle 1** sur les Chapitres 1 et 2.1 en [PDF]({{ site.baseurl }}/assets/teaching/controle_1.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_1.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_1_corrigé.pdf).    
 Le **Contrôle 2** sur les Chapitres 1, 2.1 et 2.2 en [PDF]({{ site.baseurl }}/assets/teaching/controle_2.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_2.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_2_corrigé.pdf).
 
-### Chapitre 3 : Nombres relatifs
+### <u>Chapitre 3<\u> : Nombres relatifs
 
 Ce chapitre est divisé en 2 parties : Partie 3.1 “Nombres relatifs et repérage” ; Partie 3.2 “Additions et soustractions de relatifs”.  
 
@@ -36,3 +36,5 @@ Le **Cours** de la partie 3.2 en [PDF]({{ site.baseurl }}/assets/teaching/cours_
 
 *De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes*
 "\fancyhead[L]{Mr NOM}\fancyhead[R]{ANNEE}\fancyhead[C]{5e}" *à l'endroit indiqué dans le .tex.*
+
+*Enfin, pour compiler les .tex il vous faudra les fichiers d'image, que vous pourrez trouver pêle-mêle ici : TBD.*
