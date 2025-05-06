@@ -1,0 +1,254 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[L]{Mr NOM}
+\fancyhead[R]{ }
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troufalse
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Traitement de données\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Calculer des effectifs, des fréquences, une moyenne}
+
+\begin{defin}{}{}
+	Dans une série de données :\\
+	- l'\textbf{effectif} d'une donnée est le nombre de fois où cette donnée apparaît.\\
+	- l'\textbf{effectif total} est la somme de tous les effectifs.\\
+	- la \textbf{fréquence} d'une donnée est le quotient de son effectif par l'effectif total:
+	  \[ \text{fréquence d'une donnée} = \displaystyle\frac{\text{effectif de la donnée}}{\text{effectif total}}\]
+\end{defin}
+
+
+\begin{ex}{}{}
+	Voici les réponses d'un groupe d'élèves à la question : "Quelle est votre couleur préférée ?" : \\
+	\textcolor{blue}{bleu} - \textcolor{red}{rouge} - \textcolor{blue}{bleu} - \textcolor{olive}{vert} - \textcolor{purple}{violet} - \textcolor{blue}{bleu} - \textcolor{olive}{vert} -  \textcolor{red}{rouge} - \textcolor{olive}{vert} - \textcolor{olive}{vert} - \textcolor{purple}{violet} -\textcolor{purple}{violet} - \textcolor{pink}{rose} - \textcolor{olive}{vert} - \textcolor{orange}{orange} - \textcolor{blue}{bleu} - \textcolor{red}{rouge} - \textcolor{blue}{bleu} - \textcolor{orange}{orange} - \textcolor{olive}{vert}\\
+	On peut regrouper cette série de données dans un tableau, appelé \textbf{tableau d'effectifs} :
+	\begin{center}
+				\includegraphics[width=0.85\linewidth]{don1}
+	\end{center}
+\end{ex}
+
+\begin{rem}{}{}
+	Les fréquences et les effectifs sont \trou{proportionnels}.\\
+	Une fréquence peut être donnée sous forme de fraction, de nombre décimal ou de pourcentage; elle est comprise entre \trou{$0$} et \trou{$1$}.\\
+	La somme de toutes les fréquences est égale à \trou{$1$}.
+\end{rem}
+
+
+\begin{defin}{}{}
+	La \textbf{moyenne} d'une série de données est égale au quotient de la somme de ces données par l'effectif total:
+	\[ \text{moyenne} = \displaystyle\frac{\text{somme des données}}{\text{effectif total}}\]
+\end{defin}
+
+
+\begin{rem}{}{}
+	La moyenne n'est pas nécessairement égale à l'une des données.\\
+	La moyenne est toujours comprise entre la plus petite et la plus grande valeur de la série. 
+\end{rem}
+
+\begin{ex}{}{}
+	Voici les notes sur $20$ obtenues par Alice en mathématiques au premier trimestre: $11$ ; $12,5$ ; $14$ ; $9,5$ ; $13$ \\
+	Pour calculer sa moyenne, on calcule la somme de ses notes, que l'on divise par le nombre de notes: $\displaystyle\frac{\trou{11+12,5+14+9,5+13}}{\trou{5}} = \displaystyle\frac{\trou{60}}{\trou{5}}=\trou{12}$\\
+	La moyenne des notes d'Alice est égale à $12/20$.\\
+	
+	\vspace{0.05cm}
+	Dans cet exemple: \includegraphics[width=0.50\linewidth]{don2}
+\end{ex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Représenter graphiquement des données numériques et non numériques}
+
+\begin{prop}{Diagramme en bâtons}{}
+	Dans un \textbf{diagramme en bâtons}, la \textbf{hauteur} de chaque bâton est \textbf{proportionnelle} à l'\textbf{effectif} de la valeur qu'il représente.
+\end{prop}
+
+\begin{ex}{}{}
+	Le professeur de mathématiques a relevé les notes de ses élèves au dernier contrôle:
+	\begin{center}
+				\includegraphics[width=0.85\linewidth]{don3}
+	\end{center}
+	Chaque note est représentée par un bâton, la hauteur du bâton correspond à \trou{l'effectif de la note} :
+		\begin{center}
+		\includegraphics[width=0.5\linewidth]{don4}
+	\end{center}
+\end{ex}
+
+
+\begin{prop}{Histogramme}{}
+	Quand les données sont nombreuses, on peut les regrouper en \textbf{classes} et les représenter par un \textbf{histogramme}.
+\end{prop}
+
+\begin{ex}{}{}
+	Lors d'une visite médicale, on a mesuré la taille en centimètres des élèves d'une classe de cinquième. Comme les données sont nombreuses, elles ont été regroupées en classe d'\textbf{amplitude} $5$cm:
+		\begin{center}
+		\includegraphics[width=0.857\linewidth]{don5} 			\includegraphics[width=0.5\linewidth]{don6}
+		\end{center}
+\end{ex}
+
+
+
+
+\begin{prop}{Diagramme circulaire}{}
+	Dans un \textbf{diagramme circulaire}, les \textbf{mesures des angles sont proportionnelles aux effectifs} de chaque catégorie.
+\end{prop}
+
+
+\begin{ex}{}{}
+	Voici la répartition des $100$ élèves de cinquième d'un collège selon leur seconde langue vivante:
+			\begin{center}
+		\includegraphics[width=0.75\linewidth]{don8}
+	\end{center}
+L'effectif total est $100$, il correspond à $360 ^{\circ}$ sur le diragramme circulaire.\\
+Il suffit donc de multiplier chaque effectif par $3,6$ pour obtenir la mesure de l'angle correspondant.\\
+On reporte les résultats obtenues dans le tableau, puis on construit le diagramme.
+			\begin{center}
+		\includegraphics[width=0.85\linewidth]{don9}
+		\includegraphics[width=0.2\linewidth]{don10}
+			\end{center}
+\end{ex}
+
+\begin{rem}{}{}
+	On peut également constuire un diagramme semi-circulaire. La somme des mesures des angles est alors égale à $180 ^{\circ}$.\\
+\end{rem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Carte mentale}
+
+\begin{center}
+		\includegraphics[width=0.99\linewidth]{cmdonnees}
+\end{center}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
