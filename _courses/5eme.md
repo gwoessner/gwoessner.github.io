@@ -41,6 +41,7 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_stats.pdf) et en 
 Le **Contrôle 4** sur les Chapitres 5 et 6 en [PDF]({{ site.baseurl }}/assets/teaching/controle_4.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_4.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_4_corrigé.pdf).
 
 ### <u>Chapitre 7 : Angles et triangles
+Une activité d'introduction pour la partie finale du chapitre (somme des angles égale 180°) en [PDF]({{ site.baseurl }}/assets/teaching/activité_angles.pdf).    
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_angles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_angles.tex).  
 
 Le **Contrôle 5** sur les Chapitres 3.2 et 7 en [PDF]({{ site.baseurl }}/assets/teaching/controle_5.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_5.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
