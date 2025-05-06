@@ -38,7 +38,7 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proportionnalité
 ### <u>Chapitre 6 : Statistiques
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_stats.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_stats.tex).  
 
-proportionnalité
+Le **Contrôle 4** sur les Chapitres 5 et 6 en [PDF]({{ site.baseurl }}/assets/teaching/controle_4.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_4.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_4_corrigé.pdf).
 <br>
 <br>
 <br>
