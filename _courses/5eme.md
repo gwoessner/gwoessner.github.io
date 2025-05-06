@@ -30,7 +30,7 @@ Le **Cours** de la partie 3.2 en [PDF]({{ site.baseurl }}/assets/teaching/cours_
 
 ### <u>Chapitre 4 : Symétries
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_symétrie.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_symétrie.tex).  
-Le **Contrôle 3** sur les Chapitres 3 et 4 en [PDF]({{ site.baseurl }}/assets/teaching/controle_3.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_3.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_3_corrigé.pdf).
+Le **Contrôle 3** sur les Chapitres 3.1 et 4 en [PDF]({{ site.baseurl }}/assets/teaching/controle_3.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_3.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_3_corrigé.pdf).
 
 ### <u>Chapitre 5 : Proportionnalité
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proportionnalité.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_proportionnalité.tex).  
@@ -39,6 +39,11 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proportionnalité
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_stats.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_stats.tex).  
 
 Le **Contrôle 4** sur les Chapitres 5 et 6 en [PDF]({{ site.baseurl }}/assets/teaching/controle_4.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_4.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_4_corrigé.pdf).
+
+### <u>Chapitre 7 : Angles et triangles
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_angles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_angles.tex).  
+
+Le **Contrôle 5** sur les Chapitres 3.2 et 7 en [PDF]({{ site.baseurl }}/assets/teaching/controle_5.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_5.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
 <br>
 <br>
 <br>
