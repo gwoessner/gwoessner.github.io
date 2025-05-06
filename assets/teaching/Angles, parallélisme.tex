@@ -1,0 +1,300 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[L]{M NOM}
+\fancyhead[R]{ }
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{defcolor}{rgb}{.804,.064,.464}
+\definecolor{propcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troufalse
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Angles et parallélisme\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Angles et parallélisme}
+
+
+\begin{comment} 
+\begin{defin}{Angles opposés}{}
+	Deux angles \textbf{opposés par le sommet} sont deux
+	angles:\\
+	- qui ont le même sommet;\\
+	- dont les côtés sont dans le prolongement l’un de l’autre. 
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{angle01}
+	\end{center}
+\end{defin}
+
+\begin{prop}{}{}
+Deux angles opposés par le sommet ont la même \trou{mesure}. 
+\end{prop}
+
+\begin{defin}{Angles adjacents}{}
+	Deux angles sont \textbf{adjacents} lorsque :\\
+	- ils ont le même sommet ;\\
+	- ils ont un côté commun ;\\
+	- ils sont de part et d’autre de ce côté.
+	\begin{center}
+		\includegraphics[width=0.39\linewidth]{angle02}
+	\end{center}
+\end{defin}
+
+\begin{defin}{Angles complémentaires}{}
+	Deux angles sont \textbf{complémentaires} lorsque la somme de leurs mesures est égale à \trou{$90^{\circ}$}. 
+
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{angle03}
+	\end{center}
+\end{defin}	
+	
+\begin{defin}{Angles supplémentaires}{}
+		Deux angles sont \textbf{supplémentaires} lorsque la somme de leurs mesures est égale à \trou{$180^{\circ}$}. 
+	\begin{center}
+		\includegraphics[width=0.31\linewidth]{angle04}
+		\includegraphics[width=0.29\linewidth]{angle05}
+	\end{center}
+\end{defin}
+\end{comment}
+	
+	
+\begin{defin}{Alternes-internes}{}
+		Soient deux droites $(d1)$ et $(d2)$ et une sécante	$(d)$ qui coupe $(d1)$ et $(d2)$ en deux points $A$ et	$B$.\\
+		Deux angles sont \textbf{alternes-internes} lorsque:\\
+		- ils sont situés de part et d’autre de la droite
+		$(d)$;\\
+		- ils sont entre les droites $(d1)$ et $(d2)$.
+		\begin{center}
+			\includegraphics[width=0.25\linewidth]{angle1}
+		\end{center}
+\end{defin}
+
+
+
+\begin{defin}{Correspondants}{}
+	Soient deux droites $(d1)$ et $(d2)$ et une sécante	$(d)$ qui coupe $(d1)$ et $(d2)$ en deux points $A$ et	$B$.\\
+	Deux angles sont \textbf{correspondants} lorsque:\\
+	- ils sont situés du même côté de la droite
+	$(d)$;\\
+	- l’un est entre la droite $(d1)$ et la droite
+	$(d2)$, l’autre est à l’extérieur.
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{angle2}
+	\end{center}
+\end{defin}
+
+\begin{prop}{Directes}{}
+	Si deux droites parallèles sont coupées par une sécante, alors les angles alternes-internes qu’elles forment ont même \trou{mesure}.\\
+	Si deux droites parallèles sont coupées par une sécante, alors les angles correspondants qu’elles forment ont même \trou{mesure}.
+\end{prop}
+
+\begin{ex}{}{}
+Que dire de la mesure des deux angles grisés ?
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{angle3}
+	\end{center}
+On sait que:\\
+- les deux angles grisés sont \trou{alternes-internes} pour
+les droites $(d)$ et $(d’)$ coupées par la sécante $(\Delta)$;\\
+- les droites $(d)$ et $(d’)$ sont \trou{parallèles}.\\
+Or, si deux droites parallèles sont coupées par une sécante, alors les angles alternes-internes qu’elles forment ont même mesure.\\
+Donc, \trou{les deux angles grisés ont la même mesure}.
+\end{ex}
+
+\begin{prop}{Réciproques}{}
+	Si deux droites forment avec une même sécante deux angles alternes-internes de même mesure, alors ces droites sont parallèles.\\
+	Si deux droites forment avec une même sécante deux angles correspondants de même mesure, alors ces droites sont parallèles.
+\end{prop}
+
+
+\begin{ex}{}{}
+	
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{angle4}
+	\end{center}
+On sait que:\\
+- les deux angles grisés sont \trou{correspondants} pour
+les droites $(d)$ et $(d’)$ coupées par la sécante $(\Delta)$;\\
+- les mesures des angles grisés sont \trou{égales}.\\
+Or, si deux droites forment avec une même sécante deux angles correspondants de même mesure, alors ces droites sont parallèles.\\
+Donc, \trou{les droites $(d)$ et $(d')$ sont parallèles}.
+\end{ex}
+
+
+
+\section{Angles et triangles}
+
+
+\begin{prop}{Somme des mesures d'angles d’un triangle}{}
+Dans un triangle, la somme des mesures des angles est égale à \trou{\textbf{$180^{\circ}$}}.
+\end{prop}
+
+\begin{rem}{}{}
+	Lorsqu'on connaît la mesure de deux angles d'un triangle, on peut calculer la mesure du troisième angle.
+\end{rem}
+
+
+\begin{ex}{}{}
+Le triangle $ABC$ est tel que $\widehat{ABC} = 78^{\circ}$ et $\widehat{ACB} = 52 ^{\circ}$. Calculer la mesure de l'angle $\widehat{BAC}$:\\
+\trou{$\widehat{BAC} + \widehat{ABC}+ \widehat{ACB} = 180^{\circ}$, donc $\widehat{BAC} =180- \widehat{ABC}- \widehat{ACB} = 180-78-52=50^{\circ}$.}
+\end{ex}
+
+\begin{ex}{}{}
+On considère le triangle $TEH$ tel que: $\widehat{TEH} = 68^{\circ}$, $\widehat{THE} = 39^{\circ}$ et $EH = 3$ cm. Quelle est la mesure de l'angle $\widehat{ETH}$?\\
+\trou{$\widehat{TEH} + \widehat{THE}+ \widehat{ETH} = 180^{\circ}$, donc $\widehat{ETH} =180- \widehat{TEH}- \widehat{THE} = 180-68-39=73^{\circ} $.}
+\end{ex}
+
+
+\begin{prop}{}{}
+	\begin{enumerate}
+		\item Si un triangle est \textbf{rectangle}, alors la somme des mesures de ses angles aigus est égale à \trou{$90^{\circ}$}.
+		\item Si la somme des mesures de deux angles d’un triangle est égale à $90^{\circ}$, alors ce triangle est \trou{\textbf{rectangle}}.
+	\end{enumerate}
+\end{prop}
+
+\begin{prop}{}{}
+	\begin{enumerate}
+		\item  Si un triangle est \textbf{isocèle}, alors ses deux angles à la base ont la \trou{même} mesure.
+		\item Si deux angles d’un triangle ont la même mesure, alors ce triangle est \trou{\textbf{isocèle}}.
+		\item Si un triangle est \textbf{équilatéral}, alors chacun de ses trois angles mesure \trou{$60^{\circ}$}.
+		\item Si chacun des trois angles d’un triangle mesure $60^{\circ}$, alors ce triangle est \trou{\textbf{équilatéral}}.
+	\end{enumerate}
+\end{prop}
+
+
+\begin{ex}{}{}
+Quelle est la nature du triangle $ABC$ ? Calculer la mesure de l’angle $\widehat{ADC}$?
+	\begin{center}
+	\includegraphics[width=0.2\linewidth]{triangle2}
+\end{center}
+La mesure de l'angle $\widehat{BCA}$ vaut \trou{$180-65-50=65$} degrés, donc $ABC$ est un \trou{triangle isocèle.}\\
+D'après le codage, on a  $AB=AD$. Or, $ABC$ est isocèle en $A$, donc $AB=AC$, donc $AC=AD$, ainsi, le triangle $ADC$ est donc \trou{isocèle en $A$.}\\
+De ce fait, les angles \trou{$\widehat{ACD}$ et $\widehat{ADC}$} ont la même mesure, qui vaut : \trou{$(180-54) \div 2 = 126 \div 2 = 63$.}
+\end{ex}
+
+
+
+\section{Carte mentale}
+
+	\begin{center}
+	\includegraphics[width=0.99\linewidth]{cmangle}
+\end{center}
+
+\end{document}
