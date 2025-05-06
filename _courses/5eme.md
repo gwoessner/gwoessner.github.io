@@ -31,6 +31,14 @@ Le **Cours** de la partie 3.2 en [PDF]({{ site.baseurl }}/assets/teaching/cours_
 ### <u>Chapitre 4 : Symétries
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_symétrie.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_symétrie.tex).  
 Le **Contrôle 3** sur les Chapitres 3 et 4 en [PDF]({{ site.baseurl }}/assets/teaching/controle_3.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_3.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_3_corrigé.pdf).
+
+### <u>Chapitre 5 : Proportionnalité
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proportionnalité.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_proportionnalité.tex).  
+
+### <u>Chapitre 6 : Statistiques
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_stats.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_stats.tex).  
+
+proportionnalité
 <br>
 <br>
 <br>
