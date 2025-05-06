@@ -1,0 +1,383 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[L]{Mr NOM}
+\fancyhead[R]{ }
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{defcolor}{rgb}{.804,.064,.464}
+\definecolor{propcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troufalse
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Proportionnalité\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+	\end{center}
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Situations de proportionnalité}
+	
+	\begin{defin}{}{}
+		Deux grandeurs sont \textbf{proportionnelles} si les valeurs de l'une s'obtiennent en multipliant les valeurs de l'autre par un même nombre non nul, appelé \trou{\textbf{coefficient de proportionnalité}}.
+	\end{defin}
+	
+	
+	\begin{ex}{}{}
+		A la boulangerie, chaque bonbon coute $0,15$ \euro, on a  donc :\\
+		prix à payer = nombre de bonbons achetés $\times$ \textcolor{red}{$0,15$}\\
+		Le prix à payer est \textbf{proportionnel} au nombre de bonbons achetés.\\
+		\textcolor{red}{$0,15$} est le coefficient de proportionnalité.\\
+		Par exemple, avec $1,50$ \euro, on peut  acheter \trou{$10$ bonbons (car $ 1,50 = 10 \times \textcolor{red}{0,15}$)}.
+	\end{ex}
+	
+	
+	\begin{rem}{}{}
+		On peut représenter la situation dans un tableau en y rassemblant les grandeurs étudiées.\\
+		Pour l'exemple précédent, on aurait pu construire le tableau suivant:
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|}
+				\hline
+				Nombre de bonbons & $1$ & $2$ & $3$ & $10$ \\
+				\hline
+				Prix (en \euro) & \trou{$0,15 $} & \trou{$0,30$} & \trou{$0,45$} & \trou{$1,50$}\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Ce tableau est appelé \trou{\textbf{tableau de proportionnalité}}.\\
+		Le quotient d'une ligne par une autre ligne est toujours égal au \trou{coefficient de proportionnalité}.
+	\end{rem}
+
+
+\begin{ex}{}{}
+Dans le chapitre précédent, les lignes \textbf{effectifs} et \textbf{fréquences} d'un tableau de données sont toujours \textbf{proportionnelles} !
+\end{ex}
+	
+	
+	\begin{ex}{}{}
+		On a relevé dans le tableau ci-dessous la consommation, en fonction du temps, d'un robinet mal fermé.
+		\begin{center}
+			\includegraphics[width=0.4\linewidth]{tab1}
+		\end{center}
+		On calcule les quotients : $\displaystyle\frac{0,432}{1} = \textcolor{red}{0,432}$; $\displaystyle\frac{3,024}{7} = \textcolor{red}{0,432}$;  $\displaystyle\frac{157,68}{365} = \textcolor{red}{0,432}$.\\
+		Tous les quotients sont égaux à \textcolor{red}{$0,432$}, donc le tableau est un tableau de proportionnalité:\\
+		$\bullet$ La quantité d'eau est proportionnelle au temps écoulé.\\
+		$\bullet$ \textcolor{red}{$0,432$} est le coefficient de proportionnalité.
+	\end{ex}
+	
+	\begin{ex}{}{}
+		Angélique et Claire achètent respectivement un pack de $6$ litres de jus d'orange à $9,12$ \euro \hspace{0.1cm} et un pack de $4$ litres à $6,48$ \euro.\\
+		On récapitule ces résultats dans le tableau ci-dessous:
+		\begin{center}
+			\includegraphics[width=0.2\linewidth]{tab2}
+		\end{center}
+		On calcule les quotients : $\displaystyle\frac{9,12}{6} = \textcolor{red}{1,52}$; $\displaystyle\frac{6,48}{4} = \textcolor{blue}{1,62}$.\\
+		Les quotients ne sont pas égaux, ce tableau n'est donc pas un tableau de proportionnalité:\\
+		$\bullet$ Le prix à payer n'est pas proportionnel à la quantité de jus d'orange achetée.\\
+		$\bullet$ Il n'y a pas de coefficient de proportionnalité.
+	\end{ex}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Quatrième proportionnelle}
+	
+	\begin{prop}{}{}
+		Dans un tableau de proportionnalité à quatre cases, lorsque l'on ne connaît que trois valeurs, on peut calculer la quatrième valeur, appelée \textbf{quatrième proportionnelle}.\\
+	\end{prop}
+	
+	
+	\begin{prop}{Méthode 1 : à l'aide du coefficient de proportionnalité}{}
+		Pour compléter un tableau de proportionnalité, on peut utiliser le coefficient de proportionnalité pour passer d'une ligne à l'autre.
+	\end{prop}
+	
+	\begin{ex}{}{}
+		Marie fait le plein d'essence de son scooter dont le réservoir a une contenance de $5,5$L. La station-service affiche un prix de l'essence à $1,22$ \euro \hspace{0.1cm} le litre.
+		\begin{enumerate}
+			\item Combien va-t-elle payer son plein d'essence ?
+			\item Quelle quantité d'essence peut-elle acheter avec $5$ \euro \hspace{0.1cm} ?
+		\end{enumerate}
+		On construit le tableau de proportionnalité suivant : 
+		
+		\begin{center}
+\includegraphics[width=\linewidth]{tab3}
+		\end{center}
+
+		Le prix à payer est proportionnel à la quantité d'essence achetée et le coefficient de proportionnalité est égal à \trou{\textcolor{red}{$1,22$}}. Marie va donc payer son plein d'essence \trou{$5,5 \times \textcolor{red}{1,22}=6,71$} \euro.\\
+		Avec $5$ \euro, Marie peut acheter \trou{$5$L $\div  \textcolor{red}{1,22}$} soit environ $4,1$L.
+	\end{ex}
+	
+	
+	\begin{prop}{Méthode 2 : liens entre les colonnes}{}
+		Pour obtenir les nombres d'une colonne dans un tableau de proportionnalité, on peut:\\
+		$\bullet$ \textbf{Multiplier ou diviser} les nombres d'une autre colonne par un même nombre.\\
+		$\bullet$ \textbf{Ajouter ou soustraire} les nombres de deux autres colonnes.
+	\end{prop}
+	
+	\begin{ex}{}{}
+		Une recette de crêpes indique qu'il faut $300$g de farine pour cuisiner $12$ crêpes.
+		\begin{enumerate}
+			\item Quelle quantité de farine faut-il pour cuisiner $4$ crêpes ?
+			\item Quelle quantité de farine faut-il pour cuisiner $16$ crêpes ?
+		\end{enumerate}
+		La quantité de farine à utiliser est proportionnelle au nombre de crêpes à cuisiner, on peut donc faire un tableau de proportionnalité:
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{tab4}
+		\end{center}
+
+		\begin{enumerate}
+			\item Pour faire $4$ crêpes, il faut utiliser \trou{$300$ g $\div$ $3$, soit $100$ g} de farine.
+			\item Pour faire $16$ crêpes, il faut utiliser \trou{$300$ g $+$ $100$ g, soit $400$ g} de farine.
+		\end{enumerate}
+		
+	\end{ex}
+	
+	
+	\begin{prop}{Méthode 3 : passage par l'unité}{}
+		Pour traiter une situation de proportionnalité, il est parfois plus judicieux de revenir à l'unité.
+	\end{prop}
+	
+	\begin{ex}{}{}
+		Clara a acheté $3$ cahiers pour $3,60$ \euro. Emma a besoin de $7$ cahiers. Combien devra-t-elle payer?\\
+		$3$ cahiers coutent $3,60$ \euro, donc $1$ cahier coute \trou{$\displaystyle\frac{3,60}{3}=1,20$ \euro}. Ainsi, $7$ cahiers coutent \trou{$\displaystyle\frac{3,60}{3} \times 7 = 1,20 \times 7 = 8,40$ \euro.}
+		
+	\begin{center}
+\includegraphics[width=0.35\linewidth]{tab5}
+		\end{center}
+
+		
+	\end{ex}
+	
+\begin{comment}
+
+\begin{prop}{Méthode 4 : le produit en croix}{}
+		Pour traiter une situation de proportionnalité, une méthode qui marche à chaque fois, mais qui peut donner des calculs compliqués, est celle du produit en croix.
+	\end{prop}
+
+\begin{ex}{}{}
+Reprenons les 3 exemples précédents, on a bien que
+\begin{itemize}
+\item[$\bullet$] Méthode 1 : $$5,5\times 1,22 \div 1 = \trou{6,71}.$$
+\item[$\bullet$] Méthode 2 : $$4\times 300 \div 12 = \trou{100}.$$
+\item[$\bullet$] Méthode 3 : $$ 4,05 \times 7 \div 3 = \trou{1,35}.$$
+\end{itemize}
+\end{ex}
+
+\end{comment}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Calculer un pourcentage}
+	
+	\begin{prop}{}{}
+		Soit $x$ un nombre positif.\\
+		Calculer $x$ \% d'une quantité revient à multiplier cette quantité par $\displaystyle\frac{x}{100}$.
+	\end{prop}
+	
+	\begin{ex}{}{}
+		Dans un pot de crème fraiche de $20$ cL, il y a $12$ \% de matière de grasse.\\
+		\textcolor{blue}{$12$ \%} \textcolor{red}{de} $20 = \textcolor{blue}{\displaystyle\frac{12}{100}}$ \textcolor{red}{$\times$} $20 =2,4$\\
+		La quantité de matière grasse dans le pot est égale à $2,4$ cL.
+	\end{ex}
+	
+	\begin{ex}{}{}
+		Un article coûte $89$ \euro. Son prix est réduit de $20$ \%. \\
+		La réduction est de 
+		\trou{$20$ \% de $89$ \euro \hspace{0.1cm}= $\displaystyle\frac{20}{100} \times 89 = 17,80$}\\
+		Le nouveau prix sera donc \trou{$89-17,80= 71,20$ \euro. }
+	\end{ex}
+	
+	
+	\begin{rem}{}{}
+		Un pourcentage exprime une proportion par rapport à $100$, il peut sécrire sous plusieurs formes:\\
+		$15$ \% (pourcentage) = $\displaystyle\frac{15}{100}$ (écriture fractionnaire) = $0,15$ (écriture décimale)\\
+		Pour \textbf{calculer un pourcentage}, on peut utiliser un tableau de proportionnalité.
+	\end{rem}
+	
+	
+	\begin{ex}{}{}
+		Une automobile qui coûtait $8000$ \euro \hspace{0.1cm} est vendue $6800$ \euro. A quel pourcentage du prix initial correspond la remise ?
+		\begin{center}
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Pourcentage & $100$ & \textcolor{red}{?} \\
+				\hline
+				Prix (en \euro) &  $8000$ & $6800$  \\
+				\hline
+			\end{tabular}
+		\end{center}
+		\trou{$\textcolor{red}{?} = 6800 \div 80=85$, l'article est vendu à $85$ \% du prix initial.}
+		
+	\end{ex}
+	
+	\begin{ex}{A l'aide d'un tableau de proportionnalité}{}
+		Dans une classe de $23$ élèves de $3^e$, $15$ élèves connaissent leur orientation scolaire pour l'année suivante. Quel pourcentage cela représente-t-il ?\\
+		On peut représenter cette situation par un tableau de proportionnalité:
+\begin{center}
+			\includegraphics[width=\linewidth]{tab8}
+		\end{center}
+		 La proportion d'élèves connaissant leur orientation est \trou{de environ 65,2\%}.
+	\end{ex}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\begin{comment}
+	
+	\section{Utiliser une échelle}
+	
+	\begin{defin}{}{}
+		Sur un plan à l'échelle, les distances sur le plan sont proportionnelles aux distances en réalité.\\
+		L'\textbf{échelle} est le coefficient de proportionnalité. Elle est égale au rapport $\displaystyle\frac{\textrm{distance sur le plan}}{\textrm{distance en réalité}}$ où les deux sont exprimées dans la même unité.\\
+		Si l’échelle est inférieure à $1$, la représentation est une \textbf{réduction}.\\
+		Si l’échelle est supérieure à $1$, la représentation est un \textbf{agrandissement}.
+	\end{defin}
+	
+	\begin{ex}{}{}
+		Dire qu'un plan est à l'échelle $\displaystyle\frac{1}{1000}$ signifie que $1$ cm sur la carte représente \trou{$1000$ cm} en réalité.
+	\end{ex}
+	
+	\begin{ex}{}{}
+		La distance à vol d'oiseau entre Bordeaux et Pau sur une carte à l'échelle $\displaystyle\frac{1}{250000}$ est de $86$ cm.
+		\begin{center}
+			\includegraphics[width=0.45\linewidth]{tab7}
+		\end{center}
+		\fcolorbox{black}{orange}{?} =  \trou{$250000 \times 86 = 21500000 $}\\
+		La distance entre Bordeaux et Pau est donc de $\trou{21500000}$ cm, soit $\trou{215}$ km.
+	\end{ex}
+
+\end{comment}	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\section{Carte mentale}
+	
+	\begin{center}
+		\includegraphics[width=0.85\linewidth]{cmpropo}
+	\end{center}
+	
+	
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
