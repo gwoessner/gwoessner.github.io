@@ -1,38 +1,30 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Nom
       value: Guillaume Charles Woessner
-    - name: Date of Birth
+    - name: Date de naissance
       value: 10 Septembre 1996
-    - name: Languages
-      value: Français, English
+    - name: Langue
+      value: Français (maternelle), English (universitaire)
 
 - title: Education
   type: time_table
   contents:
     - title: Doctorat
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
-      year: 2025
+      year: 2020-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Les ED(P)S et l'étude des champs aléatoires,
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Mathématiques pour la finance.
+            - Mathématiques pour le machine learning.
     - title: Master 2 "Probabilités et Modèles Aléatoires"
       institution: Université Pierre et Marie Curie, Paris VI, France
-      year: 2020
-      description:
-        - Description 1.
-        - Description 2.
+      year: 2020-2021
     - title: Agrégation externe de Mathématiques
       institution: Université de Strasbourg, France
-      year: 2019
-      description:
-        - Description 1.
-        - Description 2.
+      year: 2014-2019
 
 
 - title: Experience
