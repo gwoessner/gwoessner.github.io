@@ -21,15 +21,13 @@
       "startDate": "2024-01-09",
       "endDate": "2025-31-08",
       "summary": "Cours de maths avec deux classes de 5è.",
-      "highlights":
     }
   {
       "name": "Ecole Polytechnique Fédérale de Lausanne, Suisse",
       "position": "Assistant de cours",
-      "startDate": "01-09-2020",
-      "endDate": "31-08-2024",
+      "startDate": "2020-01-09",
+      "endDate": "2024-31-08",
       "summary": "Chargés de TDs pour plusieurs cours de mathématiques (proba-stats, analyse, topologie, ...). Encadrement de mémoires de Bachelor et de Master (probabilités, finance mathématiques, ...).",
-      "highlights": [""]
     }
   ],
 
