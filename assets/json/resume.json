@@ -3,9 +3,9 @@
     "name": "Guillaume Charles Woessner",
     "label": "Professeur de mathématiques",
     "image": "",
-    "email": "[prenom]@[nom].ovh",
+    "email": "",
     "phone": "",
-    "url": "https://www.woessner.ovh",
+    "url": "",
     "summary": "",
     "location": {},
     "profiles": [
@@ -18,10 +18,10 @@
     {
       "name": "Collège Martin Schongauer, Ostwald, France",
       "position": "Professeur de mathématiques",
-      "startDate": "01-09-2024",
-      "endDate": "31-08-2025",
-      "summary": "Professeur de mathématiques pour deux classes de 5è.",
-      "highlights": [""]
+      "startDate": "2024-01-09",
+      "endDate": "2025-31-08",
+      "summary": "Cours de maths avec deux classes de 5è.",
+      "highlights":
     }
   {
       "name": "Ecole Polytechnique Fédérale de Lausanne, Suisse",
