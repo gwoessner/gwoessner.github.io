@@ -70,6 +70,9 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_x.pdf) et en [TEX
 
 Le **Contrôle 8** sur les Chapitres 2.3 (les médiatrices) et 12 en [PDF]({{ site.baseurl }}/assets/teaching/controle_8.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_8.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_8_corrigé.pdf).
 
+### <u>Chapitre 13 : Parallélogrammes
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_parallélogrammes.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_parallélogrammes.tex).  
+
 <br>
 <br>
 <br>
