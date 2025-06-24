@@ -25,11 +25,10 @@
 - title: Etudes
   type: time_table
   contents:
-    - title: Doctorat
+    - title: Doctorat "Les ED(P)S et l'étude des champs aléatoires"
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2025
       description:
-        - Les ED(P)S et l'étude des champs aléatoires,
         - title: Cours suivis :
         - contents:
             - Mathématiques pour la finance.
