@@ -29,7 +29,7 @@
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2025
       description:
-        - title: Cours suivis :
+        - title: Cours suivis 
         - contents:
             - Mathématiques pour la finance.
             - Mathématiques pour le machine learning.
