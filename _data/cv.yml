@@ -15,8 +15,6 @@
     - title: Professeur de mathématiques
       institution: Collège Martin Schongauer, Ostwald
       year: 2024-2025
-      description:
-        - Deux classes de 5è.
     - title: Assistant de cours
       institution: Ecole Polytechnique Fédérale de Lausanne (EPFL)
       year: 2020-2024
@@ -32,6 +30,7 @@
       year: 2020-2025
       description:
         - title: Les ED(P)S et l'étude des champs aléatoires,
+        - title: Cours suivis :
           contents:
             - Mathématiques pour la finance.
             - Mathématiques pour le machine learning.
