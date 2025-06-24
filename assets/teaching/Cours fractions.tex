@@ -1,0 +1,309 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{~}
+\fancyhead[R]{~}
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Fractions, propriétés des quotients\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Notions de fractions}
+
+\begin{defin}{Fraction}{}
+	Soient $a$ et $b$ deux nombres entiers avec $b \ne 0$.\\
+	Dans la \textbf{fraction} = $\displaystyle\frac{\textcolor{blue}{a}}{\textcolor{purple}{b}}$, le \trou{\textbf{numérateur}} est \textcolor{blue}{$a$} et le \trou{\textbf{dénominateur}} est \textcolor{purple}{$b$}.\\
+	On dit aussi que $\frac{a}{b}$ est le \trou{quotient} de $a$ par $b$. C'est le nombre qui, multiplié par $b$, donne $a$.\\
+\end{defin}
+
+
+
+
+\begin{ex}{}{}
+Dans la fraction $\displaystyle\frac{5}{4}$, $5$ est le numérateur et $4$ est le dénominateur. \\
+	Le quotient de $2$ par $3$ est $\displaystyle\frac{2}{3}$.
+	C'est le nombre qui multipié par $3$ donne $2$. Autrement dit : $ 3 \times \displaystyle\frac{2}{3} = 2$.
+
+\end{ex}
+
+
+\begin{rem}{}{}
+	$\dfrac{a}{b}$ est le nombre manquant dans l'égalité $ b \times $ ? $=a$.\\
+		C'est une autre façon d'écrire $a\div b$.
+\end{rem}
+
+
+
+\begin{ex}{}{}
+	On veut placer le nombre $\displaystyle\frac{4}{3}$ sur une droite graduée.
+	\begin{enumerate}
+		\item On peut déterminer une valeur approchée de $\displaystyle\frac{4}{3}$. On a $\displaystyle\frac{4}{3}=4\div 3 \approx 1,33$.\\
+		\item On peut également placer le point $A$ d'abscisse $4$ et partager le segment $[OA]$ en $3$ parties égales.
+		\begin{center}
+			\includegraphics[width=0.3\linewidth]{frac1}
+		\end{center}
+	\end{enumerate}
+\end{ex}
+
+
+
+\section{Reconnaître des fractions égales}
+
+\begin{prop}{}{}
+	Un quotient ne change pas si l'on \textbf{multiplie} ou si l'on \textbf{divise} son numérateur \textbf{et} son dénominateur par un même nombre non nul.\\
+	Si $a$, $b$, $\textcolor{red}{k}$ désignent trois nombres avec $b \ne 0$, on a:
+	\begin{center}
+		$\displaystyle\frac{a}{b} = \displaystyle\frac{a \textcolor{red}{ \times k} }{b \textcolor{red}{ \times k}}$ et $ \displaystyle\frac{a}{b} = \displaystyle\frac{a \textcolor{red}{ \div k}}{b \textcolor{red}{ \div k}}$ 
+	\end{center}
+\end{prop}
+
+
+\begin{ex}{}{}
+	$$\displaystyle\frac{3}{4} = 
+	%\frac{3 \textcolor{red}{ \times 5} }{4 \textcolor{red}{ \times 5}}
+	\dots
+	= \displaystyle\frac{15}{20}	\qquad \qquad \qquad \qquad \qquad  \displaystyle\frac{10}{25} =
+	% \frac{10 \textcolor{red}{ \div 5} }{25 \textcolor{red}{ \div 5}}
+	\dots = \displaystyle\frac{2}{5}$$
+\end{ex}
+
+\begin{defin}{}{}
+	\textbf{Simplifier une fraction} consiste à écrire une fraction qui lui est égale avec un numérateur et un dénominateur plus petits.
+\end{defin}
+
+\begin{prop}{}{}
+	Pour simplifier une fraction, on effectue les étapes suivantes:
+	\begin{enumerate}
+		\item On cherche si le numérateur et le dénominateur appartiennent à une même table de multiplication.
+		\item Si non: on ne peut pas simplifier la fraction. Si oui, on peut diviser le numérateur et le dénominateur par l'élément trouvé à l'étape 1.
+		\item Si on a simplifié à l'étape 2, on retourne à l'étape 1.
+	\end{enumerate}
+\end{prop}
+
+
+\begin{ex}{}{}
+	Simplifions la fraction $\displaystyle\frac{42}{63}$:\\
+	$42$ et $63$ appartiennent à la \textbf{même} table de multiplication, en effet, ils appartiennent à la table de \trou{$7$}. On peut donc \textbf{diviser numérateur et dénominateur} par \trou{$7$}. On a $\displaystyle\frac{42}{63}=\dots\dots$
+\end{ex}
+
+
+\begin{ex}{}{}
+	 $\qquad \qquad \displaystyle\frac{12}{28}= \dots \qquad \qquad \qquad \qquad \qquad \qquad  \qquad \qquad  \displaystyle\frac{45}{35}= \dots$ \\
+	
+	$\qquad \qquad\displaystyle\frac{63}{81} =  \dots \qquad \qquad \qquad \qquad \qquad  \qquad \qquad \qquad \displaystyle\frac{110}{132}= \dots$
+\end{ex}
+
+\begin{rem}{Astuces}{}
+	\begin{enumerate}
+	\item[A.] $\qquad \displaystyle\frac{2}{2}=\displaystyle\frac{3}{3}=\displaystyle\frac{4}{4}=\displaystyle\frac{5}{5}=\trou{~1~}$
+	\item[B.] $\qquad \displaystyle\frac{4}{1}=\trou{~4~} \qquad \displaystyle\frac{6}{1}=\trou{~6~}, \qquad \displaystyle\frac{17}{1}=\trou{~17~}$
+	\item[C.] $\qquad 2,8=\displaystyle\frac{\trou{28}}{\trou{10}}, \qquad 3,65=\displaystyle\frac{\trou{365}}{\trou{100}}, \qquad 4,001=\displaystyle\frac{\trou{4001}}{\trou{1000}}$
+	\end{enumerate}
+\end{rem}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Comparer des fractions}
+
+
+\begin{prop}{}{}
+	Soient $a$, $b$, et $c$ trois nombres avec $c>0$.\\
+	Si deux quotients ont le \textbf{même dénominateur}, le plus grand est celui qui a le plus grand numérateur: si $a<b$, alors $\displaystyle\frac{a}{c} < \displaystyle\frac{b}{c}$
+\end{prop}
+
+\begin{ex}{}{}
+	$\displaystyle\frac{3}{7}$ \trou{<} $\displaystyle\frac{5}{7}$ car $3$ \trou{<} $5$
+\end{ex}
+
+
+\begin{prop}{}{}
+	Pour comparer deux fractions de dénominateurs différents, on peut les réduire au même dénominateur.
+\end{prop}
+
+\begin{ex}{}{}
+	On veut comparer $\displaystyle\frac{7}{3}$ et $\displaystyle\frac{13}{6}$.\\
+	On peut écrire :  $\displaystyle\frac{7}{3} = \displaystyle\frac{7 \textcolor{red}{ \times 2}}{3 \textcolor{red}{ \times 2}} = \displaystyle\frac{14}{6}$\\
+	Or, $14>13$, donc $\displaystyle\frac{14}{6} > \displaystyle\frac{13}{6}$, donc $\displaystyle\frac{7}{3} > \displaystyle\frac{13}{6}$
+\end{ex}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Opérations sur les fractions}
+
+\subsection{Si les dénominateurs sont égaux}
+
+\begin{prop}{}{}
+	Lorsqu’on additionne deux fractions qui ont le \textbf{MÊME DENOMINATEUR}, on additionne les numérateurs et on garde le dénominateur.\\
+	Lorsqu’on soustraie deux fractions qui ont le \textbf{MÊME DENOMINATEUR}, on soustrait les numérateurs et on garde le dénominateur.
+\end{prop}
+
+\begin{ex}{}{}
+	\begin{enumerate}
+		\item $\displaystyle\frac{1}{4}+\displaystyle\frac{2}{4} =\displaystyle\frac{\trou{1+2}}{\trou{4}} = \displaystyle\frac{\trou{3}}{\trou{4}}$
+		\item  $\displaystyle\frac{5}{8}+\displaystyle\frac{12}{8} =\displaystyle\frac{\trou{5+12}}{\trou{8}} = \displaystyle\frac{\trou{17}}{\trou{8}}$
+		\item $\displaystyle\frac{4}{3}-\displaystyle\frac{2}{3} =\displaystyle\frac{\trou{4-2}}{\trou{3}} = \displaystyle\frac{\trou{2}}{\trou{3}}$
+		\item  $\displaystyle\frac{15}{26}-\displaystyle\frac{8}{26} =\displaystyle\frac{\trou{15-8}}{\trou{26}} = \displaystyle\frac{\trou{7}}{\trou{26}}$
+	\end{enumerate}
+\end{ex}
+
+
+\subsection{Si les dénominateurs sont multiples l’un de l’autre}
+
+\begin{ex}{}{}
+	Combient vaut $ \textcolor{red}{\displaystyle\frac{3}{8}} + \textcolor{olive}{\displaystyle\frac{2}{8}}$ ?\\
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{frac4}
+	\end{center}
+	Ainsi, $ \textcolor{red}{\displaystyle\frac{3}{8}} + \textcolor{olive}{\displaystyle\frac{2}{8}} =$ \trou{$\displaystyle\frac{5}{8}$} et PAS $\displaystyle\frac{5}{16}$.
+\end{ex}
+
+
+\begin{rem}{Attention !}{}
+	On ne peut pas additionner ou soustraire deux fractions qui n’ont pas le même dénominateur.\\
+	Alors, on les met au même dénominateur !
+\end{rem}
+
+\begin{ex}{}{}
+	Combient vaut $ \textcolor{red}{\displaystyle\frac{2}{3}} + \textcolor{olive}{\displaystyle\frac{5}{6}} $ ? Deux méthodes
+	\begin{enumerate}
+		\item On utilise la droite graduée
+		\begin{center}
+			\includegraphics[width=0.5\linewidth]{frac5}
+		\end{center}
+		Grâce à la droite graduée, on obtient donc que : $ \textcolor{red}{\displaystyle\frac{2}{3}} + \textcolor{olive}{\displaystyle\frac{5}{6}} = \textcolor{purple}{\displaystyle\frac{9}{6}} = \displaystyle\frac{3}{2}$.
+		\item $ \textcolor{red}{\displaystyle\frac{2}{3}} + \textcolor{olive}{\displaystyle\frac{5}{6}} = \textcolor{red}{\displaystyle\frac{2 \textcolor{purple}{ \times 2}}{3 \textcolor{purple}{ \times 2}}} + \textcolor{olive}{\displaystyle\frac{5}{6}} =  \displaystyle\frac{4}{6} + \displaystyle\frac{5}{6} = \displaystyle\frac{9}{6}= \displaystyle\frac{3}{2}$
+	\end{enumerate}
+\end{ex}
+
+
+
+
+\end{document}
