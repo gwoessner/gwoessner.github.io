@@ -63,6 +63,15 @@ Des exercices supplémentaires en [PDF]({{ site.baseurl }}/assets/teaching/exo_a
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_solides.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_solides.tex).  
 
 Le **Contrôle 7** sur les Chapitres 10 et 11 en [PDF]({{ site.baseurl }}/assets/teaching/controle_7.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_7.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_7_corrigé.pdf).
+
+### <u>Chapitre 12 : Calcul littéral
+Une activité d'introduction au chapitre 12 en [PDF]({{ site.baseurl }}/assets/teaching/activité_x.pdf).   
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_x.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_x.tex).  
+
+Le **Contrôle 8** sur les Chapitres 2.3 (les médiatrices) et 12 en [PDF]({{ site.baseurl }}/assets/teaching/controle_8.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_8.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_8_corrigé.pdf).
+
+<br>
+<br>
 <br>
 <br>
 <br>
