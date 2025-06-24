@@ -13,10 +13,10 @@
   type: time_table
   contents:
     - title: Professeur de mathématiques
-      institution: Collège Martin Schongauer, Ostwald
+      institution: Collège Martin Schongauer, Ostwald, France
       year: 2024-2025
     - title: Assistant de cours
-      institution: Ecole Polytechnique Fédérale de Lausanne (EPFL)
+      institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2024
       description:
         - Chargé de TDs dans divers cours (probabilités et statistiques, analyse, topologie).
@@ -26,18 +26,18 @@
   type: time_table
   contents:
     - title: Doctorat "Les ED(P)S et l'étude des champs aléatoires"
-      institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
+      institution: Ecole Polytechnique Fédérale de Lausanne (EPFL)
       year: 2020-2025
       description:
-        - title: Cours suivis 
+        Cours suivis,
         - contents:
-            - Mathématiques pour la finance.
-            - Mathématiques pour le machine learning.
+            - Mathématiques pour la finance
+            - Mathématiques pour le machine learning
     - title: Master 2 "Probabilités et Modèles Aléatoires"
-      institution: Université Pierre et Marie Curie, Paris VI, France
+      institution: Université Pierre et Marie Curie, Paris VI
       year: 2020-2021
     - title: Agrégation externe de Mathématiques
-      institution: Université de Strasbourg, France
+      institution: Université de Strasbourg
       year: 2014-2019
 
 
