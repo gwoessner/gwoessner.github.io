@@ -53,7 +53,16 @@ Des exercices supplémentaires en [PDF]({{ site.baseurl }}/assets/teaching/exo_f
 ### <u>Chapitre 9 : Probabilités
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proba.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_proba.tex).  
 
-Le **Contrôle 6** sur les Chapitres 8 et 9 en [PDF]({{ site.baseurl }}/assets/teaching/controle_5.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_5.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
+Le **Contrôle 6** sur les Chapitres 8 et 9 en [PDF]({{ site.baseurl }}/assets/teaching/controle_6.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_6.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
+
+### <u>Chapitre 10 : Arithmétique
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_arithmétique.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_arithmétique.tex).  
+Des exercices supplémentaires en [PDF]({{ site.baseurl }}/assets/teaching/exo_arithmétique_1.pdf) (feuille 1) et en [PDF]({{ site.baseurl }}/assets/teaching/exo_arithmétique_2.pdf) (feuille 2).  
+
+### <u>Chapitre 11 : Solides droits
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_solides.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_solides.tex).  
+
+Le **Contrôle 7** sur les Chapitres 10 et 11 en [PDF]({{ site.baseurl }}/assets/teaching/controle_7.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_7.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_7_corrigé.pdf).
 <br>
 <br>
 <br>
