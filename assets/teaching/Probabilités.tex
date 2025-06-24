@@ -1,0 +1,249 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{~}
+\fancyhead[R]{~}
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Probabilités\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Expérience aléatoire}
+
+\begin{defin}{}{}
+	Une \textbf{expérience aléatoire} est une expérience dans laquelle intervient le hasard: on ne peut pas prévoir le résultat à l'avance.\\
+	Les différents résultats possibles d'une expérience aléatoire sont appelés des \textbf{issues}.
+\end{defin}
+
+\begin{ex}{}{}
+	\begin{enumerate}
+		\item On lance une pièce de monnaie et on observe la face du dessus. Il y a deux issues possibles : \trou{\textcolor{brown}{Pile}} et \trou{\textcolor{purple}{Face}}. On ne peut pas savoir à l'avance laquelle des deux on va obtenir. 
+		\item On lance un dé de $6$ faces et on observe le numéro inscrit sur la face du dessus. Il y a \trou{$6$} issues possibles: \trou{$1$, $2$, $3$, $4$, $5$ et $6$}. On ne peut pas savoir à l'avance laquelle de ces $6$ issues on va obtenir.
+	\end{enumerate}
+\end{ex}
+
+\begin{defin}{}{}
+	Un \textbf{événement} est une condition qui, selon l'issue de l'expérience aléatoire, est \textbf{réalisé} ou n'est \textbf{pas réalisé}.\\
+		Une issue peut également être considérée comme un \textbf{événement}.
+\end{defin}
+
+
+\begin{ex}{}{}
+		Lors d'un lancer de dé, on s'intéresse à la question suivante : "le résultat obtenu est-il pair ?"\\
+		On parle alors de l'événement "Obtenir un résultat pair", c'est-à-dire "Obtenir \trou{$2$, $4$ ou $6$}".\\
+		Si on obtient l'une des issues $2$, $4$ ou $6$, on dit que l'\textbf{événement} "Obtenir un résultat pair" est \textbf{réalisé}.\\
+		Si on obtient l'une des issues $1$, $3$ ou $5$, on dit que l'\textbf{événement} "Obtenir un nombre pair" n'est \textbf{pas réalisé}.
+\end{ex}
+
+
+\begin{ex}{}{}
+	On tire une fléchette les yeux bandés vers la cible ci-dessous et on observe le nombre de points obtenus.
+	Si la fléchette ne se plante pas sur la cible, on n'obtient aucun point. Les issues de cette expérience aléatoire sont : \trou{$0$, $20$, $40$, $50$, $80$ et $100$}.
+	\begin{center}
+		\includegraphics[width=0.2\linewidth]{flechette}
+		\end{center}
+	On s'intéresse à l'événement "Obtenir $40$ points" : si on obtient l'issue $40$ lors de cette expérience, cet événement sera réalisé. Si on obtient une autre \trou{issue}, cet événement ne sera pas réalisé. 
+\end{ex}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Probabilité d'un événement}
+
+\begin{defin}{}{}
+	La \textbf{probabilité} d'un événement peut s'interpréter comme la "proportion de chances" que cet événement se réalise. C'est un nombre \textbf{compris entre $0$ et $1$}.\\
+	Plus un événement a de chances de se réaliser, plus sa probabilité est proche de $1$.\\
+	Moins il a de chances de se réaliser, plus sa probabilité est proche de $0$.
+		\begin{center}
+		\includegraphics[width=0.6\linewidth]{proba1}
+	\end{center}
+\end{defin}
+
+
+\begin{rem}{}{}
+	On peut exprimer une probabilité sous plusieurs formes: un nombre décimal, une fraction, un pourcentage, etc.
+\end{rem}
+
+
+\begin{defin}{}{}
+	Pour une expérience aléatoire, lorsqu'on a autant de chances d'obtenir une issue ou une autre, on dit qu'il s'agit d'une \textbf{situation d'équiprobabilité}.
+\end{defin}
+
+\begin{defin}{}{}
+	Si $A$ désigne un événement, on note $\mathbb{P}(A)$ la probabilité de cet événement.
+\end{defin}
+
+
+\begin{ex}{Lancer de dé}{}
+	Lorsqu'on lance un dé à 6 faces qui n'est pas truqué, il a autant de chances de tomber sur une face que sur une autre. On a donc $1$ chance sur $6$ d'obtenir le $1$, $1$ chance sur $6$ d'obtenir le $2$, $1$ chance sur $6$ d'obtenir le $3$, etc.\\
+	Toutes les issues ont les mêmes chances d'être obtenues. On dit aussi que les issues ont la même probabilité. Cette probabilité est égale à $\displaystyle\frac{1}{6}$.
+	\begin{center}
+		\includegraphics[width=0.1\linewidth]{proba2}
+	\end{center}
+\end{ex}
+
+\begin{ex}{Lancer de pièces}{}
+	Lorsqu'on lance une pièce de monnaie qui EST truquée, elle n'a pas autant de chances de tomber sur une face que sur l'autre. On a peut-être $40\%$ de chances d'obtenir "Face" et $60\%$ de chances d'obtenir "Pile". Ce n'est pas une situation d'équiprobabilité.
+	\begin{center}
+		\includegraphics[width=0.2\linewidth]{proba3}
+	\end{center}
+\end{ex}
+
+\begin{prop}{}{}
+	On considère une situation d'\textbf{équiprobabilité} admettant $N$ issues. La probabilité d'un événement est égale au quotient du nombre d'issues qui réalisent cet événement par le nombre $N$.
+\end{prop}
+
+\begin{ex}{}{}
+	Une urne contient $4$ boules indiscernables au toucher.
+		\begin{center}
+		\includegraphics[width=0.15\linewidth]{proba4}
+	\end{center}
+	On tire au hasard une boule de l'urne. \\
+	Les boules étant indiscernables au toucher, chaque boule a la même chance d'être tirée, il s'agit donc d'une situation d'équiprobabilité.\\
+	Cette expérience admet \textcolor{red}{$4$} issues, on a donc:\\ $\mathbb{P}$(obtenir $1$) =  $\mathbb{P}$(obtenir $2$) =  $\mathbb{P}$(obtenir $3$) =  $\mathbb{P}$(obtenir $4$) = $\displaystyle\frac{1}{\textcolor{red}{4}}$.\\
+	Si on s'intéresse maintenant à l'événement "\textcolor{blue}{Obtenir une boule bleue}", on a :\\ 
+	$\mathbb{P}$(Obtenir une boule bleue) = $\displaystyle\frac{\textcolor{blue}{2}}{\textcolor{red}{4}}$
+\end{ex}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Carte mentale}
+
+	\begin{center}
+	\includegraphics[width=0.99\linewidth]{cmproba}
+\end{center}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
