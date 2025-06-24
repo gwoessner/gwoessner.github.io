@@ -1,0 +1,259 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{~~}
+\fancyhead[R]{~}
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Solides droits\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+\section{Pavé droit}
+
+\begin{defin}{Pavé droit}{}
+	Un \textbf{pavé droit} est un solide qui a $\trou{6}$ faces rectangulaires, $\trou{8}$ sommets et $\trou{12}$ arêtes.
+	\begin{center}
+		\includegraphics[width=0.35\linewidth]{paral1}
+	\end{center}
+\end{defin}
+
+\begin{ex}{}{}
+	Le \textbf{cube} est un pavé droit particulier, ses $6$ faces sont des \trou{carrés} superposables.
+\begin{center}
+\includegraphics[width=0.20\linewidth]{cube1}
+\end{center}
+\end{ex}
+
+\begin{prop}{Perspective cavallière}{}
+	Pour représenter un solide sur un plan, on utiliser la \textbf{perspective cavalière} en respectant les règles suivantes:
+	\begin{enumerate}
+		\item les arêtes de même longueur et parallèles sont représentées par des segments parallèles et de même longueur;
+		\item les arêtes cachées sont représentées en pointillés;
+		\item les arêtes obliques sont représentées par des arêtes n'ayant pas la même longueur que dans la réalité.
+	\end{enumerate}
+\end{prop}
+
+\begin{ex}{}{}
+	On représente ci-dessous un pavé droit en perspective cavalière:
+	\begin{enumerate}
+		\item les segments $[AE]$ et $[BF]$ sont \trou{parallèles};
+		\item les longueurs \textcolor{red}{$DH$} et \textcolor{red}{$CG$} sont \trou{égales};
+		\item l'arête $[HE]$ est cachée.
+	\end{enumerate}
+	\begin{center}
+		\includegraphics[width=0.30\linewidth]{paral2}
+	\end{center}
+\end{ex}
+
+\begin{defin}{}{}
+	Un \textbf{patron} d'un solide est une figure en grandeur réelle qui, après pliage, permet de construire ce solide.
+\end{defin}
+
+\begin{ex}{}{}
+	On représente ci-dessous un parallélipède rectangle et l'un de ses patrons, les faces de même couleur sont superposables:
+	\begin{center}
+		\includegraphics[width=0.30\linewidth]{paral3}
+		\hspace{2cm}
+		\includegraphics[width=0.50\linewidth]{paral4}		
+	\end{center}
+\end{ex}
+
+\begin{prop}{Volume}{}
+	Le \textbf{volume} $\mathcal{V}$ d'un pavé droit de longueur $L$, de largeur $l$ et de hauteur $h$ est donné par la formule : $\mathcal{V}= L \times l \times h$.
+\end{prop}
+
+\begin{ex}{}{}
+ On considère un pavé droit de longueur $L=10$ $cm$, de largeur $l=5$ $cm$ et de hauteur $h=2$ $cm$. Le volume de ce pavé droit est: $\mathcal{V}= L \times l \times h =$ \trou{$10 \times 5 \times 2 = 50 \times 2 = 100$} $cm^3$. 
+\end{ex}
+
+
+\section{Prisme droit}
+
+\begin{defin}{}{}
+	Un \textbf{prisme droit} possède :\\
+	- deux faces polygonales parallèles et superposables : les \textbf{bases};\\
+	- d'autres faces toutes rectangulaires: les \textbf{faces latérales}.\\
+	Les arêtes latérales d'un prisme droit ont toutes la même longueur. Cette longueur commune s'appelle la \textbf{hauteur} du prisme droit.
+		\begin{center}
+		\includegraphics[width=0.7\linewidth]{prisme1}
+	\end{center}
+\end{defin}
+
+\begin{prop}{Patron}{}
+Le \textbf{volume} d'un prisme droit est égal à \textbf{l'aire de la base} multipliée par \textbf{la hauteur}. 
+$$\mathcal{V} = \mathcal{A}\times h.$$
+\end{prop}
+
+\begin{ex}{}{}
+Un prisme droit dont la base est un triangle d'aire $6\text{cm}^2$ et de hauteur $10\text{cm}^2$ a pour volume 
+$$ \mathcal{V} = \dots $$ %6\times 10  = 60\text{cm}^3. $$
+\end{ex}
+
+
+\begin{rem}{}{}
+	Un pavé droit est un prisme droit à bases \trou{rectangulaires}.
+\end{rem}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Cylindre de révolution}
+
+\begin{defin}{}{}
+	Un \textbf{cylindre de révolution} est un cylindre obtenu en faisant tourner un rectangle autour de l'un de ses côtés.
+	\begin{center}
+		\includegraphics[width=0.15\linewidth]{cyl1}
+	\end{center}
+\end{defin}
+
+\begin{defin}{}{}
+	Les \textbf{bases} d'un cylindre sont deux \textbf{disques} de même rayon.\\
+	La \textbf{hauteur} d'un cylindre est la longueur du segment qui joint les centres des bases.
+	\begin{center}
+		\includegraphics[width=0.2\linewidth]{cyl2}
+	\end{center}
+\end{defin}
+
+\begin{defin}{Patron d'un cylindre de révolution}{}
+	\begin{center}
+		\includegraphics[width=0.6\linewidth]{cyl3}
+	\end{center}
+\end{defin}
+
+
+\begin{prop}{Volume}{}
+	Le \textbf{volume} $\mathcal{V}$ d'un cylindre de révolution de rayon $r$ et de hauteur $h$ est donné par la formule : $\mathcal{V}= \pi \times r^2 \times h$.
+\end{prop}
+
+\begin{rem}{}{}
+Comme $\pi \times r^2$ est l'aire de la base du cylindre, la formule est similaire à celle du volume du prisme droit !
+\end{rem}
+
+\begin{ex}{}{}
+	On considère un cylindre de révolution de rayon $r=3$ $cm$ et de hauteur $h=5$ $cm$. Le volume de ce pavé droit est: $\mathcal{V}= \pi \times r^2 \times h =$ \trou{$\pi \times 3^2 \times 5 = \pi \times 3 \times 3 \times 5 = \pi \times 9 \times 5 = \pi \times 45$} $\approx 141,4$ $cm^3$. 
+\end{ex}
+
+
+
+
+
+\end{document}
