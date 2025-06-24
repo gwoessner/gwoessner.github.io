@@ -1,4 +1,4 @@
-- title: General Information
+- title: Général
   type: map
   contents:
     - name: Nom
@@ -9,7 +9,7 @@
       value: Français (maternelle), English (universitaire)
 
 
-- title: Experience
+- title: Expériences
   type: time_table
   contents:
     - title: Professeur de mathématiques
@@ -19,8 +19,8 @@
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2024
       description:
-        - Chargé de TDs dans divers cours (probabilités et statistiques, analyse, topologie).
-        - Encadrement de mémoire de Bachelor et de Master (probabilités, mathématiques financières).
+        - Chargé de TDs dans divers cours (probabilités et statistiques, analyse, topologie)
+        - Encadrement de mémoire de Bachelor et de Master (probabilités, mathématiques financières)
 
 - title: Etudes
   type: time_table
