@@ -45,6 +45,15 @@ Une activité d'introduction pour la partie finale du chapitre (somme des angles
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_angles.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_angles.tex).  
 
 Le **Contrôle 5** sur les Chapitres 3.2 et 7 en [PDF]({{ site.baseurl }}/assets/teaching/controle_5.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_5.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
+
+### <u>Chapitre 8 : Fractions
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_fractions.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_fractions.tex).  
+Des exercices supplémentaires en [PDF]({{ site.baseurl }}/assets/teaching/exo_fractions.pdf) et leur corrigé en [PDF]({{ site.baseurl }}/assets/teaching/exo_fractions_corrigé.pdf).  
+
+### <u>Chapitre 9 : Probabilités
+Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_proba.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_proba.tex).  
+
+Le **Contrôle 6** sur les Chapitres 8 et 9 en [PDF]({{ site.baseurl }}/assets/teaching/controle_5.pdf) et en [ODT]({{ site.baseurl }}/assets/teaching/controle_5.odt), avec son corrigé en [PDF]({{ site.baseurl }}/assets/teaching/controle_5_corrigé.pdf).
 <br>
 <br>
 <br>
