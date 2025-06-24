@@ -29,8 +29,9 @@
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2025
       description:
-        - title: Les ED(P)S et étude des champs aléatoires,
-          contents:
+        - Les ED(P)S et étude des champs aléatoires,
+        - title: Cours suivis :
+          - contents:
             - Mathématiques pour la finance.
             - Mathématiques pour le machine learning.
     - title: Master 2 Probabilités et Modèles Aléatoires
