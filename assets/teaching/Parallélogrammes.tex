@@ -1,0 +1,259 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{~}
+\fancyhead[R]{~}
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Solides droits\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+\section{Parallélogrammes}
+	
+	
+	\begin{prop}{}{}
+		Dans un parallélogramme, les côtés opposés sont \trou{parallèles}.\\
+		Dans un parallélogramme, les côtés opposés ont \trou{la même longueur}.\\
+				Dan un parallélogramme, les diagonales se \trou{coupent en leur milieu}.
+		\begin{center}
+			\includegraphics[width=0.42\linewidth]{paraa}
+		\end{center}
+	\end{prop}
+	
+
+
+	
+	\begin{prop}{Conditions pour qu'un quadrilatère soit un parallélogramme :}{}
+		Si un quadrilatère a ses côtés opposés de même longueur, alors c'est un parallélogramme.\\Si un quadrilatère a ses côtés opposés parallèles, alors c'est un parallélogramme.\\
+		Si un quadilatère a des diagonales qui se coupent en leur milieu, alors c'est un parallélogramme.\\
+		~\\
+		Si un quadrilatère non croisé a \textbf{deux côtés parallèles et de même longueur}, alors ce quadrilatère est un parallélogramme.
+	\end{prop}
+
+\begin{ex}{}{}
+		Quelle est la nature du quadrilatère $TRUC$ ci-dessous ? C'est un  \trou{parallélogramme}.
+	\begin{center}
+	\includegraphics[width=0.25\linewidth]{para5}
+\end{center}
+Justification :\\
+~\\~\\~\\~\\
+\end{ex}
+
+\begin{prop}{Aire}{}
+	L’\textbf{aire d’un parallélogramme} est égale au produit de la longueur d’un côté par la hauteur relative à ce côté.
+		\begin{center}
+		\includegraphics[width=0.45\linewidth]{aire1}
+	\end{center}
+\end{prop}
+
+\begin{ex}{}{}
+	Calculer l'aire du parallélogramme $ABCD$ sachant que $(AH)$ est la hauteur relative au côté $[BC]$, $BC = 6$ cm et $AH = 5$ cm.
+			\begin{center}
+		\includegraphics[width=0.25\linewidth]{aire2}
+	\end{center}
+L'aire de $ABCD$ est égale à : \trou{$BC \times AH = 6 \times 5 = 30$ $cm^2$}.
+\end{ex}
+
+
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Losanges}
+
+	
+	\begin{prop}{}{}
+		Un losange est un parallélogramme, il possède donc toutes les propriétés des parallélogrammes.\\
+		~\\
+		Mais en plus :\\
+		Dans un losange, les quatre cotés sont \trou{de même longueur}.\\
+		Dans un losange, les diagonales sont \trou{perpendiculaires}.
+				\begin{center}
+			\includegraphics[width=0.25\linewidth]{los1}
+		\end{center}
+	\end{prop}
+	
+	
+\begin{prop}{Conditions pour qu'un quadrilatère soit un parallélogramme :}{}	
+Si un parallélogramme a des diagonales perpendiculaires, alors c'est un losange.\\ 
+Si un parallélogramme a deux côtés consécutifs égaux, alors c'est un losange.
+	\end{prop}
+
+\begin{ex}{}{}
+	Quelle est la nature du parallélogramme $ABCD$ ci-dessous ? C'est un  \trou{losange}.
+	\begin{center}
+		\includegraphics[width=0.25\linewidth]{los2}
+	\end{center}
+Justification :\\
+~\\
+\end{ex}
+
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Rectangles}
+	
+	
+	\begin{prop}{}{}
+	Un rectangle est un parallélogramme, il possède donc toutes les propriétés du parallélogramme.\\
+	~\\
+	Mais en plus :\\
+	Dans un rectangle, les diagonales sont \trou{de même longueur}.\\
+	Dans un rectangle, les quatre angles sont \trou{droits}.
+			\begin{center}                                              			\includegraphics[width=0.3\linewidth]{rect1}
+	\end{center}
+	\end{prop}
+
+	
+\begin{prop}{Conditions pour qu'un quadrilatère soit un parallélogramme :}{}	
+
+ Si un parallélogramme possède un angle droit, alors c'est un rectangle.\\
+Si un parallélogramme possède des diagonales de même longueur, alors c'est un rectangle.
+	\end{prop}      
+	
+\begin{ex}{}{}
+Quelle est la nature du quadrilatère $IJKL$ ci-dessous ? C'est un  \trou{rectangle}.
+\begin{center}
+	\includegraphics[width=0.2\linewidth]{rect3}
+\end{center}
+Justification :\\
+~\\~\\
+\end{ex}                                                           	
+	
+
+	
+	\section{Carrés}
+	
+	\begin{prop}{}{}
+		Un carré est à la fois un losange et un rectangle et est aussi un parallélogramme. Ainsi, le carré possède toutes les propriétés des losanges et des rectangles.\\~\\
+		\begin{center}
+			\includegraphics[width=0.25\linewidth]{carre1}
+		\end{center}
+	\end{prop}
+
+\begin{prop}{Conditions pour qu'un quadrilatère soit un parallélogramme :}{}	
+Toutes les combinaisons sont possibles. Il faut prouver que le quadrilatère est un losange et aussi un rectangle.
+\end{prop}                                                             
+	
+
+\section{Carte mentale}
+	\begin{center}
+	\includegraphics[width=0.9\linewidth]{cartementalequad}
+\end{center}
+
+\end{document}
