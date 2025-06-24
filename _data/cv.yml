@@ -29,12 +29,12 @@
       institution: Ecole Polytechnique Fédérale de Lausanne, Suisse
       year: 2020-2025
       description:
-        - Les ED(P)S et étude des champs aléatoires,
+        - Les ED(P)S et l'étude des champs aléatoires,
         - title: Cours suivis :
-          - contents:
+        - contents:
             - Mathématiques pour la finance.
             - Mathématiques pour le machine learning.
-    - title: Master 2 Probabilités et Modèles Aléatoires
+    - title: Master 2 "Probabilités et Modèles Aléatoires"
       institution: Université Pierre et Marie Curie, Paris VI, France
       year: 2020-2021
     - title: Agrégation externe de Mathématiques
