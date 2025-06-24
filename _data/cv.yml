@@ -29,10 +29,8 @@
       institution: Ecole Polytechnique Fédérale de Lausanne (EPFL)
       year: 2020-2025
       description:
-        Cours suivis,
-        - contents:
-            - Mathématiques pour la finance
-            - Mathématiques pour le machine learning
+          - Mathématiques pour la finance
+          - Mathématiques pour le machine learning
     - title: Master 2 "Probabilités et Modèles Aléatoires"
       institution: Université Pierre et Marie Curie, Paris VI
       year: 2020-2021
