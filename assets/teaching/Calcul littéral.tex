@@ -1,0 +1,286 @@
+\documentclass[12pt]{article}
+\usepackage{pst-all}
+\usepackage[french]{babel}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{blkarray}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{eurosym}
+\usepackage{array}
+\usepackage{graphicx}
+\parindent=0cm
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{graphicx}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{amsmath, amssymb, amsfonts, amscd, amsthm}
+\usepackage{pifont}
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\usepackage{multirow}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[L]{~}
+\fancyhead[R]{~}
+\fancyhead[C]{$5^e$}
+
+
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tcolorbox}% charge aussi pgf, verbatim, etoolbox et environ
+\tcbuselibrary{theorems}% charge aussi amsmath
+\usepackage{xcolor}
+
+\definecolor{propcolor}{rgb}{.804,.064,.464}
+\definecolor{defcolor}{rgb}{0,.545,0}
+\definecolor{thcolor}{rgb}{0.932,0,0}
+\definecolor{remcolor}{rgb}{1,0.5,0}
+\definecolor{excolor}{rgb}{.094,.455,.804}
+
+\usepackage{cleveref}
+
+\newtcbtheorem[crefname={definition}{definitions}]{Definition}{Definition}{defstyle}{def}
+
+
+\usepackage{varwidth} 
+\tcbuselibrary{skins}
+
+\newtcbtheorem[use counter from=Definition]{defin}{Définition}
+{enhanced,frame empty, theorem name,interior empty,colframe=defcolor,coltitle=defcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{defcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{theo}{Théorème}
+{enhanced,frame empty,theorem name,interior empty,colframe=thcolor,coltitle=thcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{thcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{prop}{Propriété}
+{enhanced,frame empty,theorem name,interior empty,colframe=propcolor,coltitle=propcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{propcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newtcbtheorem[use counter from=Definition]{ex}{Exemple}
+{enhanced,frame empty,theorem name,interior empty,colframe=excolor,coltitle=excolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{excolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+\newtcbtheorem[use counter from=Definition]{rem}{Remarque}
+{enhanced,frame empty,theorem name,interior empty,colframe=remcolor,coltitle=remcolor,fonttitle=\bfseries,
+	colbacktitle=white,
+	borderline={0.5mm}{0mm}{remcolor},
+	%borderline={0.5mm}{0mm}{ForestGreen!50!white,dashed},
+	attach boxed title to top left={yshift=-2mm, xshift = 2mm},
+	boxed title style={boxrule=0.4pt}, varwidth boxed title}{theo}
+
+
+\newif\iftrou\troutrue
+%mettre true à la place de false pour mettre des pointillés
+
+\newlength{\trouwidth}
+
+\newcommand{\trou}[1]{%
+	\iftrou%
+	\settowidth{\trouwidth}{#1}%
+	\hbox to \trouwidth{\dotfill}%
+	\else%
+	#1%
+	\fi}
+
+
+\newcommand\pointille[1][1cm]{\makebox[#1]{\dotfill}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+		\rule{\linewidth}{0.5mm} \\[0.4cm]
+		{ \huge \bfseries Calcul littéral\\[0.4cm] }
+		\rule{\linewidth}{0.5mm} \\
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Expressions littérales}
+
+\begin{defin}{}{}
+	Une \textbf{expression littérale} est une expression mathématique dans laquelle un ou plusieurs nombres sont remplacés par des \textbf{lettres}.
+\end{defin}
+
+\begin{ex}{}{}
+L’aire $\mathcal{A}$ d’un rectangle de longueur $L$ et de largeur $l$ peut s’écrire $\mathcal{A} = $\trou{$L\times l$}.\\
+On dit qu’on a exprimé l’aire du rectangle \textbf{en fonction de} $L$ et $l$.
+\end{ex}
+
+\begin{ex}{}{}
+	Un site internet vend des clés USB à $4$\euro $\hspace{0.01cm}$ l’unité et facture la livraison $3$\euro. Le prix à payer dépend du nombre $n$ de clés USB achetées. \\
+	On exprime le prix $P$ par l’expression littérale:  \trou{$P = 4 \times n + 3$}
+\end{ex}
+
+\begin{rem}{Convention}{}
+	On peut ne pas écrire le signe $\times$ d’une multiplication lorsque ce signe est situé devant une lettre ou devant une parenthèse.\\
+	De même $1 \times x$ pourrait s'écrire $1x$, mais on l'écrit $x$, on a $1 \times x =x$
+\end{rem}
+
+\begin{ex}{}{}
+	$5 \times x = 5x$ $\hspace{2cm}$ $3 \times 2 \times y = 6y$ $\hspace{2cm}$ $a\times b=ab$ $\hspace{2cm}$ $4\times (a+2)=4(a+2)$
+\end{ex}
+
+\begin{rem}{Attention !}{}
+	$2 \times 3$ ne s'écrit pas $23$.
+\end{rem}
+
+\begin{defin}{}{}
+	Soit $x$ un nombre quelconque.\\
+	$x\times x$ se note $x^2$ et se lit "$x$ au \textbf{carré}" ou "$x$ puissance $2$".\\
+	$x\times x \times x$ se note $x^3$ et se lit "$x$ au \textbf{cube}" ou "$x$ puissance $3$".
+\end{defin}
+
+
+\begin{rem}{Attention ! }{}
+Ne pas confondre $2x$ et $x^2$, en effet, $2x = x+x$ et $x^2=x \times x$.\\
+Par exemple, pour $x=5$, $2x=2 \times 5 =10$ et $x^2=5^2=25$ !
+\end{rem}
+
+\begin{defin}{}{}
+	\textbf{Calculer la valeur} d’une expression littérale, c’est attribuer un \trou{nombre} à chaque \trou{lettre} afin d’effectuer le calcul. On passe donc d'une \textbf{expression littérale} à une \textbf{expression numérique}.
+\end{defin}
+
+
+\begin{ex}{}{}
+On veut calculer l’aire d’un rectangle de longueur $6$ cm et de largeur $4$ cm. On a $L = 6$ et $l = 4$, on effectue donc le calcul suivant: 
+$\mathcal{A} = L \times l = $ \trou{$ 6 \times 4$} $=$ \trou{$24$}\\
+L’aire d’un rectangle de longueur $6$ cm et de largeur $4$ cm est donc de \trou{$24$} $cm^2$.
+\end{ex}
+
+\begin{ex}{}{}
+	Si on reprend l'exemple des clés USB et qu'on en achète $5$, on effectue le calcul suivant: $P= $\trou{$4 \times 5 +3$}\\
+	On devra donc payer \trou{$23$}\euro.
+\end{ex}
+
+
+
+\section{Egalités}
+
+\begin{defin}{Egalité}{}
+	Une \textbf{égalité} est composée de deux expressions séparées par le symbole « = ». Chacune de ses expressions est un \textbf{membre} de l'égalité.
+\end{defin}
+
+
+\begin{prop}{Tester une égalité}{}
+	Pour tester une égalité, on remplace l'inconnu par la \textbf{valeur demandée} et on regarde si les deux membres de l'équation sont égaux ou différents: s'ils sont égaux, l'égalité est vraie; sinon elle est fausse.
+\end{prop}
+
+\begin{ex}{}{}
+	L’égalité $3x-4 = 5+2x$ est-elle vraie dans les cas suivants :
+	\begin{enumerate}
+		\item $x=2$\\
+		Pour le membre de gauche, on écrit \trou{$3\times 2 - 4 = 0$};\\
+		pour le membre de droite, on écrit \trou{$5+2\times 2 = 9$}, ainsi l'égalité \trou{est fausse.}
+		\item $x=9$\\
+		Pour le membre de gauche, on écrit \trou{$3\times 9 - 4 = 23$};\\
+		pour le membre de droite, on écrit \trou{$5+2\times 9 = 23$}, ainsi l'égalité \trou{ est  vraie.}
+	\end{enumerate}
+\end{ex}
+
+\newpage
+
+\section{Simplification d'expression littérale}
+
+\begin{rem}{}{}
+Lorsqu'on est face à une expression littérale, la première chose à faire est de la \textbf{simplifier}. Pour cela on procède en 3 étapes :
+\begin{itemize}
+\item[1.] On identifie les blocs principaux, séparés par des \textbf{additions} ou \textbf{multiplications}.
+\item[2.] A l'intérieur de chaque bloc, on fait les \textbf{multiplications} des nombres, et on identifie les \textbf{lettres} présentes.
+\item[3.] On \textbf{regroupe} les blocs constitués des mêmes lettres (attention ! ça peut être par une addition ou une soustraction).
+\end{itemize}
+\end{rem}
+
+
+\begin{ex}{}{}
+Prenons l'exemple de l'expression littérale :
+$$ 4 \times 3 \times x ~~+~~ 2  \times y \times y  ~~-~~ 5 \times x $$
+\begin{itemize}
+\item[1.] On a le bloc $4 \times 3 \times x$, le bloc \trou{$2 \times y \times y$} et le bloc \trou{$5 \times x$}.
+\item[2.] On simplifie chaque bloc, et on obtient :
+$$ 12 x ~~+~~ \dots $$ % \trou{2 y^2  ~~-~~ 5 x} $$
+\item[3.] On remarque qu'il y a deux blocs en $x$, en les combinant (attention au signe $-$ !) on obtient finalement :
+$$ \dots $$ %\trou{7x + 2y^2} $$
+\end{itemize}
+\end{ex}
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Distributivité}
+
+\begin{defin}{}{}
+Lorsque l’on transforme un produit en une somme ou une différence, on dit que l’on \trou{\textbf{développe}} le produit.
+\end{defin}
+
+\begin{ex}{}{}
+$16 \times 101 = 16 \times (100 +1) = 16 \times 100 + 16 \times 1 = 1600 + 16 = 1616$
+\end{ex}
+
+
+\begin{prop}{Distributivité}{}
+	Soient $k$, $a$ et $b$ trois nombres.\\
+	La multiplication est distributive par rapport à l’addition et la soustraction:
+	\begin{center}
+	\includegraphics[width=0.7\linewidth]{distri1}
+	\end{center}
+\end{prop}
+
+
+\begin{ex}{}{}
+	On développe chaque expression numérique:
+	\begin{enumerate}
+		\item $12 \times (10+8)= 12\times 10 + 12 \times 8 = $\trou{$120$}+\trou{$96$} $=216$
+		\item $10 \times (3-0,2)= 10\times 3 - 10 \times 0,2 = $\trou{$30$}-\trou{$2$} $=$ \trou{$28$}
+	\end{enumerate}
+	On développe chaque expression littérale:
+	\begin{enumerate}
+		\item $7(x+5)= 7\times x + 7 \times 5 = 7x+ $\trou{$35$}
+		\item $4 \times (3-a)= 4 \times 3 -4 \times a = $ \trou{$12$} $-4a$
+	\end{enumerate}
+\end{ex}
+
+
+
+
+
+
+
+
+\end{document}
