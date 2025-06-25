@@ -84,4 +84,4 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_parallélogrammes
 *De même, vous pouvez afficher votre nom et l'année en en-tête en ajoutant les commandes*
 "\fancyhead[L]{Mr NOM}\fancyhead[R]{ANNEE}\fancyhead[C]{5e}" *à l'endroit indiqué dans le .tex.*
 
-*Enfin, pour compiler les .tex il vous faudra les fichiers d'image, que vous pourrez trouver pêle-mêle ici : TBD.*
+*Enfin, pour compiler les .tex il vous faudra les fichiers d'image, que vous pourrez trouver pêle-mêle [ici](https://github.com/gwoessner/gwoessner.github.io/tree/main/assets/teaching/pictures).*
