@@ -1,0 +1,194 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 10, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Le mouvement brownien (MB).
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_{t\in[0,T]},\mathbb{P})$, et on supposera que $(B_t)_t$ est un mouvement brownien adapté à la filtration.
+
+
+\paragraph{Exercice 1}
+Dans le cours on a construit le mouvement brownien sur $[0,1]$. Dans cet exercice on va l'étendre à $[0,\infty[$.\\
+Soient, pour $i=1,2,\dots$, des MB indépendants $(B_t^i)_{t\in[0,1]}$. On définit alors le processus $(B_t)_{t\geq 0}$ par 
+$$ B_t := \sum_{i=1}^{\lfloor t \rfloor} B^i_1 + B^{\lfloor t \rfloor + 1}_{t-\lfloor t \rfloor}. $$
+Montrez que le processus $(B_t)_{t\geq 0}$ est bien un mouvement brownien sur $[0,\infty[$.
+
+\begin{proof}
+On va vérifier que les 4 propriétés du MB sont bien vérifiées.
+\begin{itemize}
+    \item[(1)] On a bien évidemment $B_0=0$, car $\sum_{i=1}^0=0$ par définition.
+    \item[(2)] Remarquons d'abord que, pour $s<t$, 
+    \begin{align}
+    \label{rouge}
+    B_t-B_s = \sum_{i=\lfloor s \rfloor + 1}^{\lfloor t \rfloor} B^i_1 + B_{t-\lfloor t \rfloor}^{\lfloor t \rfloor + 1} - B_{s-\lfloor s \rfloor}^{\lfloor s \rfloor + 1}
+    \end{align}
+    Ensuite, pour $t_1 \leq t_2 \leq t_3$, il s'agit de montrer que $(B_{t_3}-B_{t_2}) \amalg (B_{t_2}-B_{t_1})$. On peut procéder par disjonction de 4 cas, selon que $\lfloor t_1\rfloor < \lfloor t_2\rfloor < \lfloor t_3\rfloor$, ou que l'une ou les deux inégalités soient des égalités. On présente ici le premier cas.\\
+    Dans ce cas on a immédiatement que $\sum_{i=\lfloor t_1 \rfloor+1}^{\lfloor t_2\rfloor} B_1^i$ et $-B^{\lfloor t_1\rfloor+1}_{t_1-\lfloor t_1\rfloor}$ sont indépendants de $B_{t_3}-B_{t_2}$.\\
+    Le terme restant $B_{t_2-\lfloor t_2\rfloor}^{\lfloor t_2\rfloor+1}$ est lui indépendant de $B_1^{\lfloor t_2\rfloor+1}-B_{t_2-\lfloor t_2\rfloor}^{\lfloor t_2\rfloor +1}$, ainsi que de tous les autres termes apparaissant dans $B_{t_3}-B_{t_2}$.\\
+    On a donc bien l'indépendance recherchée dans le premier cas, et je vous laisse faire les autres vous-même............
+    \item[(3)] On veut montrer que pour $s\leq t$, on a bien $B_t-B_s \sim \mathcal{N}(0,t-s)$. Or en réécrivant \eqref{rouge} on obtient, si $\lfloor s \rfloor < \lfloor t \rfloor$ (l'autre cas est à nouveau laissé à l'initiative du lecteur),
+    $$ B_t-B_s = (B^{\lfloor s \rfloor +1}_1-B^{\lfloor s \rfloor +1}_{s-\lfloor s \rfloor}) + \sum_{i=\lfloor s \rfloor + 2}^{\lfloor t \rfloor} B^i_1 + B_{t-\lfloor t \rfloor}^{\lfloor t \rfloor + 1}, $$
+    ce qui correspond à une somme de gaussiennes indépendantes
+    $$ \mathcal{N}(0,1-(s-\lfloor s \rfloor)) + \sum_{i=\lfloor s \rfloor + 2}^{\lfloor t \rfloor} \mathcal{N}(0,1) + \mathcal{N}(0,t-\lfloor t \rfloor) ~~\sim~~ \mathcal{N}(0,t-s). $$
+    \item[(4)] Chaque MB $B^i$ est continu sur un ensemble presque sûr $\Omega_i\subset \Omega$, ainsi $B$ est bien continu sur $\cap_i \Omega_i$, qui est lui aussi presque sûr.
+\end{itemize}
+\end{proof}
+
+
+
+\paragraph{Exercice 2}
+Soit $X:=(X_1,\dots,X_n)$ un vecteur gaussien. Montrez qu'il est caractérisé par son vecteur d'espérance $m_i:=\E[X_i]$ et sa matrice de covariance $Cov(i,j):=\E[X_iX_j]$.
+
+\begin{proof}
+On calcule la fonction caractéristique du vecteur $X$, donnée par
+$$\varphi_X(u):=\E\left[e^{i\langle u~|~X\rangle}\right] = \exp\left( i\E[\langle u~|~X\rangle] - \dfrac{1}{2}Var(\langle u~|~X\rangle) \right).$$
+Or, $\E[\langle u~|~X\rangle] = \langle u~|~\E[X]\rangle = \langle u~|~m\rangle$, et 
+\begin{align*}
+Var(\langle u~|~X\rangle) &= \E\left[ (\langle u~|~X\rangle)^2 \right]-\E[(\langle u~|~m\rangle)^2] \\
+&= \sum_{ij}u_iu_j\E[X_iX_j]=u^t.Cov.u.
+\end{align*}
+Ainsi la fonction caractéristique, et donc la loi, du vecteur gaussien $X$ est bien caractérisée par espérance et matrice de covariance.
+\end{proof}
+
+\paragraph{Exercice 3}
+Trouver un processus $(W_t)_{t\in[0,1]}$, qui a les mêmes lois marginales que $(B_t)_{t\in[0,1]}$ mais qui n'est pas continu.
+
+\begin{proof}
+On peut prendre $W_t := B_t + \delta_Y(t)$ avec $Y\sim\mathcal{U}[0,1]$ indépendante, comme dans la Feuille 9 Exercice 4.
+\end{proof}
+
+\paragraph{Exercice 4}
+Calculer $\E[B_5~|~B_1]$ et $\E[B_5^2~|~B_1]$.
+
+\begin{proof}
+On a $$\E[B_5~|~B_1]=\E[B_5-B_1~|~B_1]+B_1=B_1,$$
+et
+$$\E[B_5^2~|~B_1]=\E[(B_5-B_1)^2+2B_5B_1-B_1^2~|~B_1]=\E[(B_5-B_1)^2]+2B_1^2-B_1^2=4+B_1^2.$$
+\end{proof}
+
+
+\paragraph{Exercice 5}
+Fixons $t>0$ et posons, pour $n\in\N$ et $0\leq i < 2^n$ des entiers, $t_i:=t\frac{i}{2^n}$.\\
+Montrez que
+$$\sum_{i=0}^{2^n-1} (B_{t_{i+1}}-B_{t_i})^2 ~\mapsto t,$$
+dans $L^2(\mathbb{P})$ et \textit{presque sûrement}.
+
+\begin{proof}
+Commençons par la preuve de la convergence $L^2$.\\
+On note, pour tout $n$ et $i$, $Y^n_i:=(B_{t_{i+1}}-B_{t_i})^2-\frac{t}{2^n}$. A $n$ fixé les $(Y_i^n)_i$ sont indépendantes et centrées, et vérifient $Var(Y_i^n)=\E[(Y_i^n)^2]=^\star2(\frac{t}{2^n})^2$. Ainsi on calcule,
+\begin{align*}
+\E\left[\left( \sum_{i=0}^{2^n-1} (B_{t_{i+1}}-B_{t_i})^2-t \right)^2\right] &= \E\left[ \left( \sum_{i=0}^{2^n-1}Y_i^n \right)^2 \right] = \sum_{i=0}^{2^n-1}Var(Y^n_i)\\
+&=2\sum_{i=0}^{2^n-1} \left(\dfrac{t}{2^n}\right)^2 = \dfrac{2}{2^n}t^2 ~~ \longrightarrow_n~~ 0.
+\end{align*}
+Passons maintenant à la convergence presque sûre.\\
+On a vu que 
+$$ \E\left[ \left( \sum_{i=0}^{2^n-1}Y_i^n \right)^2 \right] = \dfrac{t^2}{2^{n-1}}. $$
+Ainsi, par l'inégalité de Chebychev
+$$ \mathbb{P}\left( \left| \sum_{i=0}^{2^n-1} Y_i^n \right| > \dfrac{1}{n} \right) \leq \dfrac{t^2n^2}{2^{n-1}},$$
+qui est le terme générale d'une série sommable en $n\geq 1$. Ainsi d'après le lemme de Borel-Cantelli, il existe presque sûrement un rang $N$ à partir duquel pour $n\geq N$ on ait
+$$  \left| \sum_{i=0}^{2^n-1} Y_i^n \right| \leq \dfrac{1}{n},$$
+ce qui implique bien la convergence presque sûre.
+\end{proof}
+
+
+\paragraph{Exercice 8}
+Calculer $\mathbb{P}(B_1>0 \cap B_2>0)$ et $\mathbb{P}(B_1>0 \cap B_2<0)$.
+
+\begin{proof}
+On calcule
+\begin{align*}
+    \mathbb{P}(B_1>0 \cap B_2>0) &= \int_{\R} \mathbb{P}(B_2>0\cap B_1>0~|~B_1=
+    y)d\mathbb{P}(B_1=y)\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\mathbb{P}(B_2>0~|~B_1=y)dy\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\mathbb{P}(B_2-B_1>-y~|~B_1=y)dy\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\mathbb{P}(B_2-B_1>-y)dy\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\int_{-y}^\infty \dfrac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dzdy\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\int_0^\infty \dfrac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dzdy + \int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\int_{-y}^0 \dfrac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dzdy\\
+    &=\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}dy\int_0^\infty \dfrac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dz + \int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}\int_0^y \dfrac{1}{\sqrt{2\pi}}e^{-\frac{z^2}{2}}dzdy\\
+    &=\dfrac{1}{2}.\dfrac{1}{2}+\int_{\R^+}\dfrac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}.\left(\dfrac{1}{2}\text{erf}(\sqrt{2}y)\right)dy\\
+    &=\dfrac{1}{4}+\int_{\R^+}\dfrac{1}{2\sqrt{\pi}}e^{-\frac{x^2}{4}}\text{erf}(x)dx,
+\end{align*}
+où erf est la fonction d'erreur de Gauss.\\
+Pour le deuxième calcul, il faut utiliser que 
+$$ \mathbb{P}(B_1>0\cap B_2>0)+\mathbb{P}(B_1>0\cap B_2<0)= \mathbb{P}(B_1>0)=\dfrac{1}{2}. $$
+\end{proof}
+
+~\\
+$\star$ il faut utiliser que si $B\sim \mathcal{N}(0,\sigma^2)$, alors $\E[B^{2k}]=\frac{(2k)!}{2^kk!}\sigma^{2k}$.
+
+\end{document}
+
+
+\paragraph{Exercice 6}
+Exercice pour montrer les propriétés de symétrie, d'échelle, d'inversion du temps et de retournement du temps ?
+
+
+\paragraph{Exercice 8*}
+Soit $(\varphi_n)_n$ une base hilbertienne de $H:=L^2([0,T],\mathcal{B},dx)$, et $(\epsilon_n)_n$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Montrez que la famille de processus $(B_t^n)_n$ définie par 
+$$ B_t^n := \sum_{k=0}^n \epsilon_k \langle \varphi_k~|~\mathbf{1}_{[0,t]}\rangle,$$
+où $\langle\cdot~|~\cdot\rangle$ est le produit scalaire de $H$, converge dans $L^2(\mathbb{P})$ vers un mouvement brownien.
+
+
+\paragraph{Exercice 6}
+Soit $\lambda\geq 0$.\\
+Montrez que les processus $(M_t)_{t\in[0,1]}$ défini par $M_t := e^{\lambda B_t - \frac{\lambda^2}{2}t}$ est une martingale.
