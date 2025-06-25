@@ -1,0 +1,236 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 11, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Le mouvement brownien (MB).
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_{t\in[0,T]},\mathbb{P})$, et on supposera que $(B_t)_t$ est un mouvement brownien adapté à la filtration.
+
+
+\paragraph{Exercice 1}
+Soient $(X_t)_t$ et $(Y_t)_t$ deux MB.\\
+Vérifiez que les deux processus ont les mêmes lois fini-dimensionnelles.
+
+\begin{proof}
+Soient $0\leq t_1 < \dots < t_n$, et on veut montrer que $(X_{t_1},\dots,X_{t_n})\sim (Y_{t_1},\dots,Y_{t_n})$. Par bijection, ceci est équivalent à montrer que 
+$$ (X_{t_1},X_{t_2}-X_{t_1},\dots,X_{t_n}-X_{t_{n-1}}) \sim (Y_{t_1},Y_{t_2}-Y_{t_1},\dots,Y_{t_n}-Y_{t_{n-1}}). $$
+Or ces deux derniers vecteurs ont bien la même loi, la loi donnée par $n$ lois normales indépendantes qu'on écrit
+$$ \mathcal{N}(0,t_1)\otimes\mathcal{N}(0,t_2-t_1)\otimes\dots\otimes\mathcal{N}(0,t_n-t_{n-1}). $$
+\end{proof}
+
+
+
+
+
+\paragraph{Exercice 2}
+Calculez la densité de $B_t$ pour un $t>0$, et montrez qu'elle vérifie l'équation aux dérivées partielles
+$$ \partial_t p(t,x) - \dfrac{1}{2}\Delta p(t,x) =0. $$ 
+Donnez un sens à $p_0(x)$.
+
+\begin{proof}
+On sait que $B_t\sim\mathcal{N}(0,t)$, ainsi on a tout de suite que 
+$$ p(t,x) = \dfrac{1}{\sqrt{2\pi t}}e^{-\frac{x^2}{2t}}. $$
+Un calcul direct montre alors bien que $p$ vérifie l'équation de la chaleur.\\
+Enfin, on calcule pour $f\in C^\infty_c(\R)$ une fonction-test la quantité 
+$$\lim_{t\mapsto 0}\int_{\R} p(t,x) f(x) dx =^\star f(0), $$
+ce qui indique qu'on peut attribuer à $p(0,x)$ le sens de $\delta_0$.\\
+~\\
+L'égalité$~^\star$ est vraie car on peut faire le raisonnement d'analyse suivant :\\
+Soit $\varepsilon>0$. Soit $\eta>0$ tel que $|f(x)-f(0)|<\varepsilon$ pour $x\in [-\eta,\eta]$. Soit $T$ tel que $\int_{-\eta}^\eta p_t(x)dx>1-\frac{\varepsilon}{2\|f\|_\infty}$ pour $t\geq T$. On calcule alors
+\begin{align*}
+    \left| \int_{\R} p_t(x)f(x)dx-f(0) \right| &= \left| \int_{\R} p_t(x)(f(x)-f(0))dx \right| \\
+    &\leq \int_{\R} p_t(x)|f(x)-f(0)|dx  \\
+    &\leq \int_{[-\eta,\eta]} p_t(x)|f(x)-f(0)|dx + \int_{[-\eta,\eta]^c} p_t(x)|f(x)-f(0)|dx \\
+    &\leq \int_{\R}p_t(x)\varepsilon dx + 2\|f\|_\infty \int_{[-\eta,\eta]^c} p_t(x)dx \\
+    &\leq 2\varepsilon.
+\end{align*}
+\end{proof}
+
+
+\paragraph{Exercice 3}
+Montrez que, pour tout $T>0$, le processus $(\tilde{B}_t)_{t\in [0,T]}$ défini par
+$$ \tilde{B}_t := B_{T-t}-B_T, $$
+est un MB.
+
+\begin{proof}
+Pour montrer qu'un processus est brownien, on a 3 façons de procéder :
+\begin{itemize}
+    \item montrer que les 4 propriétés fondamentales du début du cours sont vérifiées,
+    \item montrer que le processus est continu, et a les mêmes lois fini-dimensionnelles que le mouvement brownien,
+    \item montrer qu'il s'agit d'un processus gaussien (toute combinaison linéaire est une gaussienne), et montrer que son espérance est nulle et que sa covariance est $\E[B_tB_s] = \min(s,t)$, enfin il ne faut pas oublier de montrer la continuité.
+\end{itemize}
+Ici, le plus simple est de prendre la troisième caractérisation. C'est encore bien entendu un processus gaussien centré et continu, il s'agit donc seulement de calculer sa covariance. On prend donc $s<t$ et on calcule,
+\begin{align*}
+    \E[(\tilde{B}_{T-t}-\tilde{B}_{T})(\tilde{B}_{T-s}-\tilde{B}_{T})] &= \E[\tilde{B}_{T-t}\tilde{B}_{T-s}]-\E[\tilde{B}_{T}\tilde{B}_{T-s}]-\E[\tilde{B}_{T-t}\tilde{B}_{T}]+\E[\tilde{B}_{T}^2]\\
+    &=T-t - (T-s) - (T-t) + T \\
+    &=s = \min(s,t).
+\end{align*}
+\end{proof}
+
+
+
+
+
+
+\paragraph{Exercice 4}
+On définit l'espace 
+$$H^1:=\{g\in L^2[0,1]\cap C[0,1]~:~g(0)=0,~g\text{ existe pp et } \int_0^1 |g'(t)|^2dt<\infty\},$$
+muni du produit scalaire $\langle f~|~g\rangle := \int_0^1 f'(t)g'(t)dt$. On admet qu'il s'agit d'un espace de Hilbert.\\
+On définit également pour $n\in\N^\times$ les fonctions sur $[0,1]$ par $\psi_0(t)=t$ et pour $k=1,3,5,\dots,(2^n-1)2^{-n}$, les fonctions linéaires par morceaux telles que\\
+\begin{center}
+\begin{tabular}{c|cc}
+    $\psi_{n,k}(t) =$ & $2^{-\frac{n+1}{2}}$ & si $t=k2^{-n}$\\
+    & $0$  & si $t\in \mathcal{D}_n$.\\
+\end{tabular}
+\end{center}
+Montrez que la famille $(\psi_{n,k})_{n,k}$ forme un système orthonormé et complet de $H^1$.\\
+\textit{\textbf{Indication} : Utilisez le fait que la dérivée de toute fonction de $H^1$ est dans $L^2$.}\\
+~\\
+Montrez ensuite que, si chaque $X_{n,k}$ est une $\mathcal{N}(0,1)$ indépendante, on a
+$$ B_t^N := \sum_{n=0}^N \sum_{k=0}^{2^n-1} \psi_{n,k}(t)X_{n,k} \longmapsto_{N\mapsto \infty} B_t, $$
+où $B$ est un mouvement brownien, et où la convergence a lieu pour chaque $t\in[0,1]$ dans $L^2(\mathbb{P})$.\\
+\textit{\textbf{Indication :} A quel objet du cours correspond la variable $\sum_{k=0}^{2^n-1} \psi_{n,k}(t)X_{n,k}$?}\\
+~\\
+En déduire que si $(X_t)_t$ et $(Y_t)_t$ sont deux MB, alors ils induisent la même loi sur $C[0,1]$.\\
+\textit{\textbf{Indication :} Etudiez le processus linéaire par morceaux défini par les $\{X_t~:~t\in \mathcal{D}_N\}$ où $\mathcal{D}_N$ désigne les diadiques d'ordre $N$.}
+
+\begin{proof}
+On montre facilement que chaque $\psi_{n,k}\in H^1$ et que leur dérivée existe presque partout et est la fonction constante par morceaux telle que
+$$ \psi'_{n,k}(t) := 2^{\frac{n-1}{2}}\mathbf{1}_{[\frac{k-1}{2^{-n}},\frac{k}{2^{-n}}[}(t) - 2^{\frac{n-1}{2}}\mathbf{1}_{[\frac{k}{2^{-n}},\frac{k+1}{2^{-n}}[}(t) .$$
+Par calcul direct sur les $\psi'_{n,k}$, on montre facilement que la famille $(\psi_{n,k})_{n,k}$ forme un système orthonormé de $L^2[0,1]$.\\
+De plus, comme $H^1$ peut être vu comme un sous-ensemble de $L^2[0,1]$ (plus précisément, on a que $\{g'~:~g\in H^1\}$ se plonge dans $L^2[0,1]$ avec la même norme), les questions de densité peuvent être traitées comme si on était sur $L^2[0,1]$. Ainsi, la famille est également complète car en recomposant les $\psi'_{n,k}$, elle permet d'obtenir les fonctions indicatrices de tout intervalle dyadique (c'est-à-dire de la forme $[k2^{-n},(k+1)2^{-n}[$) ; puis par densité des dyadiques ont obtient toutes les fonctions indicatrices d'intervalle ; et enfin on sait bien que ceci permet de retrouver toutes les fonctions de $L^2[0,1]$.\\
+~\\
+Pour montrer la convergence de la suite $B^N$ vers le mouvement brownien, il existe 2 manières de procéder.
+\begin{itemize}
+    \item[$\bullet$] Pour la première façon de procéder, on peut se contenter de remarquer que les variables $\sum_{k=0}^{2^n-1} \psi_{n,k}(t)X_{n,k}$ correspondent très exactement aux variables $h_n$ du cours. Ainsi on peut directement utiliser le résultat du cours, et conclure la convergence du processus $B^N$ vers le mouvement brownien.
+    \item[$\bullet$] Pour être exhaustif, on présente également une autre façon de procéder, qui se passe du résultat du cours, mais qu'on peut passer outre en première lecture.\\
+    Comme on a vu qu'ils constituent une base de Hilbert de $H^1$, pour la simplicité des notations, on est donc maintenant justifiés à renoter les $\psi_{n,k}$ par $\psi_i$ pour $i=2^n+k$.\\
+    Soit $t\in[0,1]$, et montrons que d'abord que la suite $(B_t^N)_N$ est de Cauchy dans $L^2(\mathbb{P})$. On calcule pour $0\leq M<N$,
+    \begin{align*}
+        \E[(B_t^N-B_t^M)^2] = \E\left[ \left(\sum_{i=M+1}^N \psi_i(t) X_i\right)^2 \right] = \sum_{i=M+1}^N \psi_i(t)^2
+    \end{align*}
+    Or, en notant $e_t \in H^1$ la primitive de $\mathbf{1}_{[0,t]}$, on a
+    $$ \psi_i(t)^2=\left(\int_0^t\psi'_i(s)ds\right)^2=\left( \int_0^1 \psi_i(s)\mathbf{1}_{[0,t]}(s)ds \right)^2 = \langle \psi_i ~|~e_t\rangle^2. $$
+    Ainsi, comme on vient de montrer que la famille $(\psi_i)_{i\in\N}$ est une base hilbertienne de $H^1$, par l'égalité de Parseval la somme $\sum_i \langle \psi_i~|~e_t\rangle^2$ converge vers $\|e_t\|_{H^1}<\infty$, et on a bien montré que la suite $(B_t^N)_N$ est de Cauchy dans $L^2(\mathbb{P})$ pour tout $t\in[0,1]$. Donc elle converge vers une limite notée 
+    $$B_t:=\sum_{i=0}^\infty \psi_i(t)X_i.$$\\
+    Il s'agit maintenant de montrer que le processus $(B_t)_t$ qu'on vient de définir est gaussien. Comme dans l'exercice précédent, il faut choisir une stratégie d'attaque, et on va à nouveau choisir la troisième. Or, il est immédiat que le processus est gaussien (en tant que limite de processus gaussiens), et centré.\\
+    Montrons maintenant que sa covariance est bien $Cov(s,t)=\min(s,t)$. Faisons un raisonnement similaire au précédent et calculons,
+    \begin{align*}
+        \E[B_tB_s]=\sum_{i=0}^\infty \psi_i(t)\psi_i(s) = \sum_i \langle\psi_i~|~e_t\rangle\langle\psi_i~|~e_s\rangle = \langle     e_t~|~e_s\rangle = \min(s,t).
+    \end{align*}
+    Enfin, il ne reste qu'à montrer la continuité du processus $(B_t)_t$.\\
+    On calcule, en utilisant le Lemme \ref{lemme},
+    \begin{align*}
+        \left|\sum_{k=0}^{2^n-1}\psi_i(t)X_i\right| &\leq \max_{k=0,\dots,2^n-1} |X_{n,k}|~.~ \|\max_{k=0,\dots,2^n-1} \psi_{n,k}\|_\infty ~~~~~~~~\text{car les $\psi_{n,k}$ sont à support disjoints}\\
+        &\leq  2^{-\frac{n+1}{2}} M\sqrt{n}
+    \end{align*}
+    Or $2^{-\frac{n+1}{2}} M\sqrt{n}$ est le terme général d'une série convergente indépendante de $t\in[0,1]$. Ainsi, la convergence de $B_t=\sum_{n\in\N}  \left(\sum_{k=0}^{2^n-1}\psi_i(t)X_i\right) $ est presque sûrement normale, et par continuité des $\psi_i(t)$, le processus $B_t$ est bien continu.
+\end{itemize}
+Pour répondre à la dernière question, on considère $\{X_t~:~t\in \mathcal{D}_N\}$ où $\mathcal{D}_N$ désigne les diadiques d'ordre $N$. D'après les propriétés du mouvement brownien, ce processus a la même loi que $\sum_{n=0}^N h_n$, où $h_n$ est la même variable que celle du cours. Ainsi on a, pour $t\in\mathcal{D}_N$,
+$$ X_t \sim \sum_{n=0}^N h_n(t) \sim \sum_{n=0}^N \sum_{k=0}^{2^n-1} \psi_{n,k}(t)X_{n,k} \sim B_t^N. $$
+On conclut alors en invoquant l'unicité de la convergence en loi de $B_t^N$, la continuité de $X_t$ et la densité de $\mathcal{D}=\cup_N \mathcal{D}_N$
+\end{proof}
+
+
+
+\small{
+\begin{lem}
+\label{lemme}
+Soit $(X_{n,k})_{n\geq 0, k=0,\dots,2^n-1}$ une suite \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Il n'existe presque sûrement qu'un nombre fini d'évènements 
+$$B_n:=\{\max_{k=0,\dots,2^n-1} |X_{n,k}|>2\sqrt{n}\},$$
+qui se réalisent en même temps.\\
+Ainsi, il existe  une variable aléatoire $M$ telle que 
+$$ \max_{k=0,\dots,2^n-1} |X_{n,k}|\leq M \sqrt{n}, $$
+presque sûrement.
+\end{lem}
+
+\begin{proof}
+On calcule 
+$$\mathbb{P}(B_n)\leq \sum_{k=0}^{2^n-1} \mathbb{P}\{|X_{n,k}|>2\sqrt{n}\} \leq 2^n \mathbb{P}(|X_{0,0}|>2\sqrt{n}) \leq^\star 2^n e^{-2n}.$$
+Et comme $\sum_n 2^n e^{-2n}$ converge, on conclut avec le Lemme de Borel-Cantelli.\\
+~\\
+L'inégalité$~^\star$ provient de l'inégalité vraie pour toute $X\sim\mathcal{N}(0,1)$ 
+$$\mathbb{P}(X>x)\leq e^{-\frac{x^2}{2}}.$$
+\end{proof}
+
+}
+
+
+
+
+\end{document}
+
+
+
+
+
+\paragraph{Exercice 8*}
+Soit $(\varphi_n)_n$ une base hilbertienne de $H:=L^2([0,T],\mathcal{B},dx)$, et $(\epsilon_n)_n$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Montrez que la famille de processus $(B_t^n)_n$ définie par 
+$$ B_t^n := \sum_{k=0}^n \epsilon_k \langle \varphi_k~|~\mathbf{1}_{[0,t]}\rangle,$$
+où $\langle\cdot~|~\cdot\rangle$ est le produit scalaire de $H$, converge dans $L^2(\mathbb{P})$ vers un mouvement brownien.
+
+
+\paragraph{Exercice 6}
+Soit $\lambda\geq 0$.\\
+Montrez que les processus $(M_t)_{t\in[0,1]}$ défini par $M_t := e^{\lambda B_t - \frac{\lambda^2}{2}t}$ est une martingale.

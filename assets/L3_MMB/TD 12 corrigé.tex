@@ -1,0 +1,192 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 12, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Le mouvement brownien (MB), suite.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_t)_{t\in[0,T]},\mathbb{P})$, et on supposera que $(B_t)_t$ est un mouvement brownien adapté à la filtration.
+
+
+\paragraph{Exercice 1}
+Montrez que
+$$ \mathbb{P}(\limsup B_t = - \liminf B_t = \infty)=1. $$
+En déduire que 
+$$ \mathbb{P}(\forall \varepsilon>0,~:~\exists s,t \in [0,\varepsilon],~B_s>0,B_t<0)=1. $$
+
+\begin{proof}
+Soit le processus discret $X_n:=B_n$. On a que $X_n=\sum_{k=1}^n X_k-X_{k-1}$, et chaque $X_k-X_{k-1}$ est \textit{i.i.d.} et suit une $\mathcal{N}(0,1)$. Ainsi on peut dire que $(X_n)_n$ est une marche aléatoire de pas $\mathcal{N}(0,1)$, et on a déjà vu que 
+$$ 1 = \mathbb{P}(\limsup X_n = - \liminf X_n = \infty) \leq \mathbb{P}(\limsup B_t = - \liminf B_t = \infty).$$
+Pour conclure, il suffit d'appliquer le résultat précédent au processus obtenu par inversion du temps $\tilde{B}_t := tB_{\frac{1}{t}}$, qui est toujours un mouvement brownien.\\
+\textit{voir remarque piazza si on ne dispose pas du resultat sur la MA gaussienne.}
+\end{proof}
+
+
+
+\paragraph{Exercice 2}
+Soit $(\varphi_n)_{n\geq 1}$ une famille orthonormée de fonctions de $L^2([0,1],\mathcal{B},dt)$ donnée par $\varphi_n(t):=\sqrt{2}\sin(\pi n t)$. Montrez que les variables aléatoires $\langle \varphi_n~|~B\rangle_2$ où $\langle\cdot~|~\cdot \rangle_2$ est le produit scalaire usuel de $L^2[0,1]$, sont indépendantes de loi $\mathcal{N}(0,\sigma_n^2)$ pour un certain $\sigma_n$.\\
+En déduire une expression de $B_t$ dans une base comprenant les $\varphi_n$. Vérifiez la convergence de la série de Fourier que vous avez définie dans $L^2[0,1]$.
+
+\begin{proof}
+En approximant l'intégrale par une somme de Riemann, on a que
+$$\langle \varphi_n~|~B\rangle_2 = \int_0^1\varphi_n(t)B(t)dt=\lim_{n\mapsto\infty} \dfrac{1}{n}\sum_{k=1}^n \varphi_n{\small\left(\dfrac{k}{n}\right)}B{\small\left(\dfrac{k}{n}\right)}.$$
+Ainsi, étant une limite presque sûre de lois normales, $\langle \varphi_n~|~B\rangle_2$ est encore une loi normale. La famille $(\langle \varphi_n~|~B\rangle_2)_n$ est donc un processus gaussien, par Fubini il est centré, et on calcule sa matrice de covariance 
+\begin{align*}
+    \E[\langle \varphi_n~|~B\rangle_2 \langle \varphi_m~|~B\rangle_2] &= \E\left[\int_0^1\int_0^1 \varphi_n(t)\varphi_m(s) B_tB_sdsdt \right]\\
+    &= \int_0^1\int_0^1 \varphi_n(t)\varphi_m(s) \E[B_tB_s]dsdt\\
+    &= \int_0^1\int_0^1 \varphi_n(t)\varphi_m(s) (s\wedge t)dsdt\\ 
+    &=2\int_0^1\int_0^t s \varphi_n(t)\varphi_m(s)dsdt\\
+%    &=2\int_0^1 \varphi_n(t) \int_0^t s \, \varphi_m(s)dsdt\\
+%    &=2\int_0^1 \varphi_n(t) \int_0^t s \, \varphi_m(s)dsdt\\
+    &=\dots\\
+    &=\dfrac{1}{(\pi n)^2}\delta_{nm}.
+\end{align*}
+Ensuite, comme une base orthonormée de $L^2[0,1]$ est donnée par $\{\varphi_n~:~n\geq 1\}\cup \{\sqrt{\frac{3}{10}}(2t-1)\}\cup \{1\}$, et que $B_0=0$ et $B_1\sim\mathcal{N}(0,1)$, on peut écrire $B_t$ de la manière suivante, où les $(\epsilon_n)_{n\geq 0}$ sont \textit{i.i.d.} de loi $\mathcal{N}(0,1)$,
+\begin{align}
+    \label{123}
+    B_t = \epsilon_0 t + \sum_{n=1}^\infty \dfrac{1}{\pi n}\epsilon_n \varphi_n(t).
+\end{align} 
+Vérifions que les sommes partielles associées à \eqref{123} convergent bien presque sûrement dans $L^2[0,1]$ vers un mouvement brownien.\\
+On calcule
+$$\E[B_t^2] = \E[(\epsilon_0 t)^2] + \sum_{n=1}^\infty \E\left[\left(\dfrac{1}{\pi n}\epsilon_n \varphi_n(t)\right)^2\right] = t^2 + \sum_{n=1}^\infty \dfrac{2}{(\pi n)^2}\sin^2(\pi n t).$$
+Or, en calculant la série de Fourier associée à la fonction $t(1-t)$ et en linéarisant le $\sin^2$, on remarque que la somme correspond à la série de Fourier de $t(1-t)$. Ainsi,
+$$\E[B_t^2]=t^2+t(1-t)=t.$$
+On a donc bien que la convergence dans $L^2[0,1]$ vers un processus gaussien centré de variance $t$, c'est-à-dire un mouvement brownien.
+\end{proof}
+
+
+\paragraph{Exercice 3} Utilisez l'exercice 2 de la feuille 11 pour résoudre l'EDP suivante de condition initiale $f\in L^1(\R)$ donnée
+$$ \partial_t u = \dfrac{1}{2}\Delta u, \qquad f(0,\cdot)=f. $$
+
+\begin{proof}
+On définit $u(t,x):=\E[f(x+B_t)]$. En notant $p_t$ la densité de $B_t$, on obtient
+$$u(t,x):=\E[f(x+B_t)] = \int_{\R} f(x+y)p_t(y)dy = \int_{\R} f(z)p_t(z-x)dz.$$
+En utilisant l'exercice 2 de la feuille 11, on peut calculer
+\begin{align*}
+    (\partial_t - \Delta)u(t,x) &= (\partial_t - \Delta)\int_{\R} f(z)p_t(z-x)dz = \int_{\R} f(z)(\partial_t - \Delta)p_t(z-x)dz\\
+    &= \int_{\R} f(z)0dz=0.
+\end{align*}
+Par ailleurs, on peut voir que bien sûr $u(0,x)=\E[f(x+0)]=f(x)$, ce qui est cohérent avec le fait que, formellement, en utilisant toujours les résultats de l'exercice 2 de la feuille 11,
+$$ u(0,x) = \lim_{t\mapsto 0} u(t,x) = \int_{\R} f(z)\lim_{t\mapsto 0} p_t(z-x)dz = \int_{\R} f(z)\delta_0(z-x)dz=f(x).$$
+\end{proof}
+
+
+\paragraph{Exercice 4} Soit $\bar{B}_t$ un mouvement brownien de dimension $d\geq 2$, et $O$ une matrice orthogonale. Montrez que $O\bar{B}_t$ est encore un mouvement brownien $d$-dimensionnel.\\
+Si $O$ dépend de $t$ et de $\omega$, le résultat tient-il encore ? Si oui, sous quelles conditions ? \\
+Trouver une caractérisation du mouvement brownien $d$-dimensionnel analogue à celle de la dimension 1 vue en cours.\\
+%Trouver une caractérisation du mouvement brownien comprenant l'invariance par rotation.
+
+\begin{proof}
+Comme $O\bar{B}_t$ est toujours un processus gaussien centré (pourquoi?), il suffit de calculer la matrice de covariance. On a pour $i,j=1,\dots,d$,
+$$ \E[(O\bar{B}_t)_i(O\bar{B}_t)_j]=\E[((O\bar{B}_t)(O\bar{B}_t)^T)_{ij}]=(\E[O\bar{B}_t\bar{B}_t^TO^T])_{ij}=(O\E[\bar{B}_t\bar{B}_t^T]O^T)_{ij}. $$
+Or $\E[\bar{B}_t\bar{B}_t^T]=t Id$, ainsi
+$$ \E[(O\bar{B}_t)_i(O\bar{B}_t)_j] = (O~ t.Id O^T)_{ij} = t(O O^T)_{ij} = t(Id)_{ij} = t\delta_{ij}.$$
+Donc $O\bar{B}_t$ est encore un mouvement brownien $d$-dimensionnel.\\
+Si $O$ dépend de $t$, le même raisonnement fonctionne toujours. De même, si $O_t$ dépend aussi de $\omega$, en supposant que $O$ et $\bar{B}_t$ sont indépendants, alors la proposition reste vraie. On peut prendre par exemple le cas où $A$ et $B$ sont des rotations deterministes, et $O_t(\omega)=\delta_Y A + (1-\delta_Y)B$ où $Y$ est une variable de Rademacher indépendante de $B_t$. En conditionnant par les valeurs de $Y$, un raisonnement similaire fonctionne.\\
+ Si $O_t$ et $B_t$ ne sont pas indépendants, la proposition est fausse, car on peut imaginer que par exemple en dimension 2, moralement, la rotation $O_t$ "suive" celle du mouvement brownien, et maintienne celui-ci sur la ligne $y=0$.\\
+Une caractérisation du mouvement brownien $d$-dimensionnel serait : un processus gaussien $\bar{B}_t$ tel que les variables $\bar{B}_t-\bar{B}_s$ sont indépendantes de $\mathcal{F}_s$ et de loi $\mathcal{N}^d(0,t-s)$.\\
+Notez que la caractérisation suivante existe aussi : un processus gaussien $\bar{B}_t:=(B^1_t,\dots,B^d_t)$ invariant par rotation et tel que les $B^i$ soient des processus indépendants et à accroissements indépendants.
+\end{proof}
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+\paragraph{Exercice 8*}
+Soit $(\varphi_n)_n$ une base hilbertienne de $H:=L^2([0,T],\mathcal{B},dt)$, et $(\epsilon_n)_n$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Montrez que la famille de processus $(B_t^n)_n$ définie par 
+$$ B_t^n := \sum_{k=0}^n \epsilon_k \langle \varphi_k~|~\mathbf{1}_{[0,t]}\rangle,$$
+où $\langle\cdot~|~\cdot\rangle$ est le produit scalaire de $H$, converge dans $L^2(\mathbb{P})$ vers un mouvement brownien.
+
+\paragraph{Exercice 2}
+Soit $\lambda\geq 0$.\\
+Montrez que lee processus $(M_t)_{t\in[0,1]}$ défini par $M_t := e^{\lambda B_t - \frac{\lambda^2}{2}t}$ est une martingale.
+
+
+
+
+\paragraph{Exercice 2}
+Soit $(\epsilon_n)_{n\geq 0}$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$, et $(\varphi_n)_{n\geq 1}$ une famille orthonormée de $L^2([0,1],\mathcal{B},dt)$ donnée par $\varphi_n(t):=\sqrt{2}\sin(\pi n t)$.\\
+Montrez que 
+$$B_t := \epsilon_0 t + \sum_{n\geq 1} \dfrac{\epsilon_n}{\pi n} \varphi_n(t),$$
+existe et est un mouvement brownien sur $[0,1]$.\\
+Décrire trois façons différentes d'étendre cette définition à un intervalle $[0,T]$ donné.
+
+\begin{proof}
+En reprenant les notations de l'exercice 6 de la feuille 9, on a que 
+$$B_t = \epsilon_0 t + \dfrac{\sqrt{2}}{\pi}X(t). $$
+Ainsi on peut calculer
+$$ \E\left[ B_t^2 \right] = t^2+\dfrac{2}{\pi^2}\left( \dfrac{\pi^2}{2}t(1-t) \right) = t. $$ 
+Donc $B_t$ est un processus gaussien (pourquoi?) centré et de variance $t$, et continu car $X$ est continue. C'est un mouvement brownien.\\
+Pour étendre la définition on peut procéder de trois façons :
+\begin{itemize}
+    \item[$\bullet$] Créér $\lfloor T+1\rfloor$ versions indépendantes de $B_t$ et les coller continuement.
+    \item[$\bullet$] Utiliser la propriété d'échelle du mouvement brownien, càd que $\tilde{B}_t := \sqrt{T}B_{\frac{t}{T}}$ est encore un mouvement brownien, bien défini sur $t\in[0,T]$.
+    \item[$\bullet$] Utiliser la propriété d'inversion du temps, càd que $\tilde{B}_t := tB_{\frac{1}{t}}$ est toujours un mouvement brownien, bien défini sur $t\in[1,\infty]$. Ainsi $B'_t := \tilde{B}_{t+1}-\tilde{B}_1$ défini pour $t\in[0,T]$ répond à la question par la propriété de Markov.
+\end{itemize}
+\end{proof}
