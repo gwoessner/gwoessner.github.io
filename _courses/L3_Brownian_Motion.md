@@ -8,3 +8,8 @@ Vous trouverez ici des feuilles de TD corrigées qui peuvent être données dans
 
 ##### <u>L'espérance conditionnelle
 Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.pdf) et en [TEX]({{ site.baseurl }}/assets/teaching/cours_priorités_opératoires.tex).
+
+**L'espérance conditionnelle** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.tex).
+
+**Les martingales discrètes** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 2 2024.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 2 2024.tex).
+
