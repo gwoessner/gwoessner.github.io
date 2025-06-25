@@ -1,0 +1,264 @@
+\listfiles
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 1, correction}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+The conditional expectation.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+\paragraph{Exercice 0}
+Let $T$ be a discrete random variable, and $X$ be measurable with respect to $\sigma(T)$. Show that it exists a measurable function $f$ such that $X=f(T)$.\\
+Prove that the converse is also true.\\
+(Please note that this equivalence also holds if $T$ is not discrete.)
+
+\begin{proof}
+We will only prove the first implication.\\
+First, note that it is enough to prove that, for every $t\in S_T$, we have $\omega_1,\omega_2\in\{T\in t\}$, implies $X(\omega_1)=X(\omega_2)$, because in this case we can define $f(t)=X(\omega_1)$.\\
+Thereby, suppose by absurd that for such $\omega_i$, we have $X(\omega_1)=:a\neq b:= X(\omega_2)$. Then, considere $A_1:=\{T=t\}\cap X^{-1}(a)$ and $A_2:=\{T=t\}\cap X^{-1}(b)$ in $\sigma(T)$ and disjoint in $\{T=t\}$ by assumption. But this contradicts the fact that $X$ is measurable with respect to $\sigma(T)$.
+\end{proof}
+
+\section{Definition}
+
+\paragraph{Exercice 1}
+Let $X,T$ be two random variables such that $\E[|X|]<\infty$ and such that $T$ is discrete. Give the definition of the conditional expectation $\E[X~|~T]$.\\
+Prove that the following identity, characterizing the conditional expectation (see course) is true,
+$$\forall f~:~\R\mapsto\R \text{ mesurable and bounded},\qquad \E\big[ f(T) \E[X~|~T]\big] = \E\big[ f(T) X\big].$$
+
+\begin{proof}
+In the discrete case, we have
+$$\E[X~|~T] = \sum_{t\in S_T} \E[X~|~T=t]\mathbf{1}_{T=t}.$$ 
+Thus we can compute
+\begin{align*}
+\E\big[ f(T) \E[X~|~T]\big] &= \E\big[ f(T) \sum_{t\in S_T} \E[X~|~T=t]\mathbf{1}_{T=t} \big] = \sum_t \E[X~|~T=t]\E[f(T) \mathbf{1}_{T=t}]\\
+&= \sum_t \E[X~|~T=t]f(t)\mathbb{P}(T=t) = \sum_t \E[Xf(t)~|~T=t]\mathbb{P}(T=t)\\
+&= \sum_t \E[Xf(T)~|~T=t]\mathbb{P}(T=t) = \E[Xf(T)],
+\end{align*}
+the last equility coming from the totale probabilities formula.
+\end{proof}
+
+
+\paragraph{Exercice 2}
+Let $X,Y$ be two random variables such that $(X,Y)$ has a density $h(x,y)$ and $X$ admits a first moment. Let $A \in \mathcal{B}(\R)$ and $y_0\in\R$. Compute, for $\varepsilon>0$, 
+$\mathbb{P}(X\in A~|~Y\in ]y_0-\varepsilon;y_0+\varepsilon[)$, and propose an expression for $\E[X~|~Y]$.\\
+Finally, show that indeed
+\begin{align}
+\label{CE_density}
+E[X~|~Y] = \dfrac{\int_{\R} x \, h(x,Y)dx}{\int_{\R} h(x,Y)dx}.
+\end{align}
+
+\begin{proof}
+We have, for $y_0\in\R$ and $\varepsilon>0$, and supposing that the density if continuous, the following formal reasonning
+\begin{align*}
+\mathbb{P}(X\in A~|~Y\in ]y_0-\varepsilon;y_0+\varepsilon[) &= \dfrac{\mathbb{P}(X\in A~\cap~Y\in ]y_0-\varepsilon;y_0+\varepsilon[)}{\mathbb{P}(Y\in ]y_0-\varepsilon;y_0+\varepsilon[)}\\
+&= \dfrac{\int_{y_0-\varepsilon}^{y_0+\varepsilon}\int_A h(x,y)dxdy}{\int_{y_0-\varepsilon}^{y_0+\varepsilon}\int_{\R} h(x,y)dxdy}\\
+& \longrightarrow_{\varepsilon\mapsto 0} \quad \dfrac{2\varepsilon\int_A h(x,y_0)dx}{2\varepsilon \int_{\R} h(x,y_0)dx} = \int_A \dfrac{ h(x,y_0)}{\int_{\R} h(x',y_0)dx'}dx
+\end{align*}
+Thus, we can infere that the conditional law of $X$ knowing $\{Y=y_0\}$ has a density 
+$$\dfrac{ h(\cdot,y_0)}{\int_{\R} h(x',y_0)dx'},$$
+and thus we would have indeed \eqref{CE_density}.\\
+~\\
+Now, we have to prove to prove rigorously \eqref{CE_density}.\\
+By Exercice 0, we know that it exists $f$ measurable such that $\E[X~|~Y]=f(Y)$, thus we have to find the $f$ such that, for every measurable bounded function $g$ we have 
+\begin{align}
+\label{CE_density_condition}
+\E[Xg(Y)]=\E[f(Y)g(Y)].
+\end{align}
+The left hand side checks
+$$\E[Xg(Y)] = \iint_{\R\times\R} xg(y) h(x,y) dxdy = \int_{\R}\left(\int_{\R}xh(x,y)dx\right)g(y)dy.$$
+The right hand side checks
+$$\E[f(Y)g(Y)] = \iint_{\R\times\R} f(y)g(y) h(x,y) dxdy = \int_{\R}\left(f(y)\int_{\R}h(x,y)dx\right)g(y)dy.$$
+This being true for every function $g$, we can deduce (why?) that, for almost all $y$,
+$$f(y)\int_{\R}h(x,y)dx = \int_{\R}xh(x,y)dx.$$
+Thus, indeed, the $f$ checking \eqref{CE_density_condition} is the one given by \eqref{CE_density}.
+\end{proof}
+
+
+\section{Properties}
+
+\paragraph{Exercice 3}
+Let $X,X_1,X_2,\dots$ be random variables such that $\E[|X_i|]<\infty$, and $\mathcal{F}$ be a $\sigma$-algebra. Prove that the following properties are true,
+\begin{itemize}
+\item[i)] $\E[\lambda_1 X_1 + \lambda_2 X_2~|~\mathcal{F}] =\lambda_1\E[X_1~|~\mathcal{F}]+\lambda_2\E[X_2~|~\mathcal{F}]$.
+\item[ii)] If $X\geq 0$, then $\E[X~|~\mathcal{F}]\geq 0$. Deduce that if $X=0$, then $\E[X~|~\mathcal{F}]=0$.
+\item[iii)] $\big|\E[X~|~\mathcal{F}]\big| \leq \E[|X|~|~\mathcal{F}]$. Deduce that $\|\E[X~|~\mathcal{F}]\|_1\leq \|X\|_1$, which means that if $X$ is integrable, then $\E[X~|~\mathcal{F}]$ also.
+\item[iv)] If $X$ is measurable with respect to $\mathcal{F}$, one has $\E[X~|~\mathcal{F}] = X$.
+\item[v)] If $\varphi$ is a convex function on $\R$ such that $\E[|\varphi(X)|] < \infty$, one has $\varphi\big(\E[X~|~\mathcal{F}]\big) \leq \E\big[\varphi(X)~|~\mathcal{F}\big]$   (this is Jensen conditional inequality).
+\item[vi)] If $X_n\mapsto X$ \textit{as}, and $\forall n\geq 0, ~|X_n|\leq Y\in L^1$, one has $\E[X_n~|~\mathcal{F}]\mapsto\E[X~|~\mathcal{F}]$ in $L^1$   (this is conditional dominated convergence theorem).
+\item[vii)] If $Z$ is a $\mathcal{F}$-measurable bounded random variable, then $\E[X~|~\mathcal{F}]Z=\E[XZ~|~\mathcal{F}]$.
+\item[viii)] $\E\big[\E[X~|~\mathcal{F}]\big]=\E[X]$.
+\item[ix)] If $\mathcal{F}'$ is another $\sigma$-algebra such that $\mathcal{F}'\subset \mathcal{F}$, one has 
+$$\E\big[\E[X~|~\mathcal{F}']~|~\mathcal{F}\big]=\E[X~|~\mathcal{F}']=\E\big[\E[X~|~\mathcal{F}]~|~\mathcal{F}'\big].$$
+\end{itemize}
+
+\begin{proof}
+Points i), ii), iii) and iv) are given by the proof of the existence and unicity of the conditional expectation.
+\begin{itemize}
+\item[v)] Let $x_0:=\E[X~|~\mathcal{F}]$, and by classical properties of convex functions, we know that we can define $a,b\in\R$ such that $ax+b\leq \varphi(x)$ and $ax_0+b=\varphi(x_0)$. Thus
+$$\varphi\big(\E[X~|~\mathcal{F}]\big) = \varphi(x_0) = ax_0+b = a\E[X~|~\mathcal{F}]+b=\E[aX+b~|~\mathcal{F}]\leq \E[\varphi(X)~|~\mathcal{F}].$$
+Note that it is just the classical proof of Jensen's inequality, written for conditional expectations. Also note that $x_0$, $a$ and $b$ are random variables, but since they are $\mathcal{F}$-measurable the computations we made are allowed.
+\item[vi)] By the classical dominated convergence, we have $\|X_n-X\|_1\mapsto 0$. Thus by i) and then by iii) we have indeed
+$$\| \E[X_n~|~\mathcal{F}]-\E[X~|~\mathcal{F}]\|_1 = \| \E[X_n-X~|~\mathcal{F}]\|_1 \leq \|X_n-X\|_1 \mapsto 0.$$
+\item[vii)] Take $A\in\mathcal{F}$, and notice that $Z\mathbf{1}_A$ is $\mathcal{F}$-measurable, thus by definition indeed
+$$\E\big[(\E[X~|~\mathcal{F}]Z)\mathbf{1}_A]=\E\big[\E[X~|~\mathcal{F}](Z\mathbf{1}_A)]=\E[XZ\mathbf{1}_A].$$
+\item[viii)] It's just the definition of the conditional expectation with $\mathbf{1}_A = 1$, \textit{ie} $A=\Omega$.
+\item[ix)] For clarity, note $Z:=\E[X~|~\mathcal{F}']$.\\
+The first equality is true because $Z$ is $\mathcal{F}$-measurable and thus we can use point iv).\\
+The second equality is a little bit more tricky. We have to show that for every $F\in \mathcal{F}'$, 
+$$\E[Z\mathbf{1}_F]=\E\big[\E[X~|~\mathcal{F}]\mathbf{1}_F\big].$$
+But since $\mathbf{1}_F$ is $\mathcal{F}$-measurable, we can use points vii) and viii) to show that
+$$\E\big[\E[X~|~\mathcal{F}]\mathbf{1}_F\big] = \E\big[\E[X\mathbf{1}_F~|~\mathcal{F}]\big]=\E[X\mathbf{1}_F].$$
+Finally, one can note that $\E[X\mathbf{1}_F]=\E[Z\mathbf{1}_F]$ by the definition of $Z$.
+\end{itemize}
+\end{proof}
+
+
+
+
+\paragraph{Exercice 4}
+Let $X_1,X_2$ be two random variables such that $\E[|X_i|]<\infty$, and $\mathcal{F}$ be a $\sigma$-algebra.\\
+Suppose that $X_1$ is independant of $\mathcal{F}$, and show that
+$$\E[X_1~|~\mathcal{F}]=\E[X_1] \text{\textit{   as}}.$$
+Suppose that $X_1$ is independant of $\sigma(\sigma(X_2),\mathcal{F})$, and that $\E[|X_1X_2|]<\infty$, and show that
+$$\E[X_1X_2~|~\mathcal{F}]=\E[X_1~|~\mathcal{F}]\E[X_2~|~\mathcal{F}].$$
+
+\begin{proof}
+\begin{itemize}
+\item[$\bullet$] First, we have to show that, for every $A\in\mathcal{F}$, 
+$$\E\big[\E[X_1]\mathbf{1}_A\big]=\E[X_1\mathbf{1}_A].$$
+And indeed thanks to independance, we have
+$$\E\big[\E[X_1]\mathbf{1}_A\big]=\E[X_1]\E[\mathbf{1}_A]=\E[X_1\mathbf{1}_A].$$
+\item[$\bullet$] Now, we have to show that, for every $A\in\mathcal{F}$, 
+$$ \E\big[\E[X_1~|~\mathcal{F}]\E[X_2~|~\mathcal{F}]\mathbf{1}_A\big]=\E[X_1 X_2\mathbf{1}_A].$$
+And indeed thanks to independance, we have, noting $Z:=\E[X_2~|~\mathcal{F}]\mathbf{1}_A=\E[X_2\mathbf{1}_A~|~\mathcal{F}]$ a $\mathcal{F}$-measurable function
+\begin{align*} 
+\E\big[\E[X_1~|~\mathcal{F}]\E[X_2~|~\mathcal{F}]\mathbf{1}_A\big] &:= \E\big[\E[X_1~|~\mathcal{F}]Z\big] = \E[X_1 Z]\\
+&= \E[X_1 \E[X_2\mathbf{1}_A~|~\mathcal{F}]] = \E[X_1]\E[\E[X_2\mathbf{1}_A~|~\mathcal{F}]]\\
+&= \E[X_1]\E[X_2\mathbf{1}_A] = \E[X_1 X_2\mathbf{1}_A]
+\end{align*}
+\end{itemize}
+\end{proof}
+
+
+
+\section{Exercices}
+
+\paragraph{Exercice 5}
+Let $X,Y,Z$ be three random variables with a first order such that $(X,Z)$ has the same law as $(Y,Z)$. Show that for all $f\geq 0$ measurable and bounded,
+$$\E[f(X)~|~Z] = \E[f(Y)~|~Z].$$ 
+Then, let $g\geq 0$ a measurable and bounded function, and define $h_1(X):=\E[g(Z)~|~X]$ and $h_2(Y):=\E[g(Z)~|~Y]$. Show that $h_1=h_2$, $\mu$-\textit{ae}, where $\mu$ is the law of $X$ (and of $Y$).
+
+\begin{proof}
+For the first part, note that for every $g$ measurable and bounded, since the equality of the laws
+\begin{align*}
+\E[f(X)g(Z)]&=\E[f(Y)g(Z)]\\
+\Leftrightarrow \qquad \E\big[\E[f(X)~|~Z]g(Z)\big]&=\E\big[\E[f(Y)~|~Z]g(Z)\big].
+\end{align*}
+This beeing true for every function $g$, we can deduce (why?) that, $Z$-almost surely
+$$\E[f(X)~|~Z] = \E[f(Y)~|~Z].$$
+~\\
+For the second part, note that $(X,Z)\sim (Y,Z)$ implies $X\sim Y\sim\mu$. Then we compute, for every measurable bounded function $\varphi$,
+\begin{align*}
+\E[g(Z)\varphi(X)]&=\E[g(Z)\varphi(Y)]\\
+\Leftrightarrow \qquad \E[h_1(X)\varphi(X)]&=\E[h_2(Y)\varphi(Y)]\\
+\Leftrightarrow \qquad \E[h_1(X)\varphi(X)]&=\E[h_2(X)\varphi(X)].
+\end{align*}
+Thus $\E[(h_1-h_2)(X)\varphi(X))=0$, and this beeing true for every function $\varphi$ we can deduce (why?) the desired result.
+\end{proof}
+
+
+\paragraph{Exercice 6}
+Let $T_1,\dots,T_n$ be \textit{i.i.d.} integrable random variables, et let $T:=\sum_{i=1}^n T_i$.\\
+Show that
+$$\E[T~|~T_1] = T_1 + (n-1)\E[T_1] \qquad \text{and}\qquad \E[T_1~|~T]=\dfrac{T}{n}.$$
+
+\begin{proof}
+For the first part, we compute
+$$\E[T~|~T_1]=\E[T_1~|~T_1] + \sum_{i=2}^n\E[T_i~|~T_1]=T_1+ \sum_{i=2}^n \E[T_i] = T_1+ (n-1)\E[T_1],$$
+by i) and iv) of Exercice 3, and Exercice 4.\\
+~\\
+For the second part we can notice that by the symmetry property proven in Ex5, for every $1\leq i,j \leq n$ one has,
+$$\E[T_i~|~T]=\E[T_j~|~T],$$
+and that 
+$$\sum_{i=1}^n \E[T_i~|~T] = \E[\sum_{i=1}^n T_i~|~T]=\E[T~|~T]=T.$$
+The result follows.
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

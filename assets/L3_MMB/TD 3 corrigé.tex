@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 3, correction}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Les temps d'arrêt.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_n,\mathbb{P})$.
+
+
+
+\paragraph{Exercice 1} 
+Enoncez le théorème de décomposition de Doob pour les sous-martingales et pour les sur-martingales.\\
+Soit $(X_n)_n$ un processus stochastique adapté à la filtration, tel que $\E[|X_n|]<\infty$. Quelle pourrait être une décomposition de Doob pour ce processus ? Montrez qu'effectivement un telle décomposition existe.
+
+\begin{proof}
+La même preuve que celle du cours fonctionne pour montrer que $X_n = M_n + A_n$ avec $A_n$ un processus prédictible (\textit{ie} un processus tel que $A_n$ est mesurable par rapport à $\mathcal{F}_{n-1}$) donné par 
+$$A_n := \sum_{k=1}^n \E[X_k~|~\mathcal{F}_{k-1}]-X_{k-1},$$
+et $M_n$ est une martingale donnée par 
+$$M_n = X_n - A_n = X_0 + \sum_{k=1}^n X_k - \E[X_k~|~\mathcal{F}_{k-1}].$$
+\end{proof}
+
+
+
+\paragraph{Exercice 3} 
+Soit $S_n$ une marche aléatoire simple sur $\mathbb{Z}$, et $\tau := \inf_{n\in\N} \{S_n=1\}$. Montrez que $\tau$ est un temps d'arrêt et que $\tau<\infty$ \textit{as}.
+
+\begin{proof}
+C'est un temps d'arrêt car 
+\begin{align*}
+    \{\tau \leq n\} &= \{\exists k\leq n ~:~S_k = 1\}\\
+    &= \cup_{k\leq n}  \{ \#\{i\leq k~:~X_i =1\} - \#\{i\leq k ~:~X_i =-1\} = 1\}.
+\end{align*}
+Or ces évenements sont en nombres finis, et déterminés par les $(X_i ~:~ i\leq n)$. Donc $\{\tau\leq n\}$ est bien mesurable par rapport à $\mathcal{F}_n$.\\
+Pour la seconde propriété, voir le corrigé de la Feuille 5 Exercice 1.
+\end{proof}
+
+
+
+\paragraph{Exercice 5}
+Soient $\tau_1$ et $\tau_2$ deux temps d'arrêt. Est-ce que $\tau_1+\tau_2$ est encore un temps d'arrêt ? Pourquoi ?
+
+\begin{proof}
+On a 
+\begin{align*}
+    \{\tau_1+\tau_2 = n\} = \bigcup_{k\leq n}\{\tau_1=k\}\cap\{\tau_2=n-k\}
+\end{align*}
+Or ces évenements sont en nombres finis, et mesurables par rapport à $\mathcal{F}_n$, ainsi $\{\tau_1+\tau_2 = n\}$ est mesurable par rapport à $\mathcal{F}_n$. Enfin, il suffit de noter que 
+$$\{\tau_1+\tau_2 \leq n\} = \bigcup_{k\leq n} \{\tau_1+\tau_2 = k\}.$$
+\end{proof}
+
+
+%\paragraph{Exercice 6}
+%Let $\tau_1$ and $\tau_2$ be two stopping times such that $\tau_1 \leq \tau_2$ \textit{as}. Show that $\mathcal{F}_{\tau_1}\subset \mathcal{F}_{\tau_2}$
+
+%\paragraph{Exercice 7}
+%Let $(X_n)_n$ be a sequence of \textit{i.i.d.} random variables adapted to the filtration, such that $\E[|X_1|]<\infty$, and $N$ an integrable stopping time.\\
+%Give the definition of $Y := \sum_{i=1}^N X_i$, and show that $\E[Y]=\E[N]\E[X_1]$.
+
+
+
+
+\end{document}
