@@ -1,0 +1,207 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 9, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Les processus continus et le mouvement brownien (MB).
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_{t\in[0,T]},\mathbb{P})$, et on supposera que $(B_t)_t$ est un mouvement brownien adapté à la filtration.
+
+
+
+
+
+
+\paragraph{Exercice 1}
+Soient $X,Y$ des VA indépendantes de loi $\mathcal{N}(0,\sigma^2)$.\\
+Montrez que $X+Y,X-Y$ sont des VA indépendantes de loi $\mathcal{N}(0,2\sigma^2)$.
+
+\begin{proof}
+Avant toute chose, rappelons que $Z\sim \mathcal{N}(0,\sigma^2)$ si et seulement si sa fonction caractéristique est $\varphi_Z(t)=e^{- \frac{\sigma^2}{2}t^2}$.\\
+~\\
+On calcule 
+$$\varphi_{X+Y}(t)=\E[e^{it(X+Y)}]=\E[e^{itX}]\E[e^{itY}]=e^{-\frac{\sigma^2}{2}t^2}e^{-\frac{\sigma^2}{2}t^2}=e^{-\frac{2\sigma^2}{2}t^2},$$
+d'où le résultat pour $X+Y$, et le même calcul permet de montrer la même chose pour $X-Y$ (on peut également noter que $Y\sim-Y$).\\
+~\\
+A présent on calcule, avec la fonction caractéristique du vecteur $(X+Y,X-Y)$ notée par $\varphi_{(X+Y,X-Y)}(s,t):=\E[e^{i(s(X+Y)+t(X-Y))}]$,
+\begin{align*}
+    \varphi_{(X+Y,X-Y)}(s,t) &= \E[e^{is(X+Y)}e^{it(X-Y)}]=\E[e^{i(s+t)X}e^{i(s-t)Y}]\\
+    &= \E[e^{i(s+t)X}]\E[e^{i(s-t)Y}]=e^{-\frac{\sigma^2}{2}(s+t)^2}e^{-\frac{\sigma^2}{2}(s-t)^2}\\
+    &=e^{-\frac{\sigma^2}{2}2(s^2+t^2)}=e^{-\frac{2\sigma^2}{2}s^2}e^{-\frac{2\sigma^2}{2}t^2}\\
+    &=\E[e^{isX}]\E[e^{itY}]=\varphi_{X+Y}(s)\varphi_{X-Y}(t)
+\end{align*}
+On conclut en rappelant que cette dernière égalité caractérise bien l'indépendance des variables aléatoires $X+Y$ et $X-Y$.
+\end{proof}
+
+\paragraph{Exercice 2}
+Soient $(X_n)_n$ une famille de VA de loi $\mathcal{N}(\mu_n,\sigma^2_n)$.\\
+Montrez que $X_n$ converge en loi $\Leftrightarrow$ $\mu_n$ et $\sigma_n$ convergent.\\
+Montrez que dans ce cas la loi limite est $\mathcal{N}(\lim_n\mu_n,\lim_n\sigma_n^2)$.
+
+\begin{proof}
+Avant toute chose, rappelons que $X\sim \mathcal{N}(0,\sigma^2)$ si et seulement si sa fonction caractéristique est $\varphi(t)=e^{i\mu t- \frac{\sigma^2}{2}t^2}$. Rappelons également le théorème de Lévy qui affirme l'équivalence entre la convergence en loi et la convergence des fonctions caractéristiques.\\
+~\\
+Ainsi, si $\mu_n$ et $\sigma_n$ convergent vers $\mu$ et $\sigma$, par continuité de la fonction caractéristique, $\varphi_n(t) \mapsto_n \varphi(t):=e^{i\mu t- \frac{\sigma^2}{2}t^2}$, et donc d'après le théorème de Lévy on a bien que $X_n$ converge vers une $\mathcal{N}(\mu,\sigma)$.\\
+~\\
+Réciproquement, si $X_n$ converge en loi vers $X$ dont la fonction caractéristique est $\varphi$, on a $e^{i\mu_n t- \frac{\sigma_n^2}{2}t^2}\mapsto \varphi(t)$. En passant à la norme, on peut en déduire la convergence de $\sigma_n$ vers une constante $\sigma$ finie (car si $\sigma_n\mapsto\infty$ alors $|\varphi(t)|=\mathbf{1}_{0}(t)$). On en déduit facilement la convergence de $\mu_n$ vers une constante $\mu$ également.\\
+On peut alors appliquer le premier point pour montrer que la limite est gaussienne.
+\end{proof}
+
+\paragraph{Exercice 3}
+Soient $X_1,\dots,X_n$ des VA.\\
+Montrez qu'elles sont indépendantes si et seulement si $\forall f_1,\dots f_n$ bornées et continues 
+$$ \E[{\small\prod_n} f_i(X_i)]={\small\prod_n}\E[f_i(X_i)~]. $$
+
+\begin{proof}
+Par définition, la propriété est vraie pour $f$ une fonction indicatrice d'ensemble mesurable. Ainsi elle est encore vraie pour une combinaison linéaire de telles fonctions, et par densité elle reste vraie pour toute fonction mesurable bornée, dans lesquelles les fonctions en escalier sont denses.
+\end{proof}
+
+\paragraph{Exercice 4}
+Trouver deux processus $X_1:=(X_1(t))_{t\in[0,1]}$ et $X_2:=(X_2(t))_{t\in[0,1]}$ tels que :\\
+$X_1$ et $X_2$ aient les mêmes lois marginales, \textit{ie} tels que $\forall t_1,\dots, t_n\in[0,1]$ on ait
+$$ (X_1(t_1),\dots,X_1(t_n))\sim (X_2(t_1),\dots,X_2(t_n)), $$
+Et même que 
+$$ \forall t ~:~\mathbb{P}(X_1(t)=X_2(t))=1. $$
+Mais tels que pour autant on ait
+$$ \mathbb{P}(\forall t~:~X_1(t)=X_2(t)~)=0,\qquad \mathbb{P}(X_1\text{ continu})=1,\qquad \mathbb{P}(X_2\text{ continu})=0. $$ 
+
+\begin{proof}
+D'une part, poser $X_0(t)=0$ pour tout $t\in[0,1]$, et d'autre part poser $Y\sim\mathcal{U}[0,1]$ et $X_1(t):=\delta_Y(t)$
+\end{proof}
+
+
+\paragraph{Exercice 5}
+Supposez que le MB tel que défini en cours existe.\\
+Montrez que pour tout $a>0$, le processus discret $(X_n)_{n\in\N}$ où $X_n:=B_{na}$ est une martingale. Est-elle bornée dans $L^1$? Converge-t-elle ?
+
+\begin{proof}
+On calcule 
+\begin{align*}
+    \E[X_{n+1}~|~\mathcal{F}_n] &= \E[X_{n+1}-X_n+X_n~|~\mathcal{F}_n]\\
+    &=\E[B_{(n+1)a}-B_{na}~|~\mathcal{F}_n]+\E[B_{na}~|~\mathcal{F}_n]\\
+    &= 0 + B_{na}=X_n.
+\end{align*}
+Ainsi $(X_n)_n$ est bien une martingale. 
+\\
+De plus comme $\sup_n\E|X_n|=\sup_n\sqrt{na}\E|B_1|=\infty$, elle n'est pas bornée dans $L^1$.\\
+Enfin, comme $X_n$ s'identifie à une marche aléatoire de pas \textit{i.i.d.} de loi $\mathcal{N}(0,1)$, elle ne converge pas.
+\end{proof}
+
+\paragraph{Exercice 6}
+Soit $(Y_n)_{n\in\N}$ une famille de VA \textit{i.i.d.} de loi $\mathcal{N}(0,1)$. Définissons 
+$$X^N(t) = \sum_{n=0}^N \frac{1}{n^2}Y_n \sin(n\pi t).$$
+Montrez que presque sûrement, $(X^N)_{n\in\N}$ converge dans l'espace des fonctions continues $C[0,1]$ muni de la norme $\|\cdot\|_\infty$.\\
+On note la limite 
+$$X(t):= \sum_{n=0}^\infty \frac{1}{n^2}Y_n \sin(n\pi t).$$
+Quelle est son espérance et sa variance en chacun des points ?
+
+\begin{proof}
+Dans un premier temps, on calcule 
+$$ \E\left[\sum_n \dfrac{|Y_n|}{n^2}\right]=\sum_n\dfrac{1}{n^2}\E[|Y_n|]\leq\sum_n\dfrac{1}{n^2}<\infty, $$
+où on a utilisé que $\E[|Y_n|]\leq 1$.\\
+Ainsi, la variable aléatoire $\sum_n\frac{|Y_n|}{n^2}$ est presque sûrement finie, et donc on a, pour $N>M\in\N$ 
+\begin{align*}
+    \|X^N-X^M\|_\infty \leq \sum_{n=M+1}^N \dfrac{1}{n^2}|Y_n|\|\sin(n\pi\cdot)\|_\infty = \sum_{n=M+1}^N \dfrac{|Y_n|}{n^2} ~~ \overset{N,M\mapsto 0}{\longrightarrow} 0.
+\end{align*}
+La suite $(X^N)_N$ est donc de Cauchy dans $\mathcal{C}[0,1]$, et on en déduit qu'elle converge vers la limite notée $X$.\\
+L'espérance de $X(t)$ est bien sûr nulle (Fubini), et sa variance vérifie
+$$ \E[X(t)^2] = \sum_{n,m}\dfrac{1}{n^2m^2}\sin(n\pi t)\sin(m\pi t)\E[Y_nY_m]=\sum_n \dfrac{1}{n^4}\sin^2(n\pi t).$$
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+\paragraph{Exercice 5}
+Calculer $\E[B_5~|~\mathcal{F}_1]$ et $\E[B_5^2~|~\mathcal{F}_1]$.
+
+\paragraph{Exercice 6}
+Exercice pour montrer les propriétés de symétrie, d'échelle, d'inversion du temps et de retournement du temps ?
+
+\paragraph{Exercice 7}
+Fixons $0<t<1$ et posons, pour $n\in\N$ et $0\leq i < 2^n$ des entiers, $t_i:=t\frac{i}{2^n}$.\\
+Montrez que
+$$\sum_{i=0}^{2^n-1} (B_{t_{i+1}}-B_{t_i})^2 ~\mapsto t,$$
+\textit{presque sûrement} et dans $L^2(\mathbb{P})$.
+
+\paragraph{Exercice 8*}
+Soit $(\varphi_n)_n$ une base hilbertienne de $H:=L^2([0,T],\mathcal{B},dx)$, et $(\epsilon_n)_n$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Montrez que la famille de processus $(B_t^n)_n$ définie par 
+$$ B_t^n := \sum_{k=0}^n \epsilon_k \langle \varphi_k~|~\mathbf{1}_{[0,t]}\rangle,$$
+où $\langle\cdot~|~\cdot\rangle$ est le produit scalaire de $H$, converge dans $L^2(\mathbb{P})$ vers un mouvement brownien.
+
+
+
+
+
+
+
+
+
+
+

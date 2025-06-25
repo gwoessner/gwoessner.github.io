@@ -1,0 +1,156 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 7, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Les théorèmes de convergence.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_n,\mathbb{P})$, et on supposera que $(X_n)_n$ est une martingale adaptée à la filtration.
+
+
+\section{Récap}
+
+\paragraph{Exercice 3} Trouver un exemple où $X_n\mapsto X$ presque sûrement, mais où $\E[X_n]\nrightarrow \E[X]$.
+
+\begin{proof}
+Soit $(S_n)_n$ une marche aléatoire simple sur $\Z$, $X$ une variable aléatoire entière non-intégrable, et $\tau:=\inf\{n\geq 0 ~:~S_n=X\}$. Poser $X_n := S_{\tau\wedge n}$.
+\end{proof}
+
+
+\paragraph{Exercice 4} 
+Supposons que $X_n\geq 0$ et que $\tau$ est un temps d'arrêt (potentiellement infini).\\
+Comment peut-on définir $X_\tau$ ? Et si $(X_n)_n$ n'est pas forcément positive ?
+
+\begin{proof}
+Si $X_n\geq 0$, sur $\{\tau=\infty\}$ on peut poser $X_\tau=X_\infty=\lim_n X_n$, car la $\lim$ existe toujours d'après un corollaire du cours. Sans la condition de positivité on ne peut rien dire.
+\end{proof}
+
+
+\paragraph{Exercice 5} Démontrez le lemme sur le critère d'uniforme intégrabilité suivant :\\
+Supposons que $X_n\mapsto X$ en $\mathbb{P}$ et que $X$ soit intégrable.\\
+Montrez que la convergence a également lieu dans $L^1$ si et seulement si $(X_n)_n$ est U.I..\\
+Remarquez que ceci correspond à une réciproque partielle de la propriété : convergence $L^1$ implique convergence en $\mathbb{P}$. 
+
+\begin{proof}
+Supposons d'abord que $(X_n)_n$ est U.I. et posons $\epsilon>0$ ainsi que le $K_\epsilon$ correspondant. On pourra supposer que $X=0$ (pourquoi?). On a alors
+\begin{align*}
+E|X_n| &\leq \E|X_n|\mathbf{1}_{|X_n|\leq \epsilon} + \E|X_n|\mathbf{1}_{\epsilon < |X_n|\leq K_\epsilon} + \E|X_n|\mathbf{1}_{K_\epsilon<|X_n|}\\
+&\leq \epsilon + K_\epsilon \mathbb{P}(|X_n|>\epsilon) + \epsilon
+\end{align*}
+Passer à la $\limsup_n$ permet de conclure.\\
+Supposons maintenant que la convergence a lieu dans $L^1$. On pourra supposer que $X=0$ (pourquoi?). Soit $\epsilon>0$. On sait que il existe $N_\epsilon$ tel que pour tout $n\geq N_\epsilon$ on ait $\E|X_n|\mathbf{1}_{|X_n|>a}\leq\E|X_n|\leq \epsilon$ pour tout $a>0$. Pour les $N_\epsilon-1$ premiers $X_n$ on peut choisir $K_\epsilon$ tel que pour tout $n\leq N_\epsilon-1$ on ait $\E|X_n|\mathbf{1}_{|X_n|>K_\epsilon}\leq \epsilon$. Poser $a=K_\epsilon$ dans la première partie permet de conclure.
+\end{proof}
+
+
+\paragraph{Exercice 6}
+Soient $(X_n)_n$ et $(Y_n)_n$ deux martingales de carré intégrable.\\
+Montrez que 
+$$ \E X_nY_n - \E X_0Y_0 = \sum_{m=1}^n \E(X_m-X_{m-1})(Y_m-Y_{m-1}). $$
+Remarquez que ça peut permettre de calculer la covariance de $X_n$ et $Y_n$.
+
+\begin{proof}
+Utilisez que 
+$$\E[X_nY_n] = \dfrac{1}{2}\left(\E[(X_n+Y_n)^2]-\E[X_n^2]-\E[Y_n]^2\right).$$
+\end{proof}
+
+\section{Pour ceux qui ont vu les chaînes de Markov}
+
+\paragraph{Exercice 7} 
+Supposons que $(M_n)_n$ soit une chaîne de Markov homogène sur un espace dénombrable $S$ et dont le noyau de transition est noté $p~:~S\times S\to [0,1]$. On dit que $h~:~S\to \R$ est $p$-harmonique si pour tout $x\in S$ on a $h(x)=\sum_S p(x,y)h(y)$.\\
+Montrer qu'une telle fonction $h$ bornée est $p$-harmonique si et seulement si $h(M_n)$ est une martingale adaptée à la filtration canonique de $(M_n)_n$.
+
+\begin{proof}
+Supposons d'abord que $(h(M_n))_n$ soit une martingale. On a alors par hypothèse
+\begin{align*}
+h(x)=\E[h(M_{n+1})~|~M_n=x]=\E_x[h(M_1)]=\sum_{y\in S}p(x,y)h(y).
+\end{align*}
+Ainsi $h$ est $p$-harmonique.\\
+Le même type de raisonnement permet de conclure pour l'autre sens.
+\end{proof}
+
+
+
+\paragraph{Exercice 8} 
+Supposons que $(M_n)_n$ soit une chaîne de Markov irréductible sur un espace dénombrable $S$. Soit $f~:~S\to\R^+$ une fonction non constante telle que pour tout $x\in S$,
+$$\E_x[f(M_1)]\leq f(x).$$
+Montrez que $M_n$ est transiente.
+
+\begin{proof}
+La condition implique que $(f(M_n))_n$ est une sur-martingale, positive par hypothèse. Ainsi on peut utiliser utiliser le théorème de convergence pour les sur-martingales positives : il existe $Y$ telle que $f(X_n)\mapsto Y$ presque sûrement.\\
+On ne peut donc pas avoir que la chaîne de Markov est récurrente, sinon $X_n$ prendrait successivement toutes ses valeurs, et $f(X_n)$ ne pourrait pas converger.
+\end{proof}
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+

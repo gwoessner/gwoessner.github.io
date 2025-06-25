@@ -1,0 +1,189 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\C}{\mathcal{C}}
+
+\title{Exo 8, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Les familles U.I. et les processus de branchement.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_n)_n,\mathbb{P})$, et on supposera que $(X_n)_n$ est une martingale adaptée à la filtration.
+
+
+
+
+%\paragraph{Exercice 1}
+%Montrez que la famille $(X_n)_n$ est UI si et seulement si les deux conditions suivantes sont vérifiées,
+%\begin{itemize}
+ %   \item[$\bullet$] $\sup_n \E|X_n| < \infty $
+  %  \item[$\bullet$] $\forall \varepsilon >0,~\exists \delta>0,~\forall B\in\mathcal{F},~\mathbb{P}(B)<\delta \rightarrow \sup_n\E(|X_n\mathbf{1}_{B})<\varepsilon. $
+%\end{itemize}
+
+
+\paragraph{Exercice 1}
+Supposons qu'il existe un $p>1$ tel que $\sup_n\E|X_n|^p<\infty$.\\
+Montrez que $(X_n)_n$ est UI.
+
+\begin{proof}
+ On peut calculer que 
+ \begin{align*}
+ \E[|X_n|\mathbf{1}_{|X_n|>K_\varepsilon}] &= \E\left[|X_n|^p \dfrac{\mathbf{1}_{|X_n|>K_\varepsilon}}{|X_n|^{1-p}}\right]\leq \E\left[|X_n|^p \dfrac{\mathbf{1}_{|X_n|>K_\varepsilon}}{K_\varepsilon^{1-p}}\right]\\
+ &=  \dfrac{1}{K_\varepsilon^{1-p}}\E[|X_n|^p\mathbf{1}_{|X_n|>K_\varepsilon}] \leq \dfrac{\sup_n\E|X_n|^p}{K_\varepsilon^{1-p}} 
+ \end{align*}
+ Ainsi choisir $K_\varepsilon$ de telle sorte que $\varepsilon= \dfrac{\sup_n\E|X_n|^p}{K_\varepsilon^{1-p}} $ fait l'affaire.
+\end{proof}
+
+
+%\paragraph{Exercice 3} Supposons que $\sup_n |X_n|<Y$ où $Y$ est intégrable.\\
+%Montrez que $(X_n)_n$ est UI.
+
+
+\paragraph{Exercice 2} Soit $X$ une variable aléatoire intégrable.\\
+Montrez que la famille $(\E[X~|~\mathcal{G}]~:~\mathcal{G}\subset \mathcal{F}$ est une sous-tribu), est UI.\\
+\textit{Indication} : Vous pouvez utiliser le lemme suivant :\\
+{\small Si $X$ est intégrable, alors il existe $h~:~\R^+\to \R^+$ une fonction continue, convexe et croissante vérifiant $\lim_{x\mapsto \infty} \frac{h(x)}{x}=\infty$ telle que $\E[h(X)]<\infty$.}
+
+\begin{proof}
+ Soit $h$ donnée par le Lemme. Ainsi on calcule
+ $$ \E[h(\E[X~|~\mathcal{G}])] \leq \E[\E[h(X)~|~\mathcal{G}]] = \E[h(X)] < \infty. $$
+ Un raisonnement analogue à celui de l'Exercice 1 permet alors de conclure.
+\end{proof}
+\begin{proof}[Preuve du Lemme]
+ Pour tout $n\in\N$ on sait qu'il existe $a_n\in\R^+$ tel que $\E[|X|\mathbf{1}_{|X|>a_n}]\leq \frac{1}{n^2}$, et on peut supposer sans perte de généralité que $(a_n)$ forme une suite croissante qui tend vers l'infini.\\
+ On pose alors 
+ $$g(x) := \sum_n |x| \mathbf{1}_{|x|>a_n} \qquad \text{et} \qquad h(x):=\sum_n (x-a_n)^+.$$
+ On remarque facilement que pour tout $x\in\R^+$, on a $h(x)\leq g(x) <\infty$. De plus, étant une somme de fonctions convexes continues et croissantes, $h$ est également convexe continue et croissante. Enfin on peut aussi montrer que $\lim_{x\mapsto \infty} \frac{h(x)}{x}=\infty$.\\
+ Alors on calcule
+$$
+\E[h(|X|)] \leq \E[g(|X|)] = \E\left[ \sum_n |X|\mathbf{1}_{|X|>a_n} \right] = \sum_n \E[|X|\mathbf{1}_{|X|>a_n}]\leq \sum_n \dfrac{1}{n^2}<\infty.
+$$
+\end{proof}
+
+
+\paragraph{Exercice 3} Preuve alternative du fait que la population s'éteint dans le cas $R < 1$.
+\begin{itemize}
+    \item Revisitez la preuve de convergence p.s. des martingales, et vérifiez que $\E[X_\infty] \leq \liminf \E[X_n]$
+    \item Dans la preuve du théorème de Galton-Watson, montrez que (avec les notations de la preuve), si $R<1$, alors on a $\lim_n\E[X_n]$, $\E[X_\infty]=0$ et $X_\infty =0$. 
+\end{itemize}
+
+\begin{proof}
+ Pour le premier point il suffit d'utiliser le lemme de Fatou.\\
+ Pour le second point on remarque que $M_n=\frac{X_n}{R^n}$ est une martingale et que par conséquent 
+ $$ \E[X_n] = R^n\E[M_n] = R^n \E[M_0] = R^n \mapsto 0. $$
+ On conclut en utilisant le premier point.
+\end{proof}
+
+
+\paragraph{Exercice 4} Fin de la preuve du théorème de Galton-Watson dans le cas $R > 1$.\\
+On veut montrer que la probabilité d'extinction (notée $1-p$ dans le cours) est égale à la plus petite solution $q_0$ de $g(z) = z$, où $g(z) = \E(z^Y)$ où $Y$ est la loi de régénération pour un processus de branchement. Pour ce faire
+\begin{itemize}
+    \item Montrez que $\mathbb{P}(X_n = 0) = g(g \dots g(0))$ où on applique $g$ exactement $n$ fois, e.g. $\mathbb{P}(X_1 = 0) = g(0)$ et $\mathbb{P}(X_2 = 1) = g(g(0))$ etc...
+    \item Argumentez que $1-p = \lim_{n \to \infty} \mathbb{P}(X_n = 0)$
+    \item En utilisant la monotonicité de $g$, montrez que $1-p = q_0 < 1$.
+\end{itemize}
+
+\begin{proof} On procède comme suit :
+\begin{itemize}
+    \item On raisonne par récurrence. Les cas $n=0$ et $n=1$ sont évidents, et on suppose alors qu'il existe $n\in\N$ tel que $\mathbb{P}(X_n=0)=g^n(0)$. On calcule alors
+    \begin{align*} 
+    \mathbb{P}(X_{n+1}=0) &= \sum_k \mathbb{P}(X_{n+1}=0~|~X_1=k)\mathbb{P}(X_1=k)\\
+    &=^\star \sum_k \mathbb{P}(X_n=0)^k\mathbb{P}(Y=k)\\
+    &= \sum_k g^n(0)^k \mathbb{P}(Y=k)\\
+    &= g\circ g^n(0) = g^{n+1}(0). 
+    \end{align*}
+    \item Comme $(\{X_n=0\})_n$ est une famille croissante d'évènements, on peut écrire que 
+    $$ \lim_n\mathbb{P}(X_n=0) = \mathbb{P}(\cup_n\{X_n=0\}) = 1-p. $$
+    \item On a obtenu que $1-p=\lim_n\mathbb{P}(X_n)=0 = \lim_n g^n(0)$.\\
+    Ceci définit une suite déterminée par une relation de récurrence. Comme on sait que $g(0)=\mathbb{P}(Y=0)\geq 0$ et que $g(1)=\E[1^Y]=1$, en utilisant les propriétés des suites déterminées par des relations de récurrence on sait que $1-p$ est égal à la plus petite solution $q_0$ de $g(z)=z$. 
+\end{itemize}
+$\star$ cette égalité est vraie car on peut montrer facilement que conditionnellement à $\{X_n=k\}$, chacune des $k$ "lignées" est indépendante des autres et a la même loi qu'un processus de branchement.
+\end{proof}
+
+
+
+\paragraph{Exercice 5} Correction Exercise 7 feuille 6.
+Vérifiez bien que la convergence a lieu \textit{p.s.} et dans $L^1$ (en fait dans $L^p$ avec $p < 2$).
+D'autre coté, trouver une sous-martingale telle que la convergence n'ait pas lieu dans $L^2$ (indication: similaire à la solution de l'exo 3 feuille 7).
+
+\begin{proof}
+On peut poser $X_n~:~[0,1]\to\R$ tel que $X_n(\omega)=-2^{n/2}\mathbf{1}_{[0,2^{-n}[}(\omega)$.
+\end{proof}
+
+
+\paragraph{Exercice 6}
+Montrez que toute sous-martingale positive d'espérance constante est une martingale.
+\begin{proof}
+On sait que $\E[M_{n+1}-M_n~|~\mathcal{F}_n]\geq 0$. D'autre part on sait que $$ \E[\E[M_{n+1}-M_n~|~\mathcal{F}_n]]=\E[M_{n+1}-M_n] = \E[M_{n+1}]-\E[M_n] = 0. $$
+Ainsi on a que $\E[M_{n+1}-M_n~|~\mathcal{F}_n]\geq 0$ presque sûrement (voir Exerice 1 Feuille 7).
+\end{proof}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
