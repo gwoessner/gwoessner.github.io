@@ -1,0 +1,149 @@
+\documentclass[12pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[ansinew]{inputenc}
+\usepackage{amssymb,amsmath,amsthm,hyperref,mathrsfs,array,graphicx,xcolor,bbm,enumerate,wasysym,dsfont, mathtools}
+%\usepackage{eucal}
+\usepackage[all]{xy}
+%\usepackage{bbm}
+\usepackage{fullpage}
+%\usepackage{subcaption}
+%%%%%%%%%%%
+%\textwidth 173mm \textheight 235mm \topmargin -50pt \oddsidemargin -0.45cm \evensidemargin -0.45cm
+
+%%%%%%%%%%%
+\newtheorem{thm}{Theorem}%[section]
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{exo}{Exercise}
+%\setcounter{exo}{-1}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{claim}[thm]{Claim}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{con}[thm]{Conjecture}
+\newtheorem{qst}[thm]{Question}
+
+\numberwithin{equation}{section}
+\DeclareMathOperator{\Tr}{Tr}
+	
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\R}{\mathbb R}
+\renewcommand{\H}{\mathbb H}
+\newcommand{\Hh}{\mathcal H}
+\newcommand{\HD}{\mathcal H_0^1([0,1])}
+\newcommand{\N}{\mathbb N}
+\newcommand{\D}{\mathbb D}
+\newcommand{\Dd}{\mathcal D}
+\newcommand{\E}{\mathbb E}
+\newcommand{\CC}{\mathcal C}
+\newcommand{\Po}{\mathcal P}
+\newcommand{\I}[1]{\mathbf{1}_{\left \{#1\right \}}}
+\renewcommand{\P}{\mathbb P}
+\renewcommand{\1}{\mathbf 1}
+\newcommand{\A}{\mathds A}
+\newcommand{\ABP}[2]{\rotatebox[origin=c]{180}{$#1\A$}}
+\newcommand{\AB}{{\mathpalette\ABP\relax}}
+\newcommand{\B}{\mathcal B}
+\newcommand{\ED}{\operatorname{EL}}
+\newcommand{\M}{\operatorname{M}}
+
+\newcommand{\F}{\mathcal F}
+\newcommand{\G}{\mathcal G}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\crad}{\text{crad}}
+\newcommand{\Var}{\text{Var}}
+\newcommand{\sgn}{\text{sign}}
+\newcommand{\CLE}{\text{CLE}}
+\newcommand{\ALE}{\text{ALE}}
+\renewcommand{\d}{\mathrm{d}}
+\newcommand{\ind}{\mathds{1}}
+\newcommand{\question}[1]{{\color{blue}  #1}}
+%\newcommand{\comment}[1]{{\color{red}  #1}}
+%\setlength\parindent{10pt}
+
+\title{Martingales and Brownian motion}
+
+\newcommand\nmD[1]{\left\lVert#1\right\rVert_{\nabla}}
+\newcommand\nmL[1]{\left\lVert#1\right\rVert_{L^2}}
+\newcommand\nmH[2]{\left\lVert#1\right\rVert_{\Hh^{#2}}}
+\newcommand\nm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+\maketitle
+
+
+\section*{Exercise sheet 2: Discrete (sub-/super-)martingales}
+\section{Theory}
+
+Within this section $(X_n)_n$ is a martingale with respect to a given filtration $(\mathcal{F}_n)_n$.
+
+\begin{exo}
+   Show that for all $m \geq n$, we have that $\E[X_m | \mathcal{F}_n] = X_n$. Deduce that $(\E[X_n])_n$ is a constant sequence.
+\end{exo}
+
+
+\begin{exo}
+    Show that $(X_n)_n$ is also a martingale with respect to its natural filtration $(\mathcal{G}_n)_n$, \textit{i.e.} with $\mathcal{G}_n := \sigma(X_1,\dots,X_n)$ for any $n$.
+\end{exo}
+
+
+\begin{exo}
+    Suppose that $(Y_n)_n$ is a sequence of \textit{i.i.d.} random variables satisfying $\E[Y_i]=0$ and $\E[Y_i^2]=\sigma^2$, where $\sigma>0$ is a constant that does not depend on $n$. Set $S_n:=\sum_{i=1}^n Y_i$.\\
+    Show that $S_n^2-\sigma^2 n$ is a martingale with respect to its natural filtration.
+\end{exo}
+
+
+\begin{exo}
+    Let $(Y_n)_n$ and $(Z_n)_n$ be a sub- and supermartingale, respectively.
+    Prove the following statements.
+    \begin{enumerate}
+        \item If the sequence $(\E[Y_n])_n$ is constant, then $(Y_n)_n$ is a martingale. Conclude the same for $(Z_n)_n$.
+        \item For any $a \in \R$, 
+        \begin{itemize}
+            \item[$a)$] $(\max(a, Y_n))_n$ is a submartingale;
+            \item[$b)$] $(\min(a, Z_n))_n$ is a supermartingale.
+        \end{itemize}
+    \end{enumerate}
+    Now additionally assume that the law of $Y_n$ is the same for all $n$. Convince yourself from the above facts that then $(Y_n)_n$ is a martingale, which is called {\bfseries equidistributed}.
+    \begin{enumerate}
+    \setcounter{enumi}{2}
+        \item Deduce that for all $a \in \R$ and $p > n \in \N$,
+        \begin{align*}
+            \{Y_n \geq a\} \subset \{Y_p \geq a\} \text{ up to a zero set}.
+        \end{align*}
+        \item Conclude that  
+        \begin{equation*}
+            Y_1 = Y_2 = Y_3 = \ldots \quad\text{almost surely}.
+        \end{equation*}
+    \end{enumerate}
+\end{exo}
+
+
+
+\section{Applications}
+
+\begin{exo}
+    Let $(X_n)_n$ be a sequence of \textit{i.i.d.} integrable random variables with $\E[X_i]=0$, and fix $N\in\N$. Define $M_n \coloneqq \frac{1}{N-n} \sum_{i=1}^{N-n} X_i$. Show that $(M_n)_{n\leq N}$ is a martingale with respect to its natural filtration\footnote{Convince yourself that it is equivalent to the natural filtration associated to $\big( \sum_{i=1}^{N-n} X_i\big)_{n \leq N}$.}.
+\end{exo}
+
+
+\begin{exo}
+    Suppose that there are red and green balls in the urn. Repetitively we randomly draw a ball from the urn, and place it back together with a new ball of the same color. Assume that we start with the configuration of one green and one red ball. Let $R_n$ be the number of red balls in the urn after $n$ steps. Show that
+    $$\left( S_n \coloneqq \dfrac{R_n}{n+2}\right)_n,$$
+    is a martingale with respect to the natural filtration associated to $(R_n)_n$.
+\end{exo}
+
+
+\begin{exo}
+    Let $Z$ be a random variable uniformly distributed on $[0,1]$. For $n\geq 1$ and $k\in \{0,\dots,2^n\}$, we define $X_n:= k2^{-n}$ if $k2^{-n}\leq Z < (k+1)2^{-n}$. Let $f~:~[0,1]\to\R$ a bounded function and $Y_n=2^n(f(X_n+2^{-n})-f(X_n))$. Show that $(Y_n)$ is a martingale with respect to the natural filtration associated to $(X_n)$. 
+\end{exo}
+
+\end{document}
+
+
+
+
+
