@@ -1,0 +1,259 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper]{geometry}		% Reduire les marges
+\geometry{hmargin=3cm,vmargin=3.5cm}
+\usepackage[english]{babel} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[svgnames]{xcolor}
+\usepackage{xpatch}
+\usepackage{tikz}
+\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+\usepackage[svgnames]{xcolor}
+\usepackage{eurosym}
+\usetikzlibrary{positioning,calc}
+\renewcommand{\thesection}{\Roman{section}}
+\xpatchcmd{\proof}{\itshape}{\normalfont\proofnameformat}{}{}
+\newcommand{\proofnameformat}{\bfseries}
+\theoremstyle{definition}
+\newtheorem{defi}{Definition}[section]
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lem}[theo]{Lemma}
+\newtheorem{coro}[theo]{Corollary}
+\newtheorem{exe}{Example}[section]
+\newtheorem{rem}{Remark}[section]
+\newtheorem{nota}{Notation}[section]
+\renewcommand\qedsymbol{$\blacksquare$}
+\numberwithin{equation}{section}
+
+\DeclareMathOperator{\R}{\mathbb{R}}
+\DeclareMathOperator{\Z}{\mathbb{Z}}
+\DeclareMathOperator{\Q}{\mathbb{Q}}
+\DeclareMathOperator{\N}{\mathbb{N}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Cc}{\mathcal{C}}
+\DeclareMathOperator{\Ff}{\mathcal{F}}
+\DeclareMathOperator{\Zz}{\mathcal{Z}}
+
+\title{Exo 13, corrigé}       
+\author{Guillaume Woessner}
+\date{}                       % sans date : celle du jour de compilation
+
+%\pagestyle{headings}          % Pour mettre des entetes avec les titres
+                              % des sections en haut de page
+\sloppy                       % Ne pas faire deborder les lignes dans la marge
+
+\begin{document}
+
+\maketitle                    % Faire un titre utilisant les donnees
+                              % passees : \title, \author et \date
+
+\begin{abstract}
+\begin{center}
+Le mouvement brownien (MB), fin.
+\end{center}
+\end{abstract}
+
+%\tableofcontents              % Table des matieres
+
+
+Dans tout ce document, l'espace de probabilité filtré considéré est $(\Omega,\mathcal{F},(\mathcal{F}_t)_{t\in[0,T]},\mathbb{P})$, et on supposera que $(B_t)_t$ est un mouvement brownien adapté à la filtration.\\
+
+
+
+
+\paragraph{Exercice 1}
+Dans tout cet exercice, on supposera que $(X_t)_{t\geq 0}$ est un processus continu sur $\R$ et adapté à la filtration. On définit une variable aléatoire positive $\tau_E:=\inf\{t\geq 0 ~:~X_t \in E\}$ où $E\subset \R$.\\
+Montrez que si $E$ est fermé, alors $\tau_E$ est un temps d'arrêt.\\
+Montrez que si $E$ n'est pas fermé, ce n'est pas forcément vrai.\\
+Montrez qu'en revanche on a $\{\tau_E\leq t\}\in\Ff_{t+}:=\cap_{u>t}\Ff_u$ pour tout $t$ si $E$ est ouvert.
+
+\begin{proof}~
+\begin{itemize} 
+    \item[$\bullet$] On a que, pour tout $t\geq 0$,
+    $$ \{\tau_E \leq t\} = \{\inf\{d(X_q,E)~:~0\leq q\leq t\}=0\} = \{\inf\{d(X_q,E)~:~0\leq q\leq t, t\in\Q\}=0\}. $$
+    Or, chaque $X_q$ est mesurable par rapport à $\Ff_t$, de plus $d(\cdot,E)$ est continue donc mesurable également, et ainsi la fonction $\inf\{d(X_q,E)~:~0\leq q\leq t, t\in\Q\}$ est encore mesurable par rapport à $\Ff_t$. Donc sa préimage de 0, qu'on a dit être $\{\tau_E\leq t\}$, est bien dans $\Ff_t$.
+    \item[$\bullet$] Si $E$ est un ouvert, alors le résultat est faux. Moralement ce qui bloque c'est que l'évenement $\{\tau_E=t\}=\{\tau_E\leq t\}-\{\tau_E<t\}$ ne peut pas être déterminé par l'information disponible au temps $t$ donnée par $\Ff_t$ (alors que ça devrait être le cas, d'après le point 1). A cet instant précis, on sait seulement que $X_t$ est arrivé sur la frontière $\partial E$, mais peut-être va-t-il faire demi-tour et ne pas rentrer dans $E$.
+    \item[$\bullet$] On a que, comme $E$ est ouvert et $X$ continu,
+    \begin{align*}
+        \{\tau_E \leq t\} &= \{\forall n\in\N^\times, \exists q\in \Q^+, q\leq t+\frac{1}{n}~:~X_t\in E\}\\
+        &= \cap_{n\in\N^\times}\cup_{t\in\Q^+\cap[0,a+\frac{1}{n}]}\{X_t\in E\}.
+    \end{align*}
+    Or chaque $A_n:=\cup_{t\in\Q^+\cap[0,a+\frac{1}{n}]}\{X_t\in E\} \in \Ff_{a+\frac{1}{n}}$. Ainsi on a bien que $\cap_{n\in\N^\times}\in\Ff_{t+}$.
+\end{itemize}
+\end{proof}
+
+
+\paragraph{Exercice 2}
+Dans tout cet exercice, on supposera que $(X_t)_{t\geq 0}$ est un processus continu sur $\R$ et adapté à la filtration. On définit aussi une variable aléatoire positive quelconque $T$.\\
+Montrez que si $\{T\leq t\}\in\Ff_t$ pour tout $t$ (\textit{ie} si $T$ est un temps d'arrêt), alors $\{T<t\}\in\Ff_t$ pour tout $t$.\\
+Montrez que la réciproque est fausse.
+
+\begin{proof}
+On sait que $\{T<t\}=\cup_{n\in\N^\times}\{T\leq t-\frac{1}{n}\}$. Or chaque $\{T\leq t-\frac{1}{n}\}\in\Ff_{t-\frac{1}{n}}\subset \Ff_t$, donc leur union aussi.\\
+Pour trouver un contre-exemple à la réciproque, on peut reprendre celui de l'exercice précédent. On a déjà vu que si $E$ est ouvert, alors de manière générale pour tout $t$, $\{\tau_E\leq t\}\notin \Ff_t$. Mais parallèlement on a $\{\tau_E<t\}=\cup_{n\in\N^\times}\{\tau_E\leq 1-\frac{1}{n}\}$. Or chaque $\{\tau_E\leq 1-\frac{1}{n}\}\in\Ff_{t-\frac{1}{n}+}\subset \Ff_t$, donc leur union aussi.
+\end{proof}
+
+
+
+\paragraph{Exercice 3}
+Soit $a,b>0$ et $T_{-a,b}:=\inf\{t\geq 0~:~B_t\in\{-a,b\}~\}$.\\
+Montrez que c'est un temps d'arrêt presque sûrement fini, et que $\E[T_{-a,b}]=ab<\infty$.\\
+\textit{Indication :} Utilisez le résultat du TD 5, Exercice 1.
+
+\begin{proof}
+On va utiliser le résultat du TD 5, Exercice 1 (qui se généralise bien sûr immédiatement au cas général).\\
+On discrétise le mouvement brownien de la manière suivante. On pose $n\in\N^\times$, et on définit pour chaque $n$ le processus $(B^n_k)_{k\in\N}$ par $B^n_k:=B_{\frac{k}{2^n}}$. Chaque $B^N$ est bien sûr une martingale discrète, et on peut appliquer le résultat du TD 5, Exercice 1 aux temps d'arrêts $\tau^n_{-a,b}$ associés. On remarque que la suite $(\tau^n_{-a,b})_n$ est presque sûrement décroissante, donc en utilisant le théorème de convergence monotone, on peut conclure par passage à la limite.\\
+\textit{Remarque} : le même raisonnement peut s'appliquer pour les temps d'arrêts de la forme $\tau_a$.
+\end{proof}
+
+
+\paragraph{Exercice 4}
+Soit $\Zz$ l'ensemble des zéros de $B$.\\
+Montrez que $\Zz$ est presque sûrement un ensemble parfait (\textit{ie} fermé et sans point isolé), et en déduire qu'il est indénombrable.\\
+\textit{Remarque : En déduire qu'il est indénombrable est un exercice non-trivial, qui ne fait pas intervenir la théorie des probabilités, et donc non-examinable.}
+
+\begin{proof}
+On ne corrige donc que la première partie.\\
+La continuité de $B$ entraîne que $\Zz$ est presque sûrement fermé. On n'a donc plus qu'à vérifier qu'il est presque sûrement sans point isolé.\\
+On définit $\tau_q:=\inf\{t\geq q~:~B_t=0\}$, fini presque sûrement pour tout $q$ car $\Zz$ est non borné. Comme $B_{\tau_q}=0$, d'après la propriété de Markov forte, on sait que $B_{t+\tau_q}$ est encore un mouvement brownien. De plus pour tout mouvement brownien $\tilde{B}$, on a presque sûrement $\inf\{t\geq 0~:~\tilde{B}_t=0\}$. Ainsi, presque sûrement pour tout $q\in\Q^+$, $\tau_q$ n'est pas un point isolé.\\
+Enfin, si $t\in\Zz-\{\tau_q~:~q\in\Q^+\}$, on considère une suite de rationnels $q_n\textuparrow t$, et on observe que $q_n \leq \tau_{q_n}<t$, et donc $t$ n'est pas isolé.\\
+Pour la seconde partie, on peut regarder dans Hewitt \& Stromberg - Real and abstract analysis - Theorem 6.55 - page 72, qui est un théorème de topologie montrant que tout ensemble parfait infini est indénombrable. 
+\end{proof}
+
+
+
+\paragraph{Exercice 5}
+On définit $S_t := \sup_{s\in[0,t]}B_s$.\\
+Déduire du principe de réflexion que, pour tout $t\geq 0$ \textbf{fixé} $S_t\sim |B_t|$.\\
+Déduire aussi du principe de reflexion que la loi du couple $(S_t,B_t)$ a pour densité
+\begin{align}
+\label{2}
+    f_{(S_t,B_t)}(a,b)=\dfrac{2(2a-b)}{\sqrt{2\pi t^3}}\exp\left(-\dfrac{(2a-b)^2}{2t}\right)\mathbf{1}_{a>0,b<a}.
+\end{align}
+En déduire la loi de $\tau_a:=\inf\{t\geq 0~:~B_t=a\}$, et que $\E[\tau_a]=\infty$.
+
+\begin{proof}
+On rappelle tout d'abord le principe de reflexion : pour tout $0\leq b\leq a$, on a 
+\begin{align}
+\label{1}
+    \mathbb{P}(S_t\geq a, B_t\leq b) = \mathbb{P}(B_t\geq 2a-b).
+\end{align}
+On en déduit que
+$$\mathbb{P}(S_t\geq a)=\mathbb{P}(S_t\geq a, B_t\geq a)+\mathbb{P}(S_t\geq a, B_t\leq a) = 2\mathbb{P}(B_t\leq a)=\mathbb{P}(|B_t|\geq a),$$
+ce qui permet de conclure à l'égalité des fonctions de répartition.\\
+Ensuite, en dérivant deux fois la double fonction de répartition donnée par \eqref{1}, et en utilisant la densité de $B_t$, on obtient bien \eqref{2}.\\
+Ensuite, on calcule 
+$$ \mathbb{P}(\tau_a\leq t)=\mathbb{P}(S_t\geq a) = \mathbb{P}(|B_t|\geq a) = \mathbb{P}(\sqrt{t}|B_1|\geq a)=\mathbb{P}\left(\dfrac{a^2}{B_1^2}\leq t\right).$$
+Donc $\tau_a$ a la même loi que $\frac{a^2}{B_1}$, et donc
+$$ f_{\tau_a}(t)=\dfrac{a}{\sqrt{2\pi t^3}}\exp\left(-\dfrac{a^2}{2t}\right)\mathbf{1}_{t>0}. $$
+Ainsi $\E[\tau_a]=\infty$, ce qui est cohérent avec la remarque de l'Exercice 3. 
+\end{proof}
+
+
+
+\paragraph{Exercice 6}
+Soit $n\geq 0$. On découpe l'intervalle $[0,1[$ en sous-intervalles de taille $2^{-n}$ définis par $I^n_i :=[\frac{i}{2^n},\frac{i+1}{2^n}[$ pour $i=0,\dots,2^n-1$. On dit qu'un tel intervalle $I^n_i$ est "bon" si $\exists t\in I^n_i~:~B_t=0$, et on note $p_i^n := \mathbb{P}(I^n_i\text{ est bon})$.\\
+Prouvez qu'il existe $0<m<M$ indépendants de $n$ et $i$ tels que  
+$$ \dfrac{m}{\sqrt{i+1}} \leq p^n_i \leq \dfrac{M}{\sqrt{i+1}}.$$
+En déduire un encadrement de l'espérance du nombre $N^n$ de bons intervalles $I^n_i$ à $n$ fixé.\\
+Montrez que
+$$\lim_n\dfrac{\ln(\E[N^n])}{\ln(2^n)} = \dfrac{1}{2}, \qquad \textit{presque sûrement}.$$
+Que doit-on changer si on s'intéresse plutôt aux moments où $B_t\in \Z$?
+
+\begin{proof}
+On remarque d'abord que, par la propriété d'échelle du mouvement brownien,
+\begin{align}
+    \label{3}
+     p^n_i=\mathbb{P}\left(\exists t\in \left[\frac{i}{2^n},\frac{i+1}{2^n}\right[~:~ B_t=0\right)= \mathbb{P}\left(\exists t \in \left[1,1+\frac{1}{i}\right[~:~B_t=0\right).
+\end{align}
+Ensuite on borne $p^n_i$,
+\begin{itemize}
+    \item[$m$ :] Premièrement, il faut remarquer que, par \eqref{3}, on a $p^n_i\geq \mathbb{P}(B_1>0\,\cap \, B_{1+\frac{1}{i}}<0)$.\\
+    Ensuite, on calcule, en suivant un raisonnement similaire à l'Exercice 8 du TD 10,
+    \begin{align*}
+        \mathbb{P}(B_1>0\,\cap \, B_{1+\frac{1}{i}}<0) &=\dots 
+        =\int_{\R^+}\mathbb{P}(B_{\frac{1}{i}}<-y)d\mathbb{P}(B_1=y)\\
+        &=\int_{\R^+}\mathbb{P}(B_{\frac{1}{i}}>y)d\mathbb{P}(B_1=y)\\
+        &=\int_{\R^+}\mathbb{P}(B_1>\sqrt{i}y)d\mathbb{P}(B_1=y)\\
+        &=\dfrac{1}{\sqrt{2\pi}}\int_{\R^+} \mathbb{P}(B_1>\sqrt{i}y) e^{-\frac{y^2}{2}}dy\\
+        &\geq^\star \dfrac{1}{2\pi}\int_{\R^+} \left(\dfrac{1}{\sqrt{i}y}-\dfrac{1}{(\sqrt{i}y)^3}\right) e^{-\frac{iy^2}{2}}e^{-\frac{y^2}{2}}dy\\
+        &= \dfrac{1}{2\pi}\int_{\R^+} \left(\dfrac{iy^2-1}{(\sqrt{i}y)^3}\right) e^{-(i+1)\frac{y^2}{2}}dy\\
+        &= \dfrac{1}{2\pi\sqrt{i+1}}\int_{\R^+} \left(\dfrac{\frac{i}{i+1}z^2-1}{(\sqrt{\frac{i}{i+1}}z)^3}\right) e^{-\frac{z^2}{2}}dz\\
+        &\geq  \dfrac{1}{2\pi\sqrt{i+1}}\int_{\R^+}\dfrac{c}{\sqrt{z}}e^{-\frac{z^2}{2}}dz,
+    \end{align*}
+    pour un certain $c>0$. Le résultat s'en déduit en notant $m:=\frac{c}{2\pi}\int_{\R^+}\dfrac{1}{\sqrt{z}}e^{-\frac{z^2}{2}}dz<\infty$.
+    \item[$M$ :] Ensuite, avec \eqref{3} et les notations de l'Exercice 5, on a
+    \begin{align}
+        \label{4}
+        p^n_i  = \int_{\R}\mathbb{P}\left(\exists t \in \left[1,1+\frac{1}{i}\right[~:~B_t=0~|~B_1=x\right)f_{B_1}(x)dx = 2\int_0^\infty \mathbb{P}\left(\tau_x<\frac{1}{i}\right)f_{B_1}(x)dx. 
+    \end{align}
+    Or, d'après l'Exercice 5, 
+    $$\mathbb{P}\left(\tau_x<\frac{1}{i}\right)=\int_0^{\frac{1}{i}} \dfrac{x}{\sqrt{2\pi t^3}}e^{-\frac{x^2}{2t}}dt = \int_{ix^2}^\infty \dfrac{1}{\sqrt{2\pi u}}e^{-\frac{u}{2}}du:= I. $$
+    Ensuite, on peut majorer cette intégrale $I$ de deux manières différentes :
+    \begin{itemize}
+        \item[\textbf{si}] $x^2\geq 1/i$, alors $u\geq 1$ et :  
+        $$I\leq \int_{ix^2}^\infty \dfrac{1}{\sqrt{2\pi}}e^{-\frac{u}{2}}du =\dfrac{1}{\sqrt{2\pi}}e^{-\frac{ix^2}{2}}. $$
+        \item[\textbf{si}] $x^2\leq i/1$, alors comme $e^{-\frac{u}{2}}\leq 1$ :
+        $$ I\leq \int_{ix^2}^1\dfrac{1}{\sqrt{2\pi u}}du + \int_1^\infty \dfrac{1}{\sqrt{2\pi}}e^{-\frac{u}{2}}du = \dfrac{1}{\sqrt{2\pi}}(2-2\sqrt{i}x+e^{-\frac{1}{2}}) \leq \dfrac{1}{\sqrt{2\pi}}(2+e^{-\frac{1}{2}}).$$
+    \end{itemize}
+    Ainsi, reprenant \eqref{4},
+    \begin{align*}
+        p^n_i &= 2\int_{\frac{1}{\sqrt{i}}}^\infty \mathbb{P}\left(\tau_x<\frac{1}{i}\right)f_{B_1}(x)dx + 2\int_0^{\frac{1}{\sqrt{i}}} \mathbb{P}\left(\tau_x<\frac{1}{i}\right)f_{B_1}(x)dx\\
+        &\leq \dfrac{2}{2\pi}\int_{\frac{1}{\sqrt{i}}}^\infty e^{-\frac{ix^2}{2}} e^{-\frac{x^2}{2}}dx + \dfrac{2}{2\pi}\int_0^{\frac{1}{\sqrt{i}}}(2+e^{-\frac{1}{2}})e^{-\frac{x^2}{2}}dx\\
+        &\leq \dfrac{1}{\pi}\int_{\sqrt{\frac{i+1}{i}}}^\infty e^{-\frac{y^2}{2}}\dfrac{dy}{\sqrt{i+1}}+\dfrac{2+e^{-\frac{1}{2}}}{\sqrt{i}}\\
+        &\leq \dots \leq \dfrac{M}{\sqrt{i+1}} 
+    \end{align*}
+\end{itemize}
+Ainsi, on peut calculer
+$$\E[N^n] = \E\left[ \sum_{i=0}^{2^n-1} \mathbf{1}_{I^n_i\text{ bon}} \right] = \sum_{i=0}^{2^n-1} p^n_i. $$
+L'encadrement suivant découle alors de l'encadrement des $p^n_i$ et de comparaisons séries-intégrales :
+$$ m2^{n/2} \leq \E[N^n] \leq M 2^{n/2}. $$
+Le dernier résultat en découle.
+~\\~\\~\\
+$~^\star$ est vraie en utilisant que, pour $X\sim\mathcal{N}(0,1)$, on a pour tout $x>0$,
+$$ \mathbb{P}(X>x)\geq \dfrac{1}{\sqrt{2\pi}}\left( \dfrac{1}{x}-\dfrac{1}{x^3} \right)e^{-\frac{x^2}{2}}. $$
+\textit{Preuve} : 
+\begin{align*}
+    \mathbb{P}(X>x) &= \dfrac{1}{\sqrt{2\pi}}\left(\int_x^\infty \dfrac{t}{t}e^{-\frac{t^2}{2}}dt\right)\\
+    &= \dfrac{1}{\sqrt{2\pi}}\left(\left[ -\dfrac{1}{t}e^{-\frac{t^2}{2}} \right]^\infty_x - \int_x^\infty \dfrac{1}{t^2}e^{-\frac{t^2}{2}}dt\right)\\
+    &\geq \dfrac{1}{\sqrt{2\pi}}\left( \dfrac{1}{x}e^{-\frac{x^2}{2}} - \int_x^\infty \dfrac{t^3}{x^3}\dfrac{e^{-\frac{t^2}{2}}}{t^2}dt\right)\\
+    &= \dfrac{1}{\sqrt{2\pi}}\left(\dfrac{1}{x}e^{-\frac{x^2}{2}} - \dfrac{1}{x^3}\int_x^\infty te^{-\frac{t^2}{2}}dt\right)\\
+    &=\dfrac{1}{\sqrt{2\pi}}\left(\dfrac{1}{x}e^{-\frac{x^2}{2}} - \dfrac{1}{x^3}e^{-\frac{x^2}{2}}\right)
+\end{align*}
+\end{proof}
+
+
+
+
+\end{document}
+
+
+
+
+
+\paragraph{Exercice 8*}
+Soit $(\varphi_n)_n$ une base hilbertienne de $H:=L^2([0,T],\mathcal{B},dt)$, et $(\epsilon_n)_n$ une famille \textit{i.i.d.} de variables $\mathcal{N}(0,1)$.\\
+Montrez que la famille de processus $(B_t^n)_n$ définie par 
+$$ B_t^n := \sum_{k=0}^n \epsilon_k \langle \varphi_k~|~\mathbf{1}_{[0,t]}\rangle,$$
+où $\langle\cdot~|~\cdot\rangle$ est le produit scalaire de $H$, converge dans $L^2(\mathbb{P})$ vers un mouvement brownien.
+
+\paragraph{Exercice 2}
+Soit $\lambda\geq 0$.\\
+Montrez que lee processus $(M_t)_{t\in[0,1]}$ défini par $M_t := e^{\lambda B_t - \frac{\lambda^2}{2}t}$ est une martingale.
+
+
+
+On considère ensuite les évènements $A_n(a):=\{\ln(N^n)>a\ln(2^n)\}=\{N^n>2^{an}\}$, défini pour $a>0$. On a, par l'inégalité de Markov et les résultats précédents, $\mathbb{P}(A_n(a))\leq \frac{M2^{n/2}}{2^{an}}$, qui est le terme général d'une série convergente si et seulement si $a>\frac{1}{2}$. Par le premier lemme de Borel-Cantelli, on en déduit que pour tout $a>\frac{1}{2}$, seule une infinité de $A_n(a)$ se réalisent, et en peut en conclure que 
+\begin{align}
+    \label{7}
+    \limsup_n \dfrac{\ln(N^n)}{\ln(2^{n})}\leq \dfrac{1}{2}. 
+\end{align}
