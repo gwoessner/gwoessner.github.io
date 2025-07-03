@@ -76,8 +76,6 @@ Le **Cours** en [PDF]({{ site.baseurl }}/assets/teaching/cours_parallélogrammes
 <br>
 <br>
 <br>
-<br>
-<br>
 *A noter que vous pouvez ajouter automatiquement dans les cours des trous à faire compléter en remplaçant la commande*
 "\newif\iftrou\troufalse" *par* "\newif\iftrou\troutrue" *dans leur fichier .tex.*
 
