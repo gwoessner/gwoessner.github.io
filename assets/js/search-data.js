@@ -470,13 +470,6 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Guillaume-Woessner/", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/Charles_WG3", "_blank");
-        },
-      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
