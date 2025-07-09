@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-image-galleries-changé-2024",
+        },{id: "post-un-post-test",
+      
+        title: "Un post-test",
+      
+      description: "Description tbd",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/climat/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries-changé-2024",
       
         title: "a post with image galleries CHANGÉ 2024",
       
