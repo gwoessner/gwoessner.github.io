@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-un-post-test",
+        },{id: "post-le-climat-et-ses-malentendus",
       
-        title: "Un post-test",
+        title: "Le climat et ses malentendus",
       
-      description: "Description tbd",
+      description: "Une revue argumentée de la thèse climatosceptique moderne",
       section: "Posts",
       handler: () => {
         
