@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-le-climat-et-ses-malentendus",
+        },{id: "post-le-sujet-chaud-du-climat",
       
-        title: "Le climat et ses malentendus",
+        title: "Le sujet chaud du climat",
       
       description: "Une revue argumentée de la thèse climatosceptique moderne",
       section: "Posts",
