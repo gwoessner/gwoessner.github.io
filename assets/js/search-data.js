@@ -38,6 +38,17 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
+          window.location.href = "/blog/2025/climat-2/";
+        
+      },
+    },{id: "post-le-sujet-chaud-du-climat",
+      
+        title: "Le sujet chaud du climat",
+      
+      description: "Une revue argumentée de la thèse climatosceptique moderne",
+      section: "Posts",
+      handler: () => {
+        
           window.location.href = "/blog/2025/climat/";
         
       },
