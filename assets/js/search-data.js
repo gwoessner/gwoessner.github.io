@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-le-sujet-chaud-du-climat",
+        },{id: "post-le-sujet-chaud-du-climat-partie-2",
       
-        title: "Le sujet chaud du climat",
+        title: "Le sujet chaud du climat, partie 2",
       
-      description: "Une revue argumentée de la thèse climatosceptique moderne",
+      description: "Où on traite &quot;l&#39;argument des 1%&quot;",
       section: "Posts",
       handler: () => {
         
