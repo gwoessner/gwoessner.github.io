@@ -34,7 +34,7 @@ ninja.data = [{
       
         title: "Le sujet chaud du climat, partie 2",
       
-      description: "Où on traite &quot;l&#39;argument des 1%&quot;",
+      description: "Où on traite &quot;l&#39;argument des 1%&quot;.",
       section: "Posts",
       handler: () => {
         
