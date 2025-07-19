@@ -45,7 +45,7 @@ ninja.data = [{
       
         title: "Le sujet chaud du climat",
       
-      description: "Une revue argumentée de la thèse climatosceptique moderne",
+      description: "Une revue argumentée de la thèse climatosceptique moderne.",
       section: "Posts",
       handler: () => {
         
