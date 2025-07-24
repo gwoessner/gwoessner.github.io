@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Epistémologie
+title: Qu'est-ce que la science ?
 date: 2024-01-01 21:00:00
 description: Introduction à l'épistémologie
 tags: philo
 thumbnail: assets/img/blog_pics/epistemologie-cover.jpg
+related_posts: false
+toc:
+  beginning: true
 ---
 
 ### Introduction
