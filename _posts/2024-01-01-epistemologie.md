@@ -7,7 +7,7 @@ tags: philo
 thumbnail: assets/img/blog_pics/epistemologie-cover.jpg
 related_posts: false
 toc:
-  beginning: true
+  beginning: false
 ---
 
 ### Introduction
