@@ -393,17 +393,6 @@ ninja.data = [{
           window.location.href = "/blog/2015/code/";
         
       },
-    },{id: "post-a-post-with-images-changé-2015",
-      
-        title: "a post with images changé 2015",
-      
-      description: "this is what included images could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/images/";
-        
-      },
     },{id: "courses-collège-5ème",
           title: 'Collège, 5ème',
           description: "Dernière mise-à-jour : 2024-25.",
