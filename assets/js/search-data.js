@@ -184,6 +184,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/chartjs/";
         
       },
+    },{id: "post-epistémologie",
+      
+        title: "Epistémologie",
+      
+      description: "Introduction à l&#39;épistémologie",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/epistemologie/";
+        
+      },
     },{id: "post-a-post-with-tikzjax",
       
         title: "a post with TikZJax",
