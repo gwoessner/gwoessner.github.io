@@ -63,9 +63,9 @@ ninja.data = [{
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
-    },{id: "post-epistémologie",
+    },{id: "post-qu-39-est-ce-que-la-science",
       
-        title: "Epistémologie",
+        title: "Qu&#39;est-ce que la science ?",
       
       description: "Introduction à l&#39;épistémologie",
       section: "Posts",
