@@ -41,9 +41,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/climat-2/";
         
       },
-    },{id: "post-le-sujet-chaud-du-climat",
+    },{id: "post-le-sujet-chaud-du-climat-partie-1",
       
-        title: "Le sujet chaud du climat",
+        title: "Le sujet chaud du climat, partie 1",
       
       description: "Une revue argumentée de la thèse climatosceptique moderne.",
       section: "Posts",
