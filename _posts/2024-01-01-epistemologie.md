@@ -30,7 +30,7 @@ Feyerabend évoque dans son livre plusieurs difficultés que les philosophes dev
 
 Feyerabend ajoute que ce tâtonnement est normal, il faut laisser du temps aux scientifiques pour développer une théorie complète et cohérente. Les étapes intermédiaires sont nécessairement brouillonnes et pleines de contradictions. Toutefois, cette anarchie pose une sérieuse difficulté aux épistémologues au regard de l'objectif C.
 
-**ii’) L’anarchisme méthodologique :** Feyerabend ne se contente pas de *décrire* un fait historique lorsqu’il expose son point ii), il est *prescriptif*. Il défend que la science doit **ne pas avoir de méthode**. Les situations rencontrées par les scientifiques sont si diverses et complexes qu’il est illusoire d’espérer trouver des critères qui les guideraient en toute circonstance. Pour Feyerabend, toute idée est digne d’être investiguée, y compris ce qui paraît absurde ou réfuté, du moment que cela est fait de manière critique.
+**ii’) L’anarchisme méthodologique :** Feyerabend ne se contente pas de *décrire* un fait historique lorsqu’il expose son point **ii)**, il est *prescriptif*. Il défend que la science doit **ne pas avoir de méthode**. Les situations rencontrées par les scientifiques sont si diverses et complexes qu’il est illusoire d’espérer trouver des critères qui les guideraient en toute circonstance. Pour Feyerabend, toute idée est digne d’être investiguée, y compris ce qui paraît absurde ou réfuté, du moment que cela est fait de manière critique.
 
 
 
@@ -54,19 +54,19 @@ Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi ce
 Selon les falsificationnistes, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
 
 **Enoncé du critère :** cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation (donner exemples d’hypothèses correctes et incorrectes). Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous 2 conditions :
-	**i.** l’hypothèse a fait des prédictions fructueuses, c’est-à-dire que certains énoncés d’observation prédits par l’hypothèse ont été vérifiés par l’expérience. Par ailleurs, il faut que ces prédictions aient été inédites et audacieuses.
-	**ii.** aucun énoncé d’observation impliqué par l’hypothèse n’a été contredit par l’expérience.
+ - l’hypothèse a fait des prédictions fructueuses, c’est-à-dire que certains énoncés d’observation prédits par l’hypothèse ont été vérifiés par l’expérience. Par ailleurs, il faut que ces prédictions aient été inédites et audacieuses,
+ - aucun énoncé d’observation impliqué par l’hypothèse n’a été contredit par l’expérience.
 
 **Points positifs :**
 Les falsificationnistes affirment que leur critère atteint ses objectifs car :
-    • Il est logiquement valable, on n’a plus le paradoxe de l’induction.
-    • On a un critère qui permet de choisir entre deux théories non falsifiées : la meilleure est celle qui est la plus générale et la plus précise, et ainsi qui fait le plus de prédictions et la plus falsifiable. Ainsi, au fur et à mesure des réfutations et du raffinement des théories considérées, la science progresse et l’objectif b) semble atteint par les falsificationnistes.
-    • Il corrige le problème de dépendance des observations à une théorie ii) de Feyerabend.
+ - Il est logiquement valide, le paradoxe de l’induction est levé,
+ - On a un critère qui permet de choisir entre deux théories non falsifiées : la meilleure est celle qui est la plus générale et la plus précise, car c'est celle qui fait le plus de prédictions et est la plus falsifiable. Ainsi, au fur et à mesure des réfutations et du raffinement des théories considérées, la science progresse et l’objectif B semble atteint par les falsificationnistes.
+ - Il corrige le problème de dépendance des observations à une théorie **ii)** de Feyerabend.
 
 **Critiques :**
-    • Le problème majeur est que parfois ce sont les observations qui sont fausses, et pas la théorie, par exemple lorsqu’on a cru observer des neutrinos aller plus vite que la lumière, il s’est avéré que c’était l’expérience qui était fausse. De plus, même lorsque l’instrument de mesure et son interprétation sont correcte, cela ne signifie pas qu’il faille abandonner la théorie. Par exemple lorsqu’on a mesuré des écarts aux prédictions de Newton dans l’orbite de Uranus, cela ne signifiait pas que sa théorie était fausse, mais qu’une autre planète encore non détectée (Neptune) perturbait son mouvement.
-    • Dans la pratique, les scientifiques n’ont pas respecté ce critère. L’exemple du paon ou celui de la taille apparente de Vénus qui ne changeait pas en fonction de sa distance à la Terre lors des premières mesures (c’était dû à un effet d’optique) montrent qu’on a pu continuer à faire de la science sans abandonner des théories réfutées par l’observation. L’objectif c) n’est donc pas atteint.
-    • Le critère n’est pas assez inclusif car on ne fait pas d’expérience en histoire. Cela signifie-t-il que l’histoire n’est pas une science ? Si on corrige ce problème en disant qu’en histoire on pourra un jour excaver quelque chose qui falsifiera notre théorie, alors le critère devient trop inclusif car les religions deviennent scientifiques étant donné qu’il est possible d’imaginer qu’un jour elles soient falsifiées.
+ - Le problème majeur est que parfois ce sont les observations qui sont fausses, et pas la théorie, par exemple lorsqu’on a cru observer des neutrinos aller plus vite que la lumière, il s’est avéré que c’était l’expérience qui était fausse. De plus, même lorsque l’instrument de mesure et son interprétation sont correcte, cela ne signifie pas qu’il faille abandonner la théorie. Par exemple lorsqu’on a mesuré des écarts aux prédictions de Newton dans l’orbite de Uranus, cela ne signifiait pas que sa théorie était fausse, mais qu’une autre planète encore non détectée (Neptune) perturbait son mouvement.
+ - Dans la pratique, les scientifiques n’ont pas respecté ce critère. L’exemple du paon ou celui de la taille apparente de Vénus qui ne changeait pas en fonction de sa distance à la Terre lors des premières mesures (c’était dû à un effet d’optique) montrent qu’on a pu continuer à faire de la science sans abandonner des théories réfutées par l’observation. L’objectif c) n’est donc pas atteint.
+ - Le critère n’est pas assez inclusif car on ne fait pas d’expérience en histoire. Cela signifie-t-il que l’histoire n’est pas une science ? Si on corrige ce problème en disant qu’en histoire on pourra un jour excaver quelque chose qui falsifiera notre théorie, alors le critère devient trop inclusif car les religions deviennent scientifiques étant donné qu’il est possible d’imaginer qu’un jour elles soient falsifiées.
       Par ailleurs les maths et la théorie de l’évolution ne sont pas scientifiques selon ce critère, car comme elles ne sont rien de plus qu’un raisonnement logique, on ne peut pas imaginer qu’elles soient falsifiées. Mais ce point est défendable, car ça ne veut pas dire que ces disciplines sont mauvaises, seulement qu’elles sont d’une autre nature que scientifique.
       Ainsi l’objectif a) n’est pas atteint non plus.
 
