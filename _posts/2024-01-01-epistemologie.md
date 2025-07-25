@@ -124,13 +124,15 @@ Aucune des tentatives des épistémologues pour trouver un critère caractérisa
 
 
 
-#### Notes de bas de page
-[^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
-
 ### Points qu’on peut rajouter:
 - l’argument de la pierre lâchée du haut d’une tour, exemple concret d’une situation où on ne peut pas rejeter une théorie à la première falsification venue, il est nécessaire d’attendre que la nouvelle théorie soit mature pour pouvoir expliquer l’intégralité des prétendues falsifications de manière cohérente et unifiée.
 - certains épistémologues modernes cherchent plutôt une famille de critères de scientificité (dont vérifier un seul serait suffisant pour être une science) plutôt qu’un unique. Exemple tiré de twitter :
 https://twitter.com/CovaFlorian/status/1463132023619522560
 warning : le graphe n’est pas à prendre comme une affirmation, mais plutôt comme un exemple de comment le double-critère fonctionnerait
 - (critique du tiret précédent) : les disciplines, du moment qu’elles sont pratiquées par des gens rationnels, sont toutes autant scientifiques les unes que les autres (la socio l’est autant que la physique). Ce qui diffère c’est l’objet utilisé : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins prédictif. Par conséquent la méthodologie appliquée sera différente, mais la discipline n’en sera pas moins scientifique.
-- une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408 
+- une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408
+
+
+#### Notes de bas de page
+[^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
+
