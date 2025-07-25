@@ -78,7 +78,7 @@ Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des p
 
 **Esquisse de l’approche :**  Selon Kuhn, une discipline scientifique consiste en une communauté de pairs qui tentent de résoudre des énigmes que leur pose leur discipline, et cette activité de recherche se décompose en trois étapes qui se succèdent et se répètent à l’infini :
 
-<p style="text-align: center;">1. La pré-science      2. la science normale      3. la crise/révolution</p>
+<p style="text-align: center;">1. La pré-science   &nbsp;&nbsp;&nbsp;   2. la science normale   &nbsp;&nbsp;&nbsp;   3. la crise/révolution</p>
 
 Dans la pré-science, rien n’est clairement défini, aucune théorie unificatrice n’a encore émergé, les scientifiques sont libres de tenter n’importe quelle approche pour résoudre les énigmes qui se posent à eux.
 
@@ -124,7 +124,7 @@ Aucune des tentatives des épistémologues pour trouver un critère caractérisa
 
 
 
-
+#### Notes de bas de page
 [^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
 
 ### Points qu’on peut rajouter:
