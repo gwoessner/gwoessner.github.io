@@ -11,7 +11,7 @@ toc:
 ---
 
 ### Introduction
-**Problématique :** Le but sera de trouver un critère permettant de distinguer une discipline scientifique d’une discipline non-scientifique. Plus précisément, l’objectif de l’épistémologue est triple, le critère doit autant que possible : a) inclure les disciplines dont la scientificité ne fait pas débat (physique, chimie, biologie) et exclure les disciplines dont la non-scientificité ne fait pas débat (homéopathie, astrologie, artisanat, religion, football…) ; b) donner des outils au scientifique pour déterminer laquelle de deux théories concurrentes est la meilleure ; c) expliquer pourquoi les sciences ont rencontré leurs succès historiques et produisent de la connaissance.
+**Problématique :** Le but sera de trouver un critère permettant de distinguer une discipline scientifique d’une discipline non-scientifique. Plus précisément, l’objectif de l’épistémologue est triple, le critère doit autant que possible : A. inclure les disciplines dont la scientificité ne fait pas débat (physique, chimie, biologie) et exclure les disciplines dont la non-scientificité ne fait pas débat (homéopathie, astrologie, artisanat, religion, football…) ; B. donner des outils au scientifique pour déterminer laquelle de deux théories concurrentes est la meilleure ; C. expliquer pourquoi les sciences ont rencontré leurs succès historiques et produisent de la connaissance.
 
 **Plan :** Pour répondre, je m’appuie sur le livre de Alan Chalmers *Qu’est-ce que la science* et celui de Paul Feyerabend *Contre la méthode*. Je commencerai par présenter la thèse de Feyerabend qui affirme qu’un tel critère n’est ni possible ni souhaitable. Je continuerai en présentant 4 approches successives et j’expliquerai en quoi elles échouent tout de même à répondre à toutes les critiques de Feyerabend. Je finirai en évoquant brièvement les pistes envisagées par les épistémologues modernes pour contourner ces écueils.
 
@@ -20,37 +20,37 @@ toc:
 
 
 ### I. Paul Feyerabend 
-Feyerabend évoque dans son livre plusieurs difficultés que les philosophes devront surmonter dans la recherche du critère.
+Feyerabend évoque dans son livre plusieurs difficultés que les philosophes devront surmonter dans leur recherche.
 
-**i) La dépendance de l’observation à la théorie :** Toute observation sur le monde dépend toujours d’un cadre théorique. Il n’existe rien de tel qu’une pure description de la réalité qui n’aurait pas des présupposés théoriques. Exemple des atomes dans un microscope, ou de la taille apparente de Vénus, voire de la couleur rouge.
+**i) La dépendance de l’observation à la théorie :** Toute observation sur le monde dépend toujours d’un cadre théorique. Il n’existe rien de tel qu’une pure description de la réalité qui n’aurait pas des présupposés théoriques. Par exemple une simple obervation d'atomes avec un [microscope](https://fr.wikipedia.org/wiki/Microscope_%C3%A0_effet_tunnel). En effet, il faut savoir que son principe de fonctionnement repose sur de la mécanique quantique très avancée. Ainsi, pour voir des atomes il faut d'abord connaitre leur existence. Même pour une un énoncé aussi trivial que "l'objet est rouge", il faut au préalable avoir construit le concept de couleur, et s'être mis d'accord sur des catégories.
 
-**i’) L’incommensurabilité des théories :** Cette dépendance de l’observation à la théorie a une conséquence importante pour le point b). Deux théories peuvent être si éloignées que les énoncés d’observation de l’une ne puissent pas se décrire dans le langage de l’autre. Un bon exemple est la mécanique quantique et la relativité générale. Elles pourront alors ne partager aucun énoncé d’observation, et par conséquent il sera impossible de partir d’un énoncé d’observation pour comparer objectivement deux telles théories. Il sera bien sûr toujours possible de juger chaque théorie par leur conformité vis-à-vis de leurs énoncés d’observation respectifs, mais ce jugement aura toujours une part de subjectivité : quels critères choisir pour jauger la conformité?
+**i’) L’incommensurabilité des théories :** Cette dépendance de l’observation à la théorie a une conséquence importante pour l'objectif B. Deux théories peuvent être si éloignées que les énoncés d’observation[^1] de l’une ne puissent pas se décrire dans le langage de l’autre. Un bon exemple est la mécanique quantique et la relativité générale. Elles pourront alors ne partager aucun énoncé d’observation, et par conséquent il sera impossible de partir d’un énoncé d’observation pour comparer objectivement deux telles théories. Il sera bien sûr toujours possible de juger chaque théorie par leur conformité vis-à-vis de leurs énoncés d’observation respectifs, mais ce jugement aura toujours une part de subjectivité : quels critères choisir pour jauger la conformité?
 
-**ii) Le genèse mouvementée des théories :** Feyerabend défend qu’historiquement les scientifiques ne suivent aucune méthode lorsqu’ils développent leurs théories, en particulier aucune des 4 présentées plus loin dans cet article. Il prend extensivement pour exemple Galilée lorsqu’il a développé sa physique et son géocentrisme. Si sa théorie s’est imposée ce n’est pas en convaincant ses contemporains par des démonstrations rigoureuses, mais plutôt pour des raisons sociales. Dans les faits, Galilée était empêtré dans des systèmes d'interprétation des observations différents de ceux des théories qu’il finira par développer (voir aussi point i’).
-Feyerabend ajoute que ce tâtonnement est normal, il faut laisser du temps aux scientifiques pour développer une théorie complète et cohérente. Les étapes intermédiaires sont nécessairement brouillonnes / pleines de contradictions,.
-Ces considérations posent une sérieuse difficulté pour le point c).
+**ii) Le genèse mouvementée des théories :** Feyerabend défend la thèse que les scientifiques n'ont jamais suivi aucune méthode lorsqu’ils ont développé leurs théories, et en particulier aucune des quatre présentées plus loin dans cet article. Il prend extensivement pour exemple Galilée pendant la période où il a développé sa physique et son géocentrisme. Si sa théorie s’est imposée ce n’est pas en convaincant ses contemporains par des démonstrations rigoureuses, mais plutôt pour des raisons sociales. Dans les faits, Galilée était empêtré dans des systèmes d'interprétation des observations différents de ceux des théories qu’il finira par développer (cf point i’). Un exemple parfait de cette situation est l'explication par Galilée des marées, pour lequel, par soucis de concision, je me contente de renvoyer le lecteur à [cet article](https://acces.ens-lyon.fr/acces/logiciels/e-librairie/les-marees-avant-la-gravitation#d0e236) (Section *La combinaison de la rotation et de la révolution la Terre : Galilée*).
 
-**ii’) L’anarchisme méthodologique :** Feyerabend ne se contente pas de décrire un fait historique lorsqu’il montre le point ii), il est prescriptif : il défend que la science doit NE PAS avoir de méthode. Les situations rencontrées par les scientifiques sont si diverses et complexes qu’il est illusoire d’espérer trouver des critères qui les guideraient en toute circonstance. Pour Feyerabend, toute idée est digne d’être investiguée, y compris ce qui paraît absurde ou réfuté, du moment que cela est fait de manière critique.
+Feyerabend ajoute que ce tâtonnement est normal, il faut laisser du temps aux scientifiques pour développer une théorie complète et cohérente. Les étapes intermédiaires sont nécessairement brouillonnes et pleines de contradictions. Toutefois, cette anarchie pose une sérieuse difficulté aux épistémologues au regard de l'objectif C.
+
+**ii’) L’anarchisme méthodologique :** Feyerabend ne se contente pas de *décrire* un fait historique lorsqu’il expose son point ii), il est *prescriptif*. Il défend que la science doit **ne pas avoir de méthode**. Les situations rencontrées par les scientifiques sont si diverses et complexes qu’il est illusoire d’espérer trouver des critères qui les guideraient en toute circonstance. Pour Feyerabend, toute idée est digne d’être investiguée, y compris ce qui paraît absurde ou réfuté, du moment que cela est fait de manière critique.
 
 
 
 ### II. Inductivisme
-Selon les inductivistes, la science est une méthode, et les succès historiques de la science s’expliquent par le fait que les scientifiques ont suivi cette méthode.
+Selon les inductivistes, la science au contraire est bien une méthode, et les succès historiques de la science s’expliquent par le fait que les scientifiques ont suivi cette méthode.
 
-**Exposé de la méthode :** Le scientifique observe des phénomènes ponctuels. Puis il les décrit de manière objective dans des énoncés d’observation. Le scientifique est alors justifié à induire un énoncé général, alors appelé loi scientifique, sous 3 conditions :
-    • un grand nombre d’énoncés d’observation corrobore l’énoncé général,
-    • les observations ont été faites dans beaucoup de situations différentes
-    • aucun énoncé d’observation ne contredit l’énoncé général.
-Enfin le scientifique utilise son panel de lois scientifiques pour expliquer de nouveaux phénomènes ponctuels (exemple de l’arc-en-ciel), c’est l’étape de déduction.
+**Exposé de la méthode :** Le scientifique observe des phénomènes ponctuels, puis il les décrit de manière objective à l'aide d'énoncés d’observation. Le scientifique est alors justifié à induire un énoncé général, alors appelé loi scientifique, sous 3 conditions :
+ - un grand nombre d’énoncés d’observation corrobore l’énoncé général,
+ - les observations ont été faites dans beaucoup de situations différentes,
+ - aucun énoncé d’observation ne contredit l’énoncé général.
+Enfin le scientifique utilise le panel de lois scientifiques pour expliquer de nouveaux phénomènes ponctuels, c’est l’étape de déduction.
 
 **Critiques :**
-Les inductivistes n’expliquent pas pourquoi leur méthode fonctionne car ils ne précisent pas à partir de quand on a assez d’observations et assez variées pour justifier l’induction. Aussi, comment justifier que l’induction est une méthode produisant des connaissances autrement qu’en disant que ça a toujours marché… et donc en faisant une induction ? C’est le paradoxe de l’induction.
-Une autre faiblesse majeure est surtout que cette approche tombe précisément dans la critique i) de Feyerabend : il n’existe pas d’énoncé d’observation pur préexistant à toute théorie.
-Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi cette méthode. Einstein n’a pas procédé par inductivisme pour développer sa relativité, mais est plutôt parti d’une hypothèse (la vitesse de la lumière est la même dans tous les référentiels) et a utilisé des expériences de pensée pour en explorer les conséquences sans se soucier d’observer quoi que ce soit. Ainsi, l’inductivisme échoue à atteindre l’objectif c).
+Les inductivistes n’expliquent pas pourquoi leur méthode fonctionne, car ils ne précisent pas à partir de quel moment on a assez d’observations et assez variées pour justifier l’induction. Aussi, comment justifier que l’induction est une méthode produisant des connaissances autrement qu’en disant que ça a toujours marché… et donc en faisant une induction ? C’est le paradoxe de l’induction.
+Une autre faiblesse majeure est surtout que cette approche tombe précisément dans la critique **i)** de Feyerabend : il n’existe pas d’énoncé d’observation pur préexistant à toute théorie.
+Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi cette méthode. Einstein n’a pas procédé par inductivisme pour développer sa relativité, mais est plutôt parti d’une hypothèse (la vitesse de la lumière est la même dans tous les référentiels) et a utilisé des expériences de pensée pour en explorer les conséquences sans se soucier d’observer quoi que ce soit. Ainsi, l’inductivisme échoue à atteindre l’objectif C.
 
 
 
-### II. Falsificationnisme
+### III. Falsificationnisme
 Selon les falsificationnistes, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
 
 **Enoncé du critère :** cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation (donner exemples d’hypothèses correctes et incorrectes). Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous 2 conditions :
@@ -72,7 +72,7 @@ Les falsificationnistes affirment que leur critère atteint ses objectifs car :
 
 
 
-### III. Les paradigmes de Kuhn :
+### IV. Les paradigmes de Kuhn :
 Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des paradigmes va se concentrer sur la communauté scientifique plutôt que sur les relations entre les théories et les observations (inductivisme et falsificationnisme).
 
 **Esquisse de l’approche :**  Selon Kuhn, une discipline scientifique consiste en une communauté de pairs qui tentent de résoudre des énigmes que leur pose leur discipline, et cette activité de recherche se décompose en 3 étapes qui se répètent à l’infini :
@@ -93,7 +93,7 @@ Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des p
 
 
 
-### IV. Les programmes de recherche de Lakatos
+### V. Les programmes de recherche de Lakatos
 Pour Lakatos, la science doit suivre une méthodologie universelle, et de ce fait il va prescrire aux scientifiques de suivre un certain programme de recherche (PdR).
 
 **Exposé de la méthode des PdR :** Un PdR concerne une théorie qui doit être composée d’un noyau dur et d’une ceinture protectrice. Le noyau dur consiste en un ensemble d’hypothèses générales que le PdR défini comme étant des axiomes inattaquables (les lois de Newton en physique newtonienne, le principe de sélection naturelle pour Darwin) et qui forment la base à partir de laquelle la théorie va se développer. La ceinture protectrice consiste en tout le reste, c’est-à-dire les hypothèses auxiliaires qui permettent aux scientifiques d’appliquer les hypothèses du noyau dur pour expliquer des phénomènes précis (description de l’univers pour Newton, descriptions ou hypothèses sur l’environnement pour Darwin). La ceinture protectrice est là pour protéger le noyau dur : si l’observation falsifie la prédiction de la théorie, cela ne signifie pas que la théorie doit être abandonnée, mais plutôt que les scientifiques doivent considérer que la ramification empruntée au sein de la ceinture protectrice doit être corrigée.
@@ -119,7 +119,7 @@ Aucune des tentatives des épistémologues pour trouver un critère caractérisa
 
 
 
-
+[^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
 
 ### Points qu’on peut rajouter:
 - l’argument de la pierre lâchée du haut d’une tour, exemple concret d’une situation où on ne peut pas rejeter une théorie à la première falsification venue, il est nécessaire d’attendre que la nouvelle théorie soit mature pour pouvoir expliquer l’intégralité des prétendues falsifications de manière cohérente et unifiée.
