@@ -54,7 +54,7 @@ Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi ce
 
 
 ### III. Falsificationnisme
-Selon les falsificationnistes, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
+Selon les falsificationnistes, dont le plus connu est Karl Popper, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
 
 **Enoncé du critère :** Cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation. Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous 2 conditions :
  - L’hypothèse a fait des prédictions fructueuses, c’est-à-dire que certains énoncés d’observation prédits par l’hypothèse ont été vérifiés par l’expérience. Par ailleurs, il faut que ces prédictions aient été inédites et audacieuses.
@@ -73,44 +73,49 @@ Les falsificationnistes affirment que leur critère atteint ses objectifs car :
 
 
 
-### IV. Les paradigmes de Kuhn :
-Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des paradigmes va se concentrer sur la communauté scientifique plutôt que sur les relations entre les théories et les observations (inductivisme et falsificationnisme).
+### IV. Les paradigmes de Kuhn
+Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des paradigmes va se concentrer sur la communauté scientifique plutôt que sur les relations entre les théories et les observations comme dans l'inductivisme ou le falsificationnisme.
 
-**Esquisse de l’approche :**  Selon Kuhn, une discipline scientifique consiste en une communauté de pairs qui tentent de résoudre des énigmes que leur pose leur discipline, et cette activité de recherche se décompose en 3 étapes qui se répètent à l’infini :
+**Esquisse de l’approche :**  Selon Kuhn, une discipline scientifique consiste en une communauté de pairs qui tentent de résoudre des énigmes que leur pose leur discipline, et cette activité de recherche se décompose en trois étapes qui se succèdent et se répètent à l’infini :
 
-<p style="text-align: center;">a) la pré-science  b) la science normale  c) la crise/révolution</p>
+<p style="text-align: center;">1. La pré-science      2. la science normale      3. la crise/révolution</p>
 
-**a)** rien n’est clairement défini, aucune théorie unificatrice n’a encore émergé, les scientifiques sont libres de tenter n’importe quelle approche pour résoudre les énigmes.
-**b)** une approche s’est avérée féconde, et à mesure qu’elle reçoit l’adhésion de toujours plus de scientifiques par ses succès et sa maturation, elle devient un paradigme, c’est-à-dire un ensemble unifié de théories et de méthodologies à partir desquels les scientifiques résolvent les énigmes.
-**c)** des énigmes apparaissent qui résistent aux efforts des scientifiques travaillant sous le paradigme précédent, à mesure que ces problèmes s’accumulent et touchent des points fondamentaux il devient de plus en plus clair aux scientifiques que l’ancien paradigme doit être dépassé. Cette étape c) correspond à l’étape a) du prochain paradigme.
+Dans la pré-science, rien n’est clairement défini, aucune théorie unificatrice n’a encore émergé, les scientifiques sont libres de tenter n’importe quelle approche pour résoudre les énigmes qui se posent à eux.
+
+Dans la science normale, une approche s’est avérée féconde, et à mesure qu’elle reçoit l’adhésion de toujours plus de scientifiques par ses succès et sa maturation, elle devient un paradigme, c’est-à-dire un ensemble unifié de théories et de méthodologies à partir duquel les scientifiques arrivent à résoudre les énigmes.
+
+Dans la crise, des énigmes apparaissent qui résistent aux efforts des scientifiques travaillant sous le paradigme précédent. A mesure que ces problèmes s’accumulent et touchent des points fondamentaux, il devient de plus en plus clair aux scientifiques que l’ancien paradigme doit être dépassé. Ainsi, la crise d'un paradigme correspond à la pré-science du prochain paradigme.
 
 **Points positifs :**
-    • Kuhn, contrairement à Popper et aux inductivistes, met en évidence le fait que les théories ont besoin de temps pour arriver à maturation et définir de manière cohérente tous les concepts qu’elles invoquent, et répondent donc au point ii) de Feyerabend.
-    • L’approche de Kuhn est descriptive, ainsi elle correspond assez bien à ce que décrit l’histoire des sciences, l’objectif a) est partiellement atteint.
+ - Kuhn, contrairement à Popper et aux inductivistes, met en évidence le fait que les théories ont besoin de temps pour arriver à maturation et définir de manière cohérente tous les concepts qu’elles invoquent, et répond donc au point **ii)** de Feyerabend.
+ - L’approche de Kuhn est descriptive, ainsi par construction elle correspond assez bien à ce que décrit l’histoire des sciences. L’objectif A est partiellement atteint.
 
 **Critiques :**
-    • Kuhn a développé une théorie relativiste de la scientificité en ce qu’il ne propose pas de critère objectif et universel permettant au sein d’une science de choisir entre deux théories concurrentes. Pour lui, un tel choix dépend des représentations, des valeurs et des préférences subjectives du groupe social que constituent les scientifiques. De plus, il ne présente aucun mécanisme (par exemple social) permettant d’expliquer les succès de la science telle que décrite par sa théorie. L’objectif c) n’est donc pas entièrement atteint, car il n’explique pas le succès historique des sciences, il se contente de les décrire.
-    • Feyerabend note que le critère de scientificité de Kuhn, c’est-à-dire que la discipline respecte le cycle décrit au paragraphe précédent, permettrait d’inclure le cercle de philosophie d’Oxford ou le crime organisé comme des communautés scientifiques. Ainsi, l’objectif a) n’est pas vraiment atteint.
+ - Kuhn a développé une théorie *relativiste* de la scientificité en ce qu’il ne propose pas de critère objectif et universel permettant au sein d’une science de choisir entre deux théories concurrentes. Pour lui, un tel choix dépend des représentations, des valeurs et des préférences subjectives du groupe social que constituent les scientifiques. De plus, il ne présente aucun mécanisme (même social) permettant d’expliquer les succès de la science telle que décrite par sa théorie. L’objectif C n’est donc pas atteint, car il n’explique pas le succès historique des sciences, il se contente de les décrire.
+ - Feyerabend note que le critère de scientificité de Kuhn, c’est-à-dire que la discipline respecte le cycle décrit au paragraphe précédent, permettrait d’inclure le cercle de philosophie d’Oxford ou le crime organisé comme des communautés scientifiques. Ainsi, l’objectif A n’est pas vraiment atteint.
 
 
 
 ### V. Les programmes de recherche de Lakatos
 Pour Lakatos, la science doit suivre une méthodologie universelle, et de ce fait il va prescrire aux scientifiques de suivre un certain programme de recherche (PdR).
 
-**Exposé de la méthode des PdR :** Un PdR concerne une théorie qui doit être composée d’un noyau dur et d’une ceinture protectrice. Le noyau dur consiste en un ensemble d’hypothèses générales que le PdR défini comme étant des axiomes inattaquables (les lois de Newton en physique newtonienne, le principe de sélection naturelle pour Darwin) et qui forment la base à partir de laquelle la théorie va se développer. La ceinture protectrice consiste en tout le reste, c’est-à-dire les hypothèses auxiliaires qui permettent aux scientifiques d’appliquer les hypothèses du noyau dur pour expliquer des phénomènes précis (description de l’univers pour Newton, descriptions ou hypothèses sur l’environnement pour Darwin). La ceinture protectrice est là pour protéger le noyau dur : si l’observation falsifie la prédiction de la théorie, cela ne signifie pas que la théorie doit être abandonnée, mais plutôt que les scientifiques doivent considérer que la ramification empruntée au sein de la ceinture protectrice doit être corrigée.
-Pour ce faire, le PdR donne aux scientifiques une liberté quasi-totale, du moment que le noyau dur est préservé et que les changements opérés ne sont pas ad-hoc mais féconds. En revanche le PdR donne quand même une ligne directrice : chercher à étoffer la ceinture protectrice avec des situations de plus en plus spécifiques et complexes en prévoyant à l’avance les outils théoriques et expérimentaux qu’il faudra développer.
+**Exposé de la méthode des PdR :** Un PdR concerne une théorie qui doit être composée d’un noyau dur et d’une ceinture protectrice. Le noyau dur consiste en un ensemble d’hypothèses générales que le PdR définit comme étant des axiomes inattaquables (les lois de Newton en physique newtonienne, le principe de sélection naturelle pour Darwin) et qui forment la base à partir de laquelle la théorie va se développer. La ceinture protectrice consiste en tout le reste, c’est-à-dire les hypothèses auxiliaires qui permettent aux scientifiques d’appliquer les hypothèses du noyau dur pour expliquer des phénomènes précis (modélisation de l’univers pour Newton, descriptions ou hypothèses sur l’environnement pour Darwin). La ceinture protectrice est là pour protéger le noyau dur : si l’observation falsifie la prédiction de la théorie, cela ne signifie pas que la théorie doit être abandonnée, mais plutôt que les scientifiques doivent considérer que la ramification empruntée au sein de la ceinture protectrice doit être corrigée.
+
+Pour ce faire, le PdR donne aux scientifiques une liberté quasi-totale, du moment que le noyau dur est préservé et que les changements opérés ne sont pas ad-hoc mais féconds. En revanche le PdR donne quand même une ligne directrice : il faut chercher à étoffer la ceinture protectrice avec des situations de plus en plus spécifiques et complexes en prévoyant à l’avance les outils théoriques et expérimentaux qu’il faudra développer.
+
 Enfin, un PdR devient une théorie scientifique établie lorsque :
-**a)** il est suffisamment cohérent pour être capable de décrire les étapes futures de son développement,
-**b)** au fur et à mesure que ces étapes auront été franchies il faut qu’il ait permis de faire des prédictions (si possible audacieuses) qui se soient avérées vraies. 
-Ainsi, pour Lakatos le marxisme et la psychanalyse satisfont au premier critère mais pas au second, et la sociologie au second mais pas au premier.
+ - il est suffisamment cohérent pour être capable de décrire les étapes futures de son développement,
+ - au fur et à mesure que ces étapes auront été franchies il faut qu’il ait permis de faire des prédictions (si possible audacieuses) qui se soient avérées vraies.
+
+Ainsi, pour Lakatos le marxisme et la psychanalyse satisfont au premier critère mais pas au second, et la sociologie au second mais pas au premier. Aucune de ces disciplines n'est donc scientifique.
 
 **Points positifs :**
-    • Lakatos, comme Kuhn, met en évidence le fait que les théories ont besoin de temps pour arriver à maturation et définir de manière cohérente tous les concepts qu’elles invoquent, et répondent donc au point ii) de Feyerabend.
-    • L’approche de Kuhn est prescriptive, ainsi elle répond aux questions : quand un PdR devient il scientifique ? Pourquoi la science telle que défini fonctionne ? L’objectif c) semble atteint.
+ - Lakatos, comme Kuhn, met en évidence le fait que les théories ont besoin de temps pour arriver à maturation et définir de manière cohérente tous les concepts qu’elles invoquent, et répondent donc au point **ii)** de Feyerabend.
+ - L’approche de Lakatos est prescriptive, ainsi elle répond aux questions : quand un PdR devient il scientifique ? Pourquoi la science telle que définie fonctionne ? L’objectif C semble atteint.
 
 **Critiques :** 
-    • Lakatos ne donne pas vraiment de moyen, au sein d’un programme de recherche, de déterminer laquelle de 2 théories concurrentes est la meilleure. L’objectif b) n’est pas atteint.
-    • Lakatos a développé une théorie rationaliste de la scientificité en ce qu’il donne un critère que les scientifiques devraient s’efforcer de suivre et qui expliquerait alors leurs succès. En revanche il n’explique pas vraiment pourquoi ce critère fonctionne. Il s’inspire manifestement de la physique pour développer sa méthodologie des PdR, qu’il voit comme l’archétype de la science. Il se rend donc coupable d’un raisonnement circulaire et ne peut pas expliquer à priori pourquoi les PdR. L’objectif c) n’est finalement pas atteint.
+ - Lakatos ne donne pas vraiment de moyen, au sein d’un programme de recherche, de déterminer laquelle de deux théories concurrentes est la meilleure. L’objectif B n’est pas atteint.
+ - Lakatos a développé une théorie *rationaliste* de la scientificité en ce qu’il donne un critère que les scientifiques devraient s’efforcer de suivre et qui expliquerait alors leurs succès. En revanche il n’explique pas vraiment pourquoi ce critère fonctionne. Il s’inspire manifestement de la physique pour développer sa méthodologie des PdR, qu’il voit comme l’archétype de la science. Il se rend donc coupable d’un raisonnement circulaire et ne peut pas expliquer à priori pourquoi les PdR fonctionnent. L’objectif C n’est finalement pas atteint.
 
 
 
