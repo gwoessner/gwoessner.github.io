@@ -15,7 +15,7 @@ toc:
 
 **Plan :** Pour répondre, je m’appuie sur le livre de Alan Chalmers *Qu’est-ce que la science* et celui de Paul Feyerabend *Contre la méthode*. Je commencerai par présenter la thèse de Feyerabend qui affirme qu’un tel critère n’est ni possible ni souhaitable. Je continuerai en présentant 4 approches successives et j’expliquerai en quoi elles échouent tout de même à répondre à toutes les critiques de Feyerabend. Je finirai en évoquant brièvement les pistes envisagées par les épistémologues modernes pour contourner ces écueils.
 
-**Remarques :** Je ne parlerai pas du débat philosophique autour de la notion de connaissance (voir [ici](https://www.youtube.com/watch?v=YQ_qr-LA3AU) ou pour plus de détails [ici](https://plato.stanford.edu/entries/knowledge-analysis/), ni du paradoxe de Ménon (voir [ici](https://fr.wikipedia.org/wiki/M%C3%A9non#L%E2%80%99impossibilit%C3%A9_de_la_recherche), implicites dans la problématique.
+**Remarques :** Je ne parlerai pas du débat philosophique autour de la notion de connaissance (voir [ici](https://www.youtube.com/watch?v=YQ_qr-LA3AU) ou pour plus de détails [ici](https://plato.stanford.edu/entries/knowledge-analysis/)), ni du paradoxe de Ménon (voir [ici](https://fr.wikipedia.org/wiki/M%C3%A9non#L%E2%80%99impossibilit%C3%A9_de_la_recherche)), implicites dans la problématique.
 
 
 
