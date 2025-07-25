@@ -41,11 +41,14 @@ Selon les inductivistes, la science au contraire est bien une méthode, et les s
  - un grand nombre d’énoncés d’observation corrobore l’énoncé général,
  - les observations ont été faites dans beaucoup de situations différentes,
  - aucun énoncé d’observation ne contredit l’énoncé général.
+
 Enfin le scientifique utilise le panel de lois scientifiques pour expliquer de nouveaux phénomènes ponctuels, c’est l’étape de déduction.
 
 **Critiques :**
 Les inductivistes n’expliquent pas pourquoi leur méthode fonctionne, car ils ne précisent pas à partir de quel moment on a assez d’observations et assez variées pour justifier l’induction. Aussi, comment justifier que l’induction est une méthode produisant des connaissances autrement qu’en disant que ça a toujours marché… et donc en faisant une induction ? C’est le paradoxe de l’induction.
+
 Une autre faiblesse majeure est surtout que cette approche tombe précisément dans la critique **i)** de Feyerabend : il n’existe pas d’énoncé d’observation pur préexistant à toute théorie.
+
 Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi cette méthode. Einstein n’a pas procédé par inductivisme pour développer sa relativité, mais est plutôt parti d’une hypothèse (la vitesse de la lumière est la même dans tous les référentiels) et a utilisé des expériences de pensée pour en explorer les conséquences sans se soucier d’observer quoi que ce soit. Ainsi, l’inductivisme échoue à atteindre l’objectif C.
 
 
@@ -53,9 +56,9 @@ Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi ce
 ### III. Falsificationnisme
 Selon les falsificationnistes, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
 
-**Enoncé du critère :** cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation (donner exemples d’hypothèses correctes et incorrectes). Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous 2 conditions :
- - l’hypothèse a fait des prédictions fructueuses, c’est-à-dire que certains énoncés d’observation prédits par l’hypothèse ont été vérifiés par l’expérience. Par ailleurs, il faut que ces prédictions aient été inédites et audacieuses,
- - aucun énoncé d’observation impliqué par l’hypothèse n’a été contredit par l’expérience.
+**Enoncé du critère :** Cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation. Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous 2 conditions :
+ - L’hypothèse a fait des prédictions fructueuses, c’est-à-dire que certains énoncés d’observation prédits par l’hypothèse ont été vérifiés par l’expérience. Par ailleurs, il faut que ces prédictions aient été inédites et audacieuses.
+ - Aucun énoncé d’observation impliqué par l’hypothèse n’a été contredit par l’expérience.
 
 **Points positifs :**
 Les falsificationnistes affirment que leur critère atteint ses objectifs car :
@@ -64,11 +67,9 @@ Les falsificationnistes affirment que leur critère atteint ses objectifs car :
  - Il corrige le problème de dépendance des observations à une théorie **ii)** de Feyerabend.
 
 **Critiques :**
- - Le problème majeur est que parfois ce sont les observations qui sont fausses, et pas la théorie, par exemple lorsqu’on a cru observer des neutrinos aller plus vite que la lumière, il s’est avéré que c’était l’expérience qui était fausse. De plus, même lorsque l’instrument de mesure et son interprétation sont correcte, cela ne signifie pas qu’il faille abandonner la théorie. Par exemple lorsqu’on a mesuré des écarts aux prédictions de Newton dans l’orbite de Uranus, cela ne signifiait pas que sa théorie était fausse, mais qu’une autre planète encore non détectée (Neptune) perturbait son mouvement.
- - Dans la pratique, les scientifiques n’ont pas respecté ce critère. L’exemple du paon ou celui de la taille apparente de Vénus qui ne changeait pas en fonction de sa distance à la Terre lors des premières mesures (c’était dû à un effet d’optique) montrent qu’on a pu continuer à faire de la science sans abandonner des théories réfutées par l’observation. L’objectif c) n’est donc pas atteint.
- - Le critère n’est pas assez inclusif car on ne fait pas d’expérience en histoire. Cela signifie-t-il que l’histoire n’est pas une science ? Si on corrige ce problème en disant qu’en histoire on pourra un jour excaver quelque chose qui falsifiera notre théorie, alors le critère devient trop inclusif car les religions deviennent scientifiques étant donné qu’il est possible d’imaginer qu’un jour elles soient falsifiées.
-      Par ailleurs les maths et la théorie de l’évolution ne sont pas scientifiques selon ce critère, car comme elles ne sont rien de plus qu’un raisonnement logique, on ne peut pas imaginer qu’elles soient falsifiées. Mais ce point est défendable, car ça ne veut pas dire que ces disciplines sont mauvaises, seulement qu’elles sont d’une autre nature que scientifique.
-      Ainsi l’objectif a) n’est pas atteint non plus.
+ - Le problème majeur du falsificationnisme est qu'il arrive que ce soit les observations qui soient fausses, plutôt que la théorie. Par exemple lorsqu’on a cru observer [des neutrinos aller plus vite que la lumière](https://www.pourlascience.fr/sd/physique-particules/coup-de-frein-pour-les-neutrinos-supraluminiques-11243.php), il s’est avéré que c’était l’expérience qui était erronée. De plus, même lorsque l’instrument de mesure et son interprétation sont correctes, cela ne signifie pas pour autant qu’il faille immédiatement abandonner la théorie. Par exemple lorsqu’on a mesuré des écarts aux prédictions de Newton dans l’orbite de Uranus, cela ne signifiait pas que sa théorie était fausse, mais qu’une autre planète encore non détectée perturbait son mouvement. C'est [la fameuse histoire](https://fr.wikipedia.org/wiki/D%C3%A9couverte_de_Neptune) de la découverte de Neptune par les calculs de Le Verrier.
+ - Dans la pratique, les scientifiques n’ont pas respecté ce critère. L'histoire des sciences fourmille de moments où, malgré une observation qui allait à l'encontre d'une théorie, on a laissé le temps à la théorie de maturer, ou à une explication plus précise d'émerger, plutôt que d'abandonner la théorie. Outre les exemples déjà donnés des neutrinos ou de Neptune, on peut citer [le paon](https://www.youtube.com/watch?v=e7y6I8bjNA0) qui mettait à mal la théorie de l'évolution à ses débuts, ou le fait que la taille apparente de Vénus dans les premiers téléscopes ne changeait pas en fonction de sa distance à la Terre. C'était simplement dû à un effet d’optique. L’objectif C n’est donc pas atteint.
+ - Le critère n’est pas assez inclusif car on ne fait pas d’expérience en histoire. Cela signifie-t-il pour autant que l’histoire n’est pas une science ? On peut penser à corriger ce problème en amendant le falsificationnisme de la façon suivante. On peut élargir le concept d'expérience de vérification en y intégrant les découvertes non prévues. Plus précisément, on peut arguer qu’en histoire on pourrait un jour excaver quelque chose qui falsifierait une théorie, et que donc l'histoire est falsifiable. Mais alors le critère devient trop inclusif car les religions deviennent falsifiables (et donc scientifiques) elles aussi, étant donné qu’il est possible d’imaginer qu’un jour nous observions quelque chose qui contredise leur dogme. Par ailleurs, les mathématiques et la théorie de l’évolution ne sont pas scientifiques selon ce critère, car comme elles ne sont rien de plus qu’un raisonnement logique, on ne peut pas imaginer qu’elles soient falsifiées. Toutefois, cette subtilité n'est pas un problème insurmontable pour le faslificationnisme, car ça ne signifie pas que ces disciplines sont mauvaises, seulement qu’elles sont d’une autre nature que scientifique. Ainsi l’objectif A n’est pas atteint non plus.
 
 
 
