@@ -107,7 +107,7 @@ Enfin, un PdR devient une théorie scientifique établie lorsque :
  - il est suffisamment cohérent pour être capable de décrire les étapes futures de son développement,
  - au fur et à mesure que ces étapes auront été franchies il faut qu’il ait permis de faire des prédictions (si possible audacieuses) qui se soient avérées vraies.
 
-Ainsi, pour Lakatos le marxisme et la psychanalyse satisfont au premier critère mais pas au second, et la sociologie au second mais pas au premier. Aucune de ces disciplines n'est donc scientifique.
+Ainsi, par exemple pour Lakatos le marxisme et la psychanalyse satisfont au premier critère mais pas au second, et la sociologie au second mais pas au premier. Aucune de ces disciplines n'est donc scientifique.
 
 **Points positifs :**
  - Lakatos, comme Kuhn, met en évidence le fait que les théories ont besoin de temps pour arriver à maturation et définir de manière cohérente tous les concepts qu’elles invoquent, et répondent donc au point **ii)** de Feyerabend.
@@ -119,20 +119,20 @@ Ainsi, pour Lakatos le marxisme et la psychanalyse satisfont au premier critère
 
 
 
-### Conclusion et ouverture
+### Conclusion
 Aucune des tentatives des épistémologues pour trouver un critère caractérisant la science n’a su faire l’unanimité et répondre à toutes les critiques de Feyerabend. On peut être tenté d’en déduire avec Feyerabend que «tout est bon», c’est-à-dire que la science ne serait rien de plus que la coopération de spécialistes d’un domaine utilisant les outils de la pensée critique et rationnelle. Par conséquent, la méthode scientifique en tant que généralité n’existe pas. Les scientifiques sont forcés d’adapter leurs argumentations à l’objet étudié, et donc à leur discipline.
 
 
 
-### Points qu’on peut rajouter:
-- l’argument de la pierre lâchée du haut d’une tour, exemple concret d’une situation où on ne peut pas rejeter une théorie à la première falsification venue, il est nécessaire d’attendre que la nouvelle théorie soit mature pour pouvoir expliquer l’intégralité des prétendues falsifications de manière cohérente et unifiée.
-- certains épistémologues modernes cherchent plutôt une famille de critères de scientificité (dont vérifier un seul serait suffisant pour être une science) plutôt qu’un unique. Exemple tiré de twitter :
-https://twitter.com/CovaFlorian/status/1463132023619522560
-warning : le graphe n’est pas à prendre comme une affirmation, mais plutôt comme un exemple de comment le double-critère fonctionnerait
-- (critique du tiret précédent) : les disciplines, du moment qu’elles sont pratiquées par des gens rationnels, sont toutes autant scientifiques les unes que les autres (la socio l’est autant que la physique). Ce qui diffère c’est l’objet utilisé : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins prédictif. Par conséquent la méthodologie appliquée sera différente, mais la discipline n’en sera pas moins scientifique.
+### Ouverture
+Une idée de certains épistémologues modernes pour corriger les problèmes qu'on a évoqués est le suivant. Plutôt que de chercher un seul critère pour atteindre les objectifs, il faudrait peut-être plutôt chercher une famille de critères de scientificité. Il suffirait alors d'en vérifier un seul pour obtenir la qualification de science. C'est d'ailleurs un travail qui s'inscrit dans ce "Programme de recherche en épistémologie" qui a été la cause d'un [intense débat sur Twitter](https://twitter.com/CovaFlorian/status/1463132023619522560)[^2] en 2021[^3], où les deux critères sont : la capacité à décrire et prévoir des phénomènes empiriques ; et l'existence d'un cadre théorique cohérent au sein duquel unifier ces observations.
+
+Une autre voie, qu'on a déjà un peu évoquée en conclusion, est celle de dire que toute discipline, du moment qu’elle est pratiquée par des gens dans une démarche collective de XYZ, est tout autant scientifiques qu'une autre. Ce qui diffère c’est l’objet utilisé : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins adapté pour faire des prédictions. Par conséquent la méthodologie appliquée sera différente, mais la discipline n’en sera pas moins scientifique.
+
 - une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408
 
 
 #### Notes de bas de page
 [^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
-
+[^2]: Twitter est l'ancien nom du réseau social X.
+[^3]: Le graphique en question avait fait polémique en raison de la manière cavalière et caricaturale (ou perçue comme telle) qu'il a placé la sociologie. Toutefois ce graphique n'avait pas une grande prétention, il s'agissait simplement d'illustrer comment le double-critère fonctionnerait, à partir de considérations effectivement grossières (car ce n'était pas le but) des différentes disciplines.
