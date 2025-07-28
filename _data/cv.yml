@@ -13,6 +13,12 @@
   type: time_table
   contents:
     - title: Professeur de mathématiques
+      year: 2025-2026
+      institution:
+        - Formascience
+        - INSA Strasbourg
+        - EPITA Strasbourg
+    - title: Professeur de mathématiques
       institution: Collège Martin Schongauer, Ostwald, France
       year: 2024-2025
     - title: Assistant de cours
