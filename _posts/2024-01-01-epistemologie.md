@@ -120,16 +120,14 @@ Ainsi, par exemple pour Lakatos le marxisme et la psychanalyse satisfont au prem
 
 
 ### Conclusion
-Aucune des tentatives des épistémologues pour trouver un critère caractérisant la science n’a su faire l’unanimité et répondre à toutes les critiques de Feyerabend. On peut être tenté d’en déduire avec Feyerabend que «tout est bon», c’est-à-dire que la science ne serait rien de plus que la coopération de spécialistes d’un domaine utilisant les outils de la pensée critique et rationnelle. Par conséquent, la méthode scientifique en tant que généralité n’existe pas. Les scientifiques sont forcés d’adapter leurs argumentations à l’objet étudié, et donc à leur discipline.
+Aucune des tentatives des épistémologues pour trouver un critère caractérisant la science n’a su faire l’unanimité et répondre à toutes les critiques de Feyerabend. On peut être tenté d’en déduire avec Feyerabend que «tout est bon», c’est-à-dire que la science ne serait rien de plus que la coopération de spécialistes d’un domaine utilisant les outils de la pensée critique et rationnelle. Par conséquent, la méthode scientifique en tant que généralité n’existe pas. Les scientifiques sont forcés d’adapter leurs argumentations à l’objet étudié, et donc à leur discipline. Par conséquent toute discipline, du moment qu’elle est pratiquée avec la démarche collective pré-citée, est tout autant scientifiques qu'une autre. Ce qui diffère c’est l’objet utilisé : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins adapté pour faire des prédictions. Par conséquent la méthodologie appliquée sera différente, mais la discipline n’en sera pas moins scientifique.
 
 
 
 ### Ouverture
 Une idée de certains épistémologues modernes pour corriger les problèmes qu'on a évoqués est le suivant. Plutôt que de chercher un seul critère pour atteindre les objectifs, il faudrait peut-être plutôt chercher une famille de critères de scientificité. Il suffirait alors d'en vérifier un seul pour obtenir la qualification de science. C'est d'ailleurs un travail qui s'inscrit dans ce "Programme de recherche en épistémologie" qui a été la cause d'un [intense débat sur Twitter](https://twitter.com/CovaFlorian/status/1463132023619522560)[^2] en 2021[^3], où les deux critères sont : la capacité à décrire et prévoir des phénomènes empiriques ; et l'existence d'un cadre théorique cohérent au sein duquel unifier ces observations.
 
-Une autre voie, qu'on a déjà un peu évoquée en conclusion, est celle de dire que toute discipline, du moment qu’elle est pratiquée par des gens dans une démarche collective de XYZ, est tout autant scientifiques qu'une autre. Ce qui diffère c’est l’objet utilisé : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins adapté pour faire des prédictions. Par conséquent la méthodologie appliquée sera différente, mais la discipline n’en sera pas moins scientifique.
-
-- une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408
+Une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408
 
 
 #### Notes de bas de page
