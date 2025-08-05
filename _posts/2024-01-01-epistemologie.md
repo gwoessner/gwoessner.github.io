@@ -122,12 +122,17 @@ Ainsi, par exemple pour Lakatos le marxisme et la psychanalyse satisfont au prem
 ### Conclusion
 Aucune des tentatives des épistémologues pour trouver un critère caractérisant la science n’a su faire l’unanimité et répondre à toutes les critiques de Feyerabend. On peut être tenté d’en déduire avec Feyerabend que «tout est bon», c’est-à-dire que la science ne serait rien de plus que la coopération de spécialistes d’un domaine utilisant les outils de la pensée critique et rationnelle. Par conséquent, la méthode scientifique n’existerait pas universellement. Au contraire, les scientifiques seraient forcés d’adapter leurs argumentations à l’objet étudié. Toute discipline, du moment qu’elle est pratiquée avec la démarche collective évoquée, serait tout autant scientifique qu'une autre. Ce qui diffère ce serait l’objet étudié : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, et plus ou moins adapté pour faire des prédictions. Bref, la méthodologie appliquée serait bien différente, mais la discipline n’en serait pas moins scientifique.
 
+*Ce qui changerait à la limite c'est la proba d'avoir mis le doigt sur qqch de réel*
+
 
 
 ### Ouverture
 L'idée de certains épistémologues modernes pour corriger les problèmes qu'on a évoqués est la suivante. Plutôt que de chercher un seul critère pour atteindre les objectifs, il faudrait peut-être plutôt chercher une famille de critères de scientificité. Il suffirait alors d'en vérifier un seul pour obtenir la qualification de science. C'est d'ailleurs un travail qui s'inscrit dans ce "programme de recherche en épistémologie" qui a été la cause d'un [intense débat sur Twitter](https://twitter.com/CovaFlorian/status/1463132023619522560)[^2] en 2021[^3], où les deux critères sont : la capacité à décrire et prévoir des phénomènes empiriques ; et l'existence d'un cadre théorique cohérent au sein duquel unifier ces observations.
+[Développer avec ça](https://theconversation.com/differencier-science-et-pseudoscience-pas-si-simple-142736)
 
 *Une partie critique de la thèse «les sciences sont une construction sociale», tirée de ce thread : https://twitter.com/q_ruy/status/1429433872740241408*
+
+La science ne serait finalement qu'une institutionnalisation des [critères de rationalité](https://philosophiedessciences.blogspot.com/2020/07/methodes-et-inferences-scientifiques.html) au sein de certaines organisations
 
 
 #### Notes de bas de page
