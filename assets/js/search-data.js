@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-le-sujet-chaud-du-climat-partie-2",
+        },{id: "post-qu-39-est-ce-que-les-mathématiques",
+      
+        title: "Qu&#39;est-ce que les mathématiques ?",
+      
+      description: "Je réponds aux questions qu&#39;on me pose tout le temps sur ma discipline",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/maths/";
+        
+      },
+    },{id: "post-le-sujet-chaud-du-climat-partie-2",
       
         title: "Le sujet chaud du climat, partie 2",
       
