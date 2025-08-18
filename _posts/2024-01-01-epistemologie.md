@@ -105,7 +105,7 @@ Pour ce faire, le PdR donne aux scientifiques une liberté quasi-totale, du mome
 
 Enfin, un PdR devient une théorie scientifique établie lorsque :
  - il est suffisamment cohérent pour être capable de décrire les étapes futures de son développement,
- - au fur et à mesure que ces étapes auront été franchies il faut qu’il ait permis de faire des prédictions (si possible audacieuses) qui se soient avérées vraies.
+ - au fur et à mesure que ces étapes auront été franchies il faut qu’il ait permis de faire des prédictions (si possible audacieuses) qui se soient révélées vraies.
 
 Ainsi, par exemple pour Lakatos le marxisme et la psychanalyse satisfont au premier critère mais pas au second, et la sociologie au second mais pas au premier. Aucune de ces disciplines n'est donc scientifique.
 
