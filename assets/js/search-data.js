@@ -34,7 +34,7 @@ ninja.data = [{
       
         title: "Qu&#39;est-ce que les mathématiques ?",
       
-      description: "Je réponds aux questions qu&#39;on me pose tout le temps sur ma discipline.",
+      description: "Je réponds aux questions qu&#39;on me pose tout le temps sur ma discipline",
       section: "Posts",
       handler: () => {
         
