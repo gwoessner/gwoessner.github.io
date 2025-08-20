@@ -142,11 +142,13 @@ Enfin, certains cherchent à combiner les deux approches en argumentant qu'elles
 Dans cette catégorie, on peut par exemple citer [cet article]((https://philosophiedessciences.blogspot.com/2020/07/methodes-et-inferences-scientifiques.html)), qui voit la science comme une institutionnalisation des critères de rationalité au sein de certaines organisations sociales.
 
 
+### Remerciements
+Merci à Quentin Ruyant et Thomas Charrayre pour leurs explications, qui m'ont bien aidé à conclure ce billet.
+
+
 ### Notes de bas de page
 [^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
 [^2]: Twitter est l'ancien nom du réseau social X.
 [^3]: Le graphique en question avait fait polémique en raison de la manière cavalière et caricaturale (ou perçue comme telle) qu'il a placé la sociologie. Toutefois ce graphique n'avait pas une grande prétention, il s'agissait simplement d'illustrer comment le double-critère fonctionnerait, à partir de considérations effectivement grossières (car ce n'était pas le but) des différentes disciplines.
 
 
-### Remerciements
-Merci à Quentin Ruyant et Thomas Charrayre pour leurs explications, qui m'ont bien aidé à conclure ce billet.
