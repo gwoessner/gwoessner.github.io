@@ -11,15 +11,15 @@ toc:
 ---
 
 ### Introduction
-**Problématique :** Le but sera de trouver un critère permettant de distinguer une discipline scientifique d’une discipline non-scientifique. Plus précisément, l’objectif de l’épistémologue est triple, le critère doit autant que possible : A. inclure les disciplines dont la scientificité ne fait pas débat (physique, chimie, biologie) et exclure les disciplines dont la non-scientificité ne fait pas débat (homéopathie, astrologie, artisanat, religion, football…) ; B. donner des outils au scientifique pour déterminer laquelle de deux théories concurrentes est la meilleure ; C. expliquer pourquoi les sciences ont rencontré leurs succès historiques et produisent de la connaissance.
+Le but de l'épistémologie est de trouver un critère permettant de distinguer une discipline scientifique d’une discipline non-scientifique. Plus précisément, l’objectif de l’épistémologue est triple, le critère doit autant que possible : A. inclure les disciplines dont la scientificité ne fait pas débat (physique, chimie, biologie) et exclure les disciplines dont la non-scientificité ne fait pas débat (homéopathie, astrologie, artisanat, religion, football…) ; B. donner des outils au scientifique pour déterminer laquelle de deux théories concurrentes est la meilleure ; C. expliquer pourquoi les sciences ont rencontré leurs succès historiques et produisent de la connaissance.
 
-**Plan :** Pour répondre, je m’appuie sur le livre de Alan Chalmers, *Qu’est-ce que la science* et celui de Paul Feyerabend, *Contre la méthode*. Je commencerai par présenter la thèse de Feyerabend qui affirme qu’un tel critère n’est ni possible ni souhaitable. Je continuerai en présentant quatre approches successives et j’expliquerai en quoi elles échouent tout de même à répondre à toutes les critiques de Feyerabend. Je finirai en évoquant brièvement les pistes envisagées par les épistémologues modernes pour contourner ces écueils.
+Pour présenter la discipline, je m’appuie sur le livre de Alan Chalmers, *Qu’est-ce que la science* et celui de Paul Feyerabend, *Contre la méthode*. Je commencerai par présenter la thèse de Feyerabend qui affirme qu’un tel critère n’est ni possible ni souhaitable. Je continuerai en présentant quatre approches d'épistémologues du XXè siècle et j’expliquerai en quoi elles échouent tout de même à répondre à toutes les critiques de Feyerabend. Je finirai en évoquant brièvement les pistes envisagées par les épistémologues modernes pour contourner ces écueils.
 
-**Remarques :** Je ne parlerai pas du débat philosophique autour de la notion de connaissance (voir [ici](https://www.youtube.com/watch?v=YQ_qr-LA3AU), ou pour plus de détails [ici](https://plato.stanford.edu/entries/knowledge-analysis/)), ni du paradoxe de Ménon (voir [ici](https://fr.wikipedia.org/wiki/M%C3%A9non#L%E2%80%99impossibilit%C3%A9_de_la_recherche)), implicites dans la problématique.
+A noter que je ne parlerai pas du débat philosophique autour de la notion de connaissance (voir [ici](https://www.youtube.com/watch?v=YQ_qr-LA3AU), ou pour plus de détails [ici](https://plato.stanford.edu/entries/knowledge-analysis/)), ni du paradoxe de Ménon (voir [ici](https://fr.wikipedia.org/wiki/M%C3%A9non#L%E2%80%99impossibilit%C3%A9_de_la_recherche)), implicites dans la problématique.
 
 
 
-### I. Paul Feyerabend 
+### Paul Feyerabend 
 Feyerabend évoque dans son livre plusieurs difficultés que les philosophes devront surmonter dans leur recherche.
 
 **i) La dépendance de l’observation à la théorie :** Toute observation sur le monde dépend toujours d’un cadre théorique. Il n’existe rien de tel qu’une pure description de la réalité qui n’aurait pas des présupposés théoriques. Par exemple une simple obervation d'atomes avec un [microscope à effet tunnel](https://fr.wikipedia.org/wiki/Microscope_%C3%A0_effet_tunnel). En effet, il faut savoir que son principe de fonctionnement repose sur de la mécanique quantique très avancée. Ainsi, pour voir des atomes il faut d'abord connaitre leur existence. Même pour une un énoncé aussi trivial que "l'objet est rouge", il faut au préalable avoir construit le concept de couleur, et s'être mis d'accord sur des catégories.
@@ -34,7 +34,7 @@ Feyerabend ajoute que ce tâtonnement est normal, il faut laisser du temps aux s
 
 
 
-### II. Inductivisme
+### L'inductivisme
 Selon les inductivistes, la science au contraire est bien une méthode, et les succès historiques de la science s’expliquent par le fait que les scientifiques ont suivi cette méthode.
 
 **Exposé de la méthode :** Le scientifique observe des phénomènes ponctuels, puis il les décrit de manière objective à l'aide d'énoncés d’observation. Le scientifique est alors justifié à induire un énoncé général, alors appelé loi scientifique, sous 3 conditions :
@@ -53,7 +53,7 @@ Enfin, de toute manière dans la pratique les scientifiques n’ont pas suivi ce
 
 
 
-### III. Falsificationnisme
+### Le falsificationnisme de Popper
 Selon les falsificationnistes, dont le plus connu est Karl Popper, la science est une activité épistémique respectant un critère de falsifiabilité, et les succès historiques de la science s’expliquent par le respect de ce critère.
 
 **Enoncé du critère :** Cette fois le scientifique commence avec une hypothèse, plutôt qu’avec des observations. On doit pouvoir déduire de cette hypothèse des énoncés d’observation. Le scientifique est alors justifié à appeler son hypothèse une théorie scientifique, sous deux conditions :
@@ -73,7 +73,7 @@ Les falsificationnistes affirment que leur critère atteint ses objectifs car :
 
 
 
-### IV. Les paradigmes de Kuhn
+### Les paradigmes de Kuhn
 Pour Kuhn, la science est une activité sociale, et de ce fait sa théorie des paradigmes va se concentrer sur la communauté scientifique plutôt que sur les relations entre les théories et les observations comme dans l'inductivisme ou le falsificationnisme.
 
 **Esquisse de l’approche :**  Selon Kuhn, une discipline scientifique consiste en une communauté de pairs qui tentent de résoudre des énigmes que leur pose leur discipline, et cette activité de recherche se décompose en trois étapes qui se succèdent et se répètent à l’infini :
@@ -96,7 +96,7 @@ Dans la crise, des énigmes apparaissent qui résistent aux efforts des scientif
 
 
 
-### V. Les programmes de recherche de Lakatos
+### Les programmes de recherche de Lakatos
 Pour Lakatos, la science doit suivre une méthodologie universelle, et de ce fait il va prescrire aux scientifiques de suivre un certain programme de recherche (PdR).
 
 **Exposé de la méthode des PdR :** Un PdR concerne une théorie qui doit être composée d’un noyau dur et d’une ceinture protectrice. Le noyau dur consiste en un ensemble d’hypothèses générales que le PdR définit comme étant des axiomes inattaquables (les lois de Newton en physique newtonienne, le principe de sélection naturelle pour Darwin) et qui forment la base à partir de laquelle la théorie va se développer. La ceinture protectrice consiste en tout le reste, c’est-à-dire les hypothèses auxiliaires qui permettent aux scientifiques d’appliquer les hypothèses du noyau dur pour expliquer des phénomènes précis (modélisation de l’univers pour Newton, descriptions ou hypothèses sur l’environnement pour Darwin). La ceinture protectrice est là pour protéger le noyau dur : si l’observation falsifie la prédiction de la théorie, cela ne signifie pas que la théorie doit être abandonnée, mais plutôt que les scientifiques doivent considérer que la ramification empruntée au sein de la ceinture protectrice doit être corrigée.
