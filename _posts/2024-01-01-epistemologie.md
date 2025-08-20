@@ -124,7 +124,9 @@ Aucune des tentatives des épistémologues du XXiè siècle pour trouver un crit
 
 Ainsi, toute discipline, du moment qu’elle est pratiquée avec la démarche collective évoquée, serait tout autant scientifique qu'une autre. Ce qui diffère ce serait l’objet étudié : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, plus ou moins adapté pour faire des prédictions, et amenant plus ou moins de certitudes sur les théories développées. Bref, la méthodologie appliquée serait bien différente, mais la discipline n’en serait pas moins scientifique.
 
-
+Je souhaite à présent, dans des billets qui vont suivre, exposer la méthode utilisée par plusieurs disciplines ([mathématiques](https://woessner.ovh/blog/2025/maths/), économie, sociologie, didactique des sciences, etc) et montrer en quoi elles permettent (ou non) d'aquérir de la connaissance sur le réel.  
+On peut d'ailleurs lire mon premier billet sur les mathématiques [ici](https://woessner.ovh/blog/2025/maths/). TO BE FINISHED  
+Et, même si l'angle pris n'est pas celui présenté ici, [mon second billet sur le réchauffement climatique](https://woessner.ovh/blog/2025/climat-2/) présente indirectement la méthode utilisée par les physiciens du climat.
 
 
 ### Ouverture
