@@ -124,9 +124,9 @@ Aucune des tentatives des épistémologues du XXiè siècle pour trouver un crit
 
 Ainsi, toute discipline, du moment qu’elle est pratiquée avec la démarche collective évoquée, serait tout autant scientifique qu'une autre. Ce qui diffère ce serait l’objet étudié : plus ou moins complexe, qui se prête plus ou moins à l’expérimentation et à la modélisation mathématiques, plus ou moins adapté pour faire des prédictions, et amenant plus ou moins de certitudes sur les théories développées. Bref, la méthodologie appliquée serait bien différente, mais la discipline n’en serait pas moins scientifique.
 
-Je souhaite à présent, dans des billets qui vont suivre, exposer la méthode utilisée par plusieurs disciplines ([mathématiques](https://woessner.ovh/blog/2025/maths/), économie, sociologie, didactique des sciences, etc) et montrer en quoi elles permettent (ou non) d'aquérir de la connaissance sur le réel.  
-On peut d'ailleurs lire mon premier billet sur les mathématiques [ici](https://woessner.ovh/blog/2025/maths/). TO BE FINISHED  
-Et, même si l'angle pris n'est pas celui présenté ici, [mon second billet sur le réchauffement climatique](https://woessner.ovh/blog/2025/climat-2/) présente indirectement la méthode utilisée par les physiciens du climat.
+Je souhaite à présent, dans des billets qui vont suivre, exposer la méthode utilisée par plusieurs disciplines et montrer en quoi elles permettent (ou non) d'aquérir de la connaissance sur le réel.  
+On peut déjà lire mon premier billet sur les mathématiques [ici](https://woessner.ovh/blog/2025/maths/). TO BE FINISHED  
+Et même si l'angle pris n'est pas celui présenté ici, [mon second billet sur le réchauffement climatique](https://woessner.ovh/blog/2025/climat-2/) présente indirectement la méthode utilisée par les physiciens du climat.
 
 
 ### Ouverture
@@ -139,7 +139,7 @@ Dans la seconde, qu'on pourrait appeler [approche sociale](https://fr.wikipedia.
 Les approches sociales peuvent être plus ou moins radicales, certaines allant jusqu'à des positions qui ont pour conséquence l’affirmation que deux contextes sociaux différents peuvent donner deux états différents de la science. C'est un exemple de position [relativiste](https://fr.wikipedia.org/wiki/Relativisme#Relativisme_%C3%A9pist%C3%A9mologique). Ceci est d'ailleurs critiqué par les épistémologues de l'approche classique, avec l'idée que les contextes sociaux ayant préfiguré un choix sont eux mêmes déterminés par des raisons épistémiques, par exemple dans [ce thread](https://web.archive.org/web/20210822163400/https://twitter.com/q_ruy/status/1429433872740241408).
 
 Enfin, certains cherchent à combiner les deux approches en argumentant qu'elles ne sont pas contradictoires, mais complémentaires. Plus précisément, les approches sociales permettraient de mettre en évidence les points communs entre toutes les disciplines scientifiques, comment leur organisation (il est d'ailleurs intéressant de noter que l'organisation d'un labo de physique et d'un labo d'économie sont très proches !) favorise l'intelligence collective. Ensuite, emprunter une approche classique pour l'étude de chaque discipline prise individuellement nous permet de comprendre pourquoi elle réussi concrètement à décrire le réel. Ceci évite par ailleurs l'écueil évoqué plus haut, l'idée que si on les compare à la physique, toutes les disciplines paraissent à première vue pseudo-scientifiques.  
-Dans cette catégorie, on peut par exemple citer [cet article]((https://philosophiedessciences.blogspot.com/2020/07/methodes-et-inferences-scientifiques.html)), qui voit la science comme une institutionnalisation des critères de rationalité au sein de certaines organisations sociales.
+Dans cette catégorie, on peut par exemple citer [cet article](https://philosophiedessciences.blogspot.com/2020/07/methodes-et-inferences-scientifiques.html), qui voit la science comme une institutionnalisation des critères de rationalité au sein de certaines organisations sociales.
 
 
 ### Remerciements
