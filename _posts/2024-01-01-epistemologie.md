@@ -150,6 +150,6 @@ Merci à Quentin Ruyant et Thomas Charrayre pour leurs explications, qui m'ont b
 [^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
 [^2]: Twitter est l'ancien nom du réseau social X.
 [^3]: Le graphique en question avait fait polémique en raison de la manière cavalière et caricaturale (ou perçue comme telle) qu'il a placé la sociologie. Toutefois ce graphique n'avait pas une grande prétention, il s'agissait simplement d'illustrer comment le double-critère fonctionnerait, à partir de considérations effectivement grossières (car ce n'était pas le but) des différentes disciplines.
-[^4]: il est d'ailleurs intéressant de noter que les façons dont la physique, l'économie et la biologie sont organisée sont très proches.
+[^4]: il est d'ailleurs intéressant de noter que les façons dont la physique, l'économie et la biologie sont organisées sont très proches.
 
 
