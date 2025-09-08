@@ -100,6 +100,27 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
+blog_categories: #ToBeDone Quand il y aura plusieurs catégories, voire MistraI
+  - nom: "Climat"
+    slug: "climat"
+    description: "Articles sur le changement climatique"
+    icon: "fa-solid fa-temperature-high"  # Icône Font Awesome
+
+  - nom: "Pédagogie"
+    slug: "pedagogie"
+    description: "Ressources pour l'enseignement"
+    icon: "fa-solid fa-chalkboard-user"
+
+  - nom: "Recherche"
+    slug: "recherche"
+    description: "Travaux scientifiques"
+    icon: "fa-solid fa-microscope"
+
+  - nom: "Technologie"
+    slug: "technologie"
+    description: "Outils et méthodes"
+    icon: "fa-solid fa-laptop-code"
+
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
