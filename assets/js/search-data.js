@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "Blog",
-          description: "",
+          description: "Là où je mets quelques articles écrits pour le compte de l&#39;ARPADIS.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
