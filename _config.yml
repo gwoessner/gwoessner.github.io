@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: #De temps en temps, j'essaie d'écrire quelque chose ici sur des sujets que je trouve intéressants.
+blog_description: Là où je mets quelques articles écrits pour le compte de l'ARPADIS.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
