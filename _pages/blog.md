@@ -2,7 +2,6 @@
 layout: default
 permalink: /blog/
 title: Blog
-description: Là où je mets quelques articles écrits pour le compte de l'ARPADIS.
 nav: true
 nav_order: 6
 pagination:
