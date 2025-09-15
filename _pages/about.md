@@ -30,7 +30,7 @@ Professeur agrégé de mathématiques et docteur en probabilités. Ce site est d
 
 Je suis actuellement enseignant dans l'académie de Strasbourg depuis la rentrée 2024. A mes élèves, vous trouverez ici les notes de cours de l'année, quelques exercices, mais certainement pas les contrôles que vous n'avez pas encore eus. Tout ce matériel pédagogique est volontiers en libre accès pour tout enseignant ou simple internaute qui souhaiterait l'utiliser.
 
-J'ai effectué ma thèse à l'Ecole Polytechnique Fédérale de Lausanne (EPFL) de 2020 à 2024 sous la direction des professeurs [J. Aru](https://people.epfl.ch/juhan.aru) et [T. Mountford](https://people.epfl.ch/thomas.mountford). Mes travaux de recherche portent sur les probabilités, et en particulier sur les champs continus aléatoires. Les champs d'application de ces théories mathématiques m'ont également permis d'étudier les mathématiques financières.
+J'ai effectué ma thèse à l'Ecole Polytechnique Fédérale de Lausanne (EPFL) de 2020 à 2024 sous la direction des professeurs [J. Aru](https://people.epfl.ch/juhan.aru) et [T. Mountford](https://people.epfl.ch/thomas.mountford). Mes travaux de recherche portent sur les probabilités, et en particulier sur les champs continus aléatoires. Les domaines d'application de ces théories mathématiques m'ont également permis d'étudier les mathématiques financières.
 
 Sur un plan plus personnel, je suis né à Strasbourg en 1996, et m'intéresse aux sciences et à divers sujets sur lesquels je souhaite partager ici quelques notes sans prétention.
 
