@@ -11,8 +11,6 @@ last_name: Woessner
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
  Mon site web personnel.
 footer_text: >
-  # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Thanks to Paul J. and LeChat for their help setting up this site.
 keywords: woessner, guillaume, personal website # add your own keywords or leave empty
 lang: fr # the language of your site (for example: en, fr, cn, ru, etc.)
