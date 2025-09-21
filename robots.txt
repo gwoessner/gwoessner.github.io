@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://www.gwoessner.github.io/sitemap.xml
+Sitemap: https://www.gwoessner.github.io/sitemap.xml
