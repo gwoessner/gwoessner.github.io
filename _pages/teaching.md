@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /courses/
 title: Enseignement
 description: Mes documents de cours.
 nav: true
