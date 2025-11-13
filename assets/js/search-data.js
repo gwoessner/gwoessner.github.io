@@ -74,7 +74,7 @@ ninja.data = [{
       
         title: "Qu&#39;est-ce que la science ?",
       
-      description: "Introduction à l&#39;épistémologie.",
+      description: "Un aperçu de l&#39;épistémologie.",
       section: "Posts",
       handler: () => {
         
