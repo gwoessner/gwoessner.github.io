@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SPE EPITA, Exercices ASN, PSE et AL"
+title: "SPE EPITA"
 description: "Dernière mise-à-jour : Automne 2025."
 ---
 
