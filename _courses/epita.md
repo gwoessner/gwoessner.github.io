@@ -10,3 +10,4 @@ Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révision
 
 Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/L3_MMB/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).
 
+L'**espérance conditionnelle** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.tex).
