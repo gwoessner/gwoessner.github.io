@@ -1,0 +1,64 @@
+%\documentclass[a4paper]{article}
+\documentclass[12pt]{article}
+%\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}   % LaTeX, comprends les accents !
+\usepackage[T1]{fontenc}      % Police contenant les caract�res fran�ais
+\usepackage[francais]{babel}  % Placez ici une liste de langues, la
+                              % derni�re �tant la langue principale
+
+\usepackage{amsfonts}         % Augmente le nombre de symboles math�matiques accessibles.
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage[a4paper]{geometry}% R�duire les marges
+% \pagestyle{headings}        % Pour mettre des ent�tes avec les titres
+                              % des sections en haut de page
+
+\title{Révisions ASN PSE}         % Les param�tres du titre : titre, auteur, date
+\date{}                       % La date n'est pas requise (la date du
+                              % jour de compilation est utilis�e en son
+			      % absence)
+
+\sloppy                       % Ne pas faire d�border les lignes dans la marge
+
+\begin{document}
+
+\maketitle                % Faire un titre utilisant les donn�es
+\tableofcontents                          % pass�es � \title, \author et \date
+\newpage
+
+\section{Exercices ASN}
+
+\noindent Etudier la convergence des suites $\sum u_n$ où 
+$$ \bullet \, u_n = n \qquad \qquad  \bullet \, u_n = \frac{\sqrt{n}}{n-1} \qquad \qquad \bullet u_n = \frac{n^2+2}{n^3-4n+1}$$
+$$\bullet \, u_n = \ln\left(1-\frac{(-1)^n}{n}\right) \qquad \qquad \bullet  u_n = \left(1-\sqrt{1-\frac{1}{n}}\right)^2 $$
+$$ \bullet \, u_n = \frac{2^n(n+1)!^3}{(3n)!} \qquad \qquad \bullet \, u_n = 2^{-\sqrt{n}} $$
+$$ \bullet \, u_n = (-1)^{n-1} \frac{\ln(n)^{10}}{\sqrt{n}} \qquad \qquad \bullet \, u_n = \frac{\sin(n)}{n^2-\ln(n)} $$
+$$ \bullet \, u_n = \frac{1}{n}-\frac{1}{n^{3/2}} \qquad \qquad \bullet u_n = \frac{(-1)^n}{n}-\frac{1}{n^{3/2}}$$
+
+
+\section{Exercices P}
+\noindent Soit $X$ une variable aléatoire telle que $X(\Omega) = \{0;1;2\}$ et $$\mathbb{P}(X=0)=\mathbb{P}(X=2)=\frac{1}{4}.$$
+Soit $Y$ de même loi que $X$, et indépendant de $X$.
+\begin{itemize}
+\item[$\bullet$] Trouver la loi de $X$ et sa fonction génératrice.
+\item[$\bullet$] A-t-on $Y = X$ ?
+\item[$\bullet$] Trouver la loi de $X+Y$, et la loi de $X+X$, des manières les plus pratiques.
+\item[$\bullet$] Calculer espérance et variance de $X+Y$ avec la fonction génératrice.
+\end{itemize}
+
+\section{Exercices SE}
+\noindent Etudier le rayon de convergence des séries entières $\sum a_n x^n$ où
+$$ \bullet \, a_n = \frac{(-1)^n\sqrt{n}}{n-1} \qquad \qquad \bullet a_n = \frac{2^n(n+1)!^3}{(3n)!}$$
+Trouver le rayon de convergence et calculer la valeur des séries entières
+$$ \bullet \, \sum n x^{n-2} \qquad \qquad \bullet \, \sum  \frac{3^n}{(n-1)!}x^{n+2}$$
+$$ \bullet \, \sum  n^2 x^n \qquad \qquad \bullet \, \sum  \frac{1}{n(n+1)}x^{n+1}$$
+
+
+
+
+
+
+
+\end{document}
