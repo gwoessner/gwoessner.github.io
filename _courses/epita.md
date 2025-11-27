@@ -8,6 +8,6 @@ Vous trouverez ici des exercices que j'ai créés pour mes classes de SPE à l'E
 
 Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.tex).
 
-Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/L3_MMB/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).
+Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).
 
 L'**espérance conditionnelle** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 1 corrigé.tex).
