@@ -1,0 +1,94 @@
+%\documentclass[a4paper]{article}
+\documentclass[12pt]{article}
+%\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}   % LaTeX, comprends les accents !
+\usepackage[T1]{fontenc}      % Police contenant les caract�res fran�ais
+\usepackage[francais]{babel}  % Placez ici une liste de langues, la
+                              % derni�re �tant la langue principale
+
+\usepackage{amsfonts}         % Augmente le nombre de symboles math�matiques accessibles.
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage[a4paper]{geometry}% R�duire les marges
+% \pagestyle{headings}        % Pour mettre des ent�tes avec les titres
+                              % des sections en haut de page
+
+\author{Woessner Guillaume}
+\title{Révisions AL}         % Les param�tres du titre : titre, auteur, date
+\date{}                       % La date n'est pas requise (la date du
+                              % jour de compilation est utilis�e en son
+			      % absence)
+
+\sloppy                       % Ne pas faire d�border les lignes dans la marge
+
+\begin{document}
+
+\maketitle                % Faire un titre utilisant les donn�es
+
+\paragraph{Contexte}~\\
+
+\noindent On travaille sur les applications linéaires suivantes.
+
+\[
+\begin{array}{rccl}
+f : & \mathbb{R}^3 & \longrightarrow & \mathbb{R}^3 \\
+~& (x,y,z) & \longmapsto & (x+2y+3z ~;~ -2x-2z ~;~ -3x+2y-z)\\
+~&~&~&\\
+g : & \mathbb{R}_2[X] & \longrightarrow & \mathbb{R}^2 \\
+~& P & \longmapsto & \Big((XP)(2) ~;~ (XP)'(2)\Big)\\
+~&~&~&\\
+h : & \mathbb{R}_2[X] & \longrightarrow & \mathcal{M}_{2\times 2}(\mathbb{R}) \\
+~& P & \longmapsto & 
+\begin{pmatrix}
+P(0) & P'(0) \\
+P'(0) & P(0) + P'(0)
+\end{pmatrix}\\
+~&~&~&\\
+i : & \mathbb{R}_2[X] & \longrightarrow & \mathbb{R}_2[X] \\
+~& P & \longmapsto & P - \frac{P''(1)}{2}(X-1)^2
+\end{array}
+\]
+~\\
+Soient les bases alternatives suivantes.
+\begin{itemize}
+\item[$\bullet$] dans $\mathbb{R}^2$ : $\mathcal{B}_1 = \Big( (1,1) ~;~(1,-1)\Big)$.
+\item[$\bullet$] dans $\mathbb{R}^3$ : $\mathcal{B}_2 = \Big( (1,1,1) ~;~ (1,-1,0) ~;~ (2,0,0)\Big)$.
+\item[$\bullet$] dans $\mathbb{R}_2[X]$ : $\mathcal{B}_3 = \Big( X^2-1 ~;~ X-1 ~;~ -1\Big)$.
+\end{itemize}
+~\\
+Soient les vecteurs-exemples suivants.
+\begin{itemize}
+\item[$\bullet$] dans $\mathbb{R}^2$ : $u=(4,-5)$.
+\item[$\bullet$] dans $\mathbb{R}^3$ : $v=(3,0,-3)$.
+\item[$\bullet$] dans $\mathbb{R}_2[X]$ : $w = 1 + 2X + X^2$.
+%\item[$\bullet$] dans $\mathcal{M}_{2\times 2}(\mathbb{R})$ : $m = \begin{pmatrix}
+%1 & -1 \\
+%-2 & 2
+%\end{pmatrix}$.
+\end{itemize}
+
+\newpage
+
+\paragraph{Questions}~\\
+
+\begin{itemize}
+\item[1.] Trouver les coordonnées des vecteurs-exemples dans leur base altenative.\\
+\item[2.] Quels sont les vecteurs de coordonnées $(1,2)$ (resp. $(1,2,3)$) dans les bases alternatives des espaces de dimension 2 (resp. de dimension 3) ?\\
+\item[3.] Trouver le rang, la dimension du noyau de chacune de ces applications linéaires et trouver une base pour l'image et le noyau de chacune des applications linéaires.\\
+\item[4.] Trouver la matrice de chacune des applications linéaires, dans la base canonique au départ et à l'arrivée.\\
+\item[5.] Trouver la matrice de l'application $f$ dans la base alternative au départ, et la base canonique à l'arrivée.\\
+\item[6.] Trouver la matrice de l'application $g$ dans la base canonique au départ, et la base alternative à l'arrivée.\\
+\item[7.] Trouver la matrice de l'application $i$ dans la base alternative au départ, et la base alternative à l'arrivée.\\
+\item[8.] Les applications sont-elles des projecteurs ?\\
+\item[9.] Trouver le polynome caractéristique des endomorphismes.\\
+\item[10.] Diagonaliser les endomorphismes.\\
+\end{itemize}
+
+
+
+
+
+
+\end{document}
