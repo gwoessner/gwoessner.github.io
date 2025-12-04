@@ -1,0 +1,82 @@
+%\documentclass[a4paper]{article}
+\documentclass[12pt]{article}
+%\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}   % LaTeX, comprends les accents !
+\usepackage[T1]{fontenc}      % Police contenant les caract�res fran�ais
+\usepackage[francais]{babel}  % Placez ici une liste de langues, la
+                              % derni�re �tant la langue principale
+
+\usepackage{amsfonts}         % Augmente le nombre de symboles math�matiques accessibles.
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage[a4paper]{geometry}% R�duire les marges
+% \pagestyle{headings}        % Pour mettre des ent�tes avec les titres
+                              % des sections en haut de page
+
+\author{Woessner Guillaume}
+\title{Exercice 4.19}         % Les param�tres du titre : titre, auteur, date
+\date{}                       % La date n'est pas requise (la date du
+                              % jour de compilation est utilis�e en son
+			      % absence)
+
+\sloppy                       % Ne pas faire d�border les lignes dans la marge
+
+\begin{document}
+
+\maketitle                % Faire un titre utilisant les donn�es
+
+\paragraph{Question 1}~\\
+Il s'agit des fonctions 
+$$\Big(x(t)~;~y(t)\Big) = \Big( x_0e^{-t}~;~y_0e^{-4t}\Big)$$
+
+\paragraph{Question 2}~\\
+\emph{Remarque préliminaire :} A priori on ne sait pas résoudre ce système d'équations. On va voir que la diagonalisation d'endomorphismes nous permettra de le faire quand même.\\
+~\\
+\textbf{A.} On a que 
+$$\mathcal{B}_2 = \Big( (2,-1) ~;~ (1,1) \Big) := (\epsilon_1,\epsilon_2) $$
+et 
+$$f(\mathcal{B}_2) = \Big( (-2,1) ~;~ (-4,-4) \Big) = \Big( -\epsilon_1 ~;~ -4\epsilon_2 \Big)$$
+Donc la matrice est de la forme 
+$$ D:= \mathcal{M}_{\mathcal{B}_2}(f) = 
+\begin{bmatrix}
+-1 & 0\\
+0 & -4
+\end{bmatrix}$$
+~\\
+\noindent \textbf{B.} On a bien $u'(t) = \begin{pmatrix} x'(t)\\ y'(t) \end{pmatrix} = \begin{pmatrix} -2x(t)-2y(t)\\ -x(t)-3y(t) \end{pmatrix} = f(u(t))$.\\
+La vitesse du vecteur $u(t)$ dans un petit intervalle autour de $0$ vaut $u'(0)=f(u(0))$.\\
+~\\
+\noindent \textbf{C.} Il s'agit d'écrire la relation $u'(t)=f(u(t))$ dans la base $\mathcal{B}_2$.\\Celle-ci devient
+\begin{equation}
+\label{1} X'_2(t) = D X_2(t).
+\end{equation} 
+~\\
+\noindent \textbf{D.} Cette fois-ci l'équation \eqref{1} est résolvable avec nos outils du S2 ! Il s'agit de la même équation que dans la \textbf{Question 1}. On a donc
+$$X_2(t) = \Big( C_1 e^{-t}~;~C_2e^{-4t}\Big).$$
+Il faut encore trouver la valeur des constantes $C_1$ et $C_2$.\\
+Or on sait que $(C_1,C_2) = X_2(0)=\big( u(0) \big)_{\mathcal{B}_2}$, c'est-à-dire \textbf{les coordonnées de $u(0) = ( x_0~;~y_0)$ dans la base $\mathcal{B}_2$ !}\\
+En notant $P=\begin{bmatrix} 2 & 1\\ -1 & 1 \end{bmatrix}$ la matrice de passage de la base $\mathcal{B}_1$ à $\mathcal{B}_2$, on a d'après le cours que 
+$X_2(0) = P^{-1}X_1(0)= P^{-1}\begin{pmatrix} x_0 \\y_0 \end{pmatrix} = \begin{pmatrix} \frac{1}{3} (x_0-y_0) \\ \frac{1}{3}(x_0+2y_0) \end{pmatrix}$.\\
+On conclut que 
+$$X_2(t) = \Big( \tfrac{1}{3} (x_0-y_0) e^{-t}~;~\tfrac{1}{3}(x_0+2y_0)e^{-4t}\Big).$$
+Et donc 
+\begin{align*}
+u(t) &= X_1(t) \\
+&= PX_2(t) \\
+&= \begin{bmatrix} 2 & 1\\ -1 & 1 \end{bmatrix} \Big( \tfrac{1}{3} (x_0-y_0) e^{-t}~;~\tfrac{1}{3}(x_0+2y_0)e^{-4t}\Big) \\
+&= \begin{pmatrix}
+\tfrac{2}{3} (x_0-y_0) e^{-t} + \tfrac{1}{3}(x_0+2y_0)e^{-4t}\\
+\tfrac{1}{3} (x_0-y_0) e^{-t} + \tfrac{1}{3}(x_0+2y_0)e^{-4t}
+\end{pmatrix}.
+\end{align*}
+On peut vérifier que $u(0)=(x_0,y_0)$ pour s'assurer qu'on ne s'est pas trompés.\\
+~\\
+\noindent \textbf{E.} Dans une équation linéaire, $f(0)=0$ donc $0$ est forcément un point d'équilibre.\\
+De plus, la solution $u(t)$ est la forme $ M \begin{pmatrix} e^{-t}\\e^{-4t} \end{pmatrix},$ pour une certaine matrice $M$, et les exponentielles ont des exposants négatifs, donc les trajectoires se rapprochent de zéro et le point d'équilibre est stable.\\
+Enfin, j'affirme que la matrice $M$ au dessus est de la forme $P\begin{bmatrix} C_1 & 0\\ 0 & C_2 \end{bmatrix}$, peux-tu expliquer pourquoi ?\\
+~\\~\\
+\emph{Conclusion :} Grace au changement de base, on a pu se placer dans une base dans laquelle on pouvait résoudre le système, puis retourner à notre base canonique initiale pour avoir l'expression de la solution.
+
+\end{document}
