@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SPE, EPITA"
+title: "SPE"
 description: "Dernière mise-à-jour : Automne 2025."
 ---
 
