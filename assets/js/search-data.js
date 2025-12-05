@@ -91,8 +91,8 @@ ninja.data = [{
           description: "Dernière mise-à-jour : 2022-23.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/L3_Brownian_Motion/";
-            },},{id: "courses-spe-epita",
-          title: 'SPE, EPITA',
+            },},{id: "courses-spe",
+          title: 'SPE',
           description: "Dernière mise-à-jour : Automne 2025.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/epita/";
