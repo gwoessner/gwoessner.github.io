@@ -10,4 +10,4 @@ Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révision
 
 Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).
 
-Un exercice en **AL** qui n'est pas été corrigé en classe par manque de temps est disponible ici en [PDF]({{ site.baseurl }}/assets/epita/Exo supp AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Exo supp AL.tex).
+Un exercice en **AL** qui n'a pas été corrigé en classe par manque de temps est disponible ici en [PDF]({{ site.baseurl }}/assets/epita/Exo supp AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Exo supp AL.tex).
