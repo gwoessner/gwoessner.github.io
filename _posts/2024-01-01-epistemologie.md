@@ -143,7 +143,7 @@ Dans cette catégorie, on peut par exemple citer [cet article](https://philosoph
 
 
 ### Remerciements
-Merci à Quentin Ruyant et Thomas Charrayre pour leurs explications, qui m'ont bien aidé à conclure ce billet.
+Merci à Quentin Ruyant et Thomas Charrayre d'avoir répondu à mes questions, ils m'ont bien aidé à conclure ce billet.
 
 
 ### Notes de bas de page
