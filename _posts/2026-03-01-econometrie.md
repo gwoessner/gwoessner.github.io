@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Qu'est-ce que l'économie ?
