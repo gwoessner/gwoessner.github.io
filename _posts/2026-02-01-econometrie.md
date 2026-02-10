@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qu'est-ce que l'économie ?
+title: Qu'est-ce que l'économie ? (EN COURS)
 date: 2026-01-02 21:00:00
 description: Comment les économistes évaluent les politiques de contrôle des loyers ?
 tags: economie
@@ -25,6 +25,16 @@ Pour commencer, il est fondamental d’aborder le cœur de la théorie économiq
 
 Ces lois sont résumées dans la Figure 1.
 
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/econometrie-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/econometrie-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A gauche la Figure 1, à droite la Figure 2.
+</div>
 
 
