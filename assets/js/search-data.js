@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qu-39-est-ce-que-l-39-économie",
+        },{id: "post-qu-39-est-ce-que-l-39-économie-en-cours",
       
-        title: "Qu&#39;est-ce que l&#39;économie ?",
+        title: "Qu&#39;est-ce que l&#39;économie ? (EN COURS)",
       
       description: "Comment les économistes évaluent les politiques de contrôle des loyers ?",
       section: "Posts",
