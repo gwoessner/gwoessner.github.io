@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qu-39-est-ce-que-les-mathématiques",
+        },{id: "post-qu-39-est-ce-que-l-39-économie",
+      
+        title: "Qu&#39;est-ce que l&#39;économie ?",
+      
+      description: "Comment les économistes évaluent les politiques de contrôle des loyers ?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/econometrie/";
+        
+      },
+    },{id: "post-qu-39-est-ce-que-les-mathématiques",
       
         title: "Qu&#39;est-ce que les mathématiques ?",
       
