@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qu'est-ce que l'économie ? (EN COURS)
-date: 2026-01-02 21:00:00
+date: 2026-03-01 21:00:00
 description: Comment les économistes évaluent les politiques de contrôle des loyers ?
 tags: economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
