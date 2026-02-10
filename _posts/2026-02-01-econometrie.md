@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qu'est-ce que l'économie ?
-date: 2026-03-02 21:00:00
+date: 2026-01-02 21:00:00
 description: Comment les économistes évaluent les politiques de contrôle des loyers ?
 tags: economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
@@ -23,7 +23,7 @@ Pour commencer, il est fondamental d’aborder le cœur de la théorie économiq
   <li><strong>Le Prix d'équilibre :</strong> le prix de la marchandise est celui qui équilibre l’offre et la demande.</li>
 </ul>
 
-
+Ces lois sont résumées dans la Figure 1.
 
 
 
