@@ -94,12 +94,13 @@ Dans les années 30, les économistes de la Commission Cowles ont développé un
 La demande dépend du prix du logement et des revenus de la population :
 $$\text{Demande} = \beta_1 \cdot \text{Loyer} + \beta_2 \cdot \text{Revenus},$$
 L'offre dépend du prix du logement et des coûts de construction :
-$$\text{Offre} = \beta_3 \cdot \text{Loyer} + \beta_2 \cdot \text{Coûts}.$$
+$$\text{Offre} = \beta_3 \cdot \text{Loyer} + \beta_4 \cdot \text{Coûts}.$$
 
 On aimerait bien connaitre $\beta_3$, qui représente la façon dont l’offre réagit à un changement de prix. Le problème est qu'une régression classique ne peut pas estimer directement ces paramètres. En effet, le prix et l'offre s'influencent mutuellement : si une ville lance de grands travaux immobiliers, l’offre grimpe, ce qui fait baisser les loyers. Ici, c'est l'offre qui cause le prix, et non l'inverse. 
 
 Pour résoudre ce problème[^6] on utilise le fait qu’au prix d’équilibre l’offre et la demande sont égales. Un simple calcul nous donne $\text{Loyer} = \pi_1 \cdot \text{Revenus} + \pi_2 \cdot \text{Coûts}$. Dans cette equation, tout est "propre" : le revenu et les coûts de construction sont des variables qui viennent de l'extérieur du système et qui ne dépendent pas du prix. On peut donc utiliser une régression classique pour obtenir les coefficients $\pi_1$ et $\pi_2$.
 
+L’idée est alors de réécrire l’équation de l’offre par, $\text{Offre} = b_3 \cdot \bar{\text{Loyer}} + b_4 \cdot \text{Coûts}$, où $\bar{\text{Loyer}} = \pi_1 \cdot \text{Revenus}$ est la partie du loyer expliquée uniquement le facteur extérieur du revenu de la population. Ainsi on obtient $b_3$ qui décrit bien comment l’offre réagit à un changement de prix *imposé de l’extérieur*. Si $b_3$ n’est pas nul, on a bien mis en évidence un lien de causalité entre le prix et l’offre de logement ! En particulier on peut quantifier l’impact d’un plafonnement de loyer sur le nombre de logements disponibles.
 
 
 
