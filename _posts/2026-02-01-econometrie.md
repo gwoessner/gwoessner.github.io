@@ -89,6 +89,8 @@ On pourrait imaginer faire une régression où on prendrait en compte l’intens
 
 ### B. L’approche structurale
 
+#### Présentation
+
 Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire[^5]
 
 La demande dépend du prix du logement et des revenus de la population :
@@ -104,6 +106,17 @@ On aimerait bien connaitre $\beta_3$, qui représente la façon dont l’offre r
 Pour résoudre ce problème[^6] on utilise le fait qu’au prix d’équilibre l’offre et la demande sont égales. Un simple calcul nous donne $\text{Loyer} = \pi_1 \cdot \text{Revenus} + \pi_2 \cdot \text{Coûts}$. Dans cette equation, tout est "propre" : le revenu et les coûts de construction sont des variables qui viennent de l'extérieur du système et qui ne dépendent pas du prix. On peut donc utiliser une régression classique pour obtenir les coefficients $\pi_1$ et $\pi_2$.
 
 L’idée est alors de réécrire l’équation de l’offre par, $\text{Offre} = b_3 \cdot \bar{\text{Loyer}} + b_4 \cdot \text{Coûts}$, où $\bar{\text{Loyer}} = \pi_1 \cdot \text{Revenus}$ est la partie du loyer expliquée uniquement le facteur extérieur du revenu de la population. Ainsi on obtient $b_3$ qui décrit bien comment l’offre réagit à un changement de prix *imposé de l’extérieur*. Si $b_3$ n’est pas nul, on a bien mis en évidence un lien de causalité entre le prix et l’offre de logement ! En particulier on peut quantifier l’impact d’un plafonnement de loyer sur le nombre de logements disponibles.
+
+#### Limites
+Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a parfois perdu du terrain.
+
+<ul class="simple-highlight-list">
+  <li><strong>Perte d'information :</strong> En utilisant le prix prédit $\bar{\text{Loyer}}$ au lieu du prix réel, on jette volontairement une grande partie des données. On ne garde que la fraction du prix expliquée par nos variables extérieures (ici le revenu). Si ces variables sont "faibles" et n'expliquent qu'une infime partie du loyer, le modèle devient très imprécis.</li>
+  <li><strong>La théorie avant les données :</strong> 4.	La méthode ne permet pas de remettre en question le système. Elle supposait que les économistes connaissaient déjà la « vraie » structure du monde et n'utilisaient les données que pour remplir les blancs.</li>
+  <li><strong>Complexité :</strong> Passer du réel à l'équation demande de simplifier énormément la psychologie humaine. Comme le dira plus tard la [Critique de Lucas](https://fr.wikipedia.org/wiki/Critique_de_Lucas), si les gens anticipent les changements de politique, ils changent leur comportement, et vos coefficients​ que vous pensiez "fixes" se mettent à bouger, rendant vos prédictions caduques.</li>
+   <li><strong>Hypothèses fortes :</strong> Le modèle ne tient que si on est certain que le revenu n'influence l’offre que par l'intermédiaire du prix. Si une hausse du revenu influence directement le moral des constructeurs ou facilite l'accès au crédit pour bâtir (indépendamment du prix du loyer), alors le revenu influe l'offre par deux chemins différents et la structure s'effondre.<\li>
+     <li><strong>Faiblesses empiriques :</strong> 5. Dans les années 60, les modèles structuraux (comme le modèle Brookings qui comptait des centaines d'équations) faisaient consensus. Puis est arrivé le choc pétrolier de 1973. Il y a eu à la fois de l'inflation et du chômage (la stagflation). Ces modèles n'avaient jamais "vu" cela dans les données passées. Ils ont été incapables de prédire la crise ou de donner des solutions. Des modèles statistiques très simples, sans aucune théorie économique (les modèles de séries temporelles de type Box-Jenkins), se sont mis à faire de meilleures prédictions que les modèles géants à plusieurs millions de dollars de la Commission Cowles.
+</ul>
 
 
 
