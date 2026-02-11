@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qu'est-ce que l'économie ? (EN COURS)
-date: 2026-02-02 21:00:00
+date: 2026-02-01 21:00:00
 description: Comment les économistes évaluent les politiques de contrôle des loyers ?
 tags: economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
@@ -55,7 +55,7 @@ Toutes ces conséquences et bien d’autres sont envisagées et étudiées par l
 
 
 
-### Notes de bas de page
+## Notes de bas de page
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans un futur billet.
 
