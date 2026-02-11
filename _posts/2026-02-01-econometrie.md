@@ -92,8 +92,11 @@ On pourrait imaginer faire une régression où on prendrait en compte l’intens
 Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire[^5]
 
 La demande dépend du prix du logement et des revenus de la population :
-$$\text{Demande} = \beta_1 \cdot \text{Loyer} + \beta_2 \cdot \text{Revenus},$$
+
+$$\text{Demande} = \beta_1 \cdot \text{Loyer} + \beta_2 \cdot \text{Revenus}.$$
+
 L'offre dépend du prix du logement et des coûts de construction :
+
 $$\text{Offre} = \beta_3 \cdot \text{Loyer} + \beta_4 \cdot \text{Coûts}.$$
 
 On aimerait bien connaitre $\beta_3$, qui représente la façon dont l’offre réagit à un changement de prix. Le problème est qu'une régression classique ne peut pas estimer directement ces paramètres. En effet, le prix et l'offre s'influencent mutuellement : si une ville lance de grands travaux immobiliers, l’offre grimpe, ce qui fait baisser les loyers. Ici, c'est l'offre qui cause le prix, et non l'inverse. 
