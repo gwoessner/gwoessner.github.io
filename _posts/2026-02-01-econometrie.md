@@ -89,10 +89,15 @@ On pourrait imaginer faire une régression où on prendrait en compte l’intens
 
 ### B. L’approche structurale
 
-Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire
+Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire[^5]
 
 $$\text{Demande} = \beta_1 \cdot \text{Loyer} + \beta_2 \cdot \text{Revenus}, \text{la demande dépend du prix du logement et des revenus de la population}.$$
 $$\text{Offre} = \beta_3 \cdot \text{Loyer} + \beta_2 \cdot \text{Coûts}, \text{l'offre dépend du prix du logement et des coûts de construction}.$$
+
+On aimerait bien connaitre $\beta_3$, qui représente la façon dont l’offre réagit à un changement de prix. Le problème est qu'une régression classique ne peut pas estimer directement ces paramètres. En effet, le prix et l'offre s'influencent mutuellement : si une ville lance de grands travaux immobiliers, l’offre grimpe, ce qui fait baisser les loyers. Ici, c'est l'offre qui cause le prix, et non l'inverse. 
+
+Pour résoudre ce problème on utilise le fait qu’au prix d’équilibre l’offre et la demande sont égales. Un simple calcul nous donne $\text{Loyer} = \pi_1 \cdot \text{Revenus} + \pi_2 \cdot \text{Coûts}$. Dans cette equation, tout est "propre" : le revenu et les coûts de construction sont des variables qui viennent de l'extérieur du système et qui ne dépendent pas du prix. On peut donc utiliser une régression classique pour obtenir les coefficients $\pi_1$ et $\pi_2$.
+
 
 
 
@@ -106,3 +111,4 @@ $$\text{Offre} = \beta_3 \cdot \text{Loyer} + \beta_2 \cdot \text{Coûts}, \text
 
 [^4]: Le terme « au plus près » a un sens mathématique précis, pour en savoir plus voir [méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s).
 
+[^5]: C'est bien sûr un exemple simple pour expliquer les mécanismes en jeu au lecteur, pas un modèle tiré de la recherche économique.
