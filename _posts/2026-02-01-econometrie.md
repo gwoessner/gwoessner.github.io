@@ -62,7 +62,26 @@ L’objectif de ce billet est donc d’expliquer comment les économistes peuven
 ### A. L’objectif de l’économétrie
 L’outil de base de l’économètre est la **régression linéaire**. L’idée est simple. Si on veut étudier l'impact du contrôle des loyers sur l'offre de logements, on commence par collecter des données sur des dizaines de villes. On place ensuite ces points sur un graphique (en ordonnée l’offre de logements, en abscisse l'intensité de la régulation[^3]) et on trace la droite qui passe « au plus près »[^4] de tous ces points, comme sur la Figure 3 (données fictives). Si la droite descend, l'économètre pourrait être tenté d’affirmer « Plus le contrôle est fort, plus l’offre baisse ».
 
-Mettre figure + equation
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="text-center p-3" style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">
+                {% include figure.liquid
+                    loading="eager"
+                    path="assets/img/blog_pics/econometrie-3.png"
+                    class="img-fluid rounded z-depth-1"
+                    zoomable=true
+                    style="max-width: 400px; height: auto; cursor: zoom-in;"
+                %}
+                <div class="caption mt-2" style="font-size: 0.9em; color: #666;">
+                    Figure 3, données fictives.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+On représente cette regression avec l'équation $$Offre = \beta \times Regulation + \epsilon.$$
 
 Or, un tel raisonnement serait évidemment faux. Cette régression ne met en évidence qu'une corrélation, pas une causalité. C’est à cause du problème des variables omises. Imaginons que les villes qui mettent en place un contrôle des loyers soient précisément celles qui subissent une démographie explosive. Dans ce cas, ce n'est pas forcément le contrôle des loyers qui « cause » la rareté ; c'est la rareté préexistante qui a « causé » l'adoption politique du contrôle.
 
@@ -77,7 +96,7 @@ On pourrait imaginer faire une régression où on prendrait en compte l’intens
 
 [^2]: Ces lois sont parfois critiquées car elles ne semblent pas tenir compte des pénuries organisées ou des ententes sur les prix. S’il est vrai que les cartels existent, le modèle de base ne cherche pas à décrire toutes les dérives, mais à isoler un mécanisme fondamental : celui de la concurrence pure et parfaite. Sous cette hypothèse, toute tentative d'une ou plusieurs entreprise de maintenir un prix artificiellement haut crée une opportunité de profit pour un nouveau concurrent. Ce dernier entrera sur le marché pour répondre au besoin, capturer la clientèle et, mécaniquement, ramener le prix vers son niveau d'équilibre.
 
-[^3]: Cette intensité peut être rendu objective : par exemple en prenant l’écart entre le loyer moyen du marché et le plafond légal imposé, ou encore la part du parc locatif effectivement soumise à la loi.
+[^3]: Cette intensité peut être rendu objective : par exemple en prenant l’écart entre le loyer moyen du marché et le plafond légal imposé, ou encore la part du parc locatif effectivement soumise à la loi. De même pour la notion d'offre.
 
 [^4]: Le terme « au plus près » a un sens mathématique précis, voir [méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s).
 
