@@ -56,9 +56,28 @@ Du point de vue de la société on peut citer d’autres effets négatifs. Une t
 Toutes ces conséquences et bien d’autres sont envisagées et étudiées par les économistes. On en trouvera une liste plus exhaustive et une revue de la littérature [ici](https://www.diw.de/de/diw_01.c.833179.de/publikationen/roundup/2022_0139/rent_control_effects_through_the_lens_of_empirical_research.html#:~:text=controlling%20housing%20rents%20and%20to,impacting%20both%20landlords%20and%20tenants). Dans ce billet, je propose de me restreindre à l’impact du plafonnement des loyers sur l’offre de logements, en exposant et analysant les outils que les économistes utilisent pour évaluer cet impact.
 
 
+## III. L’économétrie et ses outils
+L’objectif de ce billet est donc d’expliquer comment les économistes peuvent affirmer que le contrôle des loyers cause une baisse de l’offre de logements disponibles. Or, une branche de l’économie a précisément pour but de mettre en évidence des relations de cause à effet : **l’économétrie**.
+
+### A. L’objectif de l’économétrie
+L’outil de base de l’économètre est la **régression linéaire**. L’idée est simple. Si on veut étudier l'impact du contrôle des loyers sur l'offre de logements, on commence par collecter des données sur des dizaines de villes. On place ensuite ces points sur un graphique (en ordonnée l’offre de logements, en abscisse l'intensité de la régulation[^3]) et on trace la droite qui passe « au plus près »[^4] de tous ces points, comme sur la Figure 3 (données fictives). Si la droite descend, l'économètre pourrait être tenté d’affirmer « Plus le contrôle est fort, plus l’offre baisse ».
+
+Mettre figure + equation
+
+Or, un tel raisonnement serait évidemment faux. Cette régression ne met en évidence qu'une corrélation, pas une causalité. C’est à cause du problème des variables omises. Imaginons que les villes qui mettent en place un contrôle des loyers soient précisément celles qui subissent une démographie explosive. Dans ce cas, ce n'est pas forcément le contrôle des loyers qui « cause » la rareté ; c'est la rareté préexistante qui a « causé » l'adoption politique du contrôle.
+
+On pourrait imaginer faire une régression où on prendrait en compte l’intensité de la régulation et les variables omises (la démographie, et les autres variables auxquelles on pourrait penser) en même temps. On ferait alors ce qu'on appelle une régression multiple, mais le problème de la corrélation demeurerait. En effet, comment être sûr de n’avoir manqué aucune variable omise ? De manière plus générale, comment démontrer une causalité en sciences économiques ?
+
+
+
 
 ## Notes de bas de page
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans un futur billet.
 
 [^2]: Ces lois sont parfois critiquées car elles ne semblent pas tenir compte des pénuries organisées ou des ententes sur les prix. S’il est vrai que les cartels existent, le modèle de base ne cherche pas à décrire toutes les dérives, mais à isoler un mécanisme fondamental : celui de la concurrence pure et parfaite. Sous cette hypothèse, toute tentative d'une ou plusieurs entreprise de maintenir un prix artificiellement haut crée une opportunité de profit pour un nouveau concurrent. Ce dernier entrera sur le marché pour répondre au besoin, capturer la clientèle et, mécaniquement, ramener le prix vers son niveau d'équilibre.
+
+[^3]: Cette intensité peut être rendu objective : par exemple en prenant l’écart entre le loyer moyen du marché et le plafond légal imposé, ou encore la part du parc locatif effectivement soumise à la loi.
+
+[^4]: Le terme « au plus près » a un sens mathématique précis, voir [méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s).
+
