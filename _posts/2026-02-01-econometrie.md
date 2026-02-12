@@ -118,6 +118,26 @@ Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a 
    <li><strong>Faiblesses empiriques :</strong> Dans les années 60, les modèles structuraux (comme le modèle Brookings qui comptait des centaines d'équations) faisaient consensus. Puis est arrivé le choc pétrolier de 1973. Il y a eu à la fois de l'inflation et du chômage (la stagflation). Ces modèles n'avaient jamais "vu" cela dans les données passées. Ils ont été incapables de prédire la crise ou de donner des solutions. Des modèles statistiques très simples, sans aucune théorie économique (les modèles de séries temporelles de type Box-Jenkins), se sont mis à faire de meilleures prédictions que les modèles géants à plusieurs millions de dollars de la Commission Cowles.</li>
    </ul>
 
+### La révolution de la crédibilité
+
+Pour répondre aux limites que nous venons d'évoquer, une nouvelle école a émergé dans les années 90 et a insufflé ce qu'on a appelé la révolution de la crédibilité. L'idée est de se passer d'un modèle du fonctionnement de l'économie, mais plutôt de chercher directement dans le réel une situation où un "hasard" a créé deux groupes comparables, et de l'analyser avec un outil adapté. L'économètre se comporte alors un peu comme un biologiste en laboratoire. Les trois grandes familles de techniques sont les suivantes.
+
+#### Les variables instrumentales
+
+De manière comparable aux méthodes structurelles, lorsqu'on tente d'estimer l'effet causal d'une variable $X$ (comme le loyer) sur une autre variable $Y$ (comme la demande de logements), un instrument est une troisième variable $Z$ qui n'influence $Y$ qu'à travers son effet sur $X$. 
+
+En revanche, cette fois-ci l'économètre va utiliser comme variable $Z$ le pourcentage de terrain constructible lié à la topographie de la ville. C'est un choix d'instrument raisonnable pour mesurer la demande car la géographie (pentes, présence de lacs ou de marécages) contraint physiquement l'offre, ce qui fait varier le prix, mais on part du principe qu'elle n'influence pas directement l'envie ou le besoin des gens de se loger. Si le chercheur constate que dans les zones géographiquement contraintes, les loyers sont plus hauts et la consommation de logement baisse, cela peut être considéré comme une preuve que les variations de prix causent réellement un changement de comportement chez les demandeurs. 
+
+La justification est ici ancrée dans une réalité physique locale et ne provient pas d'un modèle général préexistant, ce qui relativise *le problème des hypothèses fortes* évoqué plus haut. Toutefois, *le problème de la perte d'information* demeure : on ne regarde le marché qu'à travers le prisme étroit des contraintes géographiques.
+
+#### Les doubles différences
+
+La méthode de la Double Différence permet le plus souvent d'exploiter des changements politiques. On cherche à comparer un groupe « traité » par une nouvelle règle à un groupe « témoin » qui y échappe. À San Francisco en 1994, une loi a soudainement imposé le contrôle des loyers aux immeubles de moins de 5 appartements, alors que les plus gros immeubles y étaient déjà soumis. En comparant l'évolution du nombre de logements disponibles dans les immeubles de 4 appartements avec celle des immeubles de 5 appartements sur la même période, on peut déduire l'impact net de la législation. Si la construction ou l'entretien chute uniquement pour les petits immeubles après 1994, la loi est désignée comme la cause directe du changement.
+
+#### La régression sur discontinuité
+
+la régression sur discontinuité exploite les seuils arbitraires fixés par l'administration pour isoler un effet causal. L'idée est de comparer des biens situés de part et d'autre d'une frontière, comme celle des districts scolaires. Deux maisons situées dans la même rue, mais séparées par la limite de secteur d'une école réputée, partagent le même quartier, les mêmes parcs et la même sécurité. La seule différence brutale est l'école où iront les enfants. Le « saut » de prix constaté au moment précis où l'on franchit cette ligne invisible permet de mesurer la valeur exacte que le marché accorde à la qualité de l'éducation, éliminant ainsi tous les facteurs de confusion liés au quartier.
+
 
 ## Notes de bas de page
 
