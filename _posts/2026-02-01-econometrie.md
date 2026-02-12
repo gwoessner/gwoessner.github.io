@@ -144,8 +144,14 @@ La régression sur discontinuité (RD) exploite les seuils arbitraires fixés pa
 
 ### D. Les limites de la révolution de la crédibilité
 
-TBD
+Ces approches se heurtent d'abord au **problème de la généralisation**. Lorsqu'elles reposent sur des « accidents » du passé (expériences naturelles), elle est incapable de prédire l'effet d'une politique totalement inédite. De plus, ses résultats sont souvent purement locaux : ce qui est prouvé pour un quartier spécifique à San Francisco n'est pas forcément exportable à Paris ou Berlin. C'est ici que l'approche structurale conservait une force majeure : en cherchant à identifier des paramètres de comportement universels (les fameux $c_i$​), elle permettait de simuler n'importe quel scénario futur (le contrefactuel), offrant ainsi un véritable outil de pilotage pour concevoir de nouvelles lois.
 
+La seconde limite réside dans **l'absence d'explication des mécanismes**. La méthode des IV ou de la DD peut prouver qu'un lien de causalité existe (le « quoi »), mais elle reste souvent muette sur le « pourquoi ». On peut démontrer statistiquement que le plafonnement des loyers réduit l'offre, sans pour autant comprendre si cela est dû à un arrêt des rénovations, à une vente massive des biens ou à un changement de stratégie des promoteurs. À l'inverse, l'approche structurale ne se contentait pas de mesurer un impact ; elle cherchait à le décortiquer en modélisant explicitement la psychologie et les contraintes des agents. En évacuant la théorie au profit de la seule preuve statistique, la révolution de la crédibilité court le risque de transformer l'économie en une boîte noire : on sait que « ça marche », mais on ne sait plus vraiment comment ni pourquoi les humains agissent.
+
+
+### E. Les approches modernes
+
+TBD
 
 ## Notes de bas de page
 
