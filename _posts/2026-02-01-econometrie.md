@@ -132,7 +132,10 @@ La justification est ici ancrée dans une réalité physique locale et ne provie
 
 #### Les doubles différences
 
-La méthode de la Double Différence permet le plus souvent d'exploiter des changements politiques. On cherche à comparer un groupe « traité » par une nouvelle règle à un groupe « témoin » qui y échappe. À San Francisco en 1994, une loi a soudainement imposé le contrôle des loyers aux immeubles de moins de 5 appartements, alors que les plus gros immeubles y étaient déjà soumis. En comparant l'évolution du nombre de logements disponibles dans les immeubles de 4 appartements avec celle des immeubles de 5 appartements sur la même période, on peut déduire l'impact net de la législation. Si la construction ou l'entretien chute uniquement pour les petits immeubles après 1994, la loi est désignée comme la cause directe du changement.
+La méthode de la Double Différence permet le plus souvent d'exploiter des changements politiques. On cherche à comparer un groupe « traité » par une nouvelle règle à un groupe « témoin » qui y échappe. À San Francisco en 1994, une loi a soudainement imposé le contrôle des loyers aux immeubles de moins de 5 appartements, alors que les plus gros immeubles y étaient déjà soumis. En comparant l'évolution du nombre de logements disponibles dans les immeubles de 4 appartements avec celle des immeubles de 5 appartements sur la même période, on peut déduire l'impact net de la législation. Si la construction ou l'entretien chute uniquement pour les petits immeubles après 1994, la loi est désignée comme la cause directe du changement. On appelle ce genre de situation une **expérience naturelle**
+
+Il arrive même que l'expérience soit **pure**, dans le sens où il arrive que il arrive que les chercheurs ou les pouvoirs publics créent eux-mêmes le hasard de toutes pièces pour tester une politique. Le cas le plus célèbre concerne les aides au logement aux États-Unis : comme les fonds sont insuffisants pour aider tout le monde, les autorités attribuent parfois les « vouchers » (bons de réduction de loyer) par tirage au sort. De la même manière, pour tester l'impact du revenu universel, certaines organisations tirent au sort les bénéficiaires parmi une population de volontaires.
+
 
 #### La régression sur discontinuité
 
