@@ -118,7 +118,7 @@ Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a 
    <li><strong>Faiblesses empiriques :</strong> Dans les années 60, les modèles structuraux (comme le modèle Brookings qui comptait des centaines d'équations) faisaient consensus. Puis est arrivé le choc pétrolier de 1973. Il y a eu à la fois de l'inflation et du chômage (la stagflation). Ces modèles n'avaient jamais "vu" cela dans les données passées. Ils ont été incapables de prédire la crise ou de donner des solutions. Des modèles statistiques très simples, sans aucune théorie économique (les modèles de séries temporelles de type Box-Jenkins), se sont mis à faire de meilleures prédictions que les modèles géants à plusieurs millions de dollars de la Commission Cowles.</li>
    </ul>
 
-### La révolution de la crédibilité
+### C. La révolution de la crédibilité
 
 Pour répondre aux limites que nous venons d'évoquer, une nouvelle école a émergé dans les années 90 et a insufflé ce qu'on a appelé la révolution de la crédibilité. L'idée est de se passer d'un modèle du fonctionnement de l'économie, mais plutôt de chercher directement dans le réel une situation où un "hasard" a créé deux groupes comparables, et de l'analyser avec un outil adapté. L'économètre se comporte alors un peu comme un biologiste en laboratoire. Les trois grandes familles de techniques sont les suivantes.
 
@@ -140,6 +140,11 @@ Il arrive même que l'expérience soit **pure**, dans le sens où il arrive que 
 #### La régression sur discontinuité
 
 la régression sur discontinuité exploite les seuils arbitraires fixés par l'administration pour isoler un effet causal. L'idée est de comparer des biens situés de part et d'autre d'une frontière, comme celle des districts scolaires. Deux maisons situées dans la même rue, mais séparées par la limite de secteur d'une école réputée, partagent le même quartier, les mêmes parcs et la même sécurité. La seule différence brutale est l'école où iront les enfants. Le « saut » de prix constaté au moment précis où l'on franchit cette ligne invisible permet de mesurer la valeur exacte que le marché accorde à la qualité de l'éducation, éliminant ainsi tous les facteurs de confusion liés au quartier.
+
+
+### D. Les limites de la révolution de la crédibilité
+
+TBD
 
 
 ## Notes de bas de page
