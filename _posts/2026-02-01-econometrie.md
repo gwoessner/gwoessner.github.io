@@ -119,7 +119,6 @@ Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a 
 </ul>
 
 
-
 ## Notes de bas de page
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans un futur billet.
