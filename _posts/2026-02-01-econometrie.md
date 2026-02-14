@@ -159,7 +159,7 @@ TBD
 
 [^2]: Ces lois sont parfois critiquées car elles ne semblent pas tenir compte des pénuries organisées ou des ententes sur les prix. S’il est vrai que les cartels existent, le modèle de base ne cherche pas à décrire toutes les dérives, mais à isoler un mécanisme fondamental : celui de la concurrence pure et parfaite. Sous cette hypothèse, toute tentative d'une ou plusieurs entreprise de maintenir un prix artificiellement haut crée une opportunité de profit pour un nouveau concurrent. Ce dernier entrera sur le marché pour répondre au besoin, capturer la clientèle et, mécaniquement, ramener le prix vers son niveau d'équilibre.
 
-[^3]: Cette intensité peut être rendu objective : par exemple en prenant l’écart entre le loyer moyen du marché et le plafond légal imposé, ou encore la part du parc locatif effectivement soumise à la loi. De même pour la notion d'offre.
+[^3]: Cette intensité peut être rendue objective : par exemple en prenant l’écart entre le loyer moyen du marché et le plafond légal imposé, ou encore la part du parc locatif effectivement soumise à la loi. De même pour la notion d'offre.
 
 [^4]: Le terme « au plus près » a un sens mathématique précis, pour en savoir plus voir [méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s).
 
