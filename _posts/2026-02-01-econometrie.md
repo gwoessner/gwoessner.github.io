@@ -149,6 +149,7 @@ Ces approches se heurtent d'abord au **problème de la généralisation**. Lorsq
 La seconde limite réside dans **l'absence d'explication des mécanismes**. La méthode des IV ou de la DD peut prouver qu'un lien de causalité existe (le « quoi »), mais elle reste souvent muette sur le « pourquoi ». On peut démontrer statistiquement que le plafonnement des loyers réduit l'offre, sans pour autant comprendre si cela est dû à un arrêt des rénovations, à une vente massive des biens ou à un changement de stratégie des promoteurs. À l'inverse, l'approche structurale ne se contentait pas de mesurer un impact ; elle cherchait à le décortiquer en modélisant explicitement la psychologie et les contraintes des agents. En évacuant la théorie au profit de la seule preuve statistique, la révolution de la crédibilité court le risque de transformer l'économie en une boîte noire : on sait que « ça marche », mais on ne sait plus vraiment comment ni pourquoi les humains agissent. <!--*MODULER*-->
 
 <!--CERTAINS VOIENT ECO COMME SCIENCE HUMAINE (TIRET 2 GPT)-->
+<!--En fait les exp naturelles c'est que 10% des publi (tiret 3.1 Gemini), ET REPRENDRE ABSOLUMENT 3.3, Notion de monopsone dynmaique pour le marché de l'emploi-->
 
 ### E. Les approches modernes
 
