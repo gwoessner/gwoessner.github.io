@@ -120,7 +120,7 @@ Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a 
 
 ### C. La révolution de la crédibilité
 
-Pour répondre aux limites que nous venons d'évoquer, une nouvelle école a émergé dans les années 90 et a insufflé ce qu'on a appelé la révolution de la crédibilité. L'idée est de se passer d'un modèle du fonctionnement de l'économie, mais plutôt de chercher directement dans le réel une situation où un "hasard" a créé deux groupes comparables, et de l'analyser avec un outil adapté. L'économètre se comporte alors un peu comme un biologiste en laboratoire. Les trois grandes familles de techniques sont les suivantes.
+Pour répondre aux limites que nous venons d'évoquer, une nouvelle école a émergé dans les années 90 et a insufflé ce qu'on a appelé la révolution de la crédibilité (RC). L'idée est de se passer d'un modèle du fonctionnement de l'économie, mais plutôt de chercher directement dans le réel une situation où un "hasard" a créé deux groupes comparables, et de l'analyser avec un outil adapté. L'économètre se comporte alors un peu comme un biologiste en laboratoire. Les trois grandes familles de techniques sont les suivantes.
 
 #### Les variables instrumentales
 
@@ -155,10 +155,9 @@ Enfin, lorsqu'elles sont locales, ces approches sont par essence **aveugles aux 
 </ul>
 
 
-
 ### E. Les approches modernes
 
-TBD
+Pour réconcilier l'école structuraliste avec celle de la RC, l'économétrie moderne privilégie désormais une synthèse qui allie la force prédictive du structurel à la rigueur des expériences naturelles. Une première voie consiste à utiliser les outils de la RC non pas comme une fin en soi, mais pour calibrer les paramètres fondamentaux d'un modèle : au lieu de postuler des comportements théoriques, on utilise une preuve de terrain pour s'assurer que les « fondations » du simulateur sont causalement robustes, permettant ensuite de tester des politiques inédites (Heckman, 2010). Une seconde approche, dite des statistiques suffisantes, simplifie le système en démontrant mathématiquement que l'impact d'une loi peut être résumé par quelques indicateurs clés ; on utilise alors une expérience naturelle pour mesurer uniquement ces chiffres cruciaux, ce qui permet de prédire les effets sur le bien-être social sans avoir à modéliser chaque rouage complexe du marché.
 
 ## Notes de bas de page
 
