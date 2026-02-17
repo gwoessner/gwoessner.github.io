@@ -148,7 +148,7 @@ Ces approches se heurtent d'abord au **problème de la généralisation**. Comme
 
 La seconde limite réside dans **l'absence d'explication des mécanismes**. Ces méthodes mesurent l'effet (le "quoi") mais occultent le mécanisme (le "pourquoi"). On prouve ainsi la baisse de l'offre sans savoir si elle vient d'une vente massive, d'un gel des travaux ou d'un changement de stratégie. À l'inverse, l'approche structurale décode la logique interne des agents pour éviter que l'économie ne devienne une "boîte noire" statistique dépourvue de théorie humaine.
 
-Enfin, on peut défendre que ces approches sont par essence **aveugles aux effets macroéconomiques**. Elles sont aveugles aux :
+Enfin, lorsqu'elles sont locales, ces approches sont par essence **aveugles aux effets macroéconomiques**. Elles sont aveugles aux :
 <ul class="simple-highlight-list">
   <li><strong>Effet de déplacement :</strong> L'expérience peut prouver qu'une aide ciblée a permis à un groupe de locataires de se loger. Mais si le stock de logements est fixe, ce succès microéconomique n'est qu'un déplacement : le gain des uns se fait au détriment d'autres familles restées dans l'ombre du "groupe témoin". Au niveau macro, la pénurie reste inchangée.</li>
   <li><strong>Effet de bouclage :</strong> Une étude locale ne peut pas prédire ce qui se passe quand on généralise une mesure à tout un pays. Prenez l'exemple du SMIC : si on l'augmente dans une seule ville, on ne verra que le surcoût pour les patrons locaux. Mais si on l'augmente partout, le pouvoir d'achat global bondit, les carnets de commandes se remplissent et l'activité repart. Ce "retour positif" est invisible dans une expérience locale.</li>
