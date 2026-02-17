@@ -157,7 +157,14 @@ Enfin, lorsqu'elles sont locales, ces approches sont par essence **aveugles aux 
 
 ### E. Les approches modernes
 
-Pour réconcilier l'école structuraliste avec celle de la RC, l'économétrie moderne privilégie désormais une synthèse qui allie la force prédictive du structurel à la rigueur des expériences naturelles. Une première voie consiste à utiliser les outils de la RC non pas comme une fin en soi, mais pour calibrer les paramètres fondamentaux d'un modèle : au lieu de postuler des comportements théoriques, on utilise une preuve de terrain pour s'assurer que les « fondations » du simulateur sont causalement robustes, permettant ensuite de tester des politiques inédites (Heckman, 2010). Une seconde approche, dite des statistiques suffisantes, simplifie le système en démontrant mathématiquement que l'impact d'une loi peut être résumé par quelques indicateurs clés ; on utilise alors une expérience naturelle pour mesurer uniquement ces chiffres cruciaux, ce qui permet de prédire les effets sur le bien-être social sans avoir à modéliser chaque rouage complexe du marché.
+Pour réconcilier l'école structuraliste avec celle de la RC, l'économétrie moderne privilégie désormais une synthèse qui allie la force prédictive du structurel à la rigueur des expériences naturelles. Une première voie consiste à utiliser les outils de la RC pour calibrer les paramètres fondamentaux d'un modèle : ainsi on ne postule plus que certaines variables $Z$ sont liées aux unes $X$ mais pas aux autres $Y$ par des arguments théoriques, on utilise une preuve de terrain pour s'en assurer (Heckman, 2010). Une seconde approche, dite des statistiques suffisantes, simplifie le système en démontrant mathématiquement que l'impact d'une loi peut être résumé par quelques indicateurs clés ; on utilise alors une expérience naturelle pour mesurer uniquement ces chiffres cruciaux, ce qui permet de prédire les effets sur le bien-être social sans avoir à modéliser chaque rouage complexe du marché.
+
+
+## IV. Résumé d'un article
+
+TBD
+
+
 
 ## Notes de bas de page
 
