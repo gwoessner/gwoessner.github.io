@@ -130,7 +130,7 @@ En revanche, cette fois-ci l'économètre va utiliser comme variable $Z$ le pour
 
 La justification est ici ancrée dans une réalité physique locale et ne provient pas d'un modèle général préexistant, ce qui relativise *le problème des hypothèses fortes* évoqué plus haut. Toutefois, *le problème de la perte d'information* demeure : on ne regarde le marché qu'à travers le prisme étroit des contraintes géographiques.
 
-#### Les doubles différences
+#### Les doubles différences {#DD}
 
 La méthode de la Double Différence (DD) permet le plus souvent d'exploiter des changements politiques. On cherche à comparer un groupe « traité » par une nouvelle règle à un groupe « témoin » qui y échappe. À San Francisco en 1994, une loi a soudainement imposé le contrôle des loyers aux immeubles de moins de 5 appartements, alors que les plus gros immeubles y étaient déjà soumis. En comparant l'évolution du nombre de logements disponibles dans les immeubles de 4 appartements avec celle des immeubles de 5 appartements sur la même période, on peut déduire l'impact net de la législation. Si la construction ou l'entretien chute uniquement pour les petits immeubles après 1994, la loi est désignée comme la cause directe du changement. On appelle ce genre de situation une **expérience naturelle**
 
@@ -162,7 +162,7 @@ Pour réconcilier l'école structuraliste avec celle de la RC, l'économétrie m
 
 ## IV. Résumé d'un article
 
-TBD
+[Test](#DD)
 
 
 
