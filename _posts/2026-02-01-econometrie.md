@@ -162,7 +162,9 @@ Pour réconcilier l'école structuraliste avec celle de la RC, l'économétrie m
 
 ## IV. Résumé d'un article
 
-[Test](#DD)
+Nous avons enfin les outils pour comprendre un article d'économétrie. Pour illustrer ce billet, j'ai choisi [l'article de Diamond, McQuade et Qian (2019)](https://www.aeaweb.org/articles?id=10.1257/aer.20181289), qu'on a déjà évoquée dans [ce paragraphe](#DD) est devenu l’étude de référence moderne sur le contrôle des loyers. Elle s'appuie sur l'expérience naturelle de San Francisco en 1994, que nous avons détaillée [plus haut](#DD). En comparant les immeubles soudainement régulés à un groupe témoin, les auteurs parviennent à isoler l'impact causal de la loi.
+
+Les résultats révèlent une chute massive de l'offre : le contrôle des loyers a provoqué une **baisse de 15 %** du nombre de logements locatifs dans les immeubles concernés. Loins de simplement accepter une baisse de rentabilité, les propriétaires ont massivement adopté des stratégies d'évitement : conversion des appartements en copropriétés à vendre (condos), démolition pour reconstruction de logements neufs (exemptés par la loi) ou reprise du logement pour usage personnel. Ces mécanismes ont transformé le parc locatif social ou intermédiaire en un marché plus haut de gamme, accélérant paradoxalement la gentrification que la loi prétendait combattre.
 
 
 
