@@ -175,6 +175,19 @@ Cette protection ne bénéficie toutefois pas à tous les résidents : à San Fr
 En somme, le contrôle des loyers à San Francisco s'apparente à une assurance sociale généreuse pour les habitants en place, mais dont la facture est secrètement envoyée aux générations futures : pour chaque dollar de pouvoir d'achat préservé chez un locataire protégé, l'économie de la ville en détruit deux à travers la raréfaction de l'offre et l'envolée des prix pour les nouveaux arrivants.
 
 
+## V. Conclusion
+
+Arrivés au terme de ce billet, nous pouvons revenir à la question posée dans l'introduction : l'économie répond-elle aux critères d'une démarche scientifique ? Au vu de la manière dont elle produit son savoir, il me semble que oui.
+
+L'étude du marché immobilier de San Francisco montre que les raisonnements déployés par les économètres sont rationnels, et ouvrent la possibilité d'être mis en défaut. Plus important encore pour qualifier une discipline de scientifique : l'économie montre une réelle capacité à prendre en compte ses propres critiques pour se corriger. Face au problème de la corrélation, l'économie développe des approches structurelles. Face aux fragilités des anciens modèles structuraux, la discipline a d'abord réagi par la « révolution de la crédibilité » pour exiger des preuves causales strictes. Puis, reconnaissant les limites de cette approche purement empirique, elle a développé la synthèse moderne actuelle pour tenter de réconcilier la solidité de l'expérience avec la nécessité d'un modèle théorique.
+
+Bien sûr, d'importantes limites demeurent, et l'économie peinera toujours à offrir des certitudes absolues. Mais ces difficultés semblent moins relever d'un vice méthodologique que de la nature même de l'objet étudié : les sociétés humaines. Ce n'est d'ailleurs pas un hasard si l'on retrouve des débats épistémologiques très similaires dans d'autres sciences humaines. La sociologie, par exemple, est également traversée par des tensions entre des approches cherchant à dégager des régularités structurales et d’autres privilégiant l’analyse fine des interactions et des processus de construction sociale[^7]. Ces débats n'invalident pas la scientificité de la sociologie, ils reflètent simplement la difficulté d'étudier l'humain.
+
+Enfin, les obstacles liés à la mise en évidence de la causalité plutôt que de simples corrélations ne sont pas propres à l'économie. L'épidémiologie fait face à des défis presque identiques : lorsqu'il est impossible (ou contraire à l'éthique) de mener des expériences contrôlées en laboratoire pour isoler les causes d'une maladie, les épidémiologistes utilisent des méthodes statistiques observationnelles extrêmement proches de celles des économètres.
+
+Finalement, l'économie avance avec les contraintes de son objet. Elle reste une science imparfaite, sujette au débat, mais dont la démarche de fond — lorsqu'elle cherche honnêtement à isoler des causes et à éprouver ses modèles au contact du réel — s'inscrit bien dans le cadre d'une démarche scientifique rationnelle.
+
+
 ## Notes de bas de page
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans un futur billet.
@@ -189,5 +202,5 @@ En somme, le contrôle des loyers à San Francisco s'apparente à une assurance 
 
 [^6]: La technique exposée est un raffinement de la méthode des moindres carrés, appelée [méthode des doubles moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_doubles_moindres_carr%C3%A9s).
 
-
+[^7]: Je m'y connais peu en sociologie, donc peut-être mes affirmations sur cette discipline sont-elles fausses, auquel cas je serais heureux de me corriger si le lecteur versé en sociologie m'en faisait la remarque.
 
