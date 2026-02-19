@@ -189,6 +189,15 @@ Mais, il serait incomplet d'évaluer la scientificité de l'économie sans évoq
 
 Finalement, l'économie avance avec les contraintes de son objet. Elle reste une science imparfaite, sujette au débat, mais dont la démarche de fond — lorsqu'elle cherche honnêtement à isoler des causes et à éprouver ses modèles au contact du réel — s'inscrit bien dans le cadre d'une démarche scientifique rationnelle.
 
+## VI. Ouverture
+
+Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de cet article qu'il faille être contre les politiques des controles de loyer. Mon objectif était simplement de présenter la démarche économique, et de montrer qu'elle faisait sens. En effet, je vois plusieurs angles par lesquels on pourrait continuer à défendre le contrôle des loyers :
+<ul class="simple-highlight-list">
+  <li><strong>1.</strong> On pourrait faire l'arbitrage que le jeu (la baisse des loyers contrôlés) en vaut la chandelle (la baisse de l'offre).</li>
+  <li><strong>2.</strong> On pourrait défendre une politique plus radicale, dans laquelle l'Etat devrait contrôler les loyers ET l'offre, par exemple dans une perspective communiste. Mon billet, évaluant les politiques de contrôle de loyers au sein d'économies capitalistes, ne répond pas vraiment à ces affirmations. Tout au plus montre-t-il qu'une petite dose de socialisme peut être contre-productive pour les populations visées si elle ne se place pas dans un changement plus large de paradigme.</li>
+  <li><strong>3.</strong> On peut considérer que la méthodologie économétrique n'est pas parfaite, ou pas suffisamment bien appliquée, ou souffre de trop de biais comme celui [de publication](https://fr.wikipedia.org/wiki/Biais_de_publication), bref, que la thèse n'est pas suffisamment bien défendue pour vous convaincre.[^8]</li>
+</ul>
+Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le lieu pour développer ces problématiques.
 
 ## Notes de bas de page
 
@@ -205,4 +214,6 @@ Finalement, l'économie avance avec les contraintes de son objet. Elle reste une
 [^6]: La technique exposée est un raffinement de la méthode des moindres carrés, appelée [méthode des doubles moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_doubles_moindres_carr%C3%A9s).
 
 [^7]: Je m'y connais peu en sociologie, donc peut-être mes affirmations sur cette discipline sont-elles fausses, auquel cas je serais heureux de me corriger si le lecteur versé en sociologie m'en faisait la remarque.
+
+[^8]: Comme je l'ai dit dans la conclusion, dans ce dernier cas de figure il faudrait en revanche également porter la critique sur d'autres discipline (psychologie, sociologie, médecine).
 
