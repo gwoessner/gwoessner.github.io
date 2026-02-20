@@ -41,7 +41,7 @@ ninja.data = [{
       
         title: "Qu&#39;est-ce que l&#39;économie ?",
       
-      description: "Comment les économistes évaluent les politiques de contrôle des loyers ?",
+      description: "Comment les économistes évaluent les politiques de contrôle des loyers.",
       section: "Posts",
       handler: () => {
         
