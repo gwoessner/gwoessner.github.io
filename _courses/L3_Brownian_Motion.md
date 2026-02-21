@@ -18,7 +18,7 @@ Des **exercices d'application** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 5 c
 
 Les **modes de convergence** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 6 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 6 corrigé.tex).
 
-Les **théorèmes de convergence** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD  corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 7 corrigé.tex).
+Les **théorèmes de convergence** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 7 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 7 corrigé.tex).
 
 Les **familles uniformément intégrables et les processus de branchements** en [PDF]({{ site.baseurl }}/assets/L3_MMB/TD 8 corrigé.pdf) et en [TEX]({{ site.baseurl }}/assets/L3_MMB/TD 8 corrigé.tex).
 
