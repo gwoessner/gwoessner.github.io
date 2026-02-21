@@ -24,7 +24,7 @@ Pour une analyse de la situation en France, je ne ferais pas mieux que Vincent B
 
 
 
-## II. Les bases théoriques
+## II. Les bases théoriques[^0]
 
 Pour commencer, il est fondamental d’aborder le cœur de la théorie économique moderne, la Loi de l’offre et de la demande. Elle s’articule en 3 parties.
 
@@ -201,7 +201,9 @@ Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le l
 
 ## Notes de bas de page
 
-[^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans un futur billet.
+[^0]: Le lecteur s'apercevra rapidement que ce billet se concentre surtout sur une sous-branche de l'économie particulièrement empirique : l'économétrie. La partie plus "théorique" de l'économie sera abordée dans un autre billet.
+
+[^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans le futur billet.
 
 [^2]: Ces lois sont parfois critiquées car elles ne semblent pas tenir compte des pénuries organisées ou des ententes sur les prix. S’il est vrai que les cartels existent, le modèle de base ne cherche pas à décrire toutes les dérives, mais à isoler un mécanisme fondamental : celui de la concurrence pure et parfaite. Sous cette hypothèse, toute tentative d'une ou plusieurs entreprise de maintenir un prix artificiellement haut crée une opportunité de profit pour un nouveau concurrent. Ce dernier entrera sur le marché pour répondre au besoin, capturer la clientèle et, mécaniquement, ramener le prix vers son niveau d'équilibre.
 
