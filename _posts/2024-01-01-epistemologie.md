@@ -148,7 +148,7 @@ Merci à Quentin Ruyant et Thomas Charrayre d'avoir répondu à mes questions, i
 
 ### Notes de bas de page
 [^1]: Une proposition, énoncée dans le langage d'une théorie, cherchant à décrire des phénomènes observés.
-[^2]: Le fait d'étudier la méthdologie d'une discipline permet non seulement de répondre aux questions de scientificité *est-ce une science?*, mais également d'objectivité *les scientifiques sont-ils biaisés par leur idéologie?*.
+[^2]: Le fait d'étudier la méthodologie d'une discipline plutôt que quelques critères permet non seulement de répondre aux questions de scientificité *est-ce une science?*, mais également d'objectivité *les scientifiques sont-ils biaisés par leur idéologie?*.
 [^3]: Twitter est l'ancien nom du réseau social X.
 [^4]: Le graphique en question avait fait polémique en raison de la manière cavalière et caricaturale (ou perçue comme telle) qu'il a placé la sociologie. Toutefois ce graphique n'avait pas une grande prétention, il s'agissait simplement d'illustrer comment le double-critère fonctionnerait, à partir de considérations effectivement grossières (car ce n'était pas le but) des différentes disciplines.
 [^5]: il est d'ailleurs intéressant de noter que les façons dont la physique, l'économie et la biologie sont organisées sont très proches.
