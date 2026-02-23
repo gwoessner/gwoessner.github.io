@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qu-39-est-ce-que-l-39-économie",
+        },{id: "post-la-taxe-zucman-en-cours",
+      
+        title: "La taxe Zucman ? (EN COURS)",
+      
+      description: "Sur ce qui justifie la taxe Zucman.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/zucman/";
+        
+      },
+    },{id: "post-qu-39-est-ce-que-l-39-économie",
       
         title: "Qu&#39;est-ce que l&#39;économie ?",
       
