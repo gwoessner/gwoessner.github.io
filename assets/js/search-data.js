@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "post-la-taxe-zucman-en-cours",
       
-        title: "La taxe Zucman ? (EN COURS)",
+        title: "La taxe Zucman (EN COURS)",
       
       description: "Sur ce qui justifie la taxe Zucman.",
       section: "Posts",
