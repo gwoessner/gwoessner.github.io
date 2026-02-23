@@ -195,7 +195,7 @@ Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de
 <ul class="simple-highlight-list">
   <li><strong>1.</strong> On pourrait faire l'arbitrage que le jeu (la baisse des loyers contrôlés) en vaut la chandelle (la baisse de l'offre et autres conséquences négatives).</li>
   <li><strong>2.</strong> On pourrait défendre une politique plus radicale, dans laquelle l'Etat devrait contrôler les loyers ET l'offre, par exemple dans une perspective communiste. Mon billet, évaluant les politiques de contrôle de loyers au sein d'économies capitalistes, ne répond pas vraiment à ces affirmations. Tout au plus montre-t-il qu'une petite dose de socialisme peut être contre-productive pour les populations visées si elle ne se place pas dans un changement plus large de paradigme.</li>
-  <li><strong>3.</strong> On peut considérer que la méthodologie économétrique n'est pas parfaite, ou pas suffisamment bien appliquée, ou souffre de trop de biais comme celui de publication, bref, que la thèse n'est pas suffisamment bien défendue pour vous convaincre.</li>
+  <li><strong>3.</strong> On peut *subjectivement* considérer que la méthodologie économétrique n'est pas parfaite, ou pas suffisamment bien appliquée, ou souffre de trop de biais comme celui de publication, bref, que la thèse n'est pas suffisamment bien défendue être admise.</li>
 </ul>
 Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le lieu pour développer ces problématiques[^8].
 
