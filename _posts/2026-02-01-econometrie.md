@@ -24,9 +24,9 @@ Pour une analyse de la situation en France, je ne ferais pas mieux que Vincent B
 
 
 
-## II. Les bases théoriques[^0]
+## II. Les bases théoriques
 
-Pour commencer, il est fondamental d’aborder le cœur de la théorie économique moderne, la Loi de l’offre et de la demande. Elle s’articule en 3 parties.
+Pour commencer[^0], il est fondamental d’aborder le cœur de la théorie économique moderne, la Loi de l’offre et de la demande. Elle s’articule en 3 parties.
 
 <ul class="simple-highlight-list">
   <li><strong>La Loi de la Demande :</strong> quand le prix d'une marchandise augmente, sa demande diminue.</li>
@@ -201,7 +201,7 @@ Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le l
 
 ## Notes de bas de page
 
-[^0]: Le lecteur s'apercevra rapidement que ce billet se concentre surtout sur une sous-branche de l'économie particulièrement empirique : l'économétrie. La partie plus "théorique" de l'économie sera abordée dans un autre billet.
+[^0]: Le lecteur s'apercevra rapidement que ce billet se concentre ensuite surtout sur une sous-branche de l'économie particulièrement empirique : l'économétrie. La partie plus "théorique" de l'économie sera abordée dans un autre billet.
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans le futur billet.
 
