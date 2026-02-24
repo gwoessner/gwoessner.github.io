@@ -41,7 +41,7 @@ ninja.data = [{
       
         title: "La taxe Zucman (EN COURS)",
       
-      description: "Sur ce qui justifie la taxe Zucman.",
+      description: "Ce que ne doit pas être l&#39;économie.",
       section: "Posts",
       handler: () => {
         
