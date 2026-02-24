@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-la-taxe-zucman-en-cours",
+        },{id: "post-la-taxe-zucman",
       
-        title: "La taxe Zucman (EN COURS)",
+        title: "La taxe Zucman",
       
       description: "Ce que ne doit pas être l&#39;économie.",
       section: "Posts",
