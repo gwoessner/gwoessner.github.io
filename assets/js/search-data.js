@@ -52,7 +52,7 @@ ninja.data = [{
       
         title: "Qu&#39;est-ce que l&#39;économie ?",
       
-      description: "Comment les économistes évaluent les politiques de contrôle des loyers.",
+      description: "Partie 1, l&#39;économétrie, ou comment connaitre les effets du contrôle des loyers ?",
       section: "Posts",
       handler: () => {
         
