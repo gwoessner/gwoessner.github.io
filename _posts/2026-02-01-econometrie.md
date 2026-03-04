@@ -2,7 +2,7 @@
 layout: post
 title: Qu'est-ce que l'économie ?
 date: 2026-02-01 21:00:00
-description: Comment les économistes évaluent les politiques de contrôle des loyers.
+description: Partie 1, l'économétrie, ou comment connaitre les effets du contrôle des loyers ?
 tags: philo, economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
 toc:
@@ -10,7 +10,9 @@ toc:
 ---
 
 Ce billet se place dans la continuité d’un [billet précédent](www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifiaient véritablement les théories avancées, et si les critiques étaient évaluées et prises en compte. 
-Pour ce faire, j’ai choisi d’étudier comment les économistes évaluent les effets des politiques de contrôle des loyers.
+Pour ce faire, j’ai choisi d’étudier une branche empirique de l'économie appelée **économétrie**, et d'expliquer comment elle permet d'évaluer les effets des politiques de contrôle des loyers. La microéconomie et la macroéconomie feront l'objet de billets séparés.
+
+Par ailleurs, mon objectif est de montrer que l'économie, au cours de son développement historique, a su répondre à une critique qui lui est pourtant faite encore aujourd'hui : celle de se perdre dans des modèles théoriques dont les hypothèses seraient déconnectées du réel. Or, si cette critique cible souvent la microéconomie (un point que je nuancerai dans un billet dédié) elle occulte surtout l’existence de l’économétrie. Pourtant cette discipline a été créée précisément pour soumettre la théorie à l’épreuve des faits.
 
 
 ## I. Un exemple récent
@@ -26,7 +28,7 @@ Pour une analyse de la situation en France, je ne ferais pas mieux que Vincent B
 
 ## II. Les bases théoriques
 
-Pour commencer[^0], il est fondamental d’aborder le cœur de la théorie économique moderne, la Loi de l’offre et de la demande. Elle s’articule en 3 parties.
+Pour commencer, il est fondamental d’aborder le cœur de la théorie économique moderne, la Loi de l’offre et de la demande. Elle s’articule en 3 parties.
 
 <ul class="simple-highlight-list">
   <li><strong>La Loi de la Demande :</strong> quand le prix d'une marchandise augmente, sa demande diminue.</li>
@@ -136,6 +138,13 @@ La méthode de la Double Différence (DD) permet le plus souvent d'exploiter des
 
 Il arrive même que l'expérience soit **pure**, dans le sens où il arrive que les chercheurs ou les pouvoirs publics créent eux-mêmes le hasard de toutes pièces pour tester une politique. Le cas le plus célèbre concerne les aides au logement aux États-Unis : comme les fonds sont insuffisants pour aider tout le monde, les autorités attribuent parfois les « vouchers » (bons de réduction de loyer) par tirage au sort. De la même manière, pour tester l'impact du revenu universel, certaines organisations tirent au sort les bénéficiaires parmi une population de volontaires.
 
+La randomisation des expériences pures garantit l’équivalence statistique des groupes, neutralisant ainsi les biais de sélection (on pourrait sinon imaginer par exemple que les bénéficiaires d'une aide soient plus précaires que les autres, faussant ainsi la comparaison). Dans une expérience naturelle, cette équivalence doit être démontrée par deux vérifications :
+<ul class="simple-highlight-list">
+  <li><strong>Hypothèse de tendances parallèles :</strong> On vérifie que les groupes traité et témoin suivaient des trajectoires identiques *avant* l'intervention</li>
+  <li><strong>Tests de robustesse :</strong> on s'assure que des groupes similaires, non concernés par la mesure, n'ont pas connu d'évolution identique au même moment. Cela permet d'isoler l'effet de la loi d'un éventuel choc global (ex : crise économique nationale).</li>
+</ul>
+
+
 
 #### La régression sur discontinuité
 
@@ -200,8 +209,6 @@ Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de
 Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le lieu pour développer ces problématiques[^8].
 
 ## Notes de bas de page
-
-[^0]: Le lecteur s'apercevra rapidement que ce billet se concentre ensuite surtout sur une sous-branche de l'économie particulièrement empirique : l'économétrie. La partie plus "théorique" de l'économie sera abordée dans un autre billet.
 
 [^1]: Certains économistes rejettent ces lois au motif qu’elles seraient mathématiquement incohérentes, reposeraient sur des hypothèses absurdes, et seraient infalsifiables. Ces critiques ne me semblent pas tenir, mais je développerai ces points dans le futur billet.
 
