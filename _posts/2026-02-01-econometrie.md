@@ -207,9 +207,10 @@ Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de
 <ul class="simple-highlight-list">
   <li><strong>1.</strong> On pourrait faire l'arbitrage que le jeu (la baisse des loyers contrôlés) en vaut la chandelle (la baisse de l'offre et autres conséquences négatives).</li>
   <li><strong>2.</strong> On pourrait défendre une politique plus radicale, dans laquelle l'Etat devrait contrôler les loyers ET l'offre, par exemple dans une perspective communiste. Mon billet, évaluant les politiques de contrôle de loyers au sein d'économies capitalistes, ne répond pas vraiment à ces affirmations. Tout au plus montre-t-il qu'une petite dose de socialisme peut être contre-productive pour les populations visées si elle ne se place pas dans un changement plus large de paradigme.</li>
-  <li><strong>3.</strong> On peut *subjectivement* considérer que la méthodologie économétrique n'est pas parfaite, ou pas suffisamment bien appliquée, ou souffre de trop de biais comme celui de publication, bref, que la thèse n'est pas suffisamment bien défendue être admise.</li>
+  <li><strong>3.</strong> On peut tout-à-fait considérer que la méthodologie économétrique n'est pas assez bonne pour qu'on admette tous ses résultats. En effet, le biais de publication, le fait que les études (selon les sujets traités) ne peuvent pas appliquer la méthodologie présentée dans ce billet d'une façon totalement satisfaisante, ou tout simplement le fait que certains résultats ne font pas encore consensus, peuvent justifier un certain scepticisme à l'égard de la discipline. Cela dit, il convient de se demander dans quelle mesure notre scepticisme est transposé à des disciplines souffrant de limites similaires (psychologie, sociologie, médecine).</li>
 </ul>
-Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le lieu pour développer ces problématiques[^8].
+Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le lieu pour développer ces problématiques. Je me contentais de défendre l'idée qu'il existe des questions sur lesquels la science économique a permis d'apporter un éclairage raisonnable, en étant une discipline permettant aux critiques d'être émises, analysées, et fécondes. Il existe d'autres questions économiques de la sorte, mais ce billet n'est pas le lieu pour les présenter.
+
 
 ## Notes de bas de page
 
@@ -226,6 +227,3 @@ Bien entendu ces critiques ne me convainquent pas, mais ce billet n'est pas le l
 [^6]: La technique exposée est un raffinement de la méthode des moindres carrés, appelée [méthode des doubles moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_doubles_moindres_carr%C3%A9s).
 
 [^7]: Je m'y connais peu en sociologie, donc peut-être mes affirmations sur cette discipline sont-elles fausses, auquel cas je serais heureux de me corriger si le lecteur versé en sociologie m'en faisait la remarque.
-
-[^8]: Comme je l'ai dit dans la conclusion, dans le point 3 il faudrait en revanche également porter la critique sur d'autres discipline (psychologie, sociologie, médecine).
-
