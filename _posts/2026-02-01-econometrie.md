@@ -140,7 +140,7 @@ Il arrive même que l'expérience soit **pure**, dans le sens où il arrive que 
 
 La randomisation des expériences pures garantit l’équivalence statistique des groupes, neutralisant ainsi les biais de sélection. Sinon, on pourrait imaginer par exemple que les bénéficiaires d'une nouvelle aide soient plus précaires que les autres, faussant ainsi la comparaison. Dans une expérience naturelle, cette équivalence doit être démontrée par deux vérifications :
 <ul class="simple-highlight-list">
-  <li><strong>Hypothèse de tendances parallèles :</strong> On vérifie que les groupes traité et témoin suivaient des trajectoires identiques *avant* l'intervention</li>
+  <li><strong>Hypothèse de tendances parallèles :</strong> On vérifie que les groupes traité et témoin suivaient des trajectoires identiques avant l'intervention</li>
   <li><strong>Tests de robustesse :</strong> on s'assure que des groupes similaires, non concernés par la mesure, n'ont pas connu d'évolution identique au même moment. Cela permet d'isoler l'effet de la loi d'un éventuel choc global (ex : crise économique nationale).</li>
 </ul>
 
