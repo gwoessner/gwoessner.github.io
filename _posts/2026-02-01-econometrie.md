@@ -2,7 +2,7 @@
 layout: post
 title: Qu'est-ce que l'économie ?
 date: 2026-02-01 21:00:00
-description: Partie 1, l'économétrie, ou comment connaitre les effets du contrôle des loyers ?
+description: 1. L'économétrie, ou comment connaitre les effets du contrôle des loyers.
 tags: philo, economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
 toc:
