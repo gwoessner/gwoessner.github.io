@@ -9,8 +9,8 @@ toc:
   beginning: true
 ---
 
-Ce billet se place dans la continuité d’un [billet précédent](www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifiaient véritablement les théories avancées, et si les critiques étaient évaluées et prises en compte. 
-Pour ce faire, j’ai choisi d’étudier une branche empirique de l'économie appelée **économétrie**, et d'expliquer comment elle permet d'évaluer les effets des politiques de contrôle des loyers. La microéconomie et la macroéconomie feront l'objet de billets séparés.
+Ce billet se place dans la continuité d’un [billet précédent](www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifient véritablement les théories avancées, et si les critiques sont évaluées et prises en compte. 
+Pour ce faire, j’ai choisi d’étudier une branche empirique de l'économie appelée **économétrie**, et d'expliquer comment elle permet d'évaluer les effets des **politiques de contrôle des loyers**. La microéconomie et la macroéconomie feront l'objet de billets séparés.
 
 Par ailleurs, mon objectif est de montrer que l'économie, au cours de son développement historique, a su répondre à une critique qui lui est pourtant faite encore aujourd'hui : celle de se perdre dans des modèles théoriques dont les hypothèses seraient déconnectées du réel. Or, si cette critique cible souvent la microéconomie (un point que je nuancerai dans un billet dédié) elle occulte surtout l’existence de l’économétrie. Pourtant cette discipline a été créée précisément pour soumettre la théorie à l’épreuve des faits.
 
@@ -85,15 +85,15 @@ L’outil de base de l’économètre est la **régression linéaire**. L’idé
 
 On représente cette regression avec l'équation $\text{Offre} = \beta \cdot \text{Regulation}$, et c'est $\beta$ (la pente de la droite de régression) qui quantifie l'effet de la la régulation sur l'offre.
 
-Or, un tel raisonnement serait évidemment faux. Cette régression ne met en évidence qu'une corrélation, pas une causalité. C’est à cause du problème des variables omises. Imaginons que les villes qui mettent en place un contrôle des loyers soient précisément celles qui subissent une démographie explosive. Dans ce cas, ce n'est pas forcément le contrôle des loyers qui « cause » la rareté ; c'est la rareté préexistante qui a « causé » l'adoption politique du contrôle.
+Or, un tel raisonnement serait évidemment faux. Cette régression ne met en évidence qu'une corrélation, pas une causalité. C’est à cause du problème des variables omises. Imaginons que les villes mettent en place un contrôle des loyers en réaction à une une démographie explosive. Dans ce cas, ce n'est pas le contrôle des loyers qui « cause » la rareté ; c'est la rareté préexistante qui a « causé » l'adoption politique du contrôle.
 
-On pourrait imaginer faire une régression où on prendrait en compte l’intensité de la régulation et les variables omises (la démographie, et les autres variables auxquelles on pourrait penser) en même temps. On ferait alors ce qu'on appelle une régression multiple, mais le problème de la corrélation demeurerait. En effet, comment être sûr de n’avoir manqué aucune variable omise ? De manière plus générale, comment démontrer une causalité en sciences économiques ?
+On pourrait imaginer faire une régression où on prendrait en compte l’intensité de la régulation ET les variables omises (la démographie, et les autres variables auxquelles on pourrait penser) en même temps. On ferait alors ce qu'on appelle une régression multiple, mais le problème de la corrélation demeurerait. En effet, comment être sûr de n’avoir manqué aucune variable omise ? De manière plus générale, comment démontrer une causalité en sciences économiques ?
 
 ### B. L’approche structurale
 
 #### Présentation
 
-Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire[^5]
+Dans les années 30, les économistes de la Commission Cowles ont développé une première solution au problème de la corrélation : l’approche structurale. L’idée était de partir d’un modèle mathématique décrivant l’ensemble du système économique étudié. Par exemple pour le marché du logement ils pourraient écrire[^5] :
 
 La demande dépend du prix du logement et des revenus de la population :
 
@@ -114,9 +114,8 @@ Cette méthode n'est pourtant pas sans failles, ce qui explique pourquoi elle a 
 
 <ul class="simple-highlight-list">
   <li><strong>Perte d'information :</strong> En utilisant le prix prédit $\bar{\text{Loyer}}$ au lieu du prix réel, on jette volontairement une grande partie des données. On ne garde que la fraction du prix expliquée par nos variables extérieures (ici le revenu). Si ces variables sont "faibles" et n'expliquent qu'une infime partie du loyer, le modèle devient très imprécis.</li>
-  <li><strong>La théorie avant les données :</strong> La méthode ne permet pas de remettre en question le système. Elle supposait que les économistes connaissaient déjà la « vraie » structure du monde et n'utilisaient les données que pour remplir les blancs.</li>
+  <li><strong>La théorie avant les données :</strong> La méthode ne permet pas de remettre en question le système. Elle supposait que les économistes connaissaient déjà la « vraie » structure du monde et n'utilisaient les données que pour remplir les blancs. De plus le modèle ne tient que si on est certain que le revenu n'influence l’offre que par l'intermédiaire du prix. Si une hausse du revenu influence directement le moral des constructeurs ou facilite l'accès au crédit pour bâtir (indépendamment du prix du loyer), alors le revenu influe l'offre par deux chemins différents et la structure s'effondre.</li>
   <li><strong>Complexité :</strong> Passer du réel à l'équation demande de simplifier énormément la psychologie humaine. Comme le dira plus tard la Critique de Lucas, si les gens anticipent les changements de politique, ils changent leur comportement, et les coefficients​ supposés être "fixes" se mettent à bouger, rendant les prédictions caduques. Par exemple, si les propriétaires anticipent une future régulation encore plus stricte dès qu'ils voient la première loi passer.</li>
-   <li><strong>Hypothèses fortes :</strong> Le modèle ne tient que si on est certain que le revenu n'influence l’offre que par l'intermédiaire du prix. Si une hausse du revenu influence directement le moral des constructeurs ou facilite l'accès au crédit pour bâtir (indépendamment du prix du loyer), alors le revenu influe l'offre par deux chemins différents et la structure s'effondre.</li>
    <li><strong>Faiblesses empiriques :</strong> Dans les années 60, les modèles structuraux (comme le modèle Brookings qui comptait des centaines d'équations) faisaient consensus. Puis est arrivé le choc pétrolier de 1973. Il y a eu à la fois de l'inflation et du chômage (la stagflation). Ces modèles n'avaient jamais "vu" cela dans les données passées. Ils ont été incapables de prédire la crise ou de donner des solutions. Des modèles statistiques très simples, sans aucune théorie économique (les modèles de séries temporelles de type Box-Jenkins), se sont mis à faire de meilleures prédictions que les modèles géants à plusieurs millions de dollars de la Commission Cowles. Similairement, l’article de LaLonde (1986) a mis en évidence l’incapacité des modèles structurels à identifier correctement des effets causaux.</li>
    </ul>
 
@@ -130,7 +129,7 @@ De manière comparable aux méthodes structurelles, lorsqu'on tente d'estimer l'
 
 En revanche, cette fois-ci l'économètre va utiliser comme variable $Z$ le pourcentage de terrain constructible lié à la topographie de la ville. C'est un choix d'instrument raisonnable pour mesurer la demande car la géographie (pentes, présence de lacs ou de marécages) contraint physiquement l'offre, ce qui fait varier le prix, mais on part du principe qu'elle n'influence pas directement l'envie ou le besoin des gens de se loger. Si le chercheur constate que dans les zones géographiquement contraintes, les loyers sont plus hauts et la consommation de logement baisse, cela peut être considéré comme une preuve que les variations de prix causent réellement un changement de comportement chez les demandeurs. 
 
-La justification est ici ancrée dans une réalité physique locale et ne provient pas d'un modèle général préexistant, ce qui relativise *le problème des hypothèses fortes* évoqué plus haut. Toutefois, *le problème de la perte d'information* demeure : on ne regarde le marché qu'à travers le prisme étroit des contraintes géographiques.
+La justification est ici ancrée dans une réalité physique locale et ne provient pas d'un modèle général préexistant, ce qui relativise *le problème de la théorie avant les données* évoqué plus haut. Toutefois, *le problème de la perte d'information* demeure : on ne regarde le marché qu'à travers le prisme étroit des contraintes géographiques.
 
 #### Les doubles différences {#DD}
 
@@ -153,7 +152,7 @@ La régression sur discontinuité (RD) exploite les seuils arbitraires fixés pa
 
 ### D. Les limites de la révolution de la crédibilité
 
-Ces approches se heurtent d'abord au **problème de la généralisation**. Comme elles reposent sur l'analyse du passé, elles sont incapables de prédire l'effet d'une politique totalement inédite. De plus, leurs résultats sont souvent purement locaux : ce qui est prouvé pour un quartier spécifique à San Francisco n'est pas forcément exportable à Paris ou Berlin. Tandis que l'approche structurale, en cherchant à identifier des paramètres de comportement universels (les fameux $c_i$​), évitait cet écueil.
+Ces approches se heurtent d'abord au **problème de la généralisation**. Pour les tenants de l'[École autrichienne](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)) par exemple, la critique de Lucas n'est pas résolue. Les données décrivent l'histoire, mais ne peuvent dicter l'avenir car l'humain n'est pas un atome prévisible. Ce qui est observé à San Francisco est le produit d'un contexte unique, non une loi exportable à Paris. Et si l'approche structurale semblait vouloir dépasser cela en cherchant des paramètres "universels", les Autrichiens y voient une autre erreur : l'illusion de pouvoir mettre la complexité des choix humains en équations fixes.
 
 La seconde limite réside dans **l'absence d'explication des mécanismes**. Ces méthodes mesurent l'effet (le "quoi") mais occultent le mécanisme (le "pourquoi"). On prouve ainsi la baisse de l'offre sans savoir si elle vient d'une vente massive, d'un gel des travaux ou d'un changement de stratégie. À l'inverse, l'approche structurale décode la logique interne des agents pour éviter que l'économie ne devienne une "boîte noire" statistique dépourvue de théorie humaine.
 
@@ -168,7 +167,7 @@ Enfin, lorsqu'elles sont locales, ces approches sont par essence **aveugles aux 
 
 Pour réconcilier l'école structuraliste avec celle de la RC, et régler les problèmes de la généralisation et l'absence d'explication des mécanismes, l'économétrie moderne privilégie désormais une synthèse qui allie la force prédictive du structurel à la rigueur des expériences naturelles. Une première voie consiste à utiliser les outils de la RC pour calibrer les paramètres fondamentaux d'un modèle : ainsi on ne postule plus que certaines variables $Z$ sont liées aux unes $X$ mais pas aux autres $Y$ par des arguments théoriques, on utilise une preuve de terrain pour s'en assurer (Heckman, 2010). Une seconde approche, dite des statistiques suffisantes, simplifie le système en démontrant mathématiquement que l'impact d'une loi peut être résumé par quelques indicateurs clés ; on utilise alors une expérience naturelle pour mesurer uniquement ces chiffres cruciaux, ce qui permet de prédire les effets sur le bien-être social sans avoir à modéliser chaque rouage complexe du marché.
 
-Enfin, il convient de noter que les problèmes macroéconomiques demeurent dans les approches modernes. Leur résolution nécessite de mobiliser la macroéconométrie, une discipline encore en construction, mais ceci dépasse de très loin le cadre de ce billet.
+Enfin, il convient de noter que les problèmes macroéconomiques demeurent dans les approches modernes. Leur résolution nécessiterait de mobiliser la macroéconométrie, une discipline encore en construction, mais ceci dépasse de très loin le cadre de ce billet.
 
 
 
