@@ -202,7 +202,7 @@ Finalement, l'économie avance avec les contraintes de son objet. Elle reste une
 
 ## VI. Ouverture
 
-Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de cet article qu'il faille être contre les politiques des controles de loyer. Mon objectif était simplement de présenter la démarche économique, et de montrer qu'elle faisait sens. En effet, je vois plusieurs angles par lesquels on pourrait continuer à défendre le contrôle des loyers :
+Je souhaite clarifier un point concernant mon propos. Il ne faut pas conclure de cet article qu'il faille nécessairement être contre les politiques des controles de loyer. Mon objectif était simplement de présenter la démarche économique, et de montrer qu'elle faisait sens. En effet, je vois plusieurs angles par lesquels on pourrait continuer à défendre le contrôle des loyers :
 <ul class="simple-highlight-list">
   <li><strong>1.</strong> On pourrait faire l'arbitrage que le jeu (la baisse des loyers contrôlés) en vaut la chandelle (la baisse de l'offre et autres conséquences négatives).</li>
   <li><strong>2.</strong> On pourrait défendre une politique plus radicale, dans laquelle l'Etat devrait contrôler les loyers ET l'offre, par exemple dans une perspective communiste. Mon billet, évaluant les politiques de contrôle de loyers au sein d'économies capitalistes, ne répond pas vraiment à ces affirmations. Tout au plus montre-t-il qu'une petite dose de socialisme peut être contre-productive pour les populations visées si elle ne se place pas dans un changement plus large de paradigme.</li>
