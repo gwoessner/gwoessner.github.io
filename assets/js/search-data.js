@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-la-taxe-zucman",
+        },{id: "post-la-taxe-zucman-en-cours-de-modification",
       
-        title: "La taxe Zucman",
+        title: "La taxe Zucman (en cours de modification)",
       
       description: "La science derrière le projet de taxation.",
       section: "Posts",
