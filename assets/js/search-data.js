@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qu-39-est-ce-que-l-39-économie",
+        },{id: "post-la-taxe-zucman",
+      
+        title: "La taxe Zucman",
+      
+      description: "La science derrière le projet de taxation.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/zucman/";
+        
+      },
+    },{id: "post-qu-39-est-ce-que-l-39-économie",
       
         title: "Qu&#39;est-ce que l&#39;économie ?",
       
@@ -79,17 +90,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/climat/";
-        
-      },
-    },{id: "post-la-taxe-zucman-en-cours-de-modification",
-      
-        title: "La taxe Zucman (en cours de modification)",
-      
-      description: "La science derrière le projet de taxation.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/zucman/";
         
       },
     },{id: "post-qu-39-est-ce-que-la-science",
