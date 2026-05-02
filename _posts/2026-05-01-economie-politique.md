@@ -26,6 +26,7 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 
 Un système économique doit accomplir trois tâches :
 
+{: .notice--primary .text-center}
 - **$\cdot \alpha$ :** déterminer les besoins de la population,
 - **$\cdot \beta$ :** organiser la production pour répondre à ces besoins,
 - **$\cdot \gamma$ :** distribuer la production dans la population.
@@ -64,10 +65,16 @@ C’est d’ailleurs la même chose pour le marché du travail, c’est le plani
 
 ## III. Les solutions pour la planification
 
-Certains partisans de la planification ont proposé des solutions à ces problèmes. Je propose de passer en revue deux types de solutions, qui ont en commun de supposer qu’un super-algorithme serait capable de résoudre le problème du calcul économique, et qu’on peut retrouver dans [cet article](https://positions-revue.fr/que-signifie-abolir-la-monnaie/) de Doomit, un influenceur marxiste, ou sur le [WikiRouge](https://wikirouge.net/Calcul_%C3%A9conomique_en_%C3%A9conomie_socialiste).
+Certains partisans de la planification ont proposé des solutions à ces problèmes. Je propose de passer en revue deux types de solutions et qu’on peut retrouver dans [cet article](https://positions-revue.fr/que-signifie-abolir-la-monnaie/) de Doomit, un influenceur marxiste, ou sur le [WikiRouge](https://wikirouge.net/Calcul_%C3%A9conomique_en_%C3%A9conomie_socialiste).
 
+### A. Le cyber-planificateur
 
+Avant de se pencher sur les deux types de plan, il convient de noter que la plupart des partisans modernes de la planification défendent qu’un super-algorithme serait capable de résoudre le problème du calcul économique. Ils admettent la difficulté que pose le problème du calcul économique, car ils postulent qu’il est nécessaire, mais *possible*, de construire un système informatique pour de résoudre ce problème. Le rôle de ce système est de laisser les citoyens décider démocratiquement de ce qu’il faut produire, avant d’effectuer le calcul économique et de planifier la production de ces biens, en respectant la contrainte des ressources. Ses partisans argumentent en soulignant que la puissance de calcul d'un simple smartphone moderne est suffisante pour faire tourner les algorithmes qu'ils ont théorisés, et en notant que des entreprises plus grosses que certains États, comme Walmart ou Amazon, utilisent en ce moment même de tels algorithmes pour gérer leurs chaînes logistiques.
 
+Néanmoins, il existe deux types de critique à cette thèse. D’une part, si Amazon gère bien des flux plus gros (en valeur) que le PIB de l’URSS, sa *complexité* n’est pas du même ordre de grandeur : Amazon n’extrait pas du pétrole, ne forme ni enseignant ni médecin, ne construit pas de centrale nucléaire, elle se contente de mettre en lien des producteurs et des consommateurs. D’autre part Amazon bénéficie pour sa planification d’un signal-prix pour chacun des biens qu’elle gère : celui du marché (extérieur à Amazon). Amazon n’a pas besoin de calculer ex-nihilo le prix d’un casque qu’elle vend sur son site, car le casque ainsi que chacun de ses composants ont un prix connu en dehors d’Amazon.
+
+Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes \footnote{une même variable peut être input et output, donc c’est pas juste inverser une matrice + en raison des économies d’échelle, on ne peut pas modéliser ça par une relation linéaire (bordel du linéaire pour modéliser le monde !!!) + comment tu fais l’optimisation « sous contrainte » vu que les ressources sont finies ?}.
+DF j’ai raison sur les propriétés maths de l’algo ? 
 
 
 
