@@ -26,10 +26,11 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 
 Un système économique doit accomplir trois tâches :
 
-{: .notice--primary .text-center}
+<div style="border: 1px solid #eee; padding: 1.5em; margin: 1.5em 0; text-align: center; border-radius: 5px; background: #f9f9f9;">
 - **$\alpha$ :** déterminer les besoins de la population,
 - **$\beta$ :** organiser la production pour répondre à ces besoins,
 - **$\gamma$ :** distribuer la production dans la population.
+</div>
 
 Pour accomplir ces tâches, il a trois défis à accomplir
 
@@ -73,17 +74,17 @@ Avant de se pencher sur les deux types de plan, il convient de noter que la plup
 
 Néanmoins, il existe deux types de critique à cette thèse. D’une part, si Amazon gère bien des flux plus gros (en valeur) que le PIB de l’URSS, sa *complexité* n’est pas du même ordre de grandeur : Amazon n’extrait pas du pétrole, ne forme ni enseignant ni médecin, ne construit pas de centrale nucléaire, elle se contente de mettre en lien des producteurs et des consommateurs. D’autre part Amazon bénéficie pour sa planification d’un signal-prix pour chacun des biens qu’elle gère : celui du marché (extérieur à Amazon). Amazon n’a pas besoin de calculer ex-nihilo le prix d’un casque qu’elle vend sur son site, car le casque ainsi que chacun de ses composants ont un prix connu en dehors d’Amazon.
 
-Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes \footnote{une même variable peut être input et output, donc c’est pas juste inverser une matrice + en raison des économies d’échelle, on ne peut pas modéliser ça par une relation linéaire (bordel du linéaire pour modéliser le monde !!!) + comment tu fais l’optimisation « sous contrainte » vu que les ressources sont finies ?}.
-DF j’ai raison sur les propriétés maths de l’algo ? 
+Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes [^3]
 
 
 
 ## Notes de bas de page
 
-[^1] : Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie))
+[^1] : Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
 
 [^2] : test
 
-
+[^3] : Le système c'est ** une même variable peut être input et output, donc c’est pas juste inverser une matrice + en raison des économies d’échelle, on ne peut pas modéliser ça par une relation linéaire (bordel du linéaire pour modéliser le monde !!!) + comment tu fais l’optimisation « sous contrainte » vu que les ressources sont finies ?}. + innovation
+DF j’ai raison sur les propriétés maths de l’algo ? 
 
 
