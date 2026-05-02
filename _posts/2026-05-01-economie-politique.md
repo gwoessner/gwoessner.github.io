@@ -118,8 +118,16 @@ Ce serait une erreur de retenir ça de ce billet. En effet, nous avons égalemen
 
 Il faut également souligner que les théoriciens de la planification restent bien souvent vague quant à la façon précise et concrète dont fonctionnerait certains pans de l'économie. Et c'est une position assumée, c'est pourquoi dans [l'article évoqué plus haut](https://positions-revue.fr/que-signifie-abolir-la-monnaie/), on peut lire
 
-{: .notice--primary}
+<div style="border: 1px solid #eee; padding: 1.5em; margin: 1.5em 0; text-align: left; border-radius: 5px; background: #f9f9f9;">
 « Mais concrètement, à quoi ressemble la planification socialiste ? [...] Il est important d’insister sur le fait que la mise en place du système de planification se fera dans les luttes concrètes, dans un contexte historique donné. »
+</div>
+
+Il s’agit bien de remettre à plus tard la détermination du bon système de planification à adopter. Étant données les conséquences d’une planification inadéquate que nous venons d'évoquer, il peut sembler insatisfaisant de se contenter d’espérer que les leaders révolutionnaires qui la mettront en place feront les bons choix.
+
+Enfin, une partie des critiques faites à la planification prennent un tout autre angle que celui de l'efficacité : elles soulignent plutôt le danger qu'il y a à mettre dans les mêmes mains le pouvoir économique et le pouvoir politique. [Montesquieu](https://fr.wikipedia.org/wiki/Montesquieu) mettait en garde contre le risque à ne pas respecter une stricte séparation des pouvoirs exécutif, législatif et judiciaire. Pour la même raison, on peut être méfiant envers le pouvoir économique ultime : celui de sur la détermination, la production et la distribution des biens, d'autant plus que l'entité ayant ce pouvoir détiendra également probablement un immense pouvoir politique[^4].
+
+Le but de la suite de cet article est à présent d’observer comment, dans l’histoire, les sociétés communistes ont abordé les questions de planification, et les conséquences que cela a eu sur leurs citoyens.
+
 
 
 
@@ -134,7 +142,7 @@ Il faut également souligner que les théoriciens de la planification restent bi
 
 [^3]: En théorie, dans ce système les prix sont censés osciller autour de la valeur-travail, plutôt qu'autour du prix de production comme dans un système capitaliste. Je ne suis pas convaincu qu'il y ait une différence entre les deux systèmes (à distribution de revenus équivalente, bien entendu), mais je développerai ça dans l'article sur la valeur travail.
 
-
+[^4]: Bien entendu notre société n’est pas parfaite au sujet de la séparation des pouvoirs politiques, et le monde économique empiète bien souvent sur le politique, mais ce n'est pas une raison pour faire pire !
 
 
 
