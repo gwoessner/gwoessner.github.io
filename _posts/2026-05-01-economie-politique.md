@@ -82,10 +82,10 @@ Enfin, il existe des raisons mathématiques et théoriques de douter de la possi
 
 ## Notes de bas de page
 
-[^1] : Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
+[^1]: Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
 
-[^2] : test
+[^2]: test
 
-[^3] : En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
+[^3]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
 
 
