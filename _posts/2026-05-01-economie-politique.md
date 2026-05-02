@@ -12,7 +12,7 @@ toc:
 
 ## I. Introduction 
 
-Ce billet est le second[^2] d’une série de quatre qui présentent différentes branches de l’économie. Il parlera d'économie politique. Si la science économique moderne recherche la neutralité des mathématiques, l'économie politique a un aspect plus politique, social, voire philosophique. Elle est également plus normative (prescriptive) que positive (descriptive). Ces caractéristiques vont par conséquent se retrouver dans le présent billet.
+Ce billet est le second d’une série de quatre qui présentent différentes branches de l’économie. Il parlera d'économie politique. Si la science économique moderne recherche la neutralité des mathématiques, l'économie politique a un aspect plus politique, social, voire philosophique. Elle est également plus normative (prescriptive) que positive (descriptive). Ces caractéristiques vont par conséquent se retrouver dans le présent billet.
 
 L’objectif de l’économie politique est d’étudier les conséquences des choix politiques que nous faisons quant à la façon dont nous produisons, répartissons et échangeons les richesses dans notre société. Dans ce billet, nous allons prendre pour exemple la question la plus importante de l’économie politique : le problème de l'allocation des ressources. Nous chercherons à répondre à la question suivante : Qui répartit le mieux les ressources entre une économie planifiée, et une économie de marché ?
 
@@ -27,11 +27,11 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 Un système économique doit accomplir trois tâches :
 
 <div style="border: 1px solid #eee; padding: 1.5em; margin: 1.5em 0; text-align: left; border-radius: 5px; background: #f9f9f9;">
-- $\alpha$ : déterminer les besoins de la population,
-  
-- $\beta$ : organiser la production pour répondre à ces besoins,
-
-- $\gamma$ : distribuer la production dans la population.
+  <ul style="margin: 0; padding-left: 1.5em;">
+    <li><strong>$\alpha$ :</strong> déterminer les besoins de la population,</li>
+    <li><strong>$\beta$ :</strong> organiser la production pour répondre à ces besoins,</li>
+    <li><strong>$\gamma$ :</strong> distribuer la production dans la population.</li>
+  </ul>
 </div>
 
 Pour accomplir ces tâches, il a trois défis à accomplir.
@@ -76,7 +76,7 @@ Avant de se pencher sur les deux types de plan, il convient de noter que la plup
 
 Néanmoins, il existe deux types de critique à cette thèse. D’une part, si Amazon gère bien des flux plus gros (en valeur) que le PIB de l’URSS, sa *complexité* n’est pas du même ordre de grandeur : Amazon n’extrait pas du pétrole, ne forme ni enseignant ni médecin, ne construit pas de centrale nucléaire, elle se contente de mettre en lien des producteurs et des consommateurs. D’autre part Amazon bénéficie pour sa planification d’un signal-prix pour chacun des biens qu’elle gère : celui du marché (extérieur à Amazon). Amazon n’a pas besoin de calculer ex-nihilo le prix d’un casque qu’elle vend sur son site, car le casque ainsi que chacun de ses composants ont un prix connu en dehors d’Amazon.
 
-Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes [^3]
+Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes [^2]
 
 
 
@@ -84,8 +84,6 @@ Enfin, il existe des raisons mathématiques et théoriques de douter de la possi
 
 [^1]: Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
 
-[^2]: test
-
-[^3]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
+[^2]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
 
 
