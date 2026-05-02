@@ -34,7 +34,7 @@ Pour accomplir ces tâches, il a trois défis à accomplir
 
 ### A. Le problème du calcul économique
 
-La première difficulté a été soulevée par [Ludwig Von Mises](https://fr.wikipedia.org/wiki/Ludwig_von_Mises)[^1], dans son traité *Le calcul économique en régime socialiste* en 1920. 
+La première difficulté a été soulevée par [Ludwig Von Mises](https://fr.wikipedia.org/wiki/Ludwig_von_Mises) [^1], dans son traité *Le calcul économique en régime socialiste* en 1920. 
 Il y souligne que le planificateur, pour organiser la production ($\alpha$), devra prendre une infinité de décisions pour tous les aspects de nos vies économiques. Chacune de ces décisions suppose une grande connaissance de la situation économique pour être résolue. 
 Par exemple, si le planificateur souhaite relier deux villes séparées par une montagne, faut-il mieux creuser un tunnel pour le train, ou contourner la montagne par la route ? 
 Comment déterminer quelle option est la plus économe (en ressources comme en temps de travail) pour la société ? Comment comparer une heure de travail d'un ingénieur avec celle d'un mineur ? Comment savoir ce qui est le plus précieux entre l’acier des rails et le goudron de la route ? Est-il plus judicieux d’immobiliser un an pour ce projet un tunnelier, ou plusieurs goudronneuses pendant 6 mois ? Comment articuler chacun de ces choix avec les nombreux autres projets qui nécessitent eux-aussi ouvriers, ingénieurs, machines et ressources, tous en nombre limité ? 
@@ -45,7 +45,7 @@ Pour aller plus loin, voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac), d
 
 ### B. Le problème de la complexité
 
-La seconde difficulté a été soulevée par [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek)[^1] dans son traité *L'utilisation de la connaissance dans la société* en 1945. Il insiste sur le fait qu'on ne peut que sous-estimer la difficulté d’un tel calcul. 
+La seconde difficulté a été soulevée par [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek) [^1] dans son traité *L'utilisation de la connaissance dans la société* en 1945. Il insiste sur le fait qu'on ne peut que sous-estimer la difficulté d’un tel calcul. 
 
 La production d’un simple crayon mobilise en effet une chaîne de production d’une complexité infinie. Pour le créer il faut du bois de cèdre (abattu avec des scies dont l'acier a été forgé dans des usines complexes), du graphite (extrait à l'autre bout du monde), du caoutchouc pour la gomme et du laiton pour la virole. Il faut des cargos (qui naviguent avec du pétrole) pour transporter toutes ces matières premières. Il faut des machines  qui consomment de l’électricité produite dans des centrales nucléaires) pour assembler ces matières premières en un crayon. Chaque ouvrier et ingénieur travaillant à chaque étape de ce processus a du être nourri, formé, et équipé d’un casque et de chaussures de sécurité. Tout le raisonnement que nous venons de faire s’applique ensuite au casque de chacun de ces ouvriers. Puis à ses chaussures de sécurité. Aux machines d’assemblage, aux centrales nucléaires, et au moindre crayon de chaque technicien travaillant dans ces centrales.
 Ainsi, pour produire chaque bien, le planificateur doit organiser un chaîne de production d’une taille incommensurable, et synchroniser ces chaînes alors qu’elles sont en interaction les unes avec les autres et que les ressources sont limitées : on ne peut en effet que sous-estimer la difficulté d’un tel calcul.
