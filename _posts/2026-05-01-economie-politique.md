@@ -35,7 +35,7 @@ Pour accomplir ces tâches, il a trois défis à accomplir
 ### A. Le problème du calcul économique
 
 La première difficulté a été soulevée par [Ludwig Von Mises](https://fr.wikipedia.org/wiki/Ludwig_von_Mises)[^1], dans son traité *Le calcul économique en régime socialiste* en 1920. 
-Il y souligne que le planificateur, pour organiser la production, devra prendre une infinité de décisions pour tous les aspects de nos vies économiques. Chacune de ces décisions suppose une grande connaissance de la situation économique pour être résolue. 
+Il y souligne que le planificateur, pour organiser la production ($\alpha$), devra prendre une infinité de décisions pour tous les aspects de nos vies économiques. Chacune de ces décisions suppose une grande connaissance de la situation économique pour être résolue. 
 Par exemple, si le planificateur souhaite relier deux villes séparées par une montagne, faut-il mieux creuser un tunnel pour le train, ou contourner la montagne par la route ? 
 Comment déterminer quelle option est la plus économe (en ressources comme en temps de travail) pour la société ? Comment comparer une heure de travail d'un ingénieur avec celle d'un mineur ? Comment savoir ce qui est le plus précieux entre l’acier des rails et le goudron de la route ? Est-il plus judicieux d’immobiliser un an pour ce projet un tunnelier, ou plusieurs goudronneuses pendant 6 mois ? Comment articuler chacun de ces choix avec les nombreux autres projets qui nécessitent eux-aussi ouvriers, ingénieurs, machines et ressources, tous en nombre limité ? 
 Sans une unité de mesure commune qui encapsule la rareté et les coûts de production, le planificateur avance à l'aveugle, incapable de savoir s'il optimise les ressources ou s'il les gaspille dans une structure inutilement coûteuse en capital humain.
@@ -43,16 +43,28 @@ Sans une unité de mesure commune qui encapsule la rareté et les coûts de prod
 Pour aller plus loin, voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac), dont je me suis inspiré.
 
 
-### B. Le problème du calcul économique
+### B. Le problème de la complexité
 
-La seconde difficulté a été soulevée par [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek)[^1] dans son traité *L'utilisation de la connaissance dans la société* en 1945. Il insiste sur le fait qu'on ne peut que sous-estimer la difficulté d’un tel calcul. La production d’un simple crayon mobilise en effet une chaîne de production d’une complexité infinie. Pour le créer il faut du bois de cèdre (abattu avec des scies dont l'acier a été forgé dans des usines complexes), du graphite (extrait à l'autre bout du monde), du caoutchouc pour la gomme et du laiton pour la virole. Il faut des cargos (qui naviguent avec du pétrole) pour transporter toutes ces matières premières. Il faut des machines  qui consomment de l’électricité produite dans des centrales nucléaires) pour assembler ces matières premières en un crayon. Chaque ouvrier et ingénieur travaillant à chaque étape de ce processus a du être nourri, formé, et équipé d’un casque et de chaussures de sécurité. Tout le raisonnement que nous venons de faire s’applique ensuite au casque de chacun de ces ouvriers. Puis à ses chaussures de sécurité. Aux machines d’assemblage, aux centrales nucléaires, et au moindre crayon de chaque technicien travaillant dans ces centrales.
+La seconde difficulté a été soulevée par [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek)[^1] dans son traité *L'utilisation de la connaissance dans la société* en 1945. Il insiste sur le fait qu'on ne peut que sous-estimer la difficulté d’un tel calcul. 
+
+La production d’un simple crayon mobilise en effet une chaîne de production d’une complexité infinie. Pour le créer il faut du bois de cèdre (abattu avec des scies dont l'acier a été forgé dans des usines complexes), du graphite (extrait à l'autre bout du monde), du caoutchouc pour la gomme et du laiton pour la virole. Il faut des cargos (qui naviguent avec du pétrole) pour transporter toutes ces matières premières. Il faut des machines  qui consomment de l’électricité produite dans des centrales nucléaires) pour assembler ces matières premières en un crayon. Chaque ouvrier et ingénieur travaillant à chaque étape de ce processus a du être nourri, formé, et équipé d’un casque et de chaussures de sécurité. Tout le raisonnement que nous venons de faire s’applique ensuite au casque de chacun de ces ouvriers. Puis à ses chaussures de sécurité. Aux machines d’assemblage, aux centrales nucléaires, et au moindre crayon de chaque technicien travaillant dans ces centrales.
 Ainsi, pour produire chaque bien, le planificateur doit organiser un chaîne de production d’une taille incommensurable, et synchroniser ces chaînes alors qu’elles sont en interaction les unes avec les autres et que les ressources sont limitées : on ne peut en effet que sous-estimer la difficulté d’un tel calcul.
 
 Pour aller plus loin, on peut se tourner vers [Adam Smith](https://www.youtube.com/watch?v=azNw7Vx1R8o) et [Milton Friedman](https://www.youtube.com/watch?v=R5Gppi-O3a8).
 
 
+### C. Le problème de l'identification des besoins
+
+Hayek ajoute dans son article une nouvelle difficulté liée à la nécessité de déterminer les besoins de la population ($\beta$). Suppons que le planificateur parvienne à résoudre l'équation de la production, il se heurterait à un second mur : comment savoir comment produire si on ne sait pas quoi produire ? 
+
+Or, ceci n'est pas évident, la plupart des besoins humains sont subjectifs, personnels et surtout dynamiques. Ils changent selon une multitude de facteurs, dont la plupart sont inconnus du consommateur lui-même. Dans une économie planifiée, le citoyen ne peut pas signaler sa préférence par son achat. Par ailleurs, au moment où le plan est validé et la production lancée, le besoin a souvent déjà muté. Or, si le planificateur produit un bien dont le consommateur n’a pas besoin, on créé du gaspillage, cela même qu’on cherchait à supprimer en quittant l’économie de marché ! Et si le planificateur ne produit pas ce dont le consommateur a besoin, c’est la pénurie. Dans une économie planifiée, c’est donc le planificateur qui choisi pour vous ce dont vous avez besoin, et ce potentiellement pour la moindre transaction que nous faisons dans nos vies (si l’économie est entièrement planifiée).
+
+C’est d’ailleurs la même chose pour le marché du travail, c’est le planificateur qui décide qui travaille à quel poste, et il n'est pas évident qu'il puisse prendre en compte les préférences, ou les compétences.
 
 
+## III. Les solutions pour la planification
+
+Certains partisans de la planification ont proposé des solutions à ces problèmes. Je propose de passer en revue deux types de solutions, qui ont en commun de supposer qu’un super-algorithme serait capable de résoudre le problème du calcul économique, et qu’on peut retrouver dans [cet article](https://positions-revue.fr/que-signifie-abolir-la-monnaie/) de Doomit, un influenceur marxiste, ou sur le [WikiRouge](https://wikirouge.net/Calcul_%C3%A9conomique_en_%C3%A9conomie_socialiste).
 
 
 
