@@ -129,6 +129,30 @@ Enfin, une partie des critiques faites à la planification prennent un tout autr
 Le but de la suite de cet article est à présent d’observer comment, dans l’histoire, les sociétés communistes ont abordé les questions de planification, et les conséquences que cela a eu sur leurs citoyens.
 
 
+## IV. L'histoire des systèmes économiques
+
+### A. Les planifications
+
+Plutôt qu’alourdir ce billet avec des descriptions interminables d’économies planifiées dans des pays communistes, je préfère renvoyer le lecteur vers des ressources développant le sujet. Je me contenterai d’être concis et factuel sur ce qu’il faut retenir de chacune de ces applications de la planification concernant notre problématique.
+
+- [Ici](https://x.com/ordrespontane/status/1703754548387467486) un thread qui présente concrètement le métier de planificateur en URSS, et les difficultés rencontrées ayant mené à des pénuries et de la surproduction.
+- [Ici](https://en.wikipedia.org/wiki/1989_visit_by_Boris_Yeltsin_to_the_United_States#Grocery_store_visit_in_Houston), un article qui évoque la visite impromptue du président de l'URSS [Boris Eltsine](https://fr.wikipedia.org/wiki/Boris_Eltsine) dans un supermarché américain. Il n'en croyait pas ses yeux.
+- [Ici](https://www.youtube.com/watch?v=95TkE-PVSpI) une vidéo sur la plus grande famine de l’histoire : le Grand Bond en Avant de Mao, des dizaines de millions de morts en 5 ans. La Chine a connu son explosion économique seulement après qu’elle ait réintégré une économie de marché.
+- [Ici](https://www.youtube.com/watch?v=XM5Wc6S292c), une vidéo sur la seule économie 100 % planifiée de l’histoire : la Mongolie de Horloogiyn Choybalsan.
+- [Ici](https://www.youtube.com/watch?v=bgmIccMBGqI), l'histoire du premier pays africain marxiste : la Tanzanie de Julius Nyerere.
+- [Ici](https://www.youtube.com/watch?v=1TEQO5s26Lg), un pays dans lequel le régime décidait entièrement de la distribution des richesses afin d’éduquer la population à la collectivisation : la Kampuchéa démocratique. Il y a eu 1,7 millions de morts sur une population de 8 millions (TBD).
+
+Je veux pour finir m’attarder sur un contre-argument souvent avancé au sujet du fameux chiffre des 100M de morts dus au communisme, et qu’on peut retrouver développé [ici](https://www.youtube.com/watch?v=rIB4e8AfPcM) par exemple. L'argument consiste à dire, et c'est justifié, que la méthodologie conduisant à ce chiffre est franchement critiquable. Elle inclut des militaires tués pendant la WWII, elle compte les avortements, et autres choix discutables, de sorte que si on avait l’honnêteté d’appliquer la méthodologie au camp capitaliste nous obtiendrions bien plus que 100M de morts. Toutefois, d'une part en suivant une logique plus raisonnable (par exemple en ne comptant que les morts de famine, les morts au Goulag), on arrive quand même à plus de 50M de morts. 
+
+Un deuxième type d'argument est de souligner qu’il y a aussi toujours eu des morts de la faim ou dans des prisons horribles (pensez au bagne de Cayenne) dans le monde capitaliste. Néanmoins, je me permets ici de donner un avis personnel[^5] : je pense que ces méthodes de comparaison ne sont pas pertinentes. Pour comparer la vie sous les deux systèmes, il faut croire leurs victimes. Or, le mur a-t-il été érigé pour empêcher les gens de fuir dans quel sens ?
+
+
+### B. Les marchés
+
+Chacun de nous vit actuellement dans une économie de marché, et peut donc comparer par lui-même sa vie et celle de ses concitoyens avec les vies décrites dans le paragraphe précédent. Néanmoins, j’aimerais évoquer
+
+- **Hong-Kong :** Sous contrôle du Royaume-Uni jusqu’en 1997, le pays appliquait la Rule of Law (l’état de droit) occidental. Hong-Kong est devenu un îlot de libéralisme et de prospérité jouxtant la Chine de Mao. Depuis 2020 Pekin reprend le contrôle sur la ville malgré [la révolte de sa population](https://fr.wikipedia.org/wiki/Mouvement_des_parapluies), refusant de quitter ce système.
+- **Taiwan :** Refuge du [Kuomintang](https://fr.wikipedia.org/wiki/Kuomintang) après la victoire de Mao lors de la guerre civile chinoise. Actuellement l’un des pays les plus libéraux et prospères du monde depuis la chute de la dictature militaire. Taiwan a un taux de pauvreté quasiment nul. Aujourd'hui, Pekin ambitionne d’annexer Taiwan, à la plus grande horreur de la population.
 
 
 
@@ -144,7 +168,7 @@ Le but de la suite de cet article est à présent d’observer comment, dans l�
 
 [^4]: Bien entendu notre société n’est pas parfaite au sujet de la séparation des pouvoirs politiques, et le monde économique empiète bien souvent sur le politique, mais ce n'est pas une raison pour faire pire !
 
-
+[^5]: Évoquons aussi l’indécence de comparer les faits relatés dans l’Archipel du Goulag (par un de ses survivants) à notre monde capitaliste. Accepterait-on le même genre de comparaison pour les crimes nazis ? 
 
 
 
