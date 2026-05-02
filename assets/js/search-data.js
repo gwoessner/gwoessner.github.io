@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-la-taxe-zucman",
+        },{id: "post-qu-39-est-ce-que-l-39-économie-en-cours",
+      
+        title: "Qu&#39;est-ce que l&#39;économie (en cours) ?",
+      
+      description: "1. L&#39;économie politique, ou les défis de la planification",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/economie-politique/";
+        
+      },
+    },{id: "post-la-taxe-zucman",
       
         title: "La taxe Zucman",
       
