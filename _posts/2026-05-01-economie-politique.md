@@ -26,7 +26,7 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 
 Un système économique doit accomplir trois tâches :
 
-<div style="border: 1px solid #eee; padding: 1.5em; margin: 1.5em 0; text-align: center; border-radius: 5px; background: #f9f9f9;">
+<div style="border: 1px solid #eee; padding: 1.5em; margin: 1.5em 0; text-align: left; border-radius: 5px; background: #f9f9f9;">
 - $\alpha$ : déterminer les besoins de la population,
   
 - $\beta$ : organiser la production pour répondre à ces besoins,
