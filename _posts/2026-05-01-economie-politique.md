@@ -12,7 +12,7 @@ toc:
 
 ## I. Introduction 
 
-Ce billet est le second d’une série de quatre qui présentent différentes branches de l’économie. Il parlera d'économie politique. Si la science économique moderne recherche la neutralité des mathématiques, l'économie politique a un aspect plus politique, social, voire philosophique. Elle est également plus normative (prescriptive) que positive (descriptive). Ces caractéristiques vont par conséquent se retrouver dans le présent billet.
+Ce billet est le second[^2] d’une série de quatre qui présentent différentes branches de l’économie. Il parlera d'économie politique. Si la science économique moderne recherche la neutralité des mathématiques, l'économie politique a un aspect plus politique, social, voire philosophique. Elle est également plus normative (prescriptive) que positive (descriptive). Ces caractéristiques vont par conséquent se retrouver dans le présent billet.
 
 L’objectif de l’économie politique est d’étudier les conséquences des choix politiques que nous faisons quant à la façon dont nous produisons, répartissons et échangeons les richesses dans notre société. Dans ce billet, nous allons prendre pour exemple la question la plus importante de l’économie politique : le problème de l'allocation des ressources. Nous chercherons à répondre à la question suivante : Qui répartit le mieux les ressources entre une économie planifiée, et une économie de marché ?
 
@@ -82,7 +82,7 @@ DF j’ai raison sur les propriétés maths de l’algo ?
 
 [^1] : Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie))
 
-
+[^2] : test
 
 
 
