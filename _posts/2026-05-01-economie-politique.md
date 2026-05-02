@@ -27,9 +27,9 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 Un système économique doit accomplir trois tâches :
 
 {: .notice--primary .text-center}
-- **$\cdot \alpha$ :** déterminer les besoins de la population,
-- **$\cdot \beta$ :** organiser la production pour répondre à ces besoins,
-- **$\cdot \gamma$ :** distribuer la production dans la population.
+- **$\alpha$ :** déterminer les besoins de la population,
+- **$\beta$ :** organiser la production pour répondre à ces besoins,
+- **$\gamma$ :** distribuer la production dans la population.
 
 Pour accomplir ces tâches, il a trois défis à accomplir
 
