@@ -26,16 +26,16 @@ Ce discours est en tout cas très courant, et il faut bien dire que présenté c
 
 Un système économique doit accomplir trois tâches :
 
-- **$\alpha$ :** déterminer les besoins de la population,
-- **$\beta$ :** organiser la production pour répondre à ces besoins,
-- **$\gamma$ :** distribuer la production dans la population.
+- **$\cdot \alpha$ :** déterminer les besoins de la population,
+- **$\cdot \beta$ :** organiser la production pour répondre à ces besoins,
+- **$\cdot \gamma$ :** distribuer la production dans la population.
 
 Pour accomplir ces tâches, il a trois défis à accomplir
 
 ### A. Le problème du calcul économique
 
-La première difficulté a été soulevée par Ludwig Von Mises dans son traité *Le calcul économique en régime socialiste* en 1920. 
-Il y souligne que le planificateur, pour atteindre l'objectif $\beta$, devra prendre une infinité de décisions pour tous les aspects de nos vies économiques. Chacune de ces décisions suppose une connaissance inhumaine de la situation économique pour être résolue. 
+La première difficulté a été soulevée par [Ludwig Von Mises](https://fr.wikipedia.org/wiki/Ludwig_von_Mises)[^1], dans son traité *Le calcul économique en régime socialiste* en 1920. 
+Il y souligne que le planificateur, pour organiser la production, devra prendre une infinité de décisions pour tous les aspects de nos vies économiques. Chacune de ces décisions suppose une connaissance inhumaine de la situation économique pour être résolue. 
 Par exemple, si le planificateur souhaite relier deux villes séparées par une montagne, faut-il mieux creuser un tunnel pour le train, ou contourner la montagne par la route ? 
 Comment déterminer quelle option est la plus économe (en ressources comme en temps de travail) pour la société ? Comment comparer une heure de travail d'un ingénieur avec celle d'un mineur ? Comment savoir ce qui est le plus précieux entre l’acier des rails et le goudron de la route ? Est-il plus judicieux d’immobiliser un an pour ce projet un tunnelier, ou plusieurs goudronneuses pendant 6 mois ? Comment articuler chacun de ces choix avec les nombreux autres projets qui nécessitent eux-aussi ouvriers, ingénieurs, machines et ressources, tous en nombre limité ? 
 Sans une unité de mesure commune qui encapsule la rareté et les coûts de production, le planificateur avance à l'aveugle, incapable de savoir s'il optimise les ressources ou s'il les gaspille dans une structure inutilement coûteuse en capital humain.
@@ -45,7 +45,7 @@ Pour aller plus loin, voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac), d
 
 ### B. Le problème du calcul économique
 
-La première difficulté a été soulevée par Ludwig Von Mises dans son traité *Le calcul économique en régime socialiste* en 1920. 
+La seconde difficulté a été soulevée par [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek)[^1] dans son traité *L'utilisation de la connaissance dans la société* en 1945. 
 
 
 
@@ -58,7 +58,9 @@ La première difficulté a été soulevée par Ludwig Von Mises dans son traité
 
 
 
+## Notes de bas de page
 
+[^1] : Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie))
 
 
 
