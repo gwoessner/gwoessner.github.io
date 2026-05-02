@@ -84,7 +84,6 @@ Enfin, il existe des raisons mathématiques et théoriques de douter de la possi
 
 [^2] : test
 
-[^3] : Le système c'est ** une même variable peut être input et output, donc c’est pas juste inverser une matrice + en raison des économies d’échelle, on ne peut pas modéliser ça par une relation linéaire (bordel du linéaire pour modéliser le monde !!!) + comment tu fais l’optimisation « sous contrainte » vu que les ressources sont finies ?}. + innovation
-DF j’ai raison sur les propriétés maths de l’algo ? 
+[^3] : En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
 
 
