@@ -41,7 +41,7 @@ ninja.data = [{
       
         title: "Qu&#39;est-ce que l&#39;économie (en cours) ?",
       
-      description: "1. L&#39;économie politique, ou les défis de la planification",
+      description: "2. L&#39;économie politique, ou les défis de la planification",
       section: "Posts",
       handler: () => {
         
