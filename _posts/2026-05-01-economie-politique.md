@@ -168,6 +168,9 @@ Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder c
     Données Banque Mondiale, [à gauche](https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD) et [à droite](https://donnees.banquemondiale.org/indicator/SI.POV.DDAY).
 </div>
 
+La courbe de gauche représente l'évolution du PIB mondial en dollars constants, c'est-à-dire la quantité de richesses produites dans le monde chaque année, en prenant en compte l'évolution des prix. La courbe de droite représente le taux de pauvreté dans le monde. On peut aussi citer [le recul de la faim](https://fr.wikipedia.org/wiki/Malnutrition) et [la baisse de la mortalité infantile](https://www.who.int/fr/news/item/13-03-2024-global-child-deaths-reach-historic-low-in-2022---un-report)
+
+Les défenseurs du capitalisme et de l'économie de marché utilisent ces courbes 
 
 
 ## Notes de bas de page
