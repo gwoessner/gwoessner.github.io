@@ -177,8 +177,10 @@ Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder c
 La courbe de gauche représente l'évolution du PIB mondial en dollars constants, c'est-à-dire la quantité de richesses produites dans le monde chaque année en prenant en compte l'évolution des prix. La courbe de droite représente le taux de pauvreté dans le monde. On peut aussi évoquer [le recul de la faim](https://fr.wikipedia.org/wiki/Malnutrition) et [la baisse de la mortalité infantile](https://www.who.int/fr/news/item/13-03-2024-global-child-deaths-reach-historic-low-in-2022---un-report) au niveau mondial. Les défenseurs du capitalisme et de l'économie de marché utilisent ces courbes pour défendre la capacité du capitalisme à créer des richesses, et à les distribuer au profit du plus grand nombre, et soulignent le contraste avec ce qu'ont produit les économies planifiées et que nous venons de voir.
 
 
-### C. Quelques
-Présentons à présent
+### C. Critiques et réponses
+
+Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des partisans du marché. Nous inclueront également les réponses des défenseurs du marché à ces critiques.
+
 
 ## Notes de bas de page
 
