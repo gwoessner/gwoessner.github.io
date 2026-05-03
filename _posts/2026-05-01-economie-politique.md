@@ -2,7 +2,7 @@
 layout: post
 title: Qu'est-ce que l'économie (en cours) ?
 date: 2026-05-01 21:00:00
-description: 1. L'économie politique, ou les défis de la planification
+description: 2. L'économie politique, ou les défis de la planification
 tags: philo, economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
 toc:
@@ -137,24 +137,36 @@ Plutôt qu’alourdir ce billet avec des descriptions interminables d’économi
 
 - [Ici](https://x.com/ordrespontane/status/1703754548387467486) un thread qui présente concrètement le métier de planificateur en URSS, et les difficultés rencontrées ayant mené à des pénuries et de la surproduction.
 - [Ici](https://en.wikipedia.org/wiki/1989_visit_by_Boris_Yeltsin_to_the_United_States#Grocery_store_visit_in_Houston), un article qui évoque la visite impromptue du président de l'URSS [Boris Eltsine](https://fr.wikipedia.org/wiki/Boris_Eltsine) dans un supermarché américain. Il n'en croyait pas ses yeux.
-- [Ici](https://www.youtube.com/watch?v=95TkE-PVSpI) une vidéo sur la plus grande famine de l’histoire : le Grand Bond en Avant de Mao, des dizaines de millions de morts en 5 ans. La Chine a connu son explosion économique seulement après qu’elle ait réintégré une économie de marché.
-- [Ici](https://www.youtube.com/watch?v=XM5Wc6S292c), une vidéo sur la seule économie 100 % planifiée de l’histoire : la Mongolie de Horloogiyn Choybalsan.
-- [Ici](https://www.youtube.com/watch?v=bgmIccMBGqI), l'histoire du premier pays africain marxiste : la Tanzanie de Julius Nyerere.
-- [Ici](https://www.youtube.com/watch?v=1TEQO5s26Lg), un pays dans lequel le régime décidait entièrement de la distribution des richesses afin d’éduquer la population à la collectivisation : la Kampuchéa démocratique. Il y a eu 1,7 millions de morts sur une population de 8 millions (TBD).
+- [Ici](https://www.youtube.com/watch?v=95TkE-PVSpI) une vidéo sur la plus grande famine de l’histoire : le Grand Bond en Avant de [Mao Zedong](https://fr.wikipedia.org/wiki/Mao_Zedong), des dizaines de millions de morts en 5 ans. La Chine a connu son explosion économique seulement après qu’elle ait réintégré une économie de marché.
+- [Ici](https://www.youtube.com/watch?v=XM5Wc6S292c), une vidéo sur la seule économie 100 % planifiée de l’histoire : la Mongolie de [Horloogiyn Choybalsan](https://fr.wikipedia.org/wiki/Horloogiyn_Choybalsan).
+- [Ici](https://www.youtube.com/watch?v=bgmIccMBGqI), l'histoire du premier pays africain marxiste : la Tanzanie de [Julius Nyerere](https://fr.wikipedia.org/wiki/Julius_Nyerere).
+- [Ici](https://www.youtube.com/watch?v=1TEQO5s26Lg), un pays dans lequel le régime décidait entièrement de la distribution des richesses afin d’éduquer la population à la collectivisation : le [Kampuchéa démocratique](https://fr.wikipedia.org/wiki/Kampuch%C3%A9a_d%C3%A9mocratique) des Khmers rouges. Il y a eu 1,7 millions de morts sur une population de 8 millions (TBD).
 
-Je veux pour finir m’attarder sur un contre-argument souvent avancé au sujet du fameux chiffre des 100M de morts dus au communisme, et qu’on peut retrouver développé [ici](https://www.youtube.com/watch?v=rIB4e8AfPcM) par exemple. L'argument consiste à dire, et c'est justifié, que la méthodologie conduisant à ce chiffre est franchement critiquable. Elle inclut des militaires tués pendant la WWII, elle compte les avortements, et autres choix discutables, de sorte que si on avait l’honnêteté d’appliquer la méthodologie au camp capitaliste nous obtiendrions bien plus que 100M de morts. Toutefois, en suivant une logique plus raisonnable (par exemple en ne comptant que les morts de famine, les morts au Goulag), on arrive quand même à plus de 50M de morts. 
+Je veux pour finir m’attarder sur un contre-argument souvent avancé au sujet du fameux chiffre des 100M de morts dus au communisme, et qu’on peut retrouver développé [ici](https://www.youtube.com/watch?v=rIB4e8AfPcM) par exemple. L'argument consiste à dire, et c'est justifié, que la méthodologie conduisant à ce chiffre est franchement critiquable. Elle inclut des militaires tués pendant la WWII, elle compte les avortements, et autres choix discutables, de sorte qu'en appliquant la méthodologie au camp capitaliste nous obtiendrions bien plus que 100M de morts. Toutefois, une méthodologie plus stricte (par exemple en ne comptant que les morts de famine, les morts au Goulag) arrive tout de même même à plus de 50M de morts. 
 
-Un deuxième argument est alors de souligner qu’il y a aussi toujours eu des morts de la faim ou dans des prisons horribles (pensez au bagne de Cayenne) au sein du monde capitaliste. Néanmoins, je me permets ici de donner un avis personnel[^5] : je pense que ces méthodes de comparaison ne sont pas pertinentes. Pour comparer la vie sous les deux systèmes, il faut croire leurs victimes. Or, le mur a-t-il été érigé pour empêcher les gens de fuir dans quel sens ?
+Un deuxième argument est alors de souligner qu’il y a aussi toujours eu des morts de la faim ou dans des prisons horribles (pensez au bagne de Cayenne) au sein du monde capitaliste. Néanmoins, je me permets ici de donner un avis personnel[^5] : je pense que ces méthodes de comparaison en absolu ne sont pas pertinentes. Pour comparer la vie sous les deux systèmes, il faut croire leurs victimes. Or, le mur a-t-il été érigé pour empêcher les gens de fuir dans quel sens ?
 
 
 ### B. Les marchés
 
-Chacun de nous viit actuellement dans une économie de marché, et peut donc comparer par lui-même sa vie et celle de ses concitoyens avec les vies décrites dans la section précédente. Néanmoins, j’aimerais évoquer
+Chacun de nous vit actuellement dans une économie de marché, et peut donc comparer par lui-même sa vie et celle de ses concitoyens avec les vies décrites dans la section précédente. Néanmoins, j’aimerais évoquer
 
 - **Hong-Kong :** Sous contrôle du Royaume-Uni jusqu’en 1997, le pays appliquait la Rule of Law (l’état de droit) occidental. Hong-Kong est devenu un îlot de libéralisme et de prospérité jouxtant la Chine de Mao. Depuis 2020 Pekin reprend le contrôle sur la ville malgré [la révolte de sa population](https://fr.wikipedia.org/wiki/Mouvement_des_parapluies), refusant de quitter ce système.
 - **Taiwan :** Refuge du [Kuomintang](https://fr.wikipedia.org/wiki/Kuomintang) après la victoire de Mao lors de la guerre civile chinoise. Actuellement l’un des pays les plus libéraux et prospères du monde depuis la chute de la dictature militaire. Taiwan a un taux de pauvreté quasiment nul. Aujourd'hui, Pekin ambitionne d’annexer Taiwan, à la plus grande horreur de la population.
 
+Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder certains indicateurs mondiaux, les économies de marché regroupant en 2026 la quasi-intégralité des pays du monde.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Données Banque Mondiale, [à gauche](https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD) et [à droite](https://donnees.banquemondiale.org/indicator/SI.POV.DDAY).
+</div>
 
 
 
