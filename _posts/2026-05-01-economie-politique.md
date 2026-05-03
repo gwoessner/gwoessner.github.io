@@ -192,7 +192,7 @@ Présentons maintenant les principales critiques faites par les partisans de la 
 
 [^4]: Bien entendu notre société n’est pas parfaite au sujet de la séparation des pouvoirs politiques, et le monde économique empiète bien souvent sur le politique, mais ce n'est pas une raison pour faire pire !
 
-[^5]: Évoquons aussi l’indécence de comparer les faits relatés dans l’Archipel du Goulag (par un de ses survivants) à notre monde capitaliste. Accepterait-on le même genre de comparaison pour les crimes nazis ? 
+[^5]: Évoquons aussi l’indécence de comparer les faits relatés dans l’Archipel du Goulag (par un survivant) à notre monde capitaliste. Accepterait-on le même genre de comparaison pour les crimes nazis ? 
 
 
 
