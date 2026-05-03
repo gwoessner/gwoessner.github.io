@@ -164,7 +164,7 @@ Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder c
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
+<div class="figure-caption text-center mt-2" style="font-size: 0.9em; color: #666;">
     Données Banque Mondiale, [à gauche](https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD) et [à droite](https://donnees.banquemondiale.org/indicator/SI.POV.DDAY).
 </div>
 
