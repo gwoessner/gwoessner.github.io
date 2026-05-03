@@ -18,7 +18,7 @@ L’objectif de l’économie politique est d’étudier les conséquences des c
 
 Mais que signifie « mieux » allouer les ressources ? En économie pure, on parle d'efficacité : c'est le moment où l'on ne peut plus améliorer la situation d'un individu sans dégrader celle d'un autre. Mais en économie politique, le « mieux » est éminemment subjectif. L'optimum n'est pas seulement mathématique, il est politique.<br>
 En effet, les partisans de la planification, au premier rang desquels les marxistes, dénoncent le fait que la répartition obtenue par le marché peut tout-à-fait impliquer de laisser certaines personnes dans la misère, de jeter des aliments à cause de la surproduction, et de polluer des nappes phréatiques. Ils défendent donc la planification, celle-ci permettant de s’assurer à l’avance que tout le monde aura de quoi se nourrir, en produisant juste ce qu’il faut tout en respectant les limites du système écologique.<br>
-Ce discours est en tout cas très courant, et il faut bien dire que présenté comme ça, comment pourrait-on s’y opposer ? Dans ce billet, je propose de mettre en évidence les difficultés significatives mais méconnues devront surmonter les planificateurs et que les économistes ont mises en évidence, ainsi que les réponses des partisans de l’économie de marché aux critiques tout-à-fait légitimes que nous venons de faire.
+Ce discours est en tout cas très courant, et il faut bien dire que présenté comme ça, comment pourrait-on s’y opposer ? Dans ce billet, je propose de mettre en évidence les difficultés significatives mais méconnues devront surmonter les planificateurs et que les économistes ont mises en évidence, ainsi que les réponses des défenseurs de l’économie de marché aux critiques tout-à-fait légitimes que nous venons de faire.
 
 
 
@@ -178,7 +178,7 @@ La courbe de gauche représente l'évolution du PIB mondial en dollars constants
 
 ### C. Critiques et réponses
 
-Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des partisans du marché. Nous inclueront également les réponses des défenseurs du marché à ces critiques.
+Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également les réponses des défenseurs du marché à ces critiques.
 
 
 ## Notes de bas de page
