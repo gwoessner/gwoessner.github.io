@@ -168,16 +168,17 @@ Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder c
     Données Banque Mondiale, [à gauche](https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD) et [à droite](https://donnees.banquemondiale.org/indicator/SI.POV.DDAY).
 </div>
 
-La courbe de gauche représente l'évolution du PIB mondial en dollars constants, c'est-à-dire la quantité de richesses produites dans le monde chaque année, en prenant en compte l'évolution des prix. La courbe de droite représente le taux de pauvreté dans le monde. On peut aussi citer [le recul de la faim](https://fr.wikipedia.org/wiki/Malnutrition) et [la baisse de la mortalité infantile](https://www.who.int/fr/news/item/13-03-2024-global-child-deaths-reach-historic-low-in-2022---un-report)
+La courbe de gauche représente l'évolution du PIB mondial en dollars constants, c'est-à-dire la quantité de richesses produites dans le monde chaque année, en prenant en compte l'évolution des prix. La courbe de droite représente le taux de pauvreté dans le monde. On peut aussi évoquer [le recul de la faim](https://fr.wikipedia.org/wiki/Malnutrition) et [la baisse de la mortalité infantile](https://www.who.int/fr/news/item/13-03-2024-global-child-deaths-reach-historic-low-in-2022---un-report) au niveau mondial. Les défenseurs du capitalisme et de l'économie de marché utilisent ces courbes pour défendre la capacité du capitalisme à créer des richesses, et à les distribuer au profit du plus grand nombre, et soulignent le contraste avec ce qu'ont produit les économies planifiées et que nous venons de voir.
 
-Les défenseurs du capitalisme et de l'économie de marché utilisent ces courbes 
 
+### C. Quelques
+Présentons à présent
 
 ## Notes de bas de page
 
 [^1]: Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
 
-[^2]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans une économie planifiée, qui joue ce rôle ? 
+[^2]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle, elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe. Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans cet algorithme, qu'est-ce qui joue ce rôle ? 
 
 [^3]: En théorie, dans ce système les prix sont censés osciller autour de la valeur-travail, plutôt qu'autour du prix de production comme dans un système capitaliste. Je ne suis pas convaincu qu'il y ait une différence entre les deux systèmes (à distribution de revenus équivalente, bien entendu), mais je développerai ça dans l'article sur la valeur travail.
 
