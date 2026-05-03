@@ -156,22 +156,19 @@ Chacun de nous vit actuellement dans une économie de marché, et peut donc comp
 
 Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder certains indicateurs mondiaux, les économies de marché regroupant en 2026 la quasi-intégralité des pays du monde.
 
-<div class="row mt-3 justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0 text-center">
+<div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+    <div style="flex: 1; min-width: 300px; text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="mt-2" style="font-size: 0.85em; color: #666;">
-            [Données PIB](https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD)
-        </div>
+        <p style="margin-top: 0.5rem; font-size: 0.85em; color: #666;">
+            <a href="https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD" style="color: #4285f4;">Données PIB (Banque Mondiale)</a>
+        </p>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0 text-center">
+    <div style="flex: 1; min-width: 300px; text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="mt-2" style="font-size: 0.85em; color: #666;">
-            [Données pauvreté](https://donnees.banquemondiale.org/indicator/SI.POV.DDAY)
-        </div>
+        <p style="margin-top: 0.5rem; font-size: 0.85em; color: #666;">
+            <a href="https://donnees.banquemondiale.org/indicator/SI.POV.DDAY" style="color: #4285f4;">Données pauvreté (Banque Mondiale)</a>
+        </p>
     </div>
-</div>
-<div class="text-center mt-3" style="font-size: 0.9em; color: #555;">
-    Source : Banque Mondiale
 </div>
 
 La courbe de gauche représente l'évolution du PIB mondial en dollars constants, c'est-à-dire la quantité de richesses produites dans le monde chaque année en prenant en compte l'évolution des prix. La courbe de droite représente le taux de pauvreté dans le monde. On peut aussi évoquer [le recul de la faim](https://fr.wikipedia.org/wiki/Malnutrition) et [la baisse de la mortalité infantile](https://www.who.int/fr/news/item/13-03-2024-global-child-deaths-reach-historic-low-in-2022---un-report) au niveau mondial. Les défenseurs du capitalisme et de l'économie de marché utilisent ces courbes pour défendre la capacité du capitalisme à créer des richesses, et à les distribuer au profit du plus grand nombre, et soulignent le contraste avec ce qu'ont produit les économies planifiées et que nous venons de voir.
