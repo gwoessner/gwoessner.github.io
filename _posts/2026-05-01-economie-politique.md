@@ -160,13 +160,13 @@ Plutôt que de s'intéresser à un pays en particulier, on peut aussi regarder c
     <div style="flex: 1; min-width: 300px; text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <p style="margin-top: 0.5rem; font-size: 0.85em; color: #666;">
-            <a href="https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD" style="color: #4285f4;">Données PIB (Banque Mondiale)</a>
+            <a href="https://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD" >Données PIB (Banque Mondiale)</a>
         </p>
     </div>
     <div style="flex: 1; min-width: 300px; text-align: center;">
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/economie-politique-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <p style="margin-top: 0.5rem; font-size: 0.85em; color: #666;">
-            <a href="https://donnees.banquemondiale.org/indicator/SI.POV.DDAY" style="color: #4285f4;">Données pauvreté (Banque Mondiale)</a>
+            <a href="https://donnees.banquemondiale.org/indicator/SI.POV.DDAY">Données pauvreté (Banque Mondiale)</a>
         </p>
     </div>
 </div>
