@@ -102,7 +102,7 @@ Pour [Oskar Lange](https://fr.wikipedia.org/wiki/Oskar_Lange), laisser la respon
 
 D’abord, il faut déterminer démocratiquement les grandes orientations de l’économie : quels secteurs investir, quelles limites écologiques garder, quelle proportion de la production est attribuée à la consommation, etc. 
 
-Ensuite, pour déterminer la production à une échelle plus fine, il est nécessaire de garder un concept du marché : la monnaie. Mais celle-ci y prend une forme différente de celle du capitalisme. L’idée est de s’appuyer sur la notion de valeur-travail de Marx \footnote{cette conception de la valeur est aujourd’hui dépassée, mais je développerai ce point dans un autre article}. La production de toute marchandise a nécessité un certain nombre d’heures de travail, direct, ou indirect (c’est-à-dire qu’il a nécessité des machines, qui elles aussi ont été produites par du travail, lui aussi direct ou indirect) et l’algorithme sera également chargé de calculer et planifier ces valeur-travail.<br>
+Ensuite, pour déterminer la production à une échelle plus fine, il est nécessaire de garder un concept du marché : la monnaie. Mais celle-ci y prend une forme différente de celle du capitalisme. L’idée est de s’appuyer sur la notion de valeur-travail de Marx[^vt]. La production de toute marchandise a nécessité un certain nombre d’heures de travail, direct, ou indirect (c’est-à-dire qu’il a nécessité des machines, qui elles aussi ont été produites par du travail, lui aussi direct ou indirect) et l’algorithme sera également chargé de calculer et planifier ces valeur-travail.<br>
 La répartition de ces marchandises dans la société est alors gérée par la distribution de monnaie-travail, qui permet d’acheter de la valeur-travail. Concrètement, pour acheter une table qui a nécessité 100h de travail, il vous faut une monnaie valant 100h de travail.
 
 Néanmoins, à ce stade rien ne garanti l’égalité entre la production et la consommation. Il y a donc peut-être sur-consommation ou sous-consommation, or c’est à nouveau précisément ce que les partisans de la planification voulaient éviter : une gestion sous-optimale des ressources ! La solution proposée est l’ajout par l’algorithme d’un multiplicateur, qui monterait le prix de la table à 120h de monnaie-travail si elle est trop demandée, et la baisserait à 80€ si elle ne l’est pas assez, jusqu’à atteindre l’équilibre entre offre et demande. Si l’ajustement ne suffit pas à rétablir l’équilibre, l’algorithme adapte l’offre : soit on produit plus de tables (si c’est un déséquilibre de demande), soit on n’en produit moins, voire plus du tout (si c’est un déséquilibre d’offre).
@@ -193,7 +193,7 @@ Présentons maintenant les principales critiques faites par les partisans de la 
 
 [^5]: Évoquons aussi l’indécence de comparer les faits relatés dans l’Archipel du Goulag (par un survivant) à notre monde capitaliste. Accepterait-on le même genre de comparaison pour les crimes nazis ? 
 
-
+[^vt]: Cette conception de la valeur est aujourd’hui dépassée, mais je développerai ce point dans un autre article.
 
 
 
