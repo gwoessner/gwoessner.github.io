@@ -180,6 +180,24 @@ La courbe de gauche représente l'évolution du PIB mondial en dollars constants
 
 Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également leurs réponses à ces critiques.
 
+<table style="width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95em;">
+  <thead>
+    <tr style="background-color: #f8f9fa;">
+      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Titre 1</th>
+      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Titre 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte 1</td>
+      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte 2</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte A</td>
+      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte B</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Notes de bas de page
 
