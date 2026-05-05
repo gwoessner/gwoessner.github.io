@@ -180,32 +180,43 @@ La courbe de gauche représente l'évolution du PIB mondial en dollars constants
 
 Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également leurs réponses à ces critiques.
 
-<table style="width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95em;">
-  <thead>
-    <tr style="background-color: #f8f9fa;">
-      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Critique</th>
-      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Réponse</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 0.75em; border: 1px solid #ddd;"> <em>Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.</em> </td>
-      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte 2</td>
-    </tr>
-    <tr>
-      <td style="padding: 0.75em; border: 1px solid #ddd;"> <em>Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait d'éradiquer la pauvreté.</em> </td>
-      <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte B</td>
-    </tr>
-  </tbody>
-</table>
-
 - *Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.*
-  Test
+  Réponse
+
+- *Les personnes les plus précaires dans une économie de marché n'ont (mis à part le développement technique et médical) pas vu leur condition de vie améliorée depuis des siècles.*
+  Réponse
   
-- *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait d'éradiquer la pauvreté.*
+- *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait de l'éradiquer.*
+  Réponse
+  
 - *Notre système économique détruit l'environnement, avec un autre système on pourrait le sauver.*
+  Réponse
+  
 - *La prospérité dans les pays capitalistes est due à l'exploitation néocoloniale des pays pauvres.*
+  Réponse
+  
 - *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit à cause du néolibéralisme de nos dirigeants.*
+  Réponse
+
+
+## V. Les solutions du marché
+
+Voyons à présent la théorie économique derrière le marché, qu’est-ce qui explique que les économies de marché soient efficaces ?
+
+
+### A. Le signal-prix
+
+Pour résoudre le problème du calcul économique, Hayek explique que le marché repose sur un outil élégant : le signal-prix. Selon sa présentation, le prix n'est pas qu'un coût, c'est un vecteur d'information qui compresse la complexité du monde en un seul chiffre. Vous n'avez pas besoin de savoir qu'une mine de cuivre a été inondée au Chili ou qu'une nouvelle technologie augmente la demande de câbles ; la hausse du prix du cuivre vous transmet instantanément l'essentiel : « Cette ressource est plus rare, économisez-la ». Le prix agit comme un signal qui encapsule toute l’information dont le planificateur aurait besoin pour résoudre le problème de l’allocation des ressources, et qui aurait été dispersée et perdue dans la société sans ce signal-prix. <br>
+En résumé, le marché fonctionne comme une immense machine décentralisée, où chaque acteur participe à réaliser un morceau du calcul économique. Les acteurs sont coordonnés par le signal-prix.
+
+Pour aller plus loin, à nouveau voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac)
+
+
+### B. L'entrepreneur
+
+[Joseph Schumpeter](https://fr.wikipedia.org/wiki/Joseph_Schumpeter) explique que là où le planificateur impose une vision descendante, le marché repose sur une approche ascendante. Les producteurs jouent le rôle de « chercheurs de besoins », œuvrant à résoudre le problème des besoins, et étant rémunéré pour ça. En effet, n’étant pas un acteur centralisé, mais plutôt sur le « terrain », ils sont le mieux placés pour identifier une attente non satisfaite ou une inefficacité locale. Si l’un d’entre eux voit juste, il réalise un profit qui lui permet de s'étendre ; s'il se trompe (en produisant un bien dont personne ne veut), il subit une perte qui l'oblige à réallouer ses ressources ailleurs. Ce « travail » créé un mécanisme de sélection naturelle économique qui garantit que les ressources ne restent pas figées dans des projets stériles, mais circulent en permanence vers ce que les consommateurs valorisent le plus. Par ailleurs, en pariant son propre argent, ce producteur / entrepreneur sera incité à être plus vigilant et parcimonieux avec les ressources qu’un administrateur central qui utilise un argent qui n’est pas le sien.
+
+C’est également ce mécanisme qui explique pourquoi historiquement l’innovation a explosé en même temps que l’avènement du capitalisme : la concurrence force les producteurs à chercher sans cesse des méthodes plus performantes ou des produits nouveaux pour ne pas être évincés par un rival. Combien des objets que nous utilisons chaque jour ne seraient pas nés sans qu’un entrepreneur ne prenne le risque d'un pari ?[^7]
 
 
 
@@ -223,6 +234,22 @@ Présentons maintenant les principales critiques faites par les partisans de la 
 [^5]: Évoquons aussi l’indécence de comparer les faits relatés dans l’Archipel du Goulag (par un survivant) à notre monde capitaliste. Accepterait-on le même genre de comparaison pour les crimes nazis ? 
 
 [^vt]: Cette conception de la valeur est aujourd’hui dépassée, mais je développerai ce point dans un autre article.
+
+[^7]: Il convient de noter que la puissance publique a aussi été à l'origine de plusieurs innovations de rupture (internet, GPS, etc). En revanche, le point est qu'un financement public n’est pas incompatible avec une économie de marché, et que la concrétisation de ce qui est une recherche théorique en un produit du quotidien est toujours passée par un acteur privé, qui en a assumé les risques (concurrence, faillite si le produit ou le consommateur n'est pas mûr, etc).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
