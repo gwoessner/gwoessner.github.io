@@ -199,6 +199,17 @@ Présentons maintenant les principales critiques faites par les partisans de la 
   </tbody>
 </table>
 
+- *Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.*
+  Test
+  
+- *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait d'éradiquer la pauvreté.*
+- *Notre système économique détruit l'environnement, avec un autre système on pourrait le sauver.*
+- *La prospérité dans les pays capitalistes est due à l'exploitation néocoloniale des pays pauvres.*
+- *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit à cause du néolibéralisme de nos dirigeants.*
+
+
+
+
 ## Notes de bas de page
 
 [^1]: Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
