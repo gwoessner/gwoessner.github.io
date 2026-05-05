@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qu'est-ce que l'économie (en cours) ?
-date: 2026-05-01 21:00:00
+date: 2024-05-01 21:00:00
 description: 2. L'économie politique, ou les défis de la planification
 tags: philo, economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
