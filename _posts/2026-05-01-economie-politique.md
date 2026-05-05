@@ -183,17 +183,17 @@ Présentons maintenant les principales critiques faites par les partisans de la 
 <table style="width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95em;">
   <thead>
     <tr style="background-color: #f8f9fa;">
-      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Titre 1</th>
-      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Titre 2</th>
+      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Critique</th>
+      <th style="padding: 0.75em; border: 1px solid #ddd; text-align: left;">Réponse</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 0.75em; border: 1px solid #ddd;">*Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.*</td>
+      <td style="padding: 0.75em; border: 1px solid #ddd;"> <em>Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.</em> </td>
       <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte 2</td>
     </tr>
     <tr>
-      <td style="padding: 0.75em; border: 1px solid #ddd;">*Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait d'éradiquer la pauvreté.*</td>
+      <td style="padding: 0.75em; border: 1px solid #ddd;"> <em>Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait d'éradiquer la pauvreté.</em> </td>
       <td style="padding: 0.75em; border: 1px solid #ddd;">Long texte B</td>
     </tr>
   </tbody>
