@@ -18,7 +18,7 @@ L’objectif de l’économie politique est d’étudier les conséquences des c
 
 Mais que signifie « mieux » allouer les ressources ? En économie pure, on parle d'efficacité : c'est le moment où l'on ne peut plus améliorer la situation d'un individu sans dégrader celle d'un autre. Mais en économie politique, le « mieux » est éminemment subjectif. L'optimum n'est pas seulement mathématique, il est politique.<br>
 En effet, les partisans de la planification, au premier rang desquels les marxistes, dénoncent le fait que la répartition obtenue par le marché peut tout-à-fait impliquer de laisser certaines personnes dans la misère, de jeter des aliments à cause de la surproduction, et de polluer des nappes phréatiques. Ils défendent donc la planification, celle-ci permettant de s’assurer à l’avance que tout le monde aura de quoi se nourrir, en produisant juste ce qu’il faut tout en respectant les limites du système écologique.<br>
-Ce discours est en tout cas très courant, et il faut bien dire que présenté comme ça, comment pourrait-on s’y opposer ? Dans ce billet, je propose de mettre en évidence les difficultés significatives mais méconnues devront surmonter les planificateurs et que les économistes ont mises en évidence, ainsi que les réponses des défenseurs de l’économie de marché aux critiques tout-à-fait légitimes que nous venons de faire.
+Ce discours est en tout cas très courant, et il faut bien dire que présenté comme ça, comment pourrait-on s’y opposer ? Dans ce billet, je propose de mettre en évidence les difficultés significatives mais méconnues devront surmonter les planificateurs et que les économistes ont mises en évidence, ainsi que les réponses des défenseurs de l’économie de marché, au premier rang desquels les libéraux, aux critiques tout-à-fait légitimes que nous venons de faire.
 
 
 
@@ -178,25 +178,31 @@ La courbe de gauche représente l'évolution du PIB mondial en dollars constants
 
 ### C. Critiques et réponses
 
-Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également leurs réponses à ces critiques.
+Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également leurs réponses à ces critiques[^9].
 
 - *Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique et de la médecine, pas au système économique.* <br>
-En effet, en revanche cet argument manque deux choses. Premièrement, qu'il est possible d'affirmer qu'à minima les économies de marché *permettent* l'amélioration des conditions de vie grace à la technique, ce qui n'a pas toujours été le cas dans les économies planifiées. Deuxièmement, il existe des raisons de penser que le développement de la technique et de la médecine est bien *causé* par celui du capitalisme, auquel cas il serait absurde de lui nier ses effets au profit de quelque chose qu'il provoque. Je renvoie à la section V.B. pour plus de détails ce point.
+Réponse des libéraux : Cet argument manque deux choses. Premièrement, qu'il est possible d'affirmer qu'à minima les économies de marché *permettent* l'amélioration des conditions de vie grace à la technique, ce qui n'a pas toujours été le cas dans les économies planifiées. Deuxièmement, il existe des raisons de penser que le développement de la technique et de la médecine est bien *causé* par celui du capitalisme, auquel cas il serait absurde de lui nier ses effets au profit de quelque chose qu'il provoque. Je renvoie à la section V.B. pour plus de détails ce point.
 
-- *Les personnes les plus précaires des économies de marché n'ont pas (mis à part le développement technique et de la médecine) vu leur condition de vie améliorée depuis des siècles.*
-  Réponse
-  
+- *Les personnes les plus précaires au sein des économies de marché n'ont pas (mis à part le développement technique et de la médecine) vu leurs conditions de vie améliorées depuis des siècles.* <br>
+Réponse des libéraux : Outre le fait que nous venons d'expliquer qu'il n'est pas justifié de séparer les avancées techniques du capitalisme, cet argument manque trois choses. Premièrement, s'il est vrai que les plus pauvres ne bénéficient pas directement des avancées techniques (par exemple, tout le monde ne peut pas prendre l'avion), ils en bénéficient indirectement (ils consomment des bien moins chers grace au transport par avion). Deuxièmement, dans les pays occidentaux, les plus pauvres bénéficient d'une couverture sociale inédite dans l'histoire de l'humanité (qui est en danger, voir [ici](https://www.youtube.com/watch?v=n-gYFcVx-8Y)), et si cette protection a bien entendu été acquise grace à des luttes sociales, elle est également possible car les économies de marché ont créé suffisamment de richesses pour qu'elles puissent financer un tel système. Par ailleurs, d'autres modèles de protection sociale sont possibles (voir [ici](https://www.youtube.com/watch?v=z1HIMxqCPLY) et [ici](https://www.youtube.com/watch?v=w4Sgb508ymA)). Troisièmement, outre les acquis économiques, techniques et médicaux, la construction libérale de la société moderne a apporté un certain nombre de libertés civiles pour tous (liberté d'expression, de circulation, d'association, de moeurs, etc).
+
+- *La prospérité dans les pays capitalistes est due à l'exploitation néocoloniale des ressources des pays pauvres et de leurs travailleurs.* <br>
+Réponse des libéraux : L'argument part du principe que l'économie est un jeu à somme nulle, autrement dit que si la taille du "gateau" du Nord grandit c'est grace au pillage de celui du Sud, en particulier de leurs ressources. Or, nous avons vu plus haut que la taille du gateau-monde augmente, les économies de (presque) tous les pays au monde grandissent simultanément. Attention, il ne s'agit pas de nier toute dynamique de pouvoir entre les pays du monde, ce qui serait absurde, mais il s'agit de souligner que la croissance est *endogène*. Elle réside dans le développement technique et la transformation des ressources, pas dans leur extraction.
+
 - *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait de l'éradiquer.*
-  Réponse
-  
+Réponse des libéraux : Faut-il supprimer un système dans lequel il y a de moins en moins de pauvreté, au profit d'un système (quel qu'il soit) n'ayant pas démontré sa capacité à améliorer la condition humaine ? Il faut prendre garde à ne pas tomber dans le [sophisme de la solution parfaite](https://fr.wikipedia.org/wiki/Sophisme_de_la_solution_parfaite).
+
+- *Il y a toujours trop d'inégalités dans le monde, un autre système économique permettrait de l'éradiquer.*
+Réponse des libéraux : L'inégalité n'a rien de mauvais en soi, ce qui n'est pas souhaitable c'est la pauvreté (que nous venons de traiter). Néanmoins, les études montrent[^8] que les inégalités entre les pays ont diminué. Les inégalités au sein des pays elles, ont augmenté, mais c'est principalement dû à l'énorme augmentation des valeurs sur les marchés financiers (à ce sujet, voir [ici](https://www.woessner.ovh/blog/2026/zucman/)).
+
 - *Notre système économique détruit l'environnement, avec un autre système on pourrait le sauver.*
-  Réponse
-  
-- *La prospérité dans les pays capitalistes est due à l'exploitation néocoloniale des pays pauvres.*
-  Réponse
-  
-- *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit à cause du néolibéralisme de nos dirigeants.*
-  Réponse
+Réponse des libéraux : Il est indéniable que notre système économique a un impact délétère sur notre environnement (à ce sujet, voir [ici](https://www.woessner.ovh/blog/2025/climat/)). Néanmoins, il faut prendre garde à ne pas comparer le capitalisme réel avec un système alternatif théorique. En effet, il sera confronté aux mêmes difficultés : il devra faire des arbitrages entre le bien-être humain et l'impact sur l'environnement. Voir aussi en partie V.C. comment adapter le capitalisme aux problématiques écologiques.
+ 
+- *Notre système économique encourage l'impérialisme, avec un autre système on pourrait faire autrement.*
+Réponse des libéraux : A nouveau, il ne s'agit pas de nier toute dynamique de pouvoir entre les pays du monde, ni d'oublier que le nouveau système capitaliste a été un facteur de la colonisation (voir [ici](https://www.youtube.com/watch?v=9vgV2OuqmII)). En revanche, l'histoire montre que les sociétés non-capitalistes étaient elles aussi impérialistes (les sociétés pré-capitaliste, l'URSS, ou la Chine actuelle comme évoqué plus haut). Aussi, l'unification des pays au sein de la mondialisation les rend interdépendants, ce qui décourage les conflits. C'est d'ailleurs l'un des arguments derrière la construction européenne.
+
+- *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit et les inégalités augmentent à cause du néolibéralisme de nos dirigeants.*
+Réponse des libéraux : la France n'est pas néolibérale au sens scientifique du terme (voir partie V.C. sur le néolibéralisme). Mais supposons que ces problèmes soient effectivement dûs à un excès de libéralisme, pourquoi les autres pays plus libéraux (Suisse, pays scandinaves, Taïwan) n'ont pas encore plus ces problème ?
 
 
 ## V. Les solutions du marché
@@ -237,9 +243,9 @@ C’est également ce mécanisme qui explique pourquoi historiquement l’innova
 
 [^7]: Il convient de noter que la puissance publique a aussi été à l'origine de plusieurs innovations de rupture (internet, GPS, etc). En revanche, le point est qu'un financement public n’est pas incompatible avec une économie de marché, et que la concrétisation de ce qui est une recherche théorique en un produit du quotidien est toujours passée par un acteur privé ayant assumé des risques (concurrence, faillite si le produit ou le consommateur n'est pas mûr, etc).
 
+[^8]: On peut par exemple lire [ici](https://wir2022.wid.world/www-site/uploads/2022/03/0098-21_WIL_RIM_EXECUTIVE_SUMMARY.pdf) que *While inequality has increased within most countries, over the past two decades, global inequalities between countries have declined*.
 
-
-
+[^9]: à titre personnel, je ne souscris pas à chacune des critiques ni à chacune de leurs réponses. Je me contente d'esquisser les thèses dans les grandes lignes. Charge au lecteur de se faire son propre avis.
 
 
 
