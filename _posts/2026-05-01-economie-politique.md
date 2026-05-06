@@ -180,10 +180,10 @@ La courbe de gauche représente l'évolution du PIB mondial en dollars constants
 
 Présentons maintenant les principales critiques faites par les partisans de la planification à cette présentation historique qui, il faut l'avouer, est plutôt à l'avantage des défenseurs du marché. Nous inclueront également leurs réponses à ces critiques.
 
-- *Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique, pas au système économique.*
-  Réponse
+- *Corrélation n'est pas causalité, les courbes plus haut sont dues au développement technique et de la médecine, pas au système économique.* <br>
+En effet, en revanche cet argument manque deux choses. Premièrement, qu'il est possible d'affirmer qu'à minima les économies de marché *permettent* l'amélioration des conditions de vie grace à la technique, ce qui n'a pas toujours été le cas dans les économies planifiées. Deuxièmement, il existe des raisons de penser que le développement de la technique et de la médecine est bien *causé* par celui du capitalisme, auquel cas il serait absurde de lui nier ses effets au profit de quelque chose qu'il provoque. Je renvoie à la section V.B. pour plus de détails ce point.
 
-- *Les personnes les plus précaires dans une économie de marché n'ont (mis à part le développement technique et médical) pas vu leur condition de vie améliorée depuis des siècles.*
+- *Les personnes les plus précaires des économies de marché n'ont pas (mis à part le développement technique et de la médecine) vu leur condition de vie améliorée depuis des siècles.*
   Réponse
   
 - *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait de l'éradiquer.*
@@ -235,7 +235,7 @@ C’est également ce mécanisme qui explique pourquoi historiquement l’innova
 
 [^vt]: Cette conception de la valeur est aujourd’hui dépassée, mais je développerai ce point dans un autre article.
 
-[^7]: Il convient de noter que la puissance publique a aussi été à l'origine de plusieurs innovations de rupture (internet, GPS, etc). En revanche, le point est qu'un financement public n’est pas incompatible avec une économie de marché, et que la concrétisation de ce qui est une recherche théorique en un produit du quotidien est toujours passée par un acteur privé, qui en a assumé les risques (concurrence, faillite si le produit ou le consommateur n'est pas mûr, etc).
+[^7]: Il convient de noter que la puissance publique a aussi été à l'origine de plusieurs innovations de rupture (internet, GPS, etc). En revanche, le point est qu'un financement public n’est pas incompatible avec une économie de marché, et que la concrétisation de ce qui est une recherche théorique en un produit du quotidien est toujours passée par un acteur privé ayant assumé des risques (concurrence, faillite si le produit ou le consommateur n'est pas mûr, etc).
 
 
 
