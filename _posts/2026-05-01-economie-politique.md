@@ -215,7 +215,7 @@ Nous avons traité de la théorie économique derrière la planification, et pas
 Pour résoudre le problème du calcul économique, Hayek explique que le marché repose sur un outil élégant : le signal-prix. Selon sa présentation, le prix n'est pas qu'un coût, c'est un vecteur d'information qui compresse la complexité du monde en un seul chiffre. Vous n'avez pas besoin de savoir qu'une mine de cuivre a été inondée au Chili ou qu'une nouvelle technologie augmente la demande de câbles ; la hausse du prix du cuivre vous transmet instantanément l'essentiel : « Cette ressource est plus rare, économisez-la ». Le prix agit comme un signal qui encapsule toute l’information dont le planificateur aurait besoin pour résoudre le problème de l’allocation des ressources, et qui aurait été dispersée et perdue dans la société sans ce signal-prix. <br>
 En résumé, le marché fonctionne comme une immense machine décentralisée, où chaque acteur participe à réaliser un morceau du calcul économique. Les acteurs sont coordonnés par le signal-prix.
 
-Pour aller plus loin, à nouveau voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac)
+Pour aller plus loin, à nouveau voir [ici](https://www.youtube.com/watch?v=aM9b3BThUac).
 
 
 ### B. L'entrepreneur
@@ -227,7 +227,7 @@ C’est également ce mécanisme qui explique pourquoi historiquement l’innova
 
 ### C. Les limites du marché, et le néolibéralisme
 
-La lecture de ce billet donne peut-être l'impression que les défenseurs de l'économie de marché pensent tous que l’économie de marché est une solution parfaite. Qu'il s'agirait de laisser faire les acteurs privés pour régler tous les problèmes de la société et mettre fin à la souffrance humaine. C'est une erreur, et je souhaite finir ce billet en présentant les limites de l'économie de marché qu'ont identifié les penseurs libéraux, et une proposition de solution : le néolibéralisme[10].
+La lecture de ce billet donne peut-être l'impression que les libéraux pensent tous que l’économie de marché est une solution parfaite. Qu'il s'agirait de laisser faire les acteurs privés pour régler tous les problèmes de la société et mettre fin à la souffrance humaine. C'est une erreur, et je souhaite finir ce billet en présentant les limites de l'économie de marché qu'ont identifié les penseurs libéraux, et une proposition de solution à ces problèmes : le néolibéralisme.
 
 Pour commencer, j'aimerais faire une parenthèse pour clarifier une confusion fréquente dans le débat public. <br>
 Le terme de néolibéralisme est souvent utilisé en France pour décrire les politiques de nos dirigeants. Il faut savoir que cette utilisation [n'est pas académique](https://fr.wikipedia.org/wiki/N%C3%A9olib%C3%A9ralisme#Une_notion_d%C3%A9nonc%C3%A9e), ni n'est liée à la véritable école de pensée néolibérale que je vais présenter. En effet, il est souvent utilisé pour décrire ce qui peut se ramener à du [capitalisme de connivence](https://fr.wikipedia.org/wiki/Capitalisme_de_connivence) ou de la politique de l'offre (subventionner les entreprises pour stimuler la croissance). Or, ces deux politiques sont contradictoires avec les thèses néolibérales historiques, comme nous le verrons plus loin.
@@ -251,7 +251,7 @@ Le terme de néolibéralisme est souvent utilisé en France pour décrire les po
 
 [^7]: Il convient de noter que la puissance publique a aussi été à l'origine de plusieurs innovations de rupture (internet, GPS, etc). En revanche, le point est qu'un financement public n’est pas incompatible avec une économie de marché, et que la concrétisation de ce qui est une recherche théorique en un produit du quotidien est toujours passée par un acteur privé ayant assumé des risques (concurrence, faillite si le produit ou le consommateur n'est pas mûr, etc).
 
-[^8]: On peut par exemple lire [ici](https://wir2022.wid.world/www-site/uploads/2022/03/0098-21_WIL_RIM_EXECUTIVE_SUMMARY.pdf) que *While inequality has increased within most countries, over the past two decades, global inequalities between countries have declined*.
+[^8]: On peut par exemple lire [ici](https://wir2022.wid.world/www-site/uploads/2022/03/0098-21_WIL_RIM_EXECUTIVE_SUMMARY.pdf) que *"While inequality has increased within most countries, over the past two decades, global inequalities between countries have declined"*.
 
 [^9]: À titre personnel, je ne souscris pas à chacune des critiques ni à chacune de leurs réponses. Je me contente d'esquisser les thèses dans les grandes lignes. Charge au lecteur de se faire son propre avis.
 
