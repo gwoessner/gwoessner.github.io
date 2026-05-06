@@ -189,20 +189,20 @@ Réponse des libéraux : Outre le fait que nous venons d'expliquer qu'il n'est p
 - *La prospérité dans les pays capitalistes est due à l'exploitation néocoloniale des ressources des pays pauvres et de leurs travailleurs.* <br>
 Réponse des libéraux : L'argument part du principe que l'économie est un jeu à somme nulle, autrement dit que si la taille du "gateau" du Nord grandit c'est grace au pillage de celui du Sud, en particulier de leurs ressources. Or, nous avons vu plus haut que la taille du gateau-monde augmente, les économies de (presque) tous les pays au monde grandissent simultanément. Attention, il ne s'agit pas de nier toute dynamique de pouvoir entre les pays du monde, ce qui serait absurde, mais il s'agit de souligner que la croissance est *endogène*. Elle réside dans le développement technique et la transformation des ressources, pas dans leur extraction.
 
-- *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait de l'éradiquer.*
+- *Il y a toujours trop de pauvreté dans le monde, un autre système économique permettrait de l'éradiquer.* <br>
 Réponse des libéraux : Faut-il supprimer un système dans lequel il y a de moins en moins de pauvreté, au profit d'un système (quel qu'il soit) n'ayant pas démontré sa capacité à améliorer la condition humaine ? Il faut prendre garde à ne pas tomber dans le [sophisme de la solution parfaite](https://fr.wikipedia.org/wiki/Sophisme_de_la_solution_parfaite).
 
-- *Il y a toujours trop d'inégalités dans le monde, un autre système économique permettrait de l'éradiquer.*
+- *Il y a toujours trop d'inégalités dans le monde, un autre système économique permettrait de l'éradiquer.* <br>
 Réponse des libéraux : L'inégalité n'a rien de mauvais en soi, ce qui n'est pas souhaitable c'est la pauvreté (que nous venons de traiter). Néanmoins, les études montrent[^8] que les inégalités entre les pays ont diminué. Les inégalités au sein des pays elles, ont augmenté, mais c'est principalement dû à l'énorme augmentation des valeurs sur les marchés financiers (à ce sujet, voir [ici](https://www.woessner.ovh/blog/2026/zucman/)).
 
-- *Notre système économique détruit l'environnement, avec un autre système on pourrait le sauver.*
+- *Notre système économique détruit l'environnement, avec un autre système on pourrait le sauver.* <br>
 Réponse des libéraux : Il est indéniable que notre système économique a un impact délétère sur notre environnement (à ce sujet, voir [ici](https://www.woessner.ovh/blog/2025/climat/)). Néanmoins, il faut prendre garde à ne pas comparer le capitalisme réel avec un système alternatif théorique. En effet, il sera confronté aux mêmes difficultés : il devra faire des arbitrages entre le bien-être humain et l'impact sur l'environnement. Voir aussi en partie V.C. comment adapter le capitalisme aux problématiques écologiques.
  
-- *Notre système économique encourage l'impérialisme, avec un autre système on pourrait faire autrement.*
+- *Notre système économique encourage l'impérialisme, avec un autre système on pourrait faire autrement.* <br>
 Réponse des libéraux : A nouveau, il ne s'agit pas de nier toute dynamique de pouvoir entre les pays du monde, ni d'oublier que le nouveau système capitaliste a été un facteur de la colonisation (voir [ici](https://www.youtube.com/watch?v=9vgV2OuqmII)). En revanche, l'histoire montre que les sociétés non-capitalistes étaient elles aussi impérialistes (les sociétés pré-capitaliste, l'URSS, ou la Chine actuelle comme évoqué plus haut). Aussi, l'unification des pays au sein de la mondialisation les rend interdépendants, ce qui décourage les conflits. C'est d'ailleurs l'un des arguments derrière la construction européenne.
 
-- *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit et les inégalités augmentent à cause du néolibéralisme de nos dirigeants.*
-Réponse des libéraux : la France n'est pas néolibérale au sens scientifique du terme (voir partie V.C. sur le néolibéralisme). Mais supposons que ces problèmes soient effectivement dûs à un excès de libéralisme, pourquoi les autres pays plus libéraux (Suisse, pays scandinaves, Taïwan) n'ont pas encore plus ces problème ?
+- *Admettons que le monde s'enrichisse, mais en France le peuple s'appauvrit et les inégalités augmentent à cause du néolibéralisme de nos dirigeants.* <br>
+Réponse des libéraux : la France n'est pas néolibérale au sens scientifique du terme (voir partie V.C. sur le néolibéralisme). Mais supposons que ces problèmes soient effectivement dûs à un excès de libéralisme, pourquoi les autres pays plus libéraux (Suisse, pays scandinaves, Taïwan) n'ont pas encore plus ces problème ? La réponse est plutôt dans un manque de culture libérale, mais ce serait trop long à développer.
 
 
 ## V. Les solutions du marché
