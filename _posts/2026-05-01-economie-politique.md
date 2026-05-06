@@ -207,7 +207,7 @@ Réponse des libéraux : la France n'est pas néolibérale au sens scientifique
 
 ## V. Les solutions du marché
 
-Voyons à présent la théorie économique derrière le marché, qu’est-ce qui explique que les économies de marché soient efficaces ?
+Nous avons traité de la théorie économique derrière la planification, et passé en revue les expériences empiriques de planification et de marché. Voyons à présent la théorie économique libérale, qu’est-ce qui explique que les économies de marché soient efficaces ?
 
 
 ### A. Le signal-prix
@@ -223,6 +223,14 @@ Pour aller plus loin, à nouveau voir [ici](https://www.youtube.com/watch?v=aM9b
 [Joseph Schumpeter](https://fr.wikipedia.org/wiki/Joseph_Schumpeter) explique que là où le planificateur impose une vision descendante, le marché repose sur une approche ascendante. Les producteurs jouent le rôle de « chercheurs de besoins », œuvrant à résoudre le problème des besoins, et étant rémunéré pour ça. En effet, n’étant pas un acteur centralisé, mais plutôt sur le « terrain », ils sont le mieux placés pour identifier une attente non satisfaite ou une inefficacité locale. Si l’un d’entre eux voit juste, il réalise un profit qui lui permet de s'étendre ; s'il se trompe (en produisant un bien dont personne ne veut), il subit une perte qui l'oblige à réallouer ses ressources ailleurs. Ce « travail » créé un mécanisme de sélection naturelle économique qui garantit que les ressources ne restent pas figées dans des projets stériles, mais circulent en permanence vers ce que les consommateurs valorisent le plus. Par ailleurs, en pariant son propre argent, ce producteur / entrepreneur sera incité à être plus vigilant et parcimonieux avec les ressources qu’un administrateur central qui utilise un argent qui n’est pas le sien.
 
 C’est également ce mécanisme qui explique pourquoi historiquement l’innovation a explosé en même temps que l’avènement du capitalisme : la concurrence incite les producteurs à chercher sans cesse des méthodes plus performantes ou des produits nouveaux pour ne pas être évincés par un rival.[^7]
+
+
+### C. Les limites du marché, et le néolibéralisme
+
+La lecture de ce billet donne peut-être l'impression que les défenseurs de l'économie de marché pensent tous que l’économie de marché est une solution parfaite. Qu'il s'agirait de laisser faire les acteurs privés pour régler tous les problèmes de la société et mettre fin à la souffrance humaine. C'est une erreur, et je souhaite finir ce billet en présentant les limites de l'économie de marché qu'ont identifié les penseurs libéraux, et une proposition de solution : le néolibéralisme[10].
+
+Pour commencer, j'aimerais faire une parenthèse pour clarifier une confusion fréquente dans le débat public. <br>
+Le terme de néolibéralisme est souvent utilisé en France pour décrire les politiques de nos dirigeants. Il faut savoir que cette utilisation [n'est pas académique](https://fr.wikipedia.org/wiki/N%C3%A9olib%C3%A9ralisme#Une_notion_d%C3%A9nonc%C3%A9e), ni n'est liée à la véritable école de pensée néolibérale que je vais présenter. En effet, il est souvent utilisé pour décrire ce qui peut se ramener à du [capitalisme de connivence](https://fr.wikipedia.org/wiki/Capitalisme_de_connivence) ou de la politique de l'offre (subventionner les entreprises pour stimuler la croissance). Or, ces deux politiques sont contradictoires avec les thèses néolibérales historiques, comme nous le verrons plus loin.
 
 
 
@@ -245,9 +253,7 @@ C’est également ce mécanisme qui explique pourquoi historiquement l’innova
 
 [^8]: On peut par exemple lire [ici](https://wir2022.wid.world/www-site/uploads/2022/03/0098-21_WIL_RIM_EXECUTIVE_SUMMARY.pdf) que *While inequality has increased within most countries, over the past two decades, global inequalities between countries have declined*.
 
-[^9]: à titre personnel, je ne souscris pas à chacune des critiques ni à chacune de leurs réponses. Je me contente d'esquisser les thèses dans les grandes lignes. Charge au lecteur de se faire son propre avis.
-
-
+[^9]: À titre personnel, je ne souscris pas à chacune des critiques ni à chacune de leurs réponses. Je me contente d'esquisser les thèses dans les grandes lignes. Charge au lecteur de se faire son propre avis.
 
 
 
