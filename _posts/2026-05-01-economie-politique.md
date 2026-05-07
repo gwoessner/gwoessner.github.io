@@ -225,9 +225,9 @@ Pour aller plus loin, à nouveau voir [ici](https://www.youtube.com/watch?v=aM9b
 C’est également ce mécanisme qui explique pourquoi historiquement l’innovation a explosé en même temps que l’avènement du capitalisme : la concurrence incite les producteurs à chercher sans cesse des méthodes plus performantes ou des produits nouveaux pour ne pas être évincés par un rival.[^7]
 
 
-### C. Les limites du marché, et le néolibéralisme
+### C. Limites du marché et néolibéralisme
 
-La lecture de ce billet donne peut-être l'impression que les libéraux pensent tous que l’économie de marché est une solution parfaite. Qu'il s'agirait de laisser faire les acteurs privés pour régler tous les problèmes de la société et mettre fin à la souffrance humaine. C'est une erreur, et je souhaite finir ce billet en présentant les limites de l'économie de marché qu'ont identifié les penseurs libéraux, et une proposition de solution à ces problèmes : le néolibéralisme.
+La lecture de ce billet donne peut-être l'impression que les libéraux pensent tous que l’économie de marché est une solution parfaite. Qu'il s'agirait de laisser faire les acteurs privés pour régler tous les problèmes de la société et mettre fin à la souffrance humaine. C'est une erreur, et je souhaite finir ce billet en présentant les limites de l'économie de marché qu'ont identifié certains penseurs libéraux, et la solution qu'ils proposent à ces problèmes : le néolibéralisme.
 
 Pour commencer, j'aimerais faire une parenthèse pour clarifier une confusion fréquente dans le débat public. <br>
 Le terme de néolibéralisme est souvent utilisé en France pour décrire les politiques de nos dirigeants. Il faut savoir que cette utilisation [n'est pas académique](https://fr.wikipedia.org/wiki/N%C3%A9olib%C3%A9ralisme#Une_notion_d%C3%A9nonc%C3%A9e), ni n'est liée à la véritable école de pensée néolibérale que je vais présenter. En effet, il est souvent utilisé pour décrire ce qui peut se ramener à du [capitalisme de connivence](https://fr.wikipedia.org/wiki/Capitalisme_de_connivence) ou de la politique de l'offre (subventionner les entreprises pour stimuler la croissance). Or, ces deux politiques sont contradictoires avec les thèses néolibérales historiques, comme nous le verrons plus loin.
