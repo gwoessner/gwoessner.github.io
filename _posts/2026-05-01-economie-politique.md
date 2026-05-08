@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qu'est-ce que l'économie ?
-date: 2024-05-01 21:00:00
+date: 2026-05-01 21:00:00
 description: 2. L'économie politique, ou les défis de la planification
 tags: philo, economie
 thumbnail: assets/img/blog_pics/economie-politique-cover.png
@@ -257,12 +257,10 @@ Proposition néolibérale : L'Etat doit assurer un minimum vital pour tous par l
 
 La planification échoue historiquement et théoriquement à faire mieux que le marché pour allouer les ressources et améliorer les conditions humaines. Si certains théoriciens continuent de défendre ce système économique, notamment en insistant sur le fait qu'une planification algorithmique n'a jamais été essayée, la plupart des économistes reconnaissent la supériorité de l'économie de marché, tout en divergeant sur la façon de corriger ses défaillances. J'ai succintement présenté l'une des ces approches, le néolibéralisme, dont le nom est utilisé pour désigner des pratiques à l'opposé de ses précaunisations.
 
-Par ailleurs, ce billet s'est concentré sur l'aspect le plus économique, mais les critiques de la planification prennent également un aspect philosophique. Je termine par deux propositions de lecture à l'attention du lecteur qui souhaiterait aller plus loin.
-
-Hayek, dans *La route de la servitude*, expose les risques qu'encoure une société qui serait prête à céder sa liberté économique à un planificateur. Il détaille les mécanismes sociaux à cause desquels le planificateur ne sera pas aussi compétent et bien-intentionné que ce que nous avions en tête lorsque nous imaginions la société post-capitaliste.
-
-[Raymond Aron](https://fr.wikipedia.org/wiki/Raymond_Aron), un philosophe français, décortique dans *L'opium des intellectuels* les ressorts psychologiques et sociaux conduisant ses pairs, ainsi qu'au fond chacun d'entre nous, à continuer de soutenir la planification malgré ses échecs historiques.
-
+Par ailleurs, ce billet s'est concentré sur l'aspect le plus économique, mais les critiques de la planification prennent également un aspect philosophique. Je termine par trois propositions de lecture à l'attention du lecteur qui souhaiterait aller plus loin. <br>
+Hayek, dans *La route de la servitude*, expose les risques qu'encoure une société qui serait prête à céder sa liberté économique à un planificateur. Il détaille les mécanismes sociaux à cause desquels le planificateur ne sera pas aussi compétent et bien-intentionné que ce que nous avions en tête lorsque nous imaginions la société post-capitaliste. <br>
+[Raymond Aron](https://fr.wikipedia.org/wiki/Raymond_Aron), un philosophe français, décortique dans *L'opium des intellectuels* les ressorts psychologiques et sociaux conduisant ses pairs, ainsi qu'au fond chacun d'entre nous, à continuer de soutenir la planification malgré ses échecs historiques. <br>
+[Karl Popper](https://fr.wikipedia.org/wiki/Karl_Popper) dans *La société ouverte et ses ennemis* défend la thèse que ce qui a fait le succès de notre civilisation est la reconnaissance et la défense de la **souveraineté de l'individu**, par opposition à celle du groupe dans laquelle l'individu doit se fondre. Pour Popper, les tentatives d'abandonner certains aspects de notre souveraineté au contrôle de l'État ou de la société (restreindre la liberté d'expression, planifier l'économie, etc) ne sont que des retours en arrière afin d'échapper au lourd fardeau d'être un individu libre et responsable. Ce retour en arrière ne peut se faire sans perdre une bonne partie ce que nous avons acquis jusqu'ici : nos libertés et notre état de droit.
 
 
 
