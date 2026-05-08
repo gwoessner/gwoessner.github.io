@@ -92,9 +92,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/climat/";
         
       },
-    },{id: "post-qu-39-est-ce-que-l-39-économie-en-cours",
+    },{id: "post-qu-39-est-ce-que-l-39-économie",
       
-        title: "Qu&#39;est-ce que l&#39;économie (en cours) ?",
+        title: "Qu&#39;est-ce que l&#39;économie ?",
       
       description: "2. L&#39;économie politique, ou les défis de la planification",
       section: "Posts",
