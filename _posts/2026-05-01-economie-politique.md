@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qu'est-ce que l'économie (en cours) ?
+title: Qu'est-ce que l'économie ?
 date: 2024-05-01 21:00:00
 description: 2. L'économie politique, ou les défis de la planification
 tags: philo, economie
@@ -237,6 +237,9 @@ La thèse principale de ce courant est que l'Etat ne doit pas intervenir directe
 - *Les marchés sont aveugles aux externalités négatives. Le mécanisme de prix libre n'inclue pas l'impact que peut avoir la production d'un bien sur un tiers ou sur la société, comme par exemple la pollution.* <br>
 Proposition néolibérale : L'Etat doit forcer le pollueur à internaliser le coût social de son activité via des normes ou des taxes précises afin que les prix reflètent le coût des externalités. L'exemple le plus connu est celui de la [taxe carbone](https://www.youtube.com/watch?v=5bPshVQMcuY).
 
+- *Les grandes entreprises cherchent à corrompre le législateur pour obtenir des privilèges, des subventions, des marchés publics, un monopole, qui faussent la concurrence au détriment de l'intérêt général*
+Proposition néolibérale : Il faut d'une part enquêter et sanctionner sévèrement la corruption. D'autre part il faut limiter les pouvoirs du législateur à édicter des lois générales, abstraites et impersonnelles applicables à tous. En particulier il ne doit pas avoir la capacité à choisir des "gagnants" via des aides spécifiques, et paradoxalement il faut encourager la libéralisation (à ne pas confondre avec la privatisation, la différence est expliquée [ici](https://www.youtube.com/watch?v=tvf9IBLyaFI)).
+
 - *Laissé à lui-même, le libre marché tend naturellement vers la concentration. Les entreprises les plus performantes absorbent leurs concurrents jusqu'à créer des monopoles, ou s'entendent secrètement pour fixer les prix (on appelle ça un [cartels](https://fr.wikipedia.org/wiki/Cartel_(%C3%A9conomie))). Cela tue la concurrence, fait monter les prix et freine l'innovation, rendant le système globalement inefficace.* <br>
 Proposition néolibérale : Il faut des lois [anti-trust](https://fr.wikipedia.org/wiki/Sherman_Antitrust_Act), des lois pour démanteler les positions trop dominantes et sanctionner les abus, et des lois pour s'assurer que les barrières à l'entrée restent basses et que de nouveaux innovateurs puissent toujours venir détrôner les géants en place.
 
@@ -244,10 +247,22 @@ Proposition néolibérale : Il faut des lois [anti-trust](https://fr.wikipedia.o
 Proposition néolibérale : L'État impose la transparence. Il impose un cadre légal d'information : obligations d'étiquetage, certifications de qualité, normes de sécurité ou garanties légales contre les vices cachés. En forçant la diffusion de l'information, l'État ne choisit pas à la place de l'individu, mais lui redonne les moyens d'exercer un arbitrage rationnel et efficace.
 
 - *Les marchés financiers connaissent régulièrement des crises, dont le coût social est souvent immense pour l'économie réelle.*
-Proposition néolibérale : L'État ne doit pas diriger la finance, mais la contenir dans une « constitution économique » stricte reposant sur trois piliers. Premièrement l'État doit réguler les flux monétaires pour prévenir la formation de bulles spéculatives artificielles. Deuxièmement, responsabilité accrue pour les acteurs financiers. Si le risque ne paie pas, ils doivent assumer juridiquement et financièrement, c'est la faillite, et Lippmann propose même de remettre en question la notion de [responsabilité limitée](https://fr.wikipedia.org/wiki/Responsabilit%C3%A9_limit%C3%A9e). Troisièmement, il faut plus de transparence, l'État impose des normes comptables et de publication d'informations extrêmement rigoureuses.
+Proposition néolibérale : La finance participe pleinement au problème du calcul économique, c'est même sa raison d'être première[^10]. Il n'est donc pas question de la supprimer, ni d'en donner le contrôle à l'État, mais de l'encadrer en 3 points. Premièrement l'État doit réguler les flux monétaires pour prévenir la formation de bulles spéculatives artificielles. Deuxièmement, responsabilité accrue pour les acteurs financiers, si le risque ne paie pas ils doivent assumer juridiquement et financièrement, et c'est la faillite. Lippmann propose même de remettre en question la notion de [responsabilité limitée](https://fr.wikipedia.org/wiki/Responsabilit%C3%A9_limit%C3%A9e). Troisièmement, il faut plus de transparence, l'État impose des normes comptables et de publication d'informations extrêmement rigoureuses.
 
 - *Le marché peut parfois fixer le prix du travail à un niveau si bas qu'il ne permet plus une existence digne, ou tout simplement ne pas proposer assez de travail.*
 Proposition néolibérale : L'Etat doit assurer un minimum vital pour tous par la redistribution de l'impôt. Certains penseurs néolibéraux en viennent même à défendre un [revenu universel](https://fr.wikipedia.org/wiki/Revenu_de_base).
+
+
+## VI. Conclusion
+
+La planification échoue historiquement et théoriquement à faire mieux que le marché pour allouer les ressources et améliorer les conditions humaines. Si certains théoriciens continuent de défendre ce système économique, notamment en insistant sur le fait qu'une planification algorithmique n'a jamais été essayée, la plupart des économistes reconnaissent la supériorité de l'économie de marché, tout en divergeant sur la façon de corriger ses défaillances. J'ai succintement présenté l'une des ces approches, le néolibéralisme, dont le nom est utilisé pour désigner des pratiques à l'opposé de ses précaunisations.
+
+Par ailleurs, ce billet s'est concentré sur l'aspect le plus économique, mais les critiques de la planification prennent également un aspect philosophique. Je termine par deux propositions de lecture à l'attention du lecteur qui souhaiterait aller plus loin.
+
+Hayek, dans *La route de la servitude*, expose les risques qu'encoure une société qui serait prête à céder sa liberté économique à un planificateur. Il détaille les mécanismes sociaux à cause desquels le planificateur ne sera pas aussi compétent et bien-intentionné que ce que nous avions en tête lorsque nous imaginions la société post-capitaliste.
+
+[Raymond Aron](https://fr.wikipedia.org/wiki/Raymond_Aron), un philosophe français, décortique dans *L'opium des intellectuels* les ressorts psychologiques et sociaux conduisant ses pairs, ainsi qu'au fond chacun d'entre nous, à continuer de soutenir la planification malgré ses échecs historiques.
+
 
 
 
@@ -271,7 +286,7 @@ Proposition néolibérale : L'Etat doit assurer un minimum vital pour tous par l
 
 [^9]: À titre personnel, je ne souscris pas à chacune des critiques ni à chacune de leurs réponses. Je me contente d'esquisser les thèses dans les grandes lignes. Charge au lecteur de se faire son propre avis.
 
-
+[^10]: Je développerai ce point dans un article dédié.
 
 
 
