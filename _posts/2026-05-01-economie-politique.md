@@ -264,7 +264,7 @@ Proposition néolibérale : L'Etat doit assurer un minimum vital pour tous par l
 
 ## VI. Conclusion
 
-La planification échoue historiquement et théoriquement à faire mieux que le marché pour allouer les ressources et améliorer les conditions humaines. Si certains théoriciens continuent de défendre ce système économique, notamment en insistant sur le fait qu'une planification algorithmique n'a jamais été essayée, la plupart des économistes reconnaissent la supériorité de l'économie de marché, tout en divergeant sur la façon d'en corriger les défaillances. J'ai succintement présenté l'une des ces approches, le néolibéralisme, dont le nom est par ailleurs utilisé pour désigner des pratiques à l'opposé de ses préconisations.
+La planification échoue historiquement et théoriquement à faire mieux que le marché pour allouer les ressources et améliorer les conditions humaines. Si certains théoriciens continuent de défendre ce système économique, notamment en insistant sur le fait qu'une planification algorithmique n'a jamais été essayée, la plupart des économistes reconnaissent la supériorité de l'économie de marché, tout en divergeant sur la façon d'en corriger les défaillances. J'ai succintement présenté l'une des ces approches, le néolibéralisme, dont les préconisations sont à l'opposé des pratiques qui portent habituellement ce nom et qui sont bien réelles. En particulier, ce billet n'était donc pas une défense des politiques de nos gouvernements modernes. 
 
 Notons que ce billet s'est concentré principalement sur l'aspect économique, mais les critiques de la planification prennent également un aspect philosophique. Je termine par trois propositions de lecture à l'attention du lecteur qui souhaiterait aller plus loin dans cette direction.
 
@@ -298,7 +298,7 @@ Notons que ce billet s'est concentré principalement sur l'aspect économique, m
 
 [^11]: Soulignons que ce principe de garantir un revenu même en l'absence de travail se retrouve ici chez un courant libéral, tandis qu'il n'est pas systématique dans les courants marxistes, contrairement à l'idée qu'on pourrait s'en faire, comme on le voit [ici](https://fr.wikipedia.org/wiki/Si_quelqu%27un_ne_veut_pas_travailler,_qu%27il_ne_mange_pas_non_plus)
 
-
+[^fin]: Ce billet n'était pas une défense de nos
 
 
 
