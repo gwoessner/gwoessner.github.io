@@ -268,7 +268,7 @@ La planification échoue historiquement et théoriquement à faire mieux que le 
 
 Notons que ce billet s'est concentré principalement sur l'aspect économique, mais les critiques de la planification prennent également un aspect philosophique. Je termine par trois propositions de lecture à l'attention du lecteur qui souhaiterait aller plus loin dans cette direction.
 
-- Hayek, *La Route de la servitude*. Expose les risques qu'encoure une société à céder sa liberté économique à un planificateur. Il détaille les mécanismes sociaux par lesquels la centralisation du pouvoir mène inévitablement à l'inneficacité et à la tyrannie. <br>
+- Hayek, *La Route de la servitude*. Expose les risques qu'encourt une société à céder sa liberté économique à un planificateur. Il détaille les mécanismes sociaux par lesquels la centralisation du pouvoir mène inévitablement à l'inneficacité et à la tyrannie. <br>
 
 - [Raymond Aron](https://fr.wikipedia.org/wiki/Raymond_Aron), *L'opium des intellectuels*. Le philosophe français décortique les ressorts psychologiques conduisant ses pairs, ainsi qu'au fond chacun d'entre nous, à continuer de soutenir la planification malgré ses échecs historiques. <br>
 
