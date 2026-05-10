@@ -79,9 +79,10 @@ Ses partisans admettent donc bien la difficulté que pose le problème du calcul
 
 Néanmoins, il existe deux types de critique à cette thèse. D’une part, si Amazon gère bien des flux plus gros (en valeur) que le PIB de l’URSS, sa *complexité* n’est pas du même ordre de grandeur : Amazon n’extrait pas du pétrole, ne forme ni enseignant ni médecin, ne construit pas de centrale nucléaire, elle se contente de mettre en lien des producteurs et des consommateurs. D’autre part Amazon bénéficie pour sa planification d’un signal-prix pour chacun des biens qu’elle gère : celui du marché (extérieur à Amazon). Amazon n’a pas besoin de calculer ex-nihilo le prix d’un casque qu’elle vend sur son site, car le casque ainsi que chacun de ses composants ont un prix connu en dehors d’Amazon.
 
-Enfin, il existe des raisons mathématiques et théoriques de douter de la possibilité d’un tel programme informatique, mais ce billet est déjà bien trop long pour pouvoir développer ces aspects de ces algorithmes [^2]
+Enfin, il existe un débat portant sur les aspects mathématique et théoriques de ces super-algorithmes. Le lecteur qui souhaiterait lire la meilleure défense à l'heure actuelle de la faisabilité d'une planification informatique pourra se référer à Cockshott & Cottrell, *Vers un Cybercommunisme*. <br>
+Néanmoins, il existe des raisons de douter de la possibilité d’un tel programme informatique, mais ce serait bien trop long (et vraiment trop chiant) de développer ces aspects mathématiques. Je renvoie le lecteur intéressé à [ce billet de blog](https://bactra.org/weblog/919.html) et à [cet article](https://cdn.mises.org/qjae7_1_6.pdf), et je tacherai d'ajouter une annexe traitant de ce problème à ce billet à moyen terme. <br>
+En quelques mots quand même pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement la linéarité du modèle simplifie trop la réalité industrielle pour ne pas poser de problèmes, on ne peut pas construire 1,579 usines. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe, qui va la calculer ? Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans cet algorithme, qu'est-ce qui joue ce rôle ? Qui cherchera à produire mieux avec moins (innovation incrémentale) ? Qui prendra le risque, et en assumera les conséquences, d'innover pour répondre à un besoin qui n'avait pas été satisfait jusqu'ici (innovation de rupture) ? La question n'est pas secondaire, étant donné le fait que c'est l'innovation qui a tant amélioré les conditions de vie même du plus pauvre d’entre nous depuis des siècles.
 
-On peut trouver plus de détails sur ces questions de planification informatique dans un livre écrit par deux de ses défenseurs, Cockshott & Cottrell, *Vers un Cybercommunisme*.
 Mais mettons à présent de côté le problème du calcul économique, et penchons nous sur les autres aspects de ces approches.
 
 
@@ -97,8 +98,6 @@ Par ailleurs, que fait-on si les citoyens tiennent absolument à des principes i
 
 Il faut aussi noter que même si ce n’est pas un planificateur central qui décide pour vous ce dont vous avez besoin et ce que vous allez faire, c’est quand même la société qui vous contrôle, avec toutes les dérives dystopiques sociales que l’on peut imaginer.
 
-Et enfin, quelle place pour l’innovation dans ce système, celle là même qui a tant amélioré les conditions de vie même du plus pauvre d’entre nous depuis des siècles ?
-
 
 ### C. La monnaie-travail
 
@@ -113,7 +112,7 @@ Néanmoins, à ce stade rien ne garanti l’égalité entre la production et la 
 
 A nouveau, cette approche, a en théorie l’avantage d’assurer un accès garanti aux biens essentiels, en respectant les limites écologiques, et en minimisant le temps de travail nécessaire à la production. Cette approche a également en théorie le gros avantage de résoudre en plus le problème des besoins : les consommateurs peuvent communiquer leur préférence au planificateur via leurs choix de consommation.
 
-Cela dit, il convient de noter que ce mécanisme… imite celui du marché capitaliste que j’ai décrit au début de [cet article](https://www.woessner.ovh/blog/2026/econometrie/), les prix évoluent par tatonnement, trop de demande fait monter les prix, pas assez les fait baisser[^3]. Par conséquent il en partage certaines limites, dont la sur-production ou la pénurie, le temps que la chaîne de production s’adapte. En revanche, elle perd certains points forts du système de marché capitaliste : l'innovation. En effet, qui cherchera à produire mieux avec moins (innovation incrémentale) ? Qui prendra le risque, et en assumera les conséquences, d'innover pour répondre à un besoin qui n'avait pas été satisfait jusqu'ici (innovation de rupture) ?
+Cela dit, il convient de noter que ce mécanisme… imite celui du marché capitaliste que j’ai décrit au début de [cet article](https://www.woessner.ovh/blog/2026/econometrie/), les prix évoluent par tatonnement, trop de demande fait monter les prix, pas assez les fait baisser[^3]. Par conséquent il en partage certaines limites, dont la sur-production ou la pénurie, le temps que la chaîne de production s’adapte.
 
 
 ### D. Conclusion intermédiaire
@@ -279,8 +278,6 @@ Notons que ce billet s'est concentré principalement sur l'aspect économique, m
 ## Notes de bas de page
 
 [^1]: Von Mises et Hayek appartiennent à [l'école autrichienne d'économie](https://fr.wikipedia.org/wiki/%C3%89cole_autrichienne_(%C3%A9conomie)).
-
-[^2]: En quelques mots pour le lecteur qui saurait à quoi ressemblent les mathématiques derrière ces algorithmes. Premièrement, la linéarité du modèle simplifie trop la réalité industrielle puisqu'elle implique que les économies d'échelle n'existent pas. Deuxièmement, l'algorithme doit faire une optimisation sous contrainte étant donné que les ressources sont finies. Pour cela il faut lui donner une fonction d'objectif à partir de laquelle faire les différents arbitrage. Or cette fonction d'arbitrage elle aussi est infiniment complexe, qui va la calculer ? Troisièmement, quelle place pour l'innovation dans ce modèle ? Sous le marché, si une ressource vient à manquer son prix monte et le producteur est encouragé à développer des alternatives. Dans cet algorithme, qu'est-ce qui joue ce rôle ? 
 
 [^3]: Selon cette théorie, dans ce système les prix sont censés osciller autour de la valeur-travail, plutôt qu'autour du prix de production comme c'est le cas dans un système capitaliste. Je ne suis pas convaincu qu'il y ait une différence entre les deux systèmes (à distribution de revenus équivalente, bien entendu), mais je développerai ça dans l'article sur la valeur travail.
 
