@@ -112,7 +112,7 @@ Néanmoins, à ce stade rien ne garanti l’égalité entre la production et la 
 
 A nouveau, cette approche, a en théorie l’avantage d’assurer un accès garanti aux biens essentiels, en respectant les limites écologiques, et en minimisant le temps de travail nécessaire à la production. Cette approche a également en théorie le gros avantage de résoudre en plus le problème des besoins : les consommateurs peuvent communiquer leur préférence au planificateur via leurs choix de consommation.
 
-Cela dit, il convient de noter que ce mécanisme… imite celui du marché capitaliste que j’ai décrit au début de [cet article](https://www.woessner.ovh/blog/2026/econometrie/), les prix évoluent par tatonnement, trop de demande fait monter les prix, pas assez les fait baisser[^3]. Par conséquent il en partage certaines limites, dont la sur-production ou la pénurie, le temps que la chaîne de production s’adapte.
+Cela dit, il convient de noter que ce mécanisme… imite celui du marché capitaliste que j’ai décrit au début de [cet article](https://www.woessner.ovh/blog/2026/econometrie/), les prix évoluent par tatonnement, trop de demande fait monter les prix, pas assez les fait baisser[^3]. Par conséquent il en partage certaines limites, dont la sur-production ou la pénurie, le temps que la chaîne de production s’adapte. Encore une fois, je développerai cet aspect théorique dans une annexe future à ce billet.
 
 
 ### D. Conclusion intermédiaire
