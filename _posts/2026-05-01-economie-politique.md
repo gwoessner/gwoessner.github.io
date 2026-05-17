@@ -295,9 +295,6 @@ Notons que ce billet s'est concentré principalement sur l'aspect économique, m
 
 [^11]: Soulignons que ce principe de garantir un revenu même en l'absence de travail se retrouve ici chez un courant libéral, tandis qu'il n'est pas systématique dans les courants marxistes, contrairement à l'idée qu'on pourrait s'en faire, comme on le voit [ici](https://fr.wikipedia.org/wiki/Si_quelqu%27un_ne_veut_pas_travailler,_qu%27il_ne_mange_pas_non_plus)
 
-[^fin]: Ce billet n'était pas une défense de nos
-
-
 
 
 
