@@ -103,9 +103,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/climat/";
         
       },
-    },{id: "post-où-va-l-39-argent-des-travailleurs",
+    },{id: "post-où-va-l-39-argent-des-travailleurs-en-cours",
       
-        title: "Où va l&#39;argent des travailleurs ?",
+        title: "Où va l&#39;argent des travailleurs ? (EN COURS)",
       
       description: "Les éclairages de l&#39;économie sur comment mieux répartir le travail.",
       section: "Posts",
