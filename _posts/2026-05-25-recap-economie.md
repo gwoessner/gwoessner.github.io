@@ -46,7 +46,7 @@ Les deux premières approches consistaient à révolutionner notre système éco
 
 ## III. Taxer les ultra-riches
 
-Bien que cette mesure vise à accroître la contribution des ultra-riches, elle repose sur des prémisses fragiles. En réalité, les mécanismes économiques liés à la nature même des actifs ciblés condamnent cette fiscalité à l'échec. J'ai développé ces aspects dans un [billet dédié](www.woessner.ovh/blog/2026/zucman).
+Bien que la taxe Zucman, puisque c'est elle dont il s'agit, vise à accroître la contribution des ultra-riches, elle repose sur des prémisses fragiles. En réalité, les mécanismes économiques liés à la nature même des actifs ciblés condamnent cette fiscalité à l'échec. J'ai développé ces aspects dans un [billet dédié](www.woessner.ovh/blog/2026/zucman).
 
 
 ## Notes de bas de page
