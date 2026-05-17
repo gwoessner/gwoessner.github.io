@@ -15,7 +15,7 @@ toc:
 Un lieu commun en France est que notre système économique capitaliste est extremement ineficient en ce qu’il génère beaucoup de richesses, mais les répartit si mal qu’il y a des ultras-riches qui côtoient des gens qui n’ont même pas de quoi manger à leur faim. On s’imagine souvent qu’il serait pourtant possible de donner à chacun une vie digne tout en travaillant moins, jusqu’à 15h seulement par semaine ! 
 C’est par exemple le propos de l’historien [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes*, de l'anthropologue [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* ou de l'économiste décroissant [Timothée Parrique](https://fr.wikipedia.org/wiki/Timoth%C3%A9e_Parrique) dans *Ralentir ou périr*.
 
-Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
+Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées en France pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
 
 
 ## I. La Planification
@@ -46,7 +46,12 @@ Les deux premières approches consistaient à révolutionner notre système éco
 
 ## III. Taxer les ultra-riches
 
-Bien que la taxe Zucman, puisque c'est elle dont il s'agit, vise à accroître la contribution des ultra-riches, elle repose sur des prémisses fragiles. En réalité, les mécanismes économiques liés à la nature même des actifs ciblés condamnent cette fiscalité à l'échec. J'ai développé ces aspects dans un [billet dédié](www.woessner.ovh/blog/2026/zucman).
+Bien que la taxe Zucman, puisque c'est elle dont il s'agit, vise à accroître la contribution des ultra-riches, elle repose sur des prémisses fragiles. En réalité, les mécanismes économiques liés à la nature même des actifs ciblés condamnent cette fiscalité à l'échec. J'ai développé ces aspects dans un [billet dédié](www.woessner.ovh/blog/2026/zucman).<br>
+Précisons simplement ici que la taxe Zucman a pour but de récupérer *en théorie* 20 milliards d'euros, tandis que le déficit public est plutôt de 70 milliards. C'est donc bien trop peu pour permettre de baisser le temps de travail, d'autant plus que selon les estimations, la taxe Zucman pourrait tout aussi bien *baisser* les recettes de l'État.
+
+
+## IV. Combien au mieux ?
+Prenons tous les dividendes
 
 
 ## Notes de bas de page
