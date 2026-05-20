@@ -103,17 +103,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/climat/";
         
       },
-    },{id: "post-où-va-l-39-argent-des-travailleurs-en-cours",
-      
-        title: "Où va l&#39;argent des travailleurs ? (EN COURS)",
-      
-      description: "Les éclairages de l&#39;économie sur comment mieux répartir le travail.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/recap-economie/";
-        
-      },
     },{id: "post-qu-39-est-ce-que-la-science",
       
         title: "Qu&#39;est-ce que la science ?",
