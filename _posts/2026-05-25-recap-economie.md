@@ -52,7 +52,18 @@ Précisons simplement ici que la taxe Zucman a pour but de récupérer *en théo
 
 ## IV. Taxer les capitalistes
 
-Prenons tous les dividendes
+Une autre idée défendue parfois consiste à taxer les propriétaires des entreprises. Les marxistes parlent de reprendre la plus-value générée par le travail. D'autres parlent de taxer les dividendes, voire d'exproprier les actionnaires. Dans cette partie, je propose de répondre à la question suivante : *Si nous prenions absolument tout aux capitalistes, de combien nos salaires pourraient-ils augmenter ?* Pour y répondre, ma méthode sera de consulter [les chiffres de la comptabilité nationale en 2024 publiés par l'INSEE](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832), et de déterminer combien, sur 100€ de valeur ajoutée créée en France, est laissée aux salariés, combien est envoyée à l'État, et combien est attribuée aux actionnaires.<br>
+Notons immédiatement que des termes techniques vont être utilisés, une explication et parfois des commentaires pour chacun de ces termes peut être trouvée dans une partie *Lexique* plus bas.
+
+
+
+
+### Lexique
+
+Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement elle aidera le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
+
+- **actionnaire / capitaliste :** Propriétaire d'une action, qui est un titre de propriété d'une entreprise, ils se rémunèrent en se versant des dividendes. Ils peuvent ne pas travailler dans l'entreprise, par exemple si celle-ci est côtée en bourse. En général le PDG de l'entreprise est un salarié, mais est souvent en partie également rémunéré en actions.
+- **valeur ajoutée :** Différence entre le prix des ressources (matières premières, énergie, etc) nécessaires à la production d'un bien ou d'un service, et le prix de vente final. Par exemple si une entreprise transforme 50€ de bois et d'énergie en une table vendue 150€, la valeur ajoutée est de 100€. <br>Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'est donc pas comprise dans les tableaux publiés par l'INSEE que nous avons utilisé.
 
 
 ## Notes de bas de page
