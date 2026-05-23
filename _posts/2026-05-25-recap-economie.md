@@ -72,7 +72,22 @@ Ensuite, il faut payer l'IS, l'impôt sur ces bénéfices. Toujours d'après l'I
 Enfin, notons que sur ces 79,24 Md€, un bonne partie est réinvestie dans les entreprises et rémunère donc des travailleurs. Toutefois, si nous partons du principe que ces bénéfices sont intégralement reversés aux actionnaires sous forme de dividendes, ceux-ci doivent s'acquitter de la flat tax à 30%](https://fr.wikipedia.org/wiki/Imp%C3%B4t_%C3%A0_taux_unique#En_France, ou payer leur impôt sur le revenu dont la dernière tranche est à 45%. En gardant le chiffre de 30% on arrive à **79,24 Md€ (4,9% de la VA)** pour les actionnaires[^zucman] (à noter que c'est un maximum, car nous avons négligé les réinvestissements).<br>
 Et pour conclure, il faut garder à l'esprit que nous avons vu que les entreprises ne crééent qu'une partie de la VA totale française. Par conséquent, si ces 79,24 Md€ attribués aux actionnaires leur étaient ponctionnées, la partie de la VA attribuée aux salariés et à l'État n'augmenterait que de **3,0% de la VA totale** française.
 
-Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. Le plus simple est de partir du [tableau 1.107 de l'INSEE sur le partage de la VA](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832). On peut y lire que **1502,9 Md€ (57,6% de la VA totale)** est laissée aux salariés. Il faut tout de suite lever deux ambiguités. Premièrement ce chiffre correspond au coût total employeur. Deuxièmement ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut[^ebe]. Par conséquent, il serait trompeur de rapporter 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A gauche le tableau 1.107, au milieu le tableau 7.101, à droite le tableau 7.201.
+</div>
+
+Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. Comme nous l'avons vu, les actionnaires représentent peu de la VA totale, de sorte qu'on va négliger leur partie dans notre calcul. Le plus simple est de partir du [tableau 1.107 de l'INSEE sur le partage de la VA](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832). On peut y lire que **1502,9 Md€ (57,6% de la VA totale)** est laissée aux salariés. Il faut tout de suite lever deux ambiguités. Premièrement ce chiffre correspond au coût total employeur. Deuxièmement ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut[^ebe]. Par conséquent, il serait trompeur de rapporter 
 
 
 
