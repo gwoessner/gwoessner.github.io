@@ -60,6 +60,7 @@ Je me suis amusé à poser ces questions à mon entourage. La réponse a été :
 - pour les salarié, entre 5 et 50€ avec une moyenne de 22,50€.
 - pour l'Etat, entre 30 et 70€, avec une moyenne de 55€.
 - pour les actionnaires, entre 10 et 50€, avec une moyenne de 22,50€.
+
 Nous pourrons comparer avec les vrais chiffres plus loin.
 
 Avant de commencer, notons que des termes techniques vont être utilisés, pour chacun d'entre eux une explication et parfois des commentaires pourra être trouvée dans la partie *Lexique* plus bas. Notons aussi que l'unité de mesure sera le milliard d'euros en base 2020.<br>
@@ -87,7 +88,9 @@ Et pour conclure, il faut garder à l'esprit que nous avons vu que les entrepris
     A gauche le tableau 1.107, au milieu le tableau 7.101, à droite le tableau 7.201.
 </div>
 
-Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. Comme nous l'avons vu, les actionnaires représentent peu de la VA totale, de sorte qu'on va négliger leur partie dans notre calcul. Le plus simple est de partir du [tableau 1.107 de l'INSEE sur le partage de la VA](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832). On peut y lire que **1502,9 Md€ (57,6% de la VA totale)** est laissée aux salariés. Il faut tout de suite lever deux ambiguités. Premièrement ce chiffre correspond au coût total employeur. Deuxièmement ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut[^ebe]. Par conséquent, il serait trompeur de rapporter 
+Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. L'information se trouve dans le [tableau 1.107 de l'INSEE sur le partage de la VA](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832). Ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut. Nous négligeront les lignes EBE et RMB, car elles incluent la part des actionnaires que nous avons déjà calculée et qui est faible, la dépréciation du capital de tous les acteurs économiques qui par définition ne revient à personne[^ebe], et les rentes de loyer (réels ou fictifs) des particuliers[^loyers] qui ne nous concernent pas ici.
+
+On peut donc lire que **1502,9 Md€** de VA est laissée aux salariés, ce chiffre correspondant au coût total employeur.  
 
 
 
@@ -123,6 +126,6 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^erreur]: La vidéo de Heu?rekâ que je conseillais plus haut affirme sans développer que le coût serait nul dès l'année 2. D'après la littérature économique, c'est donc faux.
 
-[^ebe]: Il faut noter que les montants de EBE et RMB de 1026,9 Md€ ne correspondent pas au montant 503,7 Md€ d'EBE des entreprises que nous avons calculé précédemment. Pour plus de détails sur ce qui est compris dans ce montant, voir le lexique sur *Ménage* et *EBE*.
+[^ebe]: C'est donc normal que les montants de EBE et RMB de 1026,9 Md€ de ce tableau ne correspondent pas au montant 503,7 Md€ d'EBE des entreprises que nous avons calculé précédemment. Pour plus de détails sur ce qui est compris dans ce montant, voir le lexique sur *Ménage* et *EBE*.
 
 [^zucman]: Le débat autour de la taxe Zucman consiste à dire que les actionnaires usent de stratagèmes fiscaux pour jouir de la VA créée par leurs entreprises en ne payant ni flat tax ni impôts. J'ai montré dans [cet article](www.woessner.ovh/blog/2026/zucman) pourquoi cet argument est critiquable, mais si le lecteur n'est pas convaincu il peut multiplier mes résultats par un facteur 1,43. A noter que ce serait très conservateur, car ce serait considérer qu'aucun dividende n'est versé et soumis à la flat tax en France.
