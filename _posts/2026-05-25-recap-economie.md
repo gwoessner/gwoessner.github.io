@@ -4,7 +4,7 @@ title: Où va l'argent des travailleurs ? (EN COURS)
 date: 2024-06-01 21:00:00
 description: Les éclairages de l'économie sur comment mieux répartir le travail.
 tags: philo, economie
-thumbnail: assets/img/blog_pics/economie-politique-cover.png
+thumbnail: assets/img/blog_pics/recap-economie-cover.jpg
 toc:
   beginning: true
 ---
