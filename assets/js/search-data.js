@@ -107,7 +107,7 @@ ninja.data = [{
       
         title: "Où va l&#39;argent des travailleurs ? (EN COURS)",
       
-      description: "Les éclairages de l&#39;économie sur comment mieux répartir le travail.",
+      description: "Les éclairages de l&#39;économie sur la répartition de la valeur.",
       section: "Posts",
       handler: () => {
         
