@@ -23,7 +23,7 @@ Je propose dans cet article de dresser un tour d’horizon des différentes stra
 La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prettent le flan aux limites que j’ai déjà développées dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc pour le lecteur intéressé. C’est par exemple le cas de Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée.
 
 
-## II. L'anarcho-capitalisme
+## II. Le Socialisme radical et l'anarchisme de gauche
 
 Un autre catégorie d’approche, qui contient celles de Graeber et Bregman évoquées en introduction, consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
 L’idée est de rendre les 15h de travail hebdomadaires obligatoires par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base)[^RUB] suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
@@ -59,28 +59,31 @@ Une autre idée défendue parfois consiste à taxer les propriétaires des entre
 Je me suis amusé à poser ces questions à mon entourage. La réponse a été :
 - pour les salarié, entre 5 et 50€ avec une moyenne de 22,50€.
 - pour l'Etat, entre 30 et 70€, avec une moyenne de 55€.
-- pour le patron, entre 10 et 50€, avec une moyenne de 22,50€.
+- pour les actionnaires, entre 10 et 50€, avec une moyenne de 22,50€.
 Nous pourrons comparer avec les vrais chiffres plus loin.
 
 Avant de commencer, notons que des termes techniques vont être utilisés, pour chacun d'entre eux une explication et parfois des commentaires pourra être trouvée dans la partie *Lexique* plus bas. Notons aussi que l'unité de mesure sera le milliard d'euros en base 2020.<br>
 
 La VA totale en France est de **2611,1 Md€**. Celle-ci est créée par des entreprises privées, des administations publiques, des ménages et des organisations à but non lucratif. Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. L'INSEE donne dans le tableau 1.106 le chiffre de **1609,8 Md€ (61,7% du total)** de VA générée par les sociétés, et **1001,4 Md€ (28,3% du total)** par les autres.
 
-La VA créée par les entreprises est répartie de la manière suivante, d'après les tableaux [[7.101]](https://www.insee.fr/fr/statistiques/8574689?sommaire=8574832) et [[7.102]](https://www.insee.fr/fr/statistiques/8574691?sommaire=8574832) de l'INSEE. Leur EBE, qu'on peut résumer par leur bénéfice, et de **503,7 Md€ (31,3% de leur VA)**.
+La VA créée par les entreprises est répartie de la manière suivante, d'après les tableaux [[7.101]](https://www.insee.fr/fr/statistiques/8574689?sommaire=8574832) et [[7.102]](https://www.insee.fr/fr/statistiques/8574691?sommaire=8574832) de l'INSEE. Leur EBE, qu'on peut résumer par leur bénéfice, et de **503,7 Md€ (31,3% de leur VA)**.<br>
+Toutefois, il faut aussi prendre en compte la CCF, qu'on peut voir comme le coût d'entretien du capital. L'INSEE fournit cette information dans les mêmes tableaux. 
 
 
 ### Lexique
 
 Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement elle aidera le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
 
-- **actionnaire / capitaliste :** Propriétaire d'une action, qui est un titre de propriété d'une entreprise, ils se rémunèrent en se versant des dividendes. Ils peuvent ne pas travailler dans l'entreprise, par exemple si celle-ci est côtée en bourse. En général le PDG de l'entreprise est un salarié, mais est souvent en partie également rémunéré en actions.
-- **administration publique :** Elles ne fournissent pas un service marchand, mais gratuit ou quasi gratuit. Par exemple les collectivités locales, les hopitaux ou les écoles. Comme elles ne vendent rien, on ne peut pas caculer leur valeur ajoutée. Comme elles fournissent tout de même un service, à défaut on utilise leur masse salariale. En particulier, elles n'ont pas d'actionnaire.
+- **Actionnaire / Capitaliste :** Propriétaire d'une action, qui est un titre de propriété d'une entreprise, ils se rémunèrent en se versant des dividendes. Ils peuvent ne pas travailler dans l'entreprise, par exemple si celle-ci est côtée en bourse. En général le PDG de l'entreprise est un salarié, mais est souvent en partie également rémunéré en actions.
+- **Administration publique :** Elles ne fournissent pas un service marchand, mais gratuit ou quasi gratuit. Par exemple les collectivités locales, les hopitaux ou les écoles. Comme elles ne vendent rien, on ne peut pas caculer leur valeur ajoutée. Comme elles fournissent tout de même un service, à défaut on utilise leur masse salariale. En particulier, elles n'ont pas d'actionnaire.
 - **base 2020 :** La valeur d'un euro n'est pas la même entre 2 années différentes à cause de l'inflation. Or, l'INSEE publie un taleau remontant à 1949. Pour pouvoir faire des comparaisons, tous les montants sont corrigés de l'inflation entre la date en question et 2020. En d'autres termes, la valeur est mesurée en Euros de 2020.
+- **Consommation de Capital Fixe (CCF) :** Le coût d'entretien du capital. Les machines doivent être entretenues, les ordinateurs remplacés, les brevets renouvelés. Attention, c'est différent du réinvestissement.
 - **Excédent Brut d'Exploitation (EBE) :** Différence entre le prix de vente et le prix de production (paiement des fournisseurs et des salariés) pour les entreprises. Est calculé avant le remboursement des emprunts, l'Impôt sur les Sociétés, et les réinvestissements. Son équivalent pour les ménages s'appelle le Revenu Brut Mixte (RBM).
-- **entreprise / société :** Entités juridiques distinctes de leurs propriétaires (personnes morales) qui produisent des biens et services marchands. Il en existe deux types, les sociétés non financières (Décathlon, SNCF) et les sociétés financières (banque, assurance, fond de pension).
-- **institution sans but lucratif :** Association, club de foot, resto du coeur. N'a pas le droit de faire de bénéfice et n'a donc pas d'actionnaire.
-- **ménage :** Comprend les Entreprises individuelles, comme les médecins ou infirmiers libéraux, les artisans et commerçants, les micro-entreprises. Dans cette situation l'indépendant est en même temps l'unique travailleur et l'unique propriétaire de l'entreprise. Les revenus du travail et du capital sont indissociables. Comprend aussi les particuliers bailleurs.
-- **valeur ajoutée (VA) :** Différence entre le prix des ressources (matières premières, énergie, etc) nécessaires à la production d'un bien ou d'un service, et le prix de vente final. Par exemple si une entreprise transforme 50€ de bois et d'énergie en une table vendue 150€, la valeur ajoutée est de 100€. <br>
+- **Entreprise / Société :** Entités juridiques distinctes de leurs propriétaires (personnes morales) qui produisent des biens et services marchands. Il en existe deux types, les sociétés non financières (Décathlon, SNCF) et les sociétés financières (banque, assurance, fond de pension).
+- **Institution sans but lucratif :** Association, club de foot, resto du coeur. N'a pas le droit de faire de bénéfice et n'a donc pas d'actionnaire.
+- **Ménage :** Comprend les Entreprises individuelles, comme les médecins ou infirmiers libéraux, les artisans et commerçants, les micro-entreprises. Dans cette situation l'indépendant est en même temps l'unique travailleur et l'unique propriétaire de l'entreprise. Les revenus du travail et du capital sont indissociables. Comprend aussi les particuliers bailleurs.
+- **Réinvestissement :** Action de réinjecter les bénéfices d'une entreprise dans l'entreprise, pour acheter de nouvelles machines, embaucher de nouveaux employés, etc.
+- **Valeur Ajoutée (VA) :** Différence entre le prix des ressources (matières premières, énergie, etc) nécessaires à la production d'un bien ou d'un service, et le prix de vente final. Par exemple si une entreprise transforme 50€ de bois et d'énergie en une table vendue 150€, la valeur ajoutée est de 100€. <br>
 Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'est donc pas comprise dans les tableaux publiés par l'INSEE que nous avons utilisé.
 
 
@@ -88,6 +91,6 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^RUB]: On l'abrègera RUB dans la suite de l'article.
 
-[^limites]: Evoquons comme exemple de similarité le fait que les contraintes données sont extérieures au marché et centralisées, donc que rien ne garantit leur compatibilité avec les objectifs. Evoquons aussi le fait que comme la planification, un tel bouleversement économique est radical, aurait des conséquences potentiellement catastrophiques, et que rien ne garantit sa réussite. J'aimerais aussi noter qu'être exhaustif sur cette forme d'anarcho-capitalisme nécessiterait un billet presque aussi long que celui sur la planification, donc je me contente ici d’esquisser le débat.
+[^limites]: Evoquons comme exemple de similarité le fait que les contraintes données sont extérieures au marché et centralisées, donc que rien ne garantit leur compatibilité avec les objectifs. Evoquons aussi le fait que comme la planification, un tel bouleversement économique est radical, aurait des conséquences potentiellement catastrophiques, et que rien ne garantit sa réussite. J'aimerais aussi noter qu'être exhaustif sur cette forme de socialisme radical ou d'anarchisme de gauche nécessiterait un billet presque aussi long que celui sur la planification, donc je me contente ici d’esquisser le débat.
 
 [^erreur]: La vidéo de Heu?rekâ que je conseillais plus haut affirme sans développer que le coût serait nul dès l'année 2. D'après la littérature économique, c'est donc faux.
