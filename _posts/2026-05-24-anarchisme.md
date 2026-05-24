@@ -16,8 +16,8 @@ L’idée est de rendre la réduction du temps de travail (par exemple 15h de tr
 
 Pour défendre la faisabilité économique de telles contraintes, les principaux arguments sont les suivants :
 
-- Graeber affirme que près de 40 % des emplois actuels sont perçus par leurs employés comme des tâches administratives ou managériales inutiles. En les supprimant et en partageant les gains de productivité de l'IA, 15 heures par semaine suffisent alors largement à faire tourner les secteurs essentiels (santé, alimentation, énergie).
-- Bregman ajoute que le RUB coûte moins cher à la collectivité que de subir les coûts indirects de la pauvreté (urgences médicales, criminalité).
+- [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* explique que près de 40 % des emplois actuels sont perçus par leurs employés comme des tâches administratives ou managériales inutiles. En les supprimant et en partageant les gains de productivité de l'IA, 15 heures par semaine suffisent alors largement à faire tourner les secteurs essentiels (santé, alimentation, énergie).
+- [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes* affirme que le RUB coûte moins cher à la collectivité que de subir les coûts indirects de la pauvreté (urgences médicales, criminalité).
 - Il faut aussi noter que le RUB serait d'autant plus facile à financer qu'il a vocation à remplacer tous les flux de redistribution actuels (chomage et RSA, allocations, voire retraites et AAH selon les formes).
 - Ensuite, même si ses défenseurs conviennent qu'un RUB risquerait de provoquer une forte inflation, ils ajoutent que ce serait indolore dans le sens où par construction, l'inflation provoquée serait moins subie par les personnes aux plus faibles revenus car ce sont ceux qui en proportion verront le plus leurs revenus croitre. On trouvera plus de détails sur le RUB dans [cette vidéo](https://www.youtube.com/watch?v=WUtjf5dXuig).
 
