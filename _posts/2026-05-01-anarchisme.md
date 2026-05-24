@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Le Socialisme Radical ou l'Anarchisme de gauche
-date: 2026-06-01 21:00:00
+date: 2026-05-01 21:00:00
 description: Annexe A de l'article "Qu'est-ce que l'économie politique ?"
 tags: philo, economie
 thumbnail: assets/img/blog_pics/economie-politique-cover.jpg
