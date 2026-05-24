@@ -88,9 +88,9 @@ Et pour conclure, il faut garder à l'esprit que nous avons vu que les entrepris
     A gauche le tableau 1.107, au milieu le tableau 7.101, à droite le tableau 7.201.
 </div>
 
-Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. L'information se trouve dans le [tableau 1.107 de l'INSEE sur le partage de la VA](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832). Ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut. Nous négligeront les lignes EBE et RMB, car elles incluent la part des actionnaires que nous avons déjà calculée et qui est faible, la dépréciation du capital de tous les acteurs économiques qui par définition ne revient à personne[^ebe], et les rentes de loyer (réels ou fictifs) des particuliers[^loyers] qui ne nous concernent pas ici.
+Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. L'information se trouve dans le tableau [[1.107]](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832) de l'INSEE sur le partage de la VA. Ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut. On peut ignorer les lignes EBE et RMB, car elles incluent la part des actionnaires que nous avons déjà calculée et qui est faible, les bénéfices des travailleurs individuels, la dépréciation du capital de tous les acteurs économiques qui par définition ne revient à personne[^ebe], et les rentes de loyer (réels ou fictifs) des particuliers[^loyers] qui ne nous concernent pas ici.
 
-On peut donc lire que **1502,9 Md€** de VA est laissée aux salariés, ce chiffre correspondant au coût total employeur.  
+On peut donc lire que **1502,9 Md€** de VA est laissée aux salariés, ce chiffre correspondant au coût total employeur, et **81,3 Md€** d'impôts et subventions pour l'État. 
 
 
 
