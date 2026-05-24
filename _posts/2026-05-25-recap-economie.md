@@ -135,6 +135,20 @@ Pour conclure, il est crucial de faire quelques remarques afin de prévenir cert
 </div>
 
 
+## V. Utiliser la dette
+
+La stratégie qu'a actuellement choisie la France pour assurer un bon niveau de vie à sa population, sans augmenter encore plus son taux de taxation, est d'utiliser la dette. Les problèmes liés à cette stratégie ne seront jamais aussi bien expliqués que dans [cette vidéo](https://www.youtube.com/watch?v=DU3biPyx624) que je recommande à tous mes lecteurs d'aller voir immédiatement.
+
+L'idée centrale est que, de fait, [la France dépense plus que ce qu'elle gagne](https://www.insee.fr/fr/statistiques/8956575). Ce déficit de **152,2 Md€ (5,2% du PIB)** est financé par des créanciers à un taux d'intérêt relativement modeste. La dette augmente donc année après année, et si par exemple les taux d'intérêt augmentaient la dette deviendrait insoutenable. Or, faire défaut nous forcera mécaniquement à brusquement égaliser ce que nous dépensons à ce que nous gagnons, car personne ne voudra plus prêter la différence. Cette cure d'austérité a été subie par la Grèce dans les années 2010, et a causé bien des malheurs sociaux. Elle est d'autant plus triste que la génération qui devra faire l'effort de rembourser la dette n'en aura pas profité. En effet, il s'agit des enfants et petits-enfants de ceux qui l'ont utilisée pour financer leur train de vie.
+
+Je me doute que bien de mes lecteurs auront des contre-arguments en tête à la lecture de ma courte description. A nouveau, je renvoie à [la vidéo](https://www.youtube.com/watch?v=DU3biPyx624), et à quelques développements personnels futurs.
+
+
+## Conclusion
+
+TBD
+
+
 ## Lexique
 
 Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement elle aidera le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
