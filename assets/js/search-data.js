@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-qu-39-est-ce-que-l-39-économie",
+        },{id: "post-où-va-l-39-argent-des-travailleurs-en-cours",
+      
+        title: "Où va l&#39;argent des travailleurs ? (en cours)",
+      
+      description: "Les éclairages de l&#39;économie sur la répartition de la valeur.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/recap-economie/";
+        
+      },
+    },{id: "post-qu-39-est-ce-que-l-39-économie",
       
         title: "Qu&#39;est-ce que l&#39;économie ?",
       
@@ -46,6 +57,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2026/economie-politique/";
+        
+      },
+    },{id: "post-le-socialisme-radical-ou-l-39-anarchisme-de-gauche",
+      
+        title: "Le Socialisme Radical ou l&#39;Anarchisme de gauche",
+      
+      description: "Annexe A de l&#39;article &quot;Qu&#39;est-ce que l&#39;économie politique ?&quot;",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/anarchisme/";
         
       },
     },{id: "post-la-taxe-zucman",
