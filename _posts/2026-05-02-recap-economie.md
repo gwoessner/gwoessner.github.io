@@ -151,7 +151,7 @@ TBD
 
 ## Lexique
 
-Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement elle aidera le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
+Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement aider le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
 
 - **Actionnaire / Capitaliste :** Propriétaire d'une action, qui est un titre de propriété d'une entreprise, ils se rémunèrent en se versant des dividendes. Ils peuvent ne pas travailler dans l'entreprise, par exemple si celle-ci est côtée en bourse. En général le PDG de l'entreprise est un salarié, mais est souvent en partie également rémunéré en actions.
 - **Administration publique :** Elles ne fournissent pas un service marchand, mais gratuit ou quasi gratuit. Par exemple les collectivités locales, les hopitaux ou les écoles. Comme elles ne vendent rien, on ne peut pas caculer leur valeur ajoutée. Comme elles fournissent tout de même un service, à défaut on utilise leur masse salariale. En particulier, elles n'ont pas d'actionnaire.
