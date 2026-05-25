@@ -185,8 +185,6 @@ Cette protection ne bénéficie toutefois pas à tous les résidents : à San Fr
 
 En somme, le contrôle des loyers à San Francisco s'apparente à une assurance sociale généreuse pour les habitants en place, mais dont la facture est secrètement envoyée aux générations futures : pour chaque dollar de pouvoir d'achat préservé chez un locataire protégé, l'économie de la ville en détruit deux à travers la raréfaction de l'offre et l'envolée des prix pour les nouveaux arrivants.
 
-Enfin, l'économie a fait plein d'études de ce type, et a produit des méta-analyses pour trancher. On peut en trouver une récente et exhaustive [ici](https://www.sciencedirect.com/science/article/pii/S1051137724000020).
-
 
 ## V. Conclusion
 
