@@ -59,6 +59,17 @@ ninja.data = [{
           window.location.href = "/blog/2026/economie-politique/";
         
       },
+    },{id: "post-le-socialisme-radical-ou-l-39-anarchisme-de-gauche",
+      
+        title: "Le Socialisme Radical ou l&#39;Anarchisme de gauche",
+      
+      description: "Annexe A de l&#39;article &quot;Qu&#39;est-ce que l&#39;économie politique ?&quot;",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/anarchisme/";
+        
+      },
     },{id: "post-la-taxe-zucman",
       
         title: "La taxe Zucman",
