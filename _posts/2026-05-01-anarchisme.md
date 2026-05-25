@@ -6,10 +6,10 @@ description: Annexe A de l'article "Qu'est-ce que l'économie politique ?"
 tags: philo, economie
 thumbnail: assets/img/blog_pics/economie-politique-cover.jpg
 toc:
-  beginning: true
+  beginning: false
 ---
-J'aimerais aussi noter qu'être exhaustif sur cette forme de socialisme radical ou d'anarchisme de gauche nécessiterait un billet presque aussi long que celui sur la planification, donc je me contente ici d’esquisser le débat.
-Cet article est une annexe de [mon article sur la Planification économique](www.woessner.ovh/blog/2026/economie-politique). J'y survole une alternative à la planification, qui est l'Anarchisme de gauche. 
+
+Cet article est une annexe de [mon article sur la Planification économique](www.woessner.ovh/blog/2026/economie-politique). J'y survole une alternative à la planification, qui est l'Anarchisme de gauche. Avant de commencer, notons qu'être exhaustif sur cette forme de socialisme radical ou d'anarchisme de gauche nécessiterait un billet presque aussi long que celui sur la planification, donc je me contente ici d’esquisser le débat.
 
 Une alternative à la planification consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
 L’idée est de rendre la réduction du temps de travail (par exemple 15h de travail hebdomadaires) obligatoire par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base) (RUB)suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
