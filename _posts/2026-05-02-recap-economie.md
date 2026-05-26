@@ -194,4 +194,4 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^insee]: Ce montant est confirmé par l'INSEE [ici](https://www.insee.fr/fr/statistiques/2381326#figure1_radio3).
 
-[^calcul]: Le calcul à effectuer est donc $$(394,4+240,2+113,9+81,3)/(1502,9+191,3+81,3)=46,73%$$
+[^calcul]: Le calcul à effectuer est donc 
