@@ -12,32 +12,31 @@ toc:
 
 ## Introduction 
 
-Un lieu commun en France est que notre système économique capitaliste est extremement ineficient en ce qu’il génère beaucoup de richesses, mais les répartit si mal qu’il y a des ultras-riches qui côtoient des gens qui n’ont même pas de quoi manger à leur faim. On s’imagine souvent qu’il serait pourtant possible de donner à chacun une vie digne tout en travaillant moins, jusqu’à 15h seulement par semaine ! 
+Un lieu commun en France est que notre système économique capitaliste est extremement inefficient en ce qu’il génère beaucoup de richesses, mais les répartit si mal qu’il y a des ultras-riches qui côtoient des gens qui n’ont même pas de quoi manger à leur faim. On s’imagine souvent qu’il serait pourtant possible de donner à chacun une vie digne tout en travaillant moins, jusqu’à 15h seulement par semaine ! 
 C’est par exemple le propos de l’historien [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes*, de l'anthropologue [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* ou de l'économiste décroissant [Timothée Parrique](https://fr.wikipedia.org/wiki/Timoth%C3%A9e_Parrique) dans *Ralentir ou périr*.
 
-Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées en France pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
+Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
 
 
 ## I. La Planification
 
-La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prettent le flan aux limites que j’ai déjà développées dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc pour le lecteur intéressé. C’est par exemple le cas de Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée.
+La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prettent le flan aux problèmes que j’ai déjà développés dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc pour le lecteur intéressé. C’est une position défendue par exemple par Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée. En un mot, les économies planifiées n'ont ni en théorie, ni en pratique, réussi à assurer une vie digne à leurs population.
 
 
 ## II. Le Socialisme radical et l'anarchisme de gauche
 
-Un autre catégorie d’approche, qui contient celles de Graeber et Bregman évoquées en introduction, consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
+Une autre catégorie d’approche, qui contient celles de Graeber et Bregman évoquées en introduction, consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
 L’idée est de rendre les 15h de travail hebdomadaires obligatoires par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base) suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
 
-J'ai traité cette proposition dans [un billet dédié](www.woessner.ovh/blog/2026/anarchisme).
+J'ai développé cette proposition ainsi que les défis qu'elle doit soulever dans [un billet dédié](www.woessner.ovh/blog/2026/anarchisme). Encore une fois, rien ne garantit sa réussite.
 
-
-Les deux premières approches consistaient à révolutionner notre système économique, et nous avons vu qu'elles ne peuvent pas garantir leur réussite. Les approches suivantes sont différentes dans le sens où elles gardent le même système économique, mais en changent la manière de redistribuer les richesses.
+Les deux premières approches consistaient à révolutionner notre système économique, et nous avons vu qu'elles ne peuvent pas garantir qu'elles vont atteindre leurs objectifs. Les approches suivantes sont différentes dans le sens où elles gardent le même système économique, mais en changent la manière de redistribuer les richesses.
 
 
 ## III. Taxer les ultra-riches
 
 Bien que la taxe Zucman, puisque c'est elle dont il s'agit, vise à accroître la contribution des ultra-riches, elle repose sur des prémisses fragiles. En réalité, les mécanismes économiques liés à la nature même des actifs ciblés condamnent cette fiscalité à l'échec. J'ai développé ces aspects dans un [billet dédié](www.woessner.ovh/blog/2026/zucman).<br>
-Précisons simplement ici que la taxe Zucman a pour but de récupérer *en théorie* 20 milliards d'euros, tandis que le déficit public est plutôt de 70 milliards. C'est donc bien trop peu pour permettre de baisser le temps de travail, d'autant plus que selon les estimations, la taxe Zucman pourrait tout aussi bien *baisser* les recettes de l'État.
+Précisons simplement ici que la taxe Zucman a pour but de récupérer *en théorie* 20 milliards d'euros, tandis que le déficit public est plutôt de l'ordre de [150 milliards](https://www.insee.fr/fr/statistiques/8956575). C'est donc bien trop peu pour permettre de baisser le temps de travail, d'autant plus que selon les estimations, la taxe Zucman pourrait tout aussi bien *baisser* les recettes de l'État.
 
 
 ## IV. Taxer les capitalistes
@@ -53,7 +52,7 @@ Nous pourrons comparer avec les vrais chiffres plus loin.
 
 Avant de commencer, notons que des termes techniques vont être utilisés, pour chacun d'entre eux une explication et parfois des commentaires pourra être trouvée dans la partie *Lexique* plus bas. Notons aussi que l'unité de mesure sera le milliard d'euros en base 2020.<br>
 
-La VA totale en France est de **2611,1 Md€**. Celle-ci est créée par des entreprises privées, des administations publiques, des ménages et des organisations à but non lucratif. Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. L'INSEE donne dans le tableau 1.106 le chiffre de **1609,8 Md€ (61,7% du total)** de VA générée par les sociétés, et **1001,4 Md€ (28,3% du total)** par les autres.
+Le total de toute la VA créée en France est de **2611,1 Md€**. Celle-ci est créée par des entreprises privées, des administations publiques, des ménages et des organisations à but non lucratif (voir Tableau [1.107]). Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. L'INSEE donne dans le tableau 1.106 le chiffre de **1609,8 Md€ (61,7% du total)** de VA générée par les sociétés, et **1001,4 Md€ (28,3% du total)** par les autres.
 
 La VA créée par les entreprises est répartie de la manière suivante, d'après les tableaux [[7.101]](https://www.insee.fr/fr/statistiques/8574689?sommaire=8574832) et [[7.102]](https://www.insee.fr/fr/statistiques/8574691?sommaire=8574832) de l'INSEE. Leur EBE, qu'on peut résumer par leur bénéfice, et de **503,7 Md€ (31,3% de la VA)**.<br>
 Toutefois, il faut aussi prendre en compte la CCF, qu'on peut voir comme le prix de l'usure du capital. En effet, c'est une perte de valeur contrainte qu'il serait nécessaire de prendre en compte même si toutes les entreprises étaient nationalisées. L'INSEE fournit cette information dans les mêmes tableaux. La dépréciation du capital coûte 310,7 Md€ aux entreprises, de sorte que leur EBE net du CCF est de **193,1 Md€ (12,0% de la VA)**.<br>
