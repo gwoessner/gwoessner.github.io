@@ -52,7 +52,26 @@ Nous pourrons comparer avec les vrais chiffres plus loin.
 
 Avant de commencer, notons que des termes techniques vont être utilisés, pour chacun d'entre eux une explication et parfois des commentaires pourra être trouvée dans la partie *Lexique* plus bas. Notons aussi que l'unité de mesure sera le milliard d'euros en base 2020.<br>
 
-Le total de toute la VA créée en France est de **2611,1 Md€**. Celle-ci est créée par des entreprises privées, des administations publiques, des ménages et des organisations à but non lucratif (voir Tableau [1.107]). Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. L'INSEE donne dans le tableau 1.106 le chiffre de **1609,8 Md€ (61,7% du total)** de VA générée par les sociétés, et **1001,4 Md€ (28,3% du total)** par les autres.
+Le total de toute la VA créée en France est de **2611,1 Md€**. Celle-ci est créée par des entreprises privées, des administations publiques, des ménages et des organisations à but non lucratif (voir Tableau [1.107]). Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. L'INSEE donne dans le tableau [[1.106]](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832) le chiffre de **1609,8 Md€ (61,7% du total)** de VA générée par les sociétés, et **1001,4 Md€ (28,3% du total)** par les autres.
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="text-center p-3" style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">
+                {% include figure.liquid
+                    loading="eager"
+                    path="assets/img/blog_pics/recap-economie-6.png"
+                    class="img-fluid rounded z-depth-1"
+                    zoomable=true
+                    style="max-width: 400px; height: auto; cursor: zoom-in;"
+                %}
+                <div class="caption mt-2" style="font-size: 0.9em; color: #666;">
+                    Le tableau [1.106]
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 La VA créée par les entreprises est répartie de la manière suivante, d'après les tableaux [[7.101]](https://www.insee.fr/fr/statistiques/8574689?sommaire=8574832) et [[7.102]](https://www.insee.fr/fr/statistiques/8574691?sommaire=8574832) de l'INSEE. Leur EBE, qu'on peut résumer par leur bénéfice, et de **503,7 Md€ (31,3% de la VA)**.<br>
 Toutefois, il faut aussi prendre en compte la CCF, qu'on peut voir comme le prix de l'usure du capital. En effet, c'est une perte de valeur contrainte qu'il serait nécessaire de prendre en compte même si toutes les entreprises étaient nationalisées. L'INSEE fournit cette information dans les mêmes tableaux. La dépréciation du capital coûte 310,7 Md€ aux entreprises, de sorte que leur EBE net du CCF est de **193,1 Md€ (12,0% de la VA)**.<br>
@@ -60,10 +79,7 @@ Ensuite, il faut payer l'IS, l'impôt sur ces bénéfices. Toujours d'après l'I
 Enfin, notons que sur ces 79,24 Md€, un bonne partie est réinvestie dans les entreprises et rémunère donc des travailleurs. Toutefois, si nous partons du principe que ces bénéfices sont intégralement reversés aux actionnaires sous forme de dividendes, ceux-ci doivent s'acquitter de la flat tax à 30%, ou payer leur impôt sur le revenu dont la dernière tranche est à 45%. En gardant le chiffre de 30% on arrive à **79,24 Md€ (4,9% de la VA)** pour les actionnaires[^zucman] (à noter que c'est un maximum, car nous avons négligé les réinvestissements).<br>
 Et pour conclure, il faut garder à l'esprit que nous avons vu que les entreprises ne crééent qu'une partie de la VA totale française. Par conséquent, si ces 79,24 Md€ attribués aux actionnaires leur étaient ponctionnés et reversés à tous les travailleurs, la partie de la VA attribuée aux salariés et à l'État n'augmenterait que de **3,0% de la VA totale** française.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
+<div class="row mt-2">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -72,7 +88,7 @@ Et pour conclure, il faut garder à l'esprit que nous avons vu que les entrepris
     </div>
 </div>
 <div class="caption">
-    A gauche le tableau 1.107, au milieu le tableau 7.101, à droite le tableau 7.201.
+    A gauche le tableau [7.101], à droite le tableau [7.201].
 </div>
 
 Il reste à savoir comment le reste de la VA est partagée entre les salariés et l'État. L'information se trouve dans le tableau [[1.107]](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832) de l'INSEE sur le partage de la VA. Ce tableau mélange les VA générées par les entreprises et par les autres acteurs économiques que nous avons vu plus haut. On peut ignorer les lignes EBE et RMB, car elles incluent la part des actionnaires que nous avons déjà calculée et qui est faible, les bénéfices des travailleurs individuels, la dépréciation du capital de tous les acteurs économiques qui par définition ne revient à personne[^ebe], et les rentes de loyer (réels ou fictifs) des particuliers[^loyers] qui ne nous concernent pas ici.
@@ -83,23 +99,16 @@ Déterminer dans le détail quelle partie des 1502,9 Md€ va aux salariés et �
 
 Pour commencer, il faut déduire les charges patronales. Or par chances celles-ci sont données par l'INSEE dans le tableau 107, de sorte **394,4 Md€ (26,2% des salaires)** sont des cotisations patronales pour l'État. Par ailleurs, le simulateur nous informe que le salaire brut médian annuel en France est de 32400€[^insee]. En appliquant le taux de passage du brut au net, on calcule que **240,2 Md€ (16,0% des salaires)** sont des cotisations salariales pour l'État. Concernant l'impôt sur le revenu, celui-ci dépend de la composition du foyer. Pour un couple avec deux enfants où les deux adultes sont au revenu médian, le taux d'imposition est de 1% du coût total employeur. Je propose de le négliger.
 
-<div class="container mt-3">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6">
-            <div class="text-center p-3" style="background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: inline-block;">
-                {% include figure.liquid
-                    loading="eager"
-                    path="assets/img/blog_pics/recap-economie-4.png"
-                    class="img-fluid rounded z-depth-1"
-                    zoomable=true
-                    style="max-width: 400px; height: auto; cursor: zoom-in;"
-                %}
-                <div class="caption mt-2" style="font-size: 0.9em; color: #666;">
-                    Figure 4, tirée du simulateur.
-                </div>
-            </div>
-        </div>
+<div class="row mt-2">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/blog_pics/recap-economie-4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A gauche le tableau [1.107], à droite une capture d'écran du simulateur de l'URSAFF.
 </div>
 
 Nous avons enfin la réponse finale à notre question. En récapitulant notre raisonnement, **sur 100€ de VA** créée par le travail en France, reçoivent en moyenne :
