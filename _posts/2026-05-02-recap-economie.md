@@ -16,7 +16,7 @@ Un lieu commun en France est que notre système économique capitaliste est extr
 C’est par exemple le propos de l’historien [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes*, de l'anthropologue [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* ou de l'économiste décroissant [Timothée Parrique](https://fr.wikipedia.org/wiki/Timoth%C3%A9e_Parrique) dans *Ralentir ou périr*.
 
 Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
-
+ 
 
 ## I. La Planification
 
