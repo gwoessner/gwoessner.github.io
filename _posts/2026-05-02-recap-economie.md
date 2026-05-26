@@ -26,7 +26,7 @@ La plupart des approches consistent à planifier l’économie pour assurer le m
 ## II. Le Socialisme radical et l'anarchisme de gauche
 
 Un autre catégorie d’approche, qui contient celles de Graeber et Bregman évoquées en introduction, consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
-L’idée est de rendre les 15h de travail hebdomadaires obligatoires par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base)[^RUB] suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
+L’idée est de rendre les 15h de travail hebdomadaires obligatoires par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base) suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
 
 J'ai traité cette proposition dans [un billet dédié](www.woessner.ovh/blog/2026/anarchisme).
 
