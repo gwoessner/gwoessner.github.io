@@ -12,15 +12,17 @@ toc:
 
 ## Introduction 
 
-Un lieu commun en France est que notre système économique capitaliste est extremement inefficient en ce qu’il génère beaucoup de richesses, mais les répartit si mal qu’il y a des ultras-riches qui côtoient des gens qui n’ont même pas de quoi manger à leur faim. On s’imagine souvent qu’il serait pourtant possible de donner à chacun une vie digne tout en travaillant moins, jusqu’à 15h seulement par semaine ! 
-C’est par exemple le propos de l’historien [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes*, de l'anthropologue [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* ou de l'économiste décroissant [Timothée Parrique](https://fr.wikipedia.org/wiki/Timoth%C3%A9e_Parrique) dans *Ralentir ou périr*.
+Un lieu commun en France est que notre système économique capitaliste est extremement inefficient en ce qu’il génère beaucoup de richesses, mais les répartit si mal qu’il y a des ultras-riches qui côtoient des gens qui n’ont même pas de quoi manger à leur faim. On s’imagine souvent qu’il serait pourtant possible de donner à chacun une vie digne tout en travaillant moins, à condition de mieux répartir la richesse.<br>
+La façon précise de procéder dépend de la personne qui énonce cette thèse, et c'est souvent assez flou. Néanmoins le consensus est que notre système économique serait parasité par les classes les plus riches, et qu'il serait possible et souhaitable de récupérer cette richesse. C'est par exemple le cas des intellectuels militants de gauche [Gilles Mitteau](https://fr.wikipedia.org/wiki/Gilles_Mitteau), [Gary Stevenson](https://en.wikipedia.org/wiki/Gary_Stevenson_(campaigner)) et [Marlene Engelhorn](https://fr.wikipedia.org/wiki/Marlene_Engelhorn) dans [cette table ronde](https://www.youtube.com/watch?v=EfstHja6-jc).<br>
+Certains intellectuels vont jusqu'à affirmer qu'il serait possible de ne travailler plus que 15h seulement par semaine, tout en assurant à chacun un niveau de vie décent ! C’est par exemple le propos de l’historien [Rutger Bregman](https://fr.wikipedia.org/wiki/Rutger_Bregman) dans *Utopies réalistes*, de l'anthropologue [David Graeber](https://fr.wikipedia.org/wiki/David_Graeber) dans *Bullshit Jobs* ou de l'économiste décroissant [Timothée Parrique](https://fr.wikipedia.org/wiki/Timoth%C3%A9e_Parrique) dans *Ralentir ou périr*.
 
 Je propose dans cet article de dresser un tour d’horizon des différentes stratégies proposées pour arriver à cet objectif, et d’étudier les éléments de réponse que la science économique peut apporter.
  
 
 ## I. La Planification
 
-La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prettent le flan aux problèmes que j’ai déjà développés dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc pour le lecteur intéressé. C’est une position défendue par exemple par Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée. En un mot, les économies planifiées n'ont ni en théorie, ni en pratique, réussi à assurer une vie digne à leurs population.
+La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prettent le flan aux problèmes que j’ai déjà développés dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc pour le lecteur intéressé. C’est une position défendue par exemple par Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée. <br>
+En un mot, les économies planifiées n'ont ni en théorie, ni en pratique, réussi à assurer une vie digne à leur population. Au contraire, il y a de sérieuses raisons de penser qu'elles aboutissent mécaniquement à la pauvreté généralisée et à des dérives autoritaires.
 
 
 ## II. Le Socialisme radical et l'anarchisme de gauche
@@ -28,7 +30,7 @@ La plupart des approches consistent à planifier l’économie pour assurer le m
 Une autre catégorie d’approche, qui contient celles de Graeber et Bregman évoquées en introduction, consiste à garder une forme d’économie de marché, mais en y ajoutant des contraintes. <br>
 L’idée est de rendre les 15h de travail hebdomadaires obligatoires par la loi et d’y adjoindre un [revenu universel de base](https://fr.wikipedia.org/wiki/Revenu_de_base) suffisant pour vivre dignement. Charge ensuite aux acteurs économiques de se réorganiser et adapter leurs chaines de production.
 
-J'ai développé cette proposition ainsi que les défis qu'elle doit soulever dans [un billet dédié](www.woessner.ovh/blog/2026/anarchisme). Encore une fois, rien ne garantit sa réussite.
+J'ai développé cette proposition ainsi que les défis qu'elle doit soulever dans [un billet dédié](www.woessner.ovh/blog/2026/anarchisme). Encore une fois, personne n'a démontré qu'elles diminueront la pauvré plutôt que de la provoquer.
 
 Les deux premières approches consistaient à révolutionner notre système économique, et nous avons vu qu'elles ne peuvent pas garantir qu'elles vont atteindre leurs objectifs. Les approches suivantes sont différentes dans le sens où elles gardent le même système économique, mais en changent la manière de redistribuer les richesses.
 
@@ -155,7 +157,16 @@ Je me doute que bien de mes lecteurs auront des contre-arguments en tête à la 
 
 ## Conclusion
 
-TBD
+Dans ce billet, j'ai essayé de répondre à l'idée reçue selon laquelle la part du "gateau" économique destinée aux travailleurs serait maintenue artificiellement petite, en analysant plusieurs approches qui se proposaient d'augmenter la taille de cette part. Certaines proposaient de revoir la recette (Approches I et II), d'autres de se réapproprier la part du gateau des plus riches (Approches III et IV). Bien sûr, je n'ai pas pu être exhaustif, il existe d'autres approches proposées, mais elles se heurtent invariablement aux deux limites que j'ai soulevées. Premièrement, celles qui proposent de révolutionner notre système économique (Approches I et II) sont trop péremptoires dans leurs revendications et sont aveugles aux problèmes de calcul économique que le marché résout de manière invisible dans notre système actuel. Deuxièment, celles qui proposent de reprendre la part "volée" par les riches (Approches III et IV) se trompent sur la taille de cette part au regard de celle des travailleurs.
+
+J'aimerais à présent aborder une troisième limite, tout aussi importante. C'est l'idée, fausse, selon laquelle l'économie serait un gateau qu'il suffirait de mieux répartir. Cette idée est fausse en ceci que le gateau économique **change de taille en fonction de la façon dont on le répartit !** <br>
+Pour expliquer ce phénomène, une première explication serait de noter que pour répartir la richesse, on a recours aux taxes, et taxer a un impact sur l'objet de la taxe. En effet, taxer les importations diminue les importations. Taxer la consommation (TVA, taxes sur le tabac, lessence, etc) diminue la quantité de biens échangés. Et surtout, taxer le travail (charges, impôt sur le revenu) et le capital (impôt sur les sociétés, flat tax) désincite le travail et le capital, or **c'est avec du travail et du capital qu'on créé la richesse ![^elasticité]** En les taxant, la richesse (c'est-à-dire la taille du gateau) diminue.<br>
+Une autre explication serait de faire appel à la notion de [relance keynesienne](https://fr.wikipedia.org/wiki/Politique_de_relance). En effet, selon ce paradigme, parfois l'économie est bloquée à cause d'un manque de confiance des acteurs économiques, et une façon de débloquer la situation consiste à provoquer une reprise économique par la dépense publique. Encore une fois, dans cet exemple la taille de l'économie dépend de la façon dont la richesse est répartit[^keynes].<br>
+Cette troisième limite a donc une conséquence très importante sur ce billet. La réussite des approches redistributrices dépend du fait que la taille du gateau ne change pas en redistribuant aux travailleurs l'argent des plus riches (Approche III) ou des capitalistes (Approche IV)[^11].
+
+TO BE CONTINUED
+
+
 
 
 ## Lexique
@@ -194,4 +205,11 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^insee]: Ce montant est confirmé par l'INSEE [ici](https://www.insee.fr/fr/statistiques/2381326#figure1_radio3).
 
-[^calcul]: Le calcul à effectuer est donc, charges patronales + charges salariales + IS + impôts de production / VA net de CCF : $(394,4+240,2+113,9+81,3)/(1502,9+191,3+81,3)=46,73%$ 
+[^calcul]: Le calcul à effectuer est donc : charges patronales + charges salariales + IS + impôts de production / VA net de CCF.<br>
+C'est-à-dire $(394,4+240,2+113,9+81,3)/(1502,9+191,3+81,3)=46,73%$ 
+
+[^elasticite]: Le lecteur pourrait m'opposer que, par exemple pour l'essence, la taxe ne baisse pas la consommation du bien taxé, car on ne peut pas s'en passer. C'est vrai dans une certaine mesure, mais sauf exception l'effet est toujours au moins un peu négatif (penser par exemple aux voitures électriques vendues avec l'argument "elle est moins chère à faire rouler que l'équivalent thermique"). D'ailleurs, les économistes ont inventé le concept [d'eslasticité](https://fr.wikipedia.org/wiki/%C3%89lasticit%C3%A9_(%C3%A9conomie)) pour quantifier ce genre d'effet.
+
+[^keynes]: A noter que dans cet exemple c'est au contraire mieux répartir la monnaie qui fait augmenter la taille de l'économie.
+
+[^11]: Il faut souligner que les contribuables ciblées par les approches III (les ultra riches) et IV (les capitalistes) sont en grande partie les mêmes, on ne peut donc pas cumuler les deux approches !
