@@ -1,1 +1,3 @@
-Sitemap: https://www.gwoessner.github.io/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: https://www.woessner.ovh/sitemap.xml
