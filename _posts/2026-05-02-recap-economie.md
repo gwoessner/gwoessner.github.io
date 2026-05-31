@@ -164,7 +164,7 @@ Pour expliquer ce phénomène, une première explication serait de noter que pou
 Une autre explication serait de faire appel à la notion de [relance keynesienne](https://fr.wikipedia.org/wiki/Politique_de_relance). En effet, selon ce paradigme, parfois l'économie est bloquée à cause d'un manque de confiance des acteurs économiques, et une façon de débloquer la situation consiste à provoquer une reprise économique par la dépense publique. Encore une fois, dans cet exemple la taille de l'économie dépend de la façon dont la richesse est répartit[^keynes].<br>
 Cette troisième limite a donc une conséquence très importante sur ce billet. La réussite des approches redistributrices dépend du fait que la taille du gateau ne change pas en redistribuant aux travailleurs l'argent des plus riches (Approche III) ou des capitalistes (Approche IV)[^11]. Or, l'effet de telles mesures sur l'activité économique serait probablement négatif, comme c'est expliqué dans [cette vidéo](https://www.youtube.com/watch?v=8IkTY-vMjGc) que je recommande à également.
 
-Enfin, j'aimerais signaler que 
+Enfin, j'aimerais signaler que la rémunération des actionnaires est, en théorie du moins, liée à un service produit : la bonne allocation du capital, et la prise de risque associée. Je développerai cet aspect (sans en nier les limites) dans un article dédié. Ce qu'il faut toutefois noter est qu'en cas d'expropriation des capitalistes, il faudra que quelqu'un d'autre assure l'allocation du capital et assume les risques associés.
 
 
 ## Ouverture et opinion personnelle
@@ -173,7 +173,11 @@ Dans ce billet, nous nous sommes concentrés sur les flux économiques confisqu�
 
 Comme on l'a vu, environ la moitié de la VA en France passe par l'État. En contrepartie, les travailleurs reçoivent des assurances sociales et des services publics, mais il existe des systèmes alternatifs qui font aussi bien pour moins cher (voir [ici](https://www.youtube.com/watch?v=z1HIMxqCPLY) et [ici](https://www.youtube.com/watch?v=w4Sgb508ymA)). De plus, cette taxation décourage l'activité économique, de sorte qu'en taxant moins on arriverait peut-être à mieux financer notre système social (voir [ici](https://www.youtube.com/watch?v=8IkTY-vMjGc)).
 
-Il s'avère que la France a l'un des niveaux de taxation les plus élevés du monde, comme on peut le voir [dans ce document]. Or, on pourrait m'opposer que le Danemark par exemple est soumis à tout autant de prélèvements obligatoires que la France, pourtant [son économie créé bien plus de richesses](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29_per_capita). Pour résoudre ce 
+Il s'avère que la France a l'un des niveaux de taxation les plus élevés du monde, comme on peut le voir [dans ce document](https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-tax-revenues/revenue-statistics-denmark.pdf). Or, on pourrait m'opposer que le Danemark par exemple est soumis à tout autant de prélèvements obligatoires que la France, pourtant [son économie créé bien plus de richesses](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29_per_capita). Pour répondre à cette critique, je propose trois pistes.
+
+Premièrement, la France a choisi de taxer prioritairement en *amont* de la production de richesse (charges patronales et salariales, impôt sur la production), tandis que le Danemark taxe en comparaison plus en *aval* (impôt sur le revenu, TVA), voire taxe [le terrain](https://fr.wikipedia.org/wiki/Imp%C3%B4t_sur_la_terre). En un mot, le Danemark préfère les taxes *qui ne désincitent pas à produire de la richesse*.
+
+Deuxièmement, les danois ont fait plusieurs choix très impopulaires en France, et qui ici pèsent sur notre système économique. Le marché de l'emploi y est souple et le licenciement très facile. Le travail hebdomadaire est de 37h et l'âge de départ
 
 
 
