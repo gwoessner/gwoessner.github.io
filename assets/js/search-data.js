@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-où-va-l-39-argent-des-travailleurs-en-cours",
+        },{id: "post-où-va-l-39-argent-des-travailleurs",
       
-        title: "Où va l&#39;argent des travailleurs ? (en cours)",
+        title: "Où va l&#39;argent des travailleurs ?",
       
       description: "Les éclairages de l&#39;économie sur la répartition de la valeur.",
       section: "Posts",
