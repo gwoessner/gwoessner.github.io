@@ -187,7 +187,7 @@ Deuxièmement, les danois ont fait plusieurs choix très impopulaires en France,
 
 Pourtant, malgré ce système économique qu'on qualifierait en France de "droite", voire d'ultra-libéral et d'hostile aux travailleurs, le taux de pauvreté y est plus faible qu'en France, comme on peut le voir [ici](https://www.oecd.org/fr/data/indicators/poverty-rate.html) ou [ici](https://ires.fr/wp-content/uploads/2023/01/C162_2.pdf)[^pauvrete].
 
-En résumé, les danois ont appliqué la thèse que je défend : Avant de répartir la richesse il faut la créer, et pour la créer il ne faut pas décourager le travail et l'investissement.
+En résumé, les danois ont appliqué la thèse que je défends : avant de répartir la richesse il faut la créer, et pour la créer il ne faut pas décourager le travail et l'investissement.
 
 ---
 
