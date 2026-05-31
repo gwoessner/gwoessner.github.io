@@ -179,7 +179,7 @@ Premièrement, la France a choisi de taxer prioritairement en *amont* de la prod
 
 Deuxièmement, les danois ont fait plusieurs choix très impopulaires en France, et qui ici pèsent sur notre système économique. Le marché de l'emploi y est souple et le licenciement très facile. Le travail hebdomadaire est de 37h et l'âge de départ à la retraite 67 ans (notons qu'[il va augmenter dans les prochaines années pour maintenir l'équilibre](https://www.bfmtv.com/economie/international/l-italie-y-songe-mais-le-danemark-devient-le-premier-pays-d-europe-a-reporter-l-age-de-la-retraite-a-70-ans_AD-202505220525.html)). Le système de retraite est d'ailleurs un mix par capitalisation qui pèse moins sur les actifs danois que le système par répartition français. Enfin, [la dette danoise est petite](https://www.donneesmondiales.com/europe/danemark/dette.php) car [l'État danois est en excédent](https://fr.tradingeconomics.com/denmark/government-budget), contrairement à la France dont [le dernier budget à l'équilibre remonte à 1974](https://www.ifrap.org/data/retour-sur-50-ans-de-deficit-public)e, ce qui signifie que les dépenses publiques danoises sont strictement contrôlées.
 
-Pourtant, malgré ce système économique qu'on qualifierait en France de "droite", voire d'ultra-libéral et d'hostile aux travailleurs, le taux de pauvreté y est plus faible qu'en France, comme on peut le voir [ici](https://www.oecd.org/fr/data/indicators/poverty-rate.html) ou [ici](https://ires.fr/wp-content/uploads/2023/01/C162_2.pdf)[^taux de pauvreté].
+Pourtant, malgré ce système économique qu'on qualifierait en France de "droite", voire d'ultra-libéral et d'hostile aux travailleurs, le taux de pauvreté y est plus faible qu'en France, comme on peut le voir [ici](https://www.oecd.org/fr/data/indicators/poverty-rate.html) ou [ici](https://ires.fr/wp-content/uploads/2023/01/C162_2.pdf)[^pauvrete].
 
 
 ## Lexique
@@ -226,4 +226,4 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^11]: Il faut souligner que les contribuables ciblées par les approches III (les ultra riches) et IV (les capitalistes) sont en grande partie les mêmes, on ne peut donc pas cumuler les deux approches !
 
-[^taux de pauvreté]: Notons que par définition du taux de pauvreté, le seuil de pauvreté au Danemark correspond à un revenu plus élevé qu'en France.
+[^pauvrete]: Notons que par définition du taux de pauvreté, le seuil de pauvreté au Danemark correspond à un revenu plus élevé qu'en France.
