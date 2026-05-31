@@ -150,7 +150,7 @@ Pour conclure, il est crucial de faire quelques remarques afin de prévenir cert
 
 La stratégie qu'a actuellement choisie la France pour assurer un bon niveau de vie à sa population sans augmenter encore plus son taux de taxation, est d'utiliser la dette. Les problèmes liés à cette stratégie ne seront jamais aussi bien expliqués que dans [cette vidéo](https://www.youtube.com/watch?v=DU3biPyx624) que je recommande à tous mes lecteurs d'aller voir immédiatement.
 
-L'idée centrale est que, de fait, [la France dépense plus que ce qu'elle gagne](https://www.insee.fr/fr/statistiques/8956575). Ce déficit de **152,2 Md€ (5,2% du PIB)** est financé par des créanciers à un taux d'intérêt relativement modeste. La dette augmente donc année après année, et sa trajectoire nous amène à une situation où cette dette deviendrait insoutenable. Or, faire défaut nous forcera mécaniquement à brusquement égaliser ce que nous dépensons et ce que nous gagnons, car personne ne voudra plus prêter la différence. Cette cure d'austérité a été subie par la Grèce dans les années 2010, et a causé bien des malheurs sociaux. Elle est d'autant plus triste que la génération qui devra faire l'effort de rembourser la dette n'en aura pas profité. En effet, il s'agit des enfants et petits-enfants de ceux qui l'ont utilisée pour financer leur train de vie.
+L'idée centrale est que, de fait, [la France dépense plus que ce qu'elle gagne](https://www.insee.fr/fr/statistiques/8956575). Ce déficit de **152,2 Md€ (5,2% du PIB)** est financé par des créanciers à un taux d'intérêt relativement modeste. La dette augmente donc année après année, et sa trajectoire nous amène à une situation où cette dette deviendrait insoutenable. Or, faire défaut nous forcera mécaniquement à brusquement égaliser ce que nous dépensons et ce que nous gagnons, car personne ne voudra plus prêter la différence. Cette cure d'austérité a été subie par la Grèce lors de la [crise de l'euro](https://fr.wikipedia.org/wiki/Crise_de_la_dette_dans_la_zone_euro) dans les années 2010, et a causé bien des malheurs sociaux. Elle est d'autant plus triste que la génération qui devra faire l'effort de rembourser la dette n'en aura pas profité. En effet, il s'agit des enfants et petits-enfants de ceux qui l'ont utilisée pour financer leur train de vie.
 
 Je me doute que bien de mes lecteurs auront des contre-arguments en tête à la lecture de ma courte description. A nouveau, je renvoie à [la vidéo](https://www.youtube.com/watch?v=DU3biPyx624), et à quelques développements personnels futurs.
 
@@ -164,13 +164,16 @@ Pour expliquer ce phénomène, une première explication serait de noter que pou
 Une autre explication serait de faire appel à la notion de [relance keynesienne](https://fr.wikipedia.org/wiki/Politique_de_relance). En effet, selon ce paradigme, parfois l'économie est bloquée à cause d'un manque de confiance des acteurs économiques, et une façon de débloquer la situation consiste à provoquer une reprise économique par la dépense publique. Encore une fois, dans cet exemple la taille de l'économie dépend de la façon dont la richesse est répartit[^keynes].<br>
 Cette troisième limite a donc une conséquence très importante sur ce billet. La réussite des approches redistributrices dépend du fait que la taille du gateau ne change pas en redistribuant aux travailleurs l'argent des plus riches (Approche III) ou des capitalistes (Approche IV)[^11]. Or, l'effet de telles mesures sur l'activité économique serait probablement négatif, comme c'est expliqué dans [cette vidéo](https://www.youtube.com/watch?v=8IkTY-vMjGc) que je recommande à également.
 
+Enfin, j'aimerais signaler que 
 
-## Ouverture
 
-Dans ce billet, nous nous sommes concentrés sur les flux économiques confisqués aux travailleurs au profit des plus riches. Dans cette dernière partie, j'aimerais analyser les flux confisqués au profit de l'État.
+## Ouverture et opinion personnelle
 
-TO BE CONTINUED
+Dans ce billet, nous nous sommes concentrés sur les flux économiques confisqués aux travailleurs au profit des plus riches. Dans cette ouverture, j'aimerais analyser les flux confisqués au profit de l'État.
 
+Comme on l'a vu, environ la moitié de la VA en France passe par l'État. En contrepartie, les travailleurs reçoivent des assurances sociales et des services publics, mais il existe des systèmes alternatifs qui font aussi bien pour moins cher (voir [ici](https://www.youtube.com/watch?v=z1HIMxqCPLY) et [ici](https://www.youtube.com/watch?v=w4Sgb508ymA)). De plus, cette taxation décourage l'activité économique, de sorte qu'en taxant moins on arriverait peut-être à mieux financer notre système social (voir [ici](https://www.youtube.com/watch?v=8IkTY-vMjGc)).
+
+Il s'avère que la France a l'un des niveaux de taxation les plus élevés du monde, comme on peut le voir [dans ce document]. Or, on pourrait m'opposer que le Danemark par exemple est soumis à tout autant de prélèvements obligatoires que la France, pourtant [son économie créé bien plus de richesses](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29_per_capita). Pour résoudre ce 
 
 
 
