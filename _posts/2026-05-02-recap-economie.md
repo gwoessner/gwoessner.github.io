@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Où va l'argent des travailleurs ? (en cours)
+title: Où va l'argent des travailleurs ?
 date: 2026-05-02 21:00:00
 description: Les éclairages de l'économie sur la répartition de la valeur.
 tags: philo, economie
