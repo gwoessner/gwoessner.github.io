@@ -21,7 +21,7 @@ Je propose dans cet article de faire un tour d’horizon des différentes strat�
 
 ## I. La Planification
 
-La plupart des approches consistent à planifier l’économie pour assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prêtent le flan aux problèmes que j’ai déjà développés dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc le lecteur intéressé. C’est une position défendue par exemple par Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée. <br>
+La plupart des approches consistent à sortir du capitalisme pour planifier l’économie afin d'assurer le minimum à chacun et/ou respecter les limites écologiques et/ou organiser la décroissance. Par conséquent, ces approches prêtent le flan aux problèmes que j’ai déjà développés dans [cet article](www.woessner.ovh/blog/2026/economie-politique), j’y renvoie donc le lecteur intéressé. C’est une position défendue par exemple par Timothée Parrique que j’évoquais en introduction, dont la proposition est assez proche de celle que j'ai appelé *le planificateur-démocratique* de Otto Neurath que j'ai exposée. <br>
 En un mot, les économies planifiées n'ont ni en théorie, ni en pratique, réussi à assurer une vie digne à leur population. Au contraire, il y a de sérieuses raisons de penser qu'elles aboutissent mécaniquement à la pauvreté généralisée et à des dérives autoritaires.
 
 
