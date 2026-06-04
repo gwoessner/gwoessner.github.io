@@ -45,7 +45,7 @@ Précisons simplement ici que la taxe Zucman a pour but de récupérer, en théo
 ## IV. Taxer les capitalistes
 
 Une autre idée défendue parfois consiste à taxer les propriétaires des entreprises. Les marxistes parlent de reprendre la plus-value générée par le travail. D'autres parlent de taxer les dividendes, de nationaliser les entreprises, voire d'exproprier les actionnaires. Dans cette partie, je propose de répondre à la question suivante : *Si nous prenions absolument tout aux capitalistes, de combien nos salaires pourraient-ils augmenter ?*[^11] Pour y répondre, ma méthode sera de consulter [les chiffres de la comptabilité nationale en 2024](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832),  publiés par l'INSEE, et de déterminer, sur 100€ de valeur ajoutée (VA) créée par le travail en France en 2024, combien est laissée aux salariés, combien est envoyée à l'État, et combien est attribuée aux actionnaires.<br>
-On pourra trouver une discussion des limites de ce choix de question et de la réponse que j'y apporte, voir en Annexe.
+On pourra trouver en Annexe une discussion sur les limites de ce choix méthodologique et des précisions sur les approximations que j'ai faites pour simplifier la présentation.
 
 Je me suis amusé à poser ces questions à mon entourage. Les réponses ont été les suivantes.
 - pour les salariés : entre 5 et 50€, avec une moyenne de 22,50€.
@@ -57,7 +57,7 @@ Nous pourrons comparer avec les vrais chiffres plus loin.
 Avant de commencer, notons que des termes techniques vont être utilisés, pour chacun d'entre eux une explication et parfois des commentaires pourra être trouvée dans la partie *Lexique* plus bas. <br>
 Notons aussi que l'unité de mesure sera le milliard d'euros (base 2020), noté Md€.<br>
 
-Le total de toute la VA créée en France est de **2 611,1 Md€**. L'INSEE détaille dans le tableau [[1.106]](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832) les acteurs qui génèrent cette VA. Elle est créée par des sociétés (financières et non financières,  que je vais regrouper sous le terme d'entreprises), des administations publiques, des ménages et des organisations à but non lucratif (voir Tableau [[1.107]](https://www.insee.fr/fr/statistiques/8956575)). Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ils pourraient récupérer la VA. On voit que **1 609,8 Md€ (61,7% du total)** est générée par les sociétés, et **1 001,4 Md€ (28,3% du total)** par les autres.
+Le total de toute la VA créée en France est de **2 611,1 Md€**. L'INSEE détaille dans le tableau [[1.106]](https://www.insee.fr/fr/statistiques/8574657?sommaire=8574832) les acteurs qui génèrent cette VA. Elle est créée par des sociétés (on peut considérer que ce sont les entreprises classiques, avec un propriétaire et des salariés), des administations publiques, des organisations à but non lucratif et des ménages (on peut considérer que ce sont les entreprises individuelles, comme les professions libérales ou les services à domicile). Or, seules les premières nous intéressent, les autres n'ayant pas d'actionnaire distinct des salariés chez qui ces derniers pourraient récupérer leur VA. On voit que **1 609,8 Md€ (61,7% du total)** est générée par les sociétés, et **1 001,4 Md€ (28,3% du total)** par les autres.
 
 <div class="container mt-3">
     <div class="row justify-content-center">
