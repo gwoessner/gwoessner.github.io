@@ -119,10 +119,7 @@ Pour commencer, il faut déduire les charges patronales. Or par chances celles-c
     A gauche le tableau [1.107], à droite une capture d'écran du simulateur de l'URSAFF.
 </div>
 
-En récapitulant notre raisonnement, en ajoutant les impôts et subventions sur la production à la part de l’État issue du paragraphe sur les actionnaires, nous avons enfin la réponse finale à notre question[^calcul]. Sur 100€ de VA créée par le travail en France, reçoivent en moyenne
-- les salariés : 50,27€.
-- l'État : 46,73€.
-- les actionnaires : 3,00€.
+En récapitulant notre raisonnement, en ajoutant les impôts et subventions sur la production à la part de l’État issue du paragraphe sur les actionnaires, nous avons enfin la réponse finale à notre question[^calcul]. Sur 100€ de VA créée par le travail en France, les salariés reçoivent en moyenne 50,27€.
 
 Enfin, il faut compter la TVA payée par les salariés lorsqu'ils utiliseront leur salaire. En France le taux moyen de TVA est de [9,7%](https://www.vie-publique.fr/files/rapport/pdf/288177.pdf), de sorte que sur les 50,27€ des salariés, 4,45€ de plus sont taxés par l'État. **Sur 100€ de VA** créée par le travail en France, reçoivent donc en moyenne 
 - **les salariés : 45,82€.**
@@ -130,11 +127,10 @@ Enfin, il faut compter la TVA payée par les salariés lorsqu'ils utiliseront le
 - **les actionnaires : 3,00€.**
 
 
-Pour conclure, il est crucial de faire quelques remarques afin d'éviter certaines mécompréhensions.
-- La part des actionnaires a été calculée avec des hypothèses généreuses. Toutefois, si le lecteur souhaite un chiffre qui ne répartit pas la VA sur toute l'économie, et ne veut pas prendre en compte la flat tax, en raison [des considérations liées à la taxe Zucman](www.woessner.ovh/blog/2026/zucman), il arrivera au montant de 7,01€ pour les actionnaires sur 100€ de VA créée *dans les entreprises*.
+Pour conclure, il est crucial de faire quelques remarques sur les flux que nous avons ignorés.
 - La part de l'État est sous-estimée en ceci qu'elle néglige l'impôt sur le revenu, ainsi que toutes les taxes dont nous n'avons pas parlé dans ce billet (taxe d'habitation, impôts locaux, taxe sur l'héritage, [etc](https://fr.wikipedia.org/wiki/Liste_des_imp%C3%B4ts_et_taxes_fran%C3%A7ais)).
-- Le plus gros des actionnaires français est l'État, une partie des 3,00€ destinés aux actionnaires lui revient donc (voir Figure 5). De même, [le système de retraite obligatoire par capitalisation des fonctionnaires](https://fr.wikipedia.org/wiki/Retraite_additionnelle_de_la_fonction_publique) ainsi que toutes les [assurances-vie des français](https://fr.wikipedia.org/wiki/Assurance-vie_en_France) bénéficient de ces dividendes.
-- Les 3,00€ ne sont pas à interpréter comme le total des dividendes perçus en France. En effet, nous avons calculé ici la part des actionnaires à partir de la VA créée *en France*. Or, une partie des dividendes versés en France (par exemple par Total et LVMH) correspond à une activité effectuée à *l'étranger*, et correspond donc à une VA créée par des travailleurs étrangers que nous n'avons pas considérée dans ce billet. Toutefois, il convient de noter que, symétriquement, sur les 3,00€ que nous avons calculés, une partie est reversée à des actionnaires étrangers, de sorte que les flux se compensent en partie.
+- De même, le plus gros des actionnaires français est l'État, une partie des 3,00€ destinés aux actionnaires lui revient donc (voir Figure 5). De même, [le système de retraite obligatoire par capitalisation des fonctionnaires](https://fr.wikipedia.org/wiki/Retraite_additionnelle_de_la_fonction_publique) ainsi que toutes les [assurances-vie des français](https://fr.wikipedia.org/wiki/Assurance-vie_en_France) bénéficient de ces dividendes.
+
 
 <div class="container mt-3">
     <div class="row justify-content-center">
@@ -207,6 +203,12 @@ Commençons par les approximations que j'ai faites.
 En résumé, ces deux situations sont rares, et le biais causé par l'une sera en partie compensé par l'autre.
 
 
+
+
+- La part des actionnaires a été calculée avec des hypothèses généreuses. Toutefois, si le lecteur souhaite un chiffre qui ne répartit pas la VA sur toute l'économie, et ne veut pas prendre en compte la flat tax, en raison [des considérations liées à la taxe Zucman](www.woessner.ovh/blog/2026/zucman), il arrivera au montant de 7,01€ pour les actionnaires sur 100€ de VA créée *dans les entreprises*.
+
+
+Enfin, il faut noter que la somme de 3,00€ attribuée aux actionnaires ne sont pas à interpréter comme le total des dividendes perçus en France. En effet, nous avons calculé ici la part des actionnaires à partir de la VA créée *en France*. Or, une partie des dividendes versés *en France* (par exemple par Total et LVMH) correspond à une activité effectuée à *l'étranger*, et correspond donc à une VA créée par des travailleurs étrangers que nous n'avons pas considérée dans ce billet. Toutefois, il convient de noter que, symétriquement, sur les 3,00€ que nous avons calculés, une partie est reversée à des actionnaires étrangers, de sorte que les flux se compensent en partie.
 
 
 ## Lexique
