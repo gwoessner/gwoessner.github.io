@@ -119,15 +119,20 @@ Pour commencer, il faut déduire les charges patronales. Or par chances celles-c
     A gauche le tableau [1.107], à droite une capture d'écran du simulateur de l'URSAFF.
 </div>
 
-En récapitulant notre raisonnement, en ajoutant les impôts et subventions sur la production à la part de l’État issue du paragraphe sur les actionnaires, nous avons enfin la réponse finale à notre question[^calcul]. **Sur 100€ de VA** créée par le travail en France, reçoivent en moyenne les parts suivantes.
-- **les salariés : 50,27€**.
-- **l'État : 46,73€**.
-- **les actionnaires : 3,00€**.
+En récapitulant notre raisonnement, en ajoutant les impôts et subventions sur la production à la part de l’État issue du paragraphe sur les actionnaires, nous avons enfin la réponse finale à notre question[^calcul]. Sur 100€ de VA créée par le travail en France, reçoivent en moyenne
+- les salariés : 50,27€.
+- l'État : 46,73€.
+- les actionnaires : 3,00€.
+
+Enfin, il faut compter la TVA payée par les salariés lorsqu'ils utiliseront leur salaire. En France le taux moyen de TVA est de [9,7%](https://www.vie-publique.fr/files/rapport/pdf/288177.pdf), de sorte que sur les 50,27€ des salariés, 4,45€ de plus sont taxés par l'État. **Sur 100€ de VA** créée par le travail en France, reçoivent donc en moyenne 
+- **les salariés : 45,82€.**
+- **l'État : 51,18€.**
+- **les actionnaires : 3,00€.**
+
 
 Pour conclure, il est crucial de faire quelques remarques afin d'éviter certaines mécompréhensions.
 - La part des actionnaires a été calculée avec des hypothèses généreuses. Toutefois, si le lecteur souhaite un chiffre qui ne répartit pas la VA sur toute l'économie, et ne veut pas prendre en compte la flat tax, en raison [des considérations liées à la taxe Zucman](www.woessner.ovh/blog/2026/zucman), il arrivera au montant de 7,01€ pour les actionnaires sur 100€ de VA créée *dans les entreprises*.
 - La part de l'État est sous-estimée en ceci qu'elle néglige l'impôt sur le revenu, ainsi que toutes les taxes dont nous n'avons pas parlé dans ce billet (taxe d'habitation, impôts locaux, taxe sur l'héritage, [etc](https://fr.wikipedia.org/wiki/Liste_des_imp%C3%B4ts_et_taxes_fran%C3%A7ais)).
-- Il est très important de noter que tout le raisonnement de ce billet a été mené en négligeant la TVA. Or, si les salariés souhaitent dépenser leurs 50,27€, ils vont devoir payer [entre 1,06€ et 10,05€](https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mes-autres-impots-et-taxes/tva-quels-sont-les-taux-de-votre-quotidien), et ce n'est pas négligeable, car la TVA représente [la plus grosse part des recettes de l'État](https://www.insee.fr/fr/statistiques/2381416#graphique-figure1) !
 - Le plus gros des actionnaires français est l'État, une partie des 3,00€ destinés aux actionnaires lui revient donc (voir Figure 5). De même, [le système de retraite obligatoire par capitalisation des fonctionnaires](https://fr.wikipedia.org/wiki/Retraite_additionnelle_de_la_fonction_publique) ainsi que toutes les [assurances-vie des français](https://fr.wikipedia.org/wiki/Assurance-vie_en_France) bénéficient de ces dividendes.
 - Les 3,00€ ne sont pas à interpréter comme le total des dividendes perçus en France. En effet, nous avons calculé ici la part des actionnaires à partir de la VA créée *en France*. Or, une partie des dividendes versés en France (par exemple par Total et LVMH) correspond à une activité effectuée à *l'étranger*, et correspond donc à une VA créée par des travailleurs étrangers que nous n'avons pas considérée dans ce billet. Toutefois, il convient de noter que, symétriquement, sur les 3,00€ que nous avons calculés, une partie est reversée à des actionnaires étrangers, de sorte que les flux se compensent en partie.
 
@@ -192,6 +197,18 @@ En résumé, les Danois ont appliqué la thèse que je défends : avant de répa
 
 ---
 
+## Discussion
+
+Je veux profiter de cette partie pour anticiper certaines critiques et défendre la méthodologie que j'ai choisie dans ce billet, tout en étant transparent sur ses limites.
+
+Commençons par les approximations que j'ai faites.
+- J'ai simplifié en considérant que les ménages ne peuvent pas avoir de salarié. En toute rigueur c'est faux, une micro-entreprise ou un medecine libéral peut tout-à-fait embaucher un salarié, et il faudrait analyser ce type de situation comme dans une entreprise classique. Néanmoins, je pense que c'est négligeable pour deux raisons. Premièrement, dans ces situations le patron fournit un travail, et pour analyser la part de la VA qu'il s'attribue au titre de la détention du capital, il faudrait savoir combien il serait payé sans être propriétaire, ce qui est impossible autant théoriquement qu'en pratique. Deuxièmement, la situation est plutôt rare, comme on peut le voir avec les montants du tableau [7.401](https://www.insee.fr/fr/statistiques/8574695?sommaire=8574832).
+- D'une manière similaire, j'ai simplifié en considérant que les sociétés sont les entreprises avec des salariés distincts des actionnaires. C'est également faux, un individu peut-être le seul propriétaire-salarié de sa [SASU](https://entreprendre.service-public.gouv.fr/vosdroits/F37383), et se rémunérer entièrement ou en partie avec des dividendes. Ces revenus rentreraient alors dans la case EBE des sociétés, mais ne correspondraient pas à une VA volée aux travailleurs ! C'est aussi le cas pour les SCOP. A nouveau, je pense que ces situations sont minoritaires et donc négligeables.
+En résumé, ces deux situations sont rares, et le biais causé par l'une sera en partie compensé par l'autre.
+
+
+
+
 ## Lexique
 
 Cette partie a un double objectif. Premièrement, donner une définition plus rigoureuse des termes employés, ainsi que des exemples. Deuxièmement aider le lecteur qui souhaiterait vérifier mes chiffres à naviguer dans la comptabilité nationale publiée par l'INSEE.
@@ -216,6 +233,7 @@ Attention, certaines sociétés (comme des SASU) peuvent ne compter qu'un seul t
 Attention, un artisan en EI peut tout à fait embaucher des salariés, et certains ménages embauchent pour de la garde d'enfant ou du ménage à domicile. On compte ces revenus comme du salaire payé par les ménages. On a négligé cette subtilité dans notre raisonnement, voir en annexe pour plus de détails.<br>
 À noter que cette catégorie comprend également les particuliers bailleurs qui produisent un service de logement, voir EBE.
 - **Réinvestissement :** Action de réinjecter les bénéfices d'une entreprise dans celle-ci, pour acheter de nouvelles machines, embaucher de nouveaux employés, etc.
+- **SCOP :** Société Coopérative de Production. C'est une entreprise qui appartient entièrement à ses salariés. C'est le cas de Duralex par exemple.
 - **Valeur Ajoutée (VA) :** Différence entre le prix des ressources (matières premières, énergie, etc) nécessaires à la production d'un bien ou d'un service, et le prix de vente final. Par exemple si une entreprise transforme 50€ de bois et d'énergie en une table vendue 150€, la valeur ajoutée est de 100€. <br>
 Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'est donc pas comprise dans les tableaux publiés par l'INSEE que nous avons utilisés.
 
