@@ -248,7 +248,7 @@ Il est important de noter que la TVA est une taxe sur la valeur ajoutée, et n'e
 
 [^simu]: Au cas où le lecteur serait intéressé, je précise que ce simulateur permet, tout en bas, de savoir à quoi sont attribuées les cotisations payées.
 
-[^calcul]: Le calcul à effectuer est donc : charges patronales + charges salariales + IS + impôts de production / VA net de CCF. C'est-à-dire $(394,4+240,2+113,9+81,3)/(1502,9+191,3+81,3)=46,73%$ 
+[^calcul]: Le calcul à effectuer pour obtenir la part de l'État est donc : charges patronales + charges salariales + IS + impôts de production / VA net de CCF. C'est-à-dire $(394,4+240,2+113,9+81,3)/(1502,9+191,3+81,3)=46,73%$ 
 
 [^elasticite]: Le lecteur pourrait m'opposer que, par exemple pour l'essence, la taxe ne baisse pas la consommation du bien taxé, car on ne peut pas s'en passer. C'est vrai dans une certaine mesure, mais sauf exception l'effet est toujours au moins un peu négatif (penser par exemple aux voitures électriques vendues avec l'argument "elle est moins chère à faire rouler que l'équivalent thermique"). D'ailleurs, les économistes ont inventé le concept [d'élasticité](https://fr.wikipedia.org/wiki/%C3%89lasticit%C3%A9_(%C3%A9conomie)) pour quantifier ce genre d'effet.
 
