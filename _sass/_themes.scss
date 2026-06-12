@@ -157,3 +157,19 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+
+/* Correction des citations en mode sombre */
+blockquote {
+  background-color: #f8f9fa;
+  border-left: 4px solid #4285f4;
+  color: #333;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d2d2d !important;
+    border-left-color: #64b5f6 !important;
+    color: #e0e0e0 !important;
+  }
+}
