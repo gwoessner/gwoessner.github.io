@@ -129,7 +129,7 @@ Enfin, il faut compter la TVA payée par les salariés lorsqu'ils utiliseront le
 
 Pour conclure, il est crucial de faire quelques remarques sur les flux que nous avons ignorés.
 - La part de l'État est sous-estimée en ceci qu'elle néglige l'impôt sur le revenu, ainsi que toutes les taxes dont nous n'avons pas parlé dans ce billet (taxe d'habitation, impôts locaux, taxe sur l'héritage, [etc](https://fr.wikipedia.org/wiki/Liste_des_imp%C3%B4ts_et_taxes_fran%C3%A7ais)).
-- De même, le plus gros des actionnaires français est l'État, une partie des 3,00€ destinés aux actionnaires lui revient donc (voir Figure 5). De même, [le système de retraite obligatoire par capitalisation des fonctionnaires](https://fr.wikipedia.org/wiki/Retraite_additionnelle_de_la_fonction_publique) ainsi que toutes les [assurances-vie des français](https://fr.wikipedia.org/wiki/Assurance-vie_en_France) bénéficient de ces dividendes.
+- De même, l'un des plus gros actionnaires français est l'État, une partie des 3,00€ destinés aux actionnaires lui revient donc (voir Figure 5). De même, [le système de retraite obligatoire par capitalisation des fonctionnaires](https://fr.wikipedia.org/wiki/Retraite_additionnelle_de_la_fonction_publique) ainsi que toutes les [assurances-vie des français](https://fr.wikipedia.org/wiki/Assurance-vie_en_France) bénéficient de ces dividendes.
 
 
 <div class="container mt-3">
