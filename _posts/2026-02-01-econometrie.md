@@ -9,7 +9,7 @@ toc:
   beginning: true
 ---
 
-Ce billet se place dans la continuité d’un [billet précédent](www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifient véritablement les théories avancées, et si les critiques sont évaluées et prises en compte. 
+Ce billet se place dans la continuité d’un [billet précédent](https://www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifient véritablement les théories avancées, et si les critiques sont évaluées et prises en compte. 
 Pour ce faire, j’ai choisi d’étudier une branche empirique de l'économie appelée **économétrie**, et d'expliquer comment elle permet d'évaluer les effets des **politiques de contrôle des loyers**. L'économie politique, la microéconomie et la macroéconomie feront l'objet de billets séparés.
 
 Par ailleurs, mon objectif est de montrer que l'économie, au cours de son développement historique, a su répondre à une critique qui lui est pourtant faite encore aujourd'hui : celle de se perdre dans des modèles théoriques dont les hypothèses seraient déconnectées du réel. Or, si cette critique cible souvent la microéconomie (un point que je nuancerai dans un billet dédié) elle occulte surtout l’existence de l’économétrie. Pourtant cette discipline a été créée précisément pour soumettre la théorie à l’épreuve des faits.
