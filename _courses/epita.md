@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SPE"
-description: "Dernière mise-à-jour : Automne 2025."
+description: "Dernière mise-à-jour : Automne 2026."
 ---
 
 Vous trouverez ici des exercices que j'ai créés pour mes classes de SPE à l'EPITA. Le programme porte sur Analyse et séries numériques (ASN), Probabilités et séries entières (PSE) et Algèbre linéaire (AL).
