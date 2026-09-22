@@ -148,7 +148,7 @@ ninja.data = [{
               window.location.href = "/courses/L3_Brownian_Motion/";
             },},{id: "courses-spe",
           title: 'SPE',
-          description: "Dernière mise-à-jour : Automne 2025.",
+          description: "Dernière mise-à-jour : Automne 2026.",
           section: "Courses",handler: () => {
               window.location.href = "/courses/epita/";
             },},{id: "news-a-simple-inline-announcement",
