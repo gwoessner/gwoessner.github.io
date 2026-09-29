@@ -8,6 +8,8 @@ Vous trouverez ici des exercices que j'ai créés pour mes classes de SPE à l'E
 
 Une synthèse pour **ASN** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse ASN.pdf)
 
+Une synthèse pour **PSE** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse PSE.pdf)
+
 Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.tex).
 
 <!-- Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).-->
