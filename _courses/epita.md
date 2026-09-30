@@ -4,7 +4,7 @@ title: "SPE"
 description: "Dernière mise-à-jour : Automne 2026."
 ---
 
-Vous trouverez ici des exercices que j'ai créés pour mes classes de SPE à l'EPITA. Le programme porte sur Analyse et séries numériques (ASN), Probabilités et séries entières (PSE) et Algèbre linéaire (AL).
+Vous trouverez ici des documents que j'ai créés pour mes classes de SPE à l'EPITA. Le programme porte sur Analyse et séries numériques (ASN), Probabilités et séries entières (PSE) et Algèbre linéaire (AL).
 
 Une synthèse pour **ASN** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse ASN.pdf)
 
