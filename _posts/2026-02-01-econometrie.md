@@ -7,7 +7,7 @@ tags: philo, economie
 thumbnail: assets/img/blog_pics/econometrie-cover.png
 toc:
   beginning: true
-published: true
+published: false
 ---
 
 Ce billet se place dans la continuité d’un [billet précédent](https://www.woessner.ovh/blog/epistemologie), où je défendais l’idée que la seule manière de savoir si une discipline pouvait être qualifiée de scientifique était d’analyser en détail si les raisonnements justifient véritablement les théories avancées, et si les critiques sont évaluées et prises en compte. 
