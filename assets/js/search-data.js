@@ -81,6 +81,17 @@ ninja.data = [{
           window.location.href = "/blog/2026/zucman/";
         
       },
+    },{id: "post-qu-39-est-ce-que-l-39-économie",
+      
+        title: "Qu&#39;est-ce que l&#39;économie ?",
+      
+      description: "1. L&#39;économétrie, ou comment connaitre les effets du contrôle des loyers.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/econometrie/";
+        
+      },
     },{id: "post-qu-39-est-ce-que-les-mathématiques",
       
         title: "Qu&#39;est-ce que les mathématiques ?",
