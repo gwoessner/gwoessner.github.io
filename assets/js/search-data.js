@@ -125,7 +125,12 @@ ninja.data = [{
           window.location.href = "/blog/2024/epistemologie/";
         
       },
-    },{id: "courses-collège-5ème",
+    },{id: "courses-2-sigma",
+          title: '2 Sigma',
+          description: "Dernière mise-à-jour : Automne 2026.",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2sigma/";
+            },},{id: "courses-collège-5ème",
           title: 'Collège, 5ème',
           description: "Dernière mise-à-jour : 2024-25.",
           section: "Courses",handler: () => {
