@@ -10,7 +10,7 @@ Une synthèse pour **ASN** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse AS
 
 Une synthèse pour **PSE** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse PSE.pdf)
 
-Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.tex).
+Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.pdf)
 
 <!-- Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).-->
 
