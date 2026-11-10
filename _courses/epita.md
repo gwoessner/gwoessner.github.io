@@ -12,6 +12,8 @@ Une synthèse pour **PSE** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse PS
 
 Des exercices en **ASN, PSE** en [PDF]({{ site.baseurl }}/assets/epita/Révisions ASN PSE.pdf)
 
-<!-- Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Révisions AL.tex).-->
+Une synthèse pour **AL** en [PDF]({{ site.baseurl }}/assets/epita/Synthèse AL.pdf)
+
+Des exercices en **AL** en [PDF]({{ site.baseurl }}/assets/epita/Révisions AL.pdf)
 
 <!-- Un exercice en **AL** qui n'a pas été corrigé en classe par manque de temps est disponible ici en [PDF]({{ site.baseurl }}/assets/epita/Exo supp AL.pdf) et en [TEX]({{ site.baseurl }}/assets/epita/Exo supp AL.tex).-->
