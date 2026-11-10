@@ -80,8 +80,9 @@ jobs:
       # [... vos étapes Checkout jusqu'à Purge unused CSS inchangées ...]
 
       - name: Setup Pages ⚙️
-        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
+        with:
+          enablement: true   # ← Active Pages via l'API si nécessaire
       - name: Upload artifact 📦
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
