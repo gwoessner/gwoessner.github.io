@@ -11,3 +11,5 @@ La Fiche 1 sur le cours de Probabilités et Statistiques en [PDF]({{ site.baseur
 La Fiche 1 sur le cours d'Analyse en [PDF]({{ site.baseurl }}/assets/2sigma/Analyse 1.pdf)
 
 La Fiche 1 sur le cours d'Algèbre Linéaire en [PDF]({{ site.baseurl }}/assets/2sigma/AL 1.pdf)
+
+La Fiche 2 sur le cours de Probabilités et Statistiques en [PDF]({{ site.baseurl }}/assets/2sigma/PBS .pdf)
